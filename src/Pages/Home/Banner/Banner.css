@@ -10,6 +10,13 @@
     background-position: center;
     background-repeat: no-repeat;
   }
+  .circle {
+    border-radius: 50%;
+    width: 147px;
+    height: 147px;
+    /* display: flex; */
+    align-items: center;
+  }
   
   /* Responsive breakpoints for mobile and tablet */
   @media (max-width: 768px) {
