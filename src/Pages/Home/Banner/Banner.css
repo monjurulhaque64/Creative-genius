@@ -1,0 +1,20 @@
+.bannerimg1 {
+    background-image: url('../../../assets/Images/Maskgroup.png'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .bannerimg2 {
+    background-image: url('../../../assets/Images/Maskgroup-1.png'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  /* Responsive breakpoints for mobile and tablet */
+  @media (max-width: 768px) {
+    .bannerimg1, .bannerimg2 {
+      background-size: contain;
+  
+    }
+  }
