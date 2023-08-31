@@ -8,15 +8,11 @@ export default {
     themes: [
       {
         mytheme: {
-          "primary": "#a991f7",
-          "secondary": "#f6d860",
-          "accent": "#37cdbe",
-          "neutral": "#3d4451",
-          "base-100": "#ffffff",
+          "primary": "#3C4FF8",
           "background": "#171717",
         },
       },
-      "black"],
+      ],
   },
   theme: {
     extend: {},
