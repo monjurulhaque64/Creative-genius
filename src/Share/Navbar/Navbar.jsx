@@ -37,7 +37,7 @@ const Navbar = () => {
       <div className="navbar">
         <div className="navbar-start">
           <div className="dropdown">
-            <label tabIndex={0} className="btn btn-ghost lg:hidden">
+            <label tabIndex={0} className="btn btn-ghost mt-[38px] lg:hidden">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-5 w-5"
@@ -61,7 +61,7 @@ const Navbar = () => {
             </ul>
           </div>
           <img
-            className="w-[148px] h-[51px] ml-[100px] mt-[38px]"
+            className="w-[148px] md:w-[120px] sm:w-[80px] h-[51px] lg:ml-[100px] mt-[38px]"
             src={logo}
             alt=""
           />
@@ -70,7 +70,7 @@ const Navbar = () => {
           <ul className="menu menu-horizontal px-1 mt-[45px] text-white font-medium">{navItems}</ul>
         </div>
         <div className="navbar-end">
-          <button className="btn btn-info bg-[#3C4FF8] mt-[36px] mr-[100px] text-white">
+          <button className="btn btn-info bg-[#3C4FF8] mt-[36px] lg:mr-[100px] text-white">
             Download App{" "}
             <span>
               <FaGooglePlay></FaGooglePlay>
