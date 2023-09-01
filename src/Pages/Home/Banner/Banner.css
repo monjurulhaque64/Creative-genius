@@ -10,13 +10,40 @@
     background-position: center;
     background-repeat: no-repeat;
   }
+  .bannerimg3 {
+    background-image: url('../../../assets/Images/Maskgroup-2.png'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
   .circle {
     border-radius: 50%;
     width: 147px;
     height: 147px;
-    /* display: flex; */
     align-items: center;
   }
+  .titleBg {
+    background: linear-gradient(to top, #3C4FF8 0%, #3C4FF8 20%, transparent 40%, transparent 100%);
+    background-size: 50%;
+  }
+  .titleBgCircle {
+    background-color: #3C4FF8;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+  }
+  .centeredDiv {
+    position: absolute;
+    left: 40%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #717ACF;
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+  }
+
   
   /* Responsive breakpoints for mobile and tablet */
   @media (max-width: 768px) {
