@@ -1,0 +1,62 @@
+.card {
+  width: 394px;
+  height: 261px;
+  position: relative;
+  border-radius: 10px;
+  border: 1px solid #404040;
+  background: linear-gradient(
+      106.01deg,
+      #171717 -9.44%,
+      #252525 104.61%,
+      rgba(37, 37, 37, 0) 104.61%
+    ),
+    linear-gradient(0deg, #404040, #404040);
+  overflow: hidden;
+  color: white;
+}
+.middleCard {
+  width: 394px;
+  height: 261px;
+  position: relative;
+  border-radius: 10px;
+  border: 1px solid #404040;
+  background: linear-gradient(
+      106.01deg,
+      rgba(49, 49, 49, 0) -9.44%,
+      #252525 104.61%,
+      #252525 104.61%
+    ),
+    linear-gradient(0deg, #404040, #404040);
+  overflow: hidden;
+  color: white;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.card-description {
+  font-size: 16px;
+}
+
+.card-icon {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  color: white;
+  font-size: 24px;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    transform: rotate(45deg) scale(1.5) translate(50px, 20px);
+    border: 2px solid #626262; 
+  }
+  

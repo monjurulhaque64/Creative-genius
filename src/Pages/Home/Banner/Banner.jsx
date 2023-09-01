@@ -16,6 +16,7 @@ import slider3ImgLogo from "../../../assets/Images/Group25.png";
 // import required modules
 import { Autoplay } from "swiper/modules";
 import { FaGooglePlay } from "react-icons/fa";
+import ClientSpring from "./ClientSpring/ClientSpring";
 
 // Todo: Circle issue not fixed yet, real content
 
@@ -32,7 +33,7 @@ const Banner = () => {
         modules={[Autoplay]}
         className="mySwiper"
       >
-        {/* <SwiperSlide>
+        <SwiperSlide>
           <div className="w-full h-[800px]  bannerimg1">
             <div className="lg:ml-[100px] ml-8  lg:w-[726px] w-[350px] lg:pt-[200px] pt-[50px] ">
               <h1 className="text-[64px] font-[Saira Stencil One] font-bold text-white">
@@ -108,9 +109,9 @@ const Banner = () => {
               </div>
             </div>
           </div>
-        </SwiperSlide> */}
+        </SwiperSlide>
         <SwiperSlide>
-          <div className="w-full h-[800px] bannerimg3 relative">
+          <div className="w-full h-[800px] bannerimg4 relative">
             <div className="flex justify-between">
               <div className="lg:ml-[100px] ml-8  lg:w-[726px] w-[350px] lg:pt-[250px] pt-[50px] ">
                 <h1 className="lg:text-[64px] text-[34px] font-[Saira Stencil One] font-bold text-white">
@@ -122,19 +123,26 @@ const Banner = () => {
                   consectetur adipiscing elit, sed do eiusmod tempor incididunt
                 </p>
                 <button className="btn btn-info bg-[#3C4FF8] mt-[46px] lg:mr-[100px] text-white">
-                Download App{" "}
-                <span>
-                  <FaGooglePlay></FaGooglePlay>
-                </span>
-              </button>
+                  Download App{" "}
+                  <span>
+                    <FaGooglePlay></FaGooglePlay>
+                  </span>
+                </button>
               </div>
-              <div className="flex lg:mr-[250px] mr-[100px] lg:pt-[192px] pt-[102px]">
-                <img className="" src={slider3ImgChart} alt="" />
+              <div className="iphone12DarkBackground top-[110px] lg:mr-[250px] mr-[100px] lg:pt-[192px] pt-[102px] relative">
+                <img
+                  className="absolute left-[160px] top-[110px] w-[180px] h-[360.81px]"
+                  src={iphone12Dark}
+                  alt=""
+                />
               </div>
             </div>
           </div>
         </SwiperSlide>
       </Swiper>
+      <div className="absolute left-[18%] top-[837px]">
+        <ClientSpring></ClientSpring>
+      </div>
     </div>
   );
 };

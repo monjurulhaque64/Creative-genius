@@ -16,6 +16,19 @@
     background-position: center;
     background-repeat: no-repeat;
   }
+  .bannerimg4 {
+    background-image: url('../../../assets/Images/Maskgroup-3.png'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .iphone12DarkBackground {
+    background-image: url('../../../assets/Images/Group47.png');
+    background-repeat: no-repeat;
+    width: 535.86px; 
+    height: 536px; 
+  }
+  
   .circle {
     border-radius: 50%;
     width: 147px;
