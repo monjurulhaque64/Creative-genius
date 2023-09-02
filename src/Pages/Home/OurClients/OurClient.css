@@ -1,0 +1,45 @@
+/* Hexagon container */
+.hexagon-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Hexagon styles */
+  .hexagon {
+    width: 238px;
+    height: 238px;
+    margin: 10px; /* Adjust as needed for spacing between hexagons */
+    position: relative;
+    background: linear-gradient(0deg, #171717, #171717),
+                linear-gradient(180deg, #3C4FF8 0%, rgba(60, 79, 248, 0) 100%);
+    border: 4px solid;
+    border-image-source: linear-gradient(180deg, #3C4FF8 0%, rgba(60, 79, 248, 0) 100%);
+    clip-path: polygon(
+      50% 0%,
+      100% 25%,
+      100% 75%,
+      50% 100%,
+      0% 75%,
+      0% 25%
+    );
+  }
+  
+  /* Hexagon inner content (for image positioning) */
+  .hexagon-inner {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Image styles */
+  .hexagon-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover; /* Maintain aspect ratio and cover the hexagon */
+    border-radius: 50%; /* Make the image circular within the hexagon */
+  }
+  
