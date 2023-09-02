@@ -16,7 +16,7 @@ const OurServices = () => {
           needs.
         </p>
       </div>
-      <div className="grid grid-cols-3 w-[1236px] mx-auto gap-3">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-[1236px] mx-auto gap-3">
         <div className="card ">
           <div className="card-content my-8">
             <h2 className="card-title mb-3">Web Development</h2>

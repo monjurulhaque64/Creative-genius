@@ -12,7 +12,7 @@ const Footer = () => {
     <div>
       <footer className="footer p-10 text-base-content">
         <div className="ml-[80px]">
-          <img className="w-[148px] h-[51px] " src={logo} alt="logo" />
+          <img className="w-[148px] " src={logo} alt="logo" />
           <p className="mt-6 font-medium text-white">
             Lorem ipsum dolor sit amet, consectetur <br /> adipiscing elit, sed
             do eiusmod tempor <br /> incididunt

@@ -61,7 +61,7 @@ const Navbar = () => {
             </ul>
           </div>
           <img
-            className="w-[148px] md:w-[120px] sm:w-[80px] h-[51px] lg:ml-[100px] mt-[38px]"
+            className="w-[148px] md:w-[120px] sm:w-[80px] lg:ml-[100px] mt-[38px]"
             src={logo}
             alt=""
           />

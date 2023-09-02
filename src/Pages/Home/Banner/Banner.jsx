@@ -16,7 +16,7 @@ import slider3ImgLogo from "../../../assets/Images/Group25.png";
 // import required modules
 import { Autoplay } from "swiper/modules";
 import { FaGooglePlay } from "react-icons/fa";
-import ClientSpring from "./ClientSpring/ClientSpring";
+import ClientSpring from "../OurServices/ClientSpring/ClientSpring";
 
 // Todo: Circle issue not fixed yet, real content
 
@@ -65,8 +65,7 @@ const Banner = () => {
                   Learning <span className="titleBg">Campus</span>
                 </h1>
                 <p className="font-[Poppins] text-[17px] text-white text-justify font-medium mt-2">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt Lorem.
+                The future of digital learning technology in teaching and learning.
                 </p>
                 <button className="btn btn-info bg-[#3C4FF8] mt-[46px] lg:mr-[100px] text-white">
                   Download App{" "}
@@ -90,9 +89,7 @@ const Banner = () => {
                   Learning Camp<span className="titleBgCircle">us</span>
                 </h1>
                 <p className="font-[Poppins] text-[17px] text-white text-justify font-medium mt-2">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt Lorem ipsum dolor sit amet,
-                  consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                The future academic platform for teaching and learning
                 </p>
                 <div className="flex">
                   <a className="w-[153px] h-[41px]" href="">
@@ -118,9 +115,7 @@ const Banner = () => {
                   Learning Campus
                 </h1>
                 <p className="font-[Poppins] text-[17px] text-white text-justify font-medium mt-2">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt Lorem ipsum dolor sit amet,
-                  consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                The future of digital academic platforms.
                 </p>
                 <button className="btn btn-info bg-[#3C4FF8] mt-[46px] lg:mr-[100px] text-white">
                   Download App{" "}
