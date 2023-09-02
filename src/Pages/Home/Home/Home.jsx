@@ -4,6 +4,7 @@ import OurServices from '../OurServices/OurServices';
 import WorkProcess from '../WorkProcess/WorkProcess';
 import FAQ from '../FAQ/FAQ';
 import OurClients from '../OurClients/OurClients';
+import Reviews from '../Reviews/Reviews';
 
 const Home = () => {
     return (
@@ -13,6 +14,7 @@ const Home = () => {
             <WorkProcess></WorkProcess>
             <FAQ></FAQ>
             <OurClients></OurClients>
+            <Reviews></Reviews>
         </div>
     );
 };

@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "photo": "john-doe.jpg",
+    "rating": 4.5,
+    "review": "Great experience! Highly recommended."
+  },
+  {
+    "id": 2,
+    "name": "Jane Smith",
+    "photo": "jane-smith.jpg",
+    "rating": 5.0,
+    "review": "Excellent service and quality."
+  },
+  {
+    "id": 3,
+    "name": "Bob Johnson",
+    "photo": "bob-johnson.jpg",
+    "rating": 3.8,
+    "review": "Good, but could be better."
+  },
+  {
+    "id": 4,
+    "name": "Alice Brown",
+    "photo": "alice-brown.jpg",
+    "rating": 4.2,
+    "review": "Satisfactory experience."
+  },
+  {
+    "id": 5,
+    "name": "Bob Johnson",
+    "photo": "bob-johnson.jpg",
+    "rating": 3.8,
+    "review": "Good, but could be better."
+  },
+  {
+    "id": 6,
+    "name": "Bob Johnson",
+    "photo": "bob-johnson.jpg",
+    "rating": 3.8,
+    "review": "Good, but could be better."
+  },
+  {
+    "id": 7,
+    "name": "Bob Johnson",
+    "photo": "bob-johnson.jpg",
+    "rating": 3.8,
+    "review": "Good, but could be better."
+  }
+]

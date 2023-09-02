@@ -10,7 +10,7 @@
   .hexagon {
     width: 238px;
     height: 238px;
-    margin: 10px; /* Adjust as needed for spacing between hexagons */
+    margin: 10px; 
     position: relative;
     background: linear-gradient(0deg, #171717, #171717),
                 linear-gradient(180deg, #3C4FF8 0%, rgba(60, 79, 248, 0) 100%);
@@ -39,7 +39,7 @@
   .hexagon-image {
     width: 150px;
     height: 150px;
-    object-fit: cover; /* Maintain aspect ratio and cover the hexagon */
-    border-radius: 50%; /* Make the image circular within the hexagon */
+    object-fit: cover; 
+    border-radius: 50%; 
   }
   
