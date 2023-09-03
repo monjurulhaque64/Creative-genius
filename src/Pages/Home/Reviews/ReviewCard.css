@@ -1,44 +1,57 @@
-.card {
-    width: 394px;
-    height: 261px;
-    position: relative;
-    border-radius: 10px;
-    border: 1px solid #404040;
-    background: linear-gradient(
-        106.01deg,
-        #171717 -9.44%,
-        #252525 104.61%,
-        rgba(37, 37, 37, 0) 104.61%
-      ),
-      linear-gradient(0deg, #404040, #404040);
-    overflow: hidden;
-    color: white;
-  }
-  .card-content {
-    padding: 20px;
-  }
-  
-  .card-title {
-    font-size: 24px;
-    font-weight: bold;
-  }
-  
-  .card-description {
-    font-size: 16px;
-  }
-  .photo {
-    width: 66px;
-    height: 66px;
-    border-radius: 50%;
-  }
-  .horizontal-stars {
-    font-size: 24px; /* Adjust the size as needed */
-    color: #f1c40f; /* Change the color as needed */
-    display: flex;
-    align-items: center;
-  }
-  
-  /* Styling for individual star */
-  .star {
-    margin-right: 5px; /* Adjust spacing between stars */
-  }
+/* Apply hover effect to the card */
+.review-card:hover {
+  background: linear-gradient(
+      106.01deg,
+      #252525 -9.44%, 
+      #171717 104.61%, 
+      rgba(37, 37, 37, 0) 104.61%
+    ),
+    linear-gradient(0deg, #404040, #404040);
+  color: #ffffff; 
+  border: 1px solid #fff; 
+}
+
+.review-card {
+  width: 394px;
+  height: 261px;
+  position: relative;
+  border-radius: 10px;
+  border: 1px solid #404040;
+  background: linear-gradient(
+      106.01deg,
+      #171717 -9.44%,
+      #252525 104.61%,
+      rgba(37, 37, 37, 0) 104.61%
+    ),
+    linear-gradient(0deg, #404040, #404040);
+  overflow: hidden;
+  color: white;
+  transition: background 0.3s, color 0.3s, border 0.3s; 
+}
+
+.review-card-content {
+  padding: 20px;
+}
+
+.review-card-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.review-card-description {
+  font-size: 16px;
+}
+
+.review-photo {
+  width: 66px;
+  height: 66px;
+  border-radius: 50%;
+}
+
+.review-horizontal-stars {
+  font-size: 24px;
+  color: #f1c40f;
+  display: flex;
+  align-items: center;
+}
+

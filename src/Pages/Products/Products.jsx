@@ -8,7 +8,7 @@ import Reviews from "../Home/Reviews/Reviews";
 
 const Products = () => {
   return (
-    <div className="container mx-auto mt-[100px]">
+    <div className="container mx-auto mt-[72px]">
       <div className="mx-auto text-center h-[100px] ">
         <h1 className="font-[Poppins] font-[600] text-[48px] text-white">
           Our Products

@@ -1,5 +1,5 @@
 import React from "react";
-import "./ReviewCard.css";
+import "./ClientSays.css";
 import { Rating, ThinStar } from "@smastrom/react-rating";
 import "@smastrom/react-rating/style.css";
 
@@ -9,28 +9,22 @@ const myStyles = {
   inactiveFillColor: "#808080",
 };
 
-const ReviewCard = ({ reviews }) => {
+const ClientSaysCard = ({ reviews }) => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-[1236px] mx-auto gap-3">
       {reviews.map((review, index) => (
-        <div className="review-card ">
-          <div className="review-card-content flex gap-6">
-            <img
-              className="review-photo"
-              src={review.photo}
-              alt=""
-            />
+        <div className="client-card ">
+          <div className="client-card-content flex gap-6">
+            <img className="client-photo" src={review.photo} alt="" />
             <div>
-              <h2 className="review-card-title mb-3">{review.name}</h2>
+              <h2 className="client-card-title mb-3">{review.name}</h2>
               <Rating
                 style={{ maxWidth: 150 }}
                 value={review.rating}
                 readOnly
                 itemStyles={myStyles}
               />
-              <p className="review-card-description">
-                {review.review}
-              </p>
+              <p className="client-card-description">{review.review}</p>
             </div>
           </div>
         </div>
@@ -39,4 +33,4 @@ const ReviewCard = ({ reviews }) => {
   );
 };
 
-export default ReviewCard;
+export default ClientSaysCard;
