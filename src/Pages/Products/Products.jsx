@@ -3,12 +3,16 @@ import iphone12Dark from "../../assets/Images/iPhone12FontView.png";
 import iphone12Lignt from "../../assets/Images/iPhone12FontWhiteView.png.png";
 import { FaGooglePlay } from "react-icons/fa";
 
-import './Products.css'
+import "./Products.css";
 import Reviews from "../Home/Reviews/Reviews";
+import { Helmet } from "react-helmet-async";
 
 const Products = () => {
   return (
     <div className="container mx-auto mt-[72px]">
+      <Helmet>
+        <title>Creative Campus || Products</title>
+      </Helmet>
       <div className="mx-auto text-center h-[100px] ">
         <h1 className="font-[Poppins] font-[600] text-[48px] text-white">
           Our Products
@@ -18,7 +22,7 @@ const Products = () => {
           through technology.
         </p>
       </div>
-      <div className="w-full h-[300px] lg:h-[600px] md:h-[500px] relative">
+      <div className="w-full h-[300px] lg:h-[600px] md:h-[500px] relative]">
         <div className="flex justify-between">
           <div className="lg:ml-[100px] ml-8  lg:w-[726px] w-[250px] lg:pt-[250px] pt-[50px] ">
             <h1 className="lg:text-[64px] text-[34px] font-[Saira Stencil One] font-bold text-white">
@@ -42,7 +46,9 @@ const Products = () => {
           <div className="circle"></div>
         </div>
       </div>
-      <Reviews></Reviews>
+      <div className="mt-[200px]">
+        <Reviews></Reviews>
+      </div>
     </div>
   );
 };

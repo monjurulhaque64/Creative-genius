@@ -34,7 +34,7 @@ const images = [
 
 const OurClients = () => {
   return (
-    <div className="container mx-auto mt-[200px]">
+    <div className="container mx-auto mt-[72px]">
       <div className="mx-auto text-center h-[200px]">
         <h1 className="font-[Poppins] font-[600] text-[48px] text-white">
           Our Client

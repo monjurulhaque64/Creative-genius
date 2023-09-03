@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import ReviewCard from "./ReviewCard";
+import { Link } from "react-router-dom";
 
 const Reviews = () => {
   const [reviews, setReviews] = useState([]);
@@ -15,7 +16,7 @@ const Reviews = () => {
   }, []);
 
   return (
-    <div className="container mx-auto mt-[200px] ">
+    <div className="container mx-auto mt-[72px] ">
       <div className="mx-auto text-center h-[200px]">
         <h1 className="font-[Poppins] font-[600] text-[48px] text-white">
           Reviews
@@ -29,9 +30,9 @@ const Reviews = () => {
         <ReviewCard reviews={reviews}></ReviewCard>
       </div>
       <div className="flex justify-center items-center mb-12">
-        <button className="btn btn-info bg-[#3C4FF8] mt-[36px] lg:mr-[100px] text-white">
+        <Link to={'/client-says'}><button className="btn btn-info bg-[#3C4FF8] mt-[36px] lg:mr-[100px] text-white">
           See More
-        </button>
+        </button></Link>
       </div>
     </div>
   );

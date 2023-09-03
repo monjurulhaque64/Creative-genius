@@ -6,7 +6,7 @@ import { FaBrain, FaEdit, FaFileVideo, FaLaptopCode, FaReact, FaVideo } from "re
 
 const OurServices = () => {
   return (
-    <div className="mt-[200px] container mx-auto">
+    <div className="mt-[150px] container mx-auto">
       <div className="mx-auto text-center h-[200px]">
         <h1 className="font-[Poppins] font-[600] text-[48px] text-white">
           Our Services

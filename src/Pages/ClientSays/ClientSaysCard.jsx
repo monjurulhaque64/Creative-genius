@@ -13,7 +13,7 @@ const ClientSaysCard = ({ reviews }) => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-[1236px] mx-auto gap-3">
       {reviews.map((review, index) => (
-        <div className="client-card ">
+        <div key={index} className="client-card ">
           <div className="client-card-content flex gap-6">
             <img className="client-photo" src={review.photo} alt="" />
             <div>

@@ -5,7 +5,7 @@ import "./WorkProcess.css";
 
 const WorkProcess = () => {
   return (
-    <div className="container mx-auto mt-[200px]">
+    <div className="container mx-auto mt-[72px]">
       <div className="flex justify-end">
         <div className="circle "></div>
       </div>

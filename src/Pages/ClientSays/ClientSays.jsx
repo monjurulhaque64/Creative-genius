@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from "react";
 import ClientSaysCard from "./ClientSaysCard";
+import { Helmet } from "react-helmet-async";
 
 const ClientSays = () => {
   const [reviews, setReviews] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
-  const reviewsPerPage = 3; 
+  const reviewsPerPage = 10; 
 
   useEffect(() => {
     fetch("/review.json")
@@ -30,6 +31,9 @@ const ClientSays = () => {
 
   return (
     <div className="container mx-auto mt-[72px] ">
+      <Helmet>
+        <title>Creative Campus || Client Says</title>
+      </Helmet>
       <div className="mx-auto text-center h-[200px]">
         <h1 className="font-[Poppins] font-[600] text-[48px] text-white">
           Client Says
