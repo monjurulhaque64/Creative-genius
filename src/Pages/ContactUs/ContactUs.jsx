@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Helmet } from "react-helmet-async";
 import { MdLocationOn, MdPhone, MdEmail } from "react-icons/md";
-import './ContectUs.css'
+import "./ContectUs.css";
 
 const ContactUs = () => {
   const [formData, setFormData] = useState({
@@ -39,12 +39,13 @@ const ContactUs = () => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 ">
         <div className="lg:mt-[255px] ml-4 lg:ml-0">
+          <div className="circle"></div>
           <h1 className="font-[Poppins] font-[600] text-[30px] text-white mb-[22px]">
             Get In Touch
           </h1>
           <p className="font-[Poppins]  font-[400] text-[18px] text-white mb-[70px]">
-            Here's our contact details so visitors can get in touch with us on
-            their first attempt.
+            We're eager to hear from you! Feel free to reach out for inquiries,
+            collaborations, or just to say hello.
           </p>
           <h3 className="font-[Poppins] w-[271px] font-[500] text-[18px] text-white flex mb-[30px]">
             <span className="mr-2">
@@ -111,7 +112,9 @@ const ContactUs = () => {
                 placeholder="Text Your Message"
               />
             </div>
-            <button className="contect-button" type="submit">Submit Now</button>
+            <button className="contect-button" type="submit">
+              Submit Now
+            </button>
           </form>
         </div>
       </div>

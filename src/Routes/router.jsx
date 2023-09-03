@@ -6,6 +6,7 @@ import Home from "../Pages/Home/Home/Home";
 import Products from "../Pages/Products/Products";
 import ClientSays from "../Pages/ClientSays/ClientSays";
 import ContactUs from "../Pages/ContactUs/ContactUs";
+import SubmitReview from "../Pages/SubmitReview/SubmitReview";
 
   export const router = createBrowserRouter([
     {
@@ -27,6 +28,10 @@ import ContactUs from "../Pages/ContactUs/ContactUs";
       {
         path: "/contact-us",
         element:<ContactUs></ContactUs>
+      },
+      {
+        path: "/review",
+        element:<SubmitReview></SubmitReview>
       }
       ]
     },
