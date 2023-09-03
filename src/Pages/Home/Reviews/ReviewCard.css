@@ -31,3 +31,14 @@
     height: 66px;
     border-radius: 50%;
   }
+  .horizontal-stars {
+    font-size: 24px; /* Adjust the size as needed */
+    color: #f1c40f; /* Change the color as needed */
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Styling for individual star */
+  .star {
+    margin-right: 5px; /* Adjust spacing between stars */
+  }
