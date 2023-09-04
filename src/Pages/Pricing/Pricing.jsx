@@ -49,7 +49,7 @@ const Pricing = () => {
     return (
         <div className="container mx-auto mt-10 md:mt-[72px] ">
             <Helmet>
-                <title>Creative Campus || About Us</title>
+                <title>Creative Campus || Pricin Table</title>
             </Helmet>
 
             <div className="md:mb-24 mx-5">

@@ -98,24 +98,22 @@ line-height: 28px;
 }
 
 /* Define the pulsating border animation */
-@keyframes pulse {
+/* In your CSS file or within your Tailwind CSS configuration */
+@keyframes border-animation {
     0% {
-      transform: scale(1);
-      box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+        border-color: #ff5733; /* Start color */
     }
     50% {
-      transform: scale(1.05);
-      box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0);
+        border-color: #33ff57; /* Middle color */
     }
     100% {
-      transform: scale(1);
-      box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+        border-color: #5733ff; /* End color */
     }
-  }
-  
-  /* Apply the animation to an element with the 'pulse' class */
-  .pulse {
-    animation: pulse 2s infinite;
-    z-index: 20px;
-  }
+}
+
+/* Apply the animation to the border element */
+.animate-border-animation {
+    animation: border-animation 4s linear infinite; /* Adjust animation duration and timing function */
+}
+
   
