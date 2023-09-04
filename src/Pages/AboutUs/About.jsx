@@ -72,7 +72,7 @@ const About = () => {
                 </div>
 
                 <div className="flex flex-col items-center my-20 relative">
-                    <img className="z-10 border-[1px] border-gray-400 animate-border-animation rounded-full p-2" src={img} alt="" />
+                    <img className="z-10 border-[2px] border-gray-400 animate-border-animation rounded-full p-2" src={img} alt="" />
                 <div className="lg:w-[70rem] md:w-[50rem] w-[20rem] border-[1px] border-gray-400 rotate-180 mt-[7rem] border-dashed   absolute"></div>
                 </div>
                 <div className="md:flex md:justify-between gap-10 my-24 md:mb-56">
