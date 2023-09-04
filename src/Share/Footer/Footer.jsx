@@ -6,6 +6,7 @@ import {
   FaLinkedinIn,
   FaTwitter,
 } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -20,24 +21,40 @@ const Footer = () => {
         </div>
         <div>
           <span className=" text-black text-2xl font-bold mb-8 ">About</span>
-          <a className="link link-hover text-black text-lg font-medium mb-2">
-            Home
-          </a>
-          <a className="link link-hover text-black text-lg font-medium mb-2">
-            About Us
-          </a>
-          <a className="link link-hover text-black text-lg font-medium mb-2">
-            Products
-          </a>
-          <a className="link link-hover text-black text-lg font-medium mb-2">
-            Pricing Table
-          </a>
-          <a className="link link-hover text-black text-lg font-medium mb-2">
-            Contact Us
-          </a>
-          <a className="link link-hover text-black text-lg font-medium">
-            Client Says
-          </a>
+          <Link to={"/"}>
+            <span className="link link-hover text-black text-lg font-medium mb-2">
+              Home
+            </span>
+          </Link>
+          <Link to={"/about"}>
+            {" "}
+            <span className="link link-hover text-black text-lg font-medium mb-2">
+              About Us
+            </span>
+          </Link>
+          <Link to={"/products"}>
+            {" "}
+            <span className="link link-hover text-black text-lg font-medium mb-2">
+              Products
+            </span>
+          </Link>
+          <Link to={"/pricing"}>
+            {" "}
+            <span className="link link-hover text-black text-lg font-medium mb-2">
+              Pricing Table
+            </span>
+          </Link>
+          <Link to={"/client-says"}>
+            <span className="link link-hover text-black text-lg font-medium">
+              Client Says
+            </span>
+          </Link>
+          <Link to={"/contact-us"}>
+            {" "}
+            <span className="link link-hover text-black text-lg font-medium mb-2">
+              Contact Us
+            </span>
+          </Link>
         </div>
         <div>
           <span className="text-black text-2xl font-bold mb-8 ">Privacy</span>
@@ -97,7 +114,7 @@ const Footer = () => {
             Contact Us
           </a>
           <a className="link link-hover text-black text-lg font-medium">
-          Terms
+            Terms
           </a>
         </div>
       </footer>

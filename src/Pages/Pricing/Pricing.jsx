@@ -120,7 +120,7 @@ const Pricing = () => {
             eiusmod tempor incididunt
           </p>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-4 md:mt-28 ">
+        <div className="grid grid-cols-1 md:grid-cols-4 md:mt-28 w-full lg:w-[1236px] mx-auto gap-3">
           {packages.map((product, index) => (
             <div
               key={index}
@@ -128,7 +128,7 @@ const Pricing = () => {
             >
               <h1 className="price-title text-center my-4">{product.package}</h1>
               {product.text.map((line, lineIndex) => (
-                <div className="flex items-center gap-2">
+                <div key={lineIndex} className="flex items-center gap-2">
                   <svg
                     className="mt-1 "
                     xmlns="http://www.w3.org/2000/svg"

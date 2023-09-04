@@ -1,7 +1,7 @@
 /* about style  */
 .about-title {
 
-    color: #FFF;
+    color: black;
     font-family: Poppins;
     font-size: 48px;
     font-style: normal;
@@ -26,8 +26,8 @@
     height: 160px;
     flex-shrink: 0;
     border-radius: 10px;
-    border: 1px solid #0057FF;
-    background: rgba(34, 34, 34, 0.80);
+    border: 1px solid #9b9b9b;
+    background: white;
     mix-blend-mode: luminosity;
     backdrop-filter: blur(10px);
 }
@@ -42,7 +42,7 @@
 }
 
 .card-left-body p {
-    color: #FFF;
+    color: black;
     font-family: Poppins;
     font-size: 16px;
     font-style: normal;
@@ -52,7 +52,7 @@
 }
 
 .card-left-body h2 {
-    color: #FFF;
+    color: black;
     font-family: Poppins;
     font-size: 20px;
     font-style: normal;
@@ -81,7 +81,7 @@
 }
 
 .thought-title{
-    color: #FFF;
+    color: black;
 font-family: Poppins;
 font-size: 36px;
 font-style: normal;
@@ -89,7 +89,7 @@ font-weight: 600;
 line-height: normal;
 }
 .thought-description{
-    color: #FFF;
+    color: black;
 font-family: Poppins;
 font-size: 16px;
 font-style: normal;
