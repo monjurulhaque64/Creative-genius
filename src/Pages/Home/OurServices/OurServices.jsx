@@ -8,10 +8,10 @@ const OurServices = () => {
   return (
     <div className="mt-[150px] container mx-auto">
       <div className="mx-auto text-center h-[200px]">
-        <h1 className="font-[Poppins] font-[600] text-[48px] text-white">
+        <h1 className="font-[Poppins] font-[600] text-[48px] text-black">
           Our Services
         </h1>
-        <p className="font-[Poppins] font-[400] text-[18px] text-white">
+        <p className="font-[Poppins] font-[400] text-[18px] text-black">
           Here are our services to provide the best quality of work for your
           needs.
         </p>

@@ -11,7 +11,7 @@ const myStyles = {
 
 const ClientSaysCard = ({ reviews }) => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-[1236px] mx-auto gap-3">
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  w-full lg:w-[1236px] mx-auto gap-3  container-client-say">
       {reviews.map((review, index) => (
         <div key={index} className="client-card ">
           <div className="client-card-content flex gap-6">

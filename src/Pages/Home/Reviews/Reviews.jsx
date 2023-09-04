@@ -18,10 +18,10 @@ const Reviews = () => {
   return (
     <div className="container mx-auto mt-[72px] ">
       <div className="mx-auto text-center h-[200px]">
-        <h1 className="font-[Poppins] font-[600] text-[48px] text-white">
+        <h1 className="font-[Poppins] font-[600] text-[48px] text-black">
           Reviews
         </h1>
-        <p className="font-[Poppins] font-[400] text-[18px] text-white">
+        <p className="font-[Poppins] font-[400] text-[18px] text-black">
           There are some reviews for customers from our clients as a result of
           trusting our business.
         </p>
@@ -30,7 +30,7 @@ const Reviews = () => {
         <ReviewCard reviews={reviews}></ReviewCard>
       </div>
       <div className="flex justify-center items-center mb-12">
-        <Link to={'/client-says'}><button className="btn btn-info bg-[#3C4FF8] mt-[36px] lg:mr-[100px] text-white">
+        <Link to={'/client-says'}><button className="btn btn-info bg-[#ff0000] hover:bg-[#f35454] border-[#ff0000] mt-[36px] lg:mr-[100px] text-black">
           See More
         </button></Link>
       </div>

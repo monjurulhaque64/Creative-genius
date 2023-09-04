@@ -36,11 +36,11 @@
     align-items: center;
   }
   .titleBg {
-    background: linear-gradient(to top, #3C4FF8 0%, #3C4FF8 20%, transparent 40%, transparent 100%);
+    background: linear-gradient(to top, #ff0000 0%, #f35454 20%, transparent 40%, transparent 100%);
     background-size: 50%;
   }
   .titleBgCircle {
-    background-color: #3C4FF8;
+    background-color: #ff0000;
     border-radius: 50%;
     width: 80px;
     height: 80px;
@@ -51,7 +51,7 @@
     left: 40%;
     top: 50%;
     transform: translate(-50%, -50%);
-    background-color: #717ACF;
+    background-color: #f35454;
     width: 27px;
     height: 27px;
     border-radius: 50%;

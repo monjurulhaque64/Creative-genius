@@ -8,8 +8,8 @@ export default {
     themes: [
       {
         mytheme: {
-          "primary": "#3C4FF8",
-          "background": "#171717",
+          "primary": "#FF0000",
+          "background": "#FFFFFF",
         },
       },
       ],

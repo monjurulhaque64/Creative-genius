@@ -67,10 +67,10 @@ const Navbar = () => {
           />
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1 mt-[45px] text-white font-medium">{navItems}</ul>
+          <ul className="menu menu-horizontal px-1 mt-[45px] text-black font-medium">{navItems}</ul>
         </div>
         <div className="navbar-end">
-          <button className="btn btn-info bg-[#3C4FF8] mt-[36px] lg:mr-[100px] text-white">
+          <button className="btn btn-info bg-[#ff0000] hover:bg-[#f35454] border-[#ff0000] mt-[36px] lg:mr-[100px] text-white">
             Download App{" "}
             <span>
               <FaGooglePlay></FaGooglePlay>

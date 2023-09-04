@@ -14,10 +14,10 @@ const Products = () => {
         <title>Creative Campus || Products</title>
       </Helmet>
       <div className="mx-auto text-center h-[100px] ">
-        <h1 className="font-[Poppins] font-[600] text-[48px] text-white">
+        <h1 className="font-[Poppins] font-[600] text-[48px] text-black">
           Our Products
         </h1>
-        <p className="font-[Poppins] font-[400] text-[18px] text-white">
+        <p className="font-[Poppins] font-[400] text-[18px] text-black">
           Here are some products of our company to make your life comfortable
           through technology.
         </p>
@@ -25,14 +25,14 @@ const Products = () => {
       <div className="w-full h-[300px] lg:h-[600px] md:h-[500px] relative]">
         <div className="flex justify-between">
           <div className="lg:ml-[100px] ml-8  lg:w-[726px] w-[250px] lg:pt-[250px] pt-[50px] ">
-            <h1 className="lg:text-[64px] text-[34px] font-[Saira Stencil One] font-bold text-white">
+            <h1 className="lg:text-[64px] text-[34px] font-[Saira Stencil One] font-bold text-black">
               Learning Campus
             </h1>
-            <p className="font-[Poppins] text-[17px] text-white text-justify font-medium mt-2">
+            <p className="font-[Poppins] text-[17px] text-black text-justify font-medium mt-2">
               The future of digital learning technology in teaching and
               learning.
             </p>
-            <button className="btn btn-info bg-[#3C4FF8] mt-[46px] lg:mr-[100px] text-white">
+            <button className="btn btn-info bg-[#3C4FF8] mt-[46px] lg:mr-[100px] text-black">
               Download App{" "}
               <span>
                 <FaGooglePlay></FaGooglePlay>
@@ -43,7 +43,6 @@ const Products = () => {
             <img src={iphone12Dark} alt="" />
             <img src={iphone12Lignt} alt="" />
           </div>
-          <div className="circle"></div>
         </div>
       </div>
       <div className="mt-[200px]">
