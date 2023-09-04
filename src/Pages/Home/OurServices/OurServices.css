@@ -1,5 +1,4 @@
-.card,
-.middleCard {
+.card {
   width: 394px;
   height: 261px;
   position: relative;
@@ -12,8 +11,7 @@
   transition: background 0.3s, color 0.3s, border 0.3s;
 }
 
-.card:hover,
-.middleCard:hover {
+/* .card:hover {
   background: linear-gradient(
     106.01deg,
     #252525 -9.44%, 
@@ -22,9 +20,8 @@
   ),
   linear-gradient(0deg, #404040, #404040); 
   border: 2px solid #fafafa;
-  /* Add the linear gradient for #F5F5F5 here */
   background-image: linear-gradient(#E5E4E2, #E5E4E2);
-}
+} */
 
 .card-content {
   padding: 20px;
@@ -43,7 +40,7 @@
   position: absolute;
   bottom: 10px;
   right: 10px;
-  color: black;
+  color: #FF0000;
   font-size: 24px;
 }
 

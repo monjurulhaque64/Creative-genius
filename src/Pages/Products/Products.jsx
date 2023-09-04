@@ -32,7 +32,7 @@ const Products = () => {
               The future of digital learning technology in teaching and
               learning.
             </p>
-            <button className="btn btn-info bg-[#3C4FF8] mt-[46px] lg:mr-[100px] text-black">
+            <button className="btn btn-info bg-[#ff0000] hover:bg-[#f35454] border-[#ff0000] mt-[46px] lg:mr-[100px] text-black">
               Download App{" "}
               <span>
                 <FaGooglePlay></FaGooglePlay>

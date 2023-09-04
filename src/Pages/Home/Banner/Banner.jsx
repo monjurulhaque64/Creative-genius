@@ -85,7 +85,7 @@ const Banner = () => {
           <div className="w-full h-[800px] bannerimg3 relative">
             <div className="flex justify-between">
               <div className="lg:ml-[100px] ml-8  lg:w-[726px] w-[350px] lg:pt-[250px] pt-[50px] ">
-                <h1 className="lg:text-[64px] text-[34px] font-[Saira Stencil One] font-bold text-black">
+                <h1 className="lg:text-[64px] text-[34px] font-[Saira Stencil One] font-[700] text-black">
                   Learning Camp<span className="titleBgCircle text-white">us</span>
                 </h1>
                 <p className="font-[Poppins] text-[17px] text-black text-justify font-medium mt-2">

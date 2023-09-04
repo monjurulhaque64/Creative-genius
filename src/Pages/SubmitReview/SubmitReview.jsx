@@ -36,7 +36,7 @@ const SubmitReview = () => {
   return (
     <div className="mt-[72px] container mx-auto">
       <Helmet>
-        <title>Creative Campus || Submit Review</title>
+        <title>Creative Campus || Review</title>
       </Helmet>
       <div className="mx-auto text-center h-[200px]">
         <h1 className="font-[Poppins] font-[600] text-[48px] text-black">
@@ -54,7 +54,7 @@ const SubmitReview = () => {
             <label className="text-black block mb-2 font-[500] text-[20px] font-[Poppins]">Full Name</label>
               <input
                 type="text"
-                className="w-full h-12 border rounded-lg px-4"
+                className="w-full !bg-white h-12 border rounded-lg px-4 "
                 placeholder="Full Name"
                 value={fullName}
                 onChange={(e) => setFullName(e.target.value)}
@@ -86,7 +86,7 @@ const SubmitReview = () => {
           <div className="mb-4 mt-[32px]">
           <label className="text-black block mb-2 font-[500] text-[20px] font-[Poppins]">Review</label>
             <textarea
-              className="w-full h-32 border rounded-lg px-4"
+              className="w-full h-32 border bg-white rounded-lg px-4"
               placeholder="Review"
               value={review}
               onChange={(e) => setReview(e.target.value)}
@@ -97,7 +97,7 @@ const SubmitReview = () => {
           <div className="text-center mt-[60px]">
             <button
               type="submit"
-              className="bg-[#3C4FF8] text-black py-[11px] px-[100px] rounded-lg font-[500] text-[20px] font-[Poppins]"
+              className="bg-[#ff0000] hover:bg-[#f35454] border-[#ff0000] text-white py-[11px] px-[100px] rounded-lg font-[500] text-[20px] font-[Poppins]"
             >
               Submit Now
             </button>

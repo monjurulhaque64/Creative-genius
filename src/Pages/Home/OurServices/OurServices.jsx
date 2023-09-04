@@ -28,7 +28,7 @@ const OurServices = () => {
           </div>
           <span className="card-icon"> <FaReact></FaReact> </span>
         </div>
-        <div className="middleCard">
+        <div className="card">
           <div className="card-content my-8">
             <h2 className="card-title mb-3">Apps Development</h2>
             <p className="card-description">
@@ -63,7 +63,7 @@ const OurServices = () => {
           </div>
           <span className="card-icon"><FaVideo></FaVideo></span>
         </div>
-        <div className="middleCard">
+        <div className="card">
           <div className="card-content my-8">
             <h2 className="card-title mb-3">Motion Graphics</h2>
             <p className="card-description">
