@@ -19,7 +19,7 @@ const WorkProcess = () => {
           employees create value for their projects.
         </p>
       </div>
-      <div className="flex gap-12 justify-center items-center">
+      <div className="flex gap-12 justify-center items-center max-w-full">
         <div className="flex gap-6">
           <h1 className="w-[89px] h-[89px] bg-[#3C4FF8] rounded-full text-center flex justify-center items-center font-[Roboto] font-[700] text-white text-[30px] ">
             1

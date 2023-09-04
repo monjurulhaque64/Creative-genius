@@ -12,7 +12,7 @@ const FAQ = () => {
         </p>
       </div>
       <div >
-        <div className="collapse collapse-plus bg-[#404040] w-[604px] mt-6 rounded-md border-[1px] border-[#8a8a8a]">
+        <div className="collapse collapse-plus bg-[#404040] w-full lg:w-[604px] mt-6 rounded-md border-[1px] border-[#8a8a8a]">
           <input type="radio" name="my-accordion-3" checked="checked" />
           <div className="collapse-title text-[24px] text-white font-[Poppins] font-[400]">
             What is your company’s goal?
@@ -24,7 +24,7 @@ const FAQ = () => {
             </p>
           </div>
         </div>
-        <div className="collapse collapse-plus bg-[#404040] w-[604px] mt-6 rounded-md border-[1px] border-[#8a8a8a]">
+        <div className="collapse collapse-plus bg-[#404040] w-full lg:w-[604px] mt-6 rounded-md border-[1px] border-[#8a8a8a]">
           <input type="radio" name="my-accordion-3" />
           <div className="collapse-title text-[24px] text-white font-[Poppins] font-[400]">
             What is the target of digital marketing for your company?
@@ -38,7 +38,7 @@ const FAQ = () => {
             </p>
           </div>
         </div>
-        <div className="collapse collapse-plus bg-[#404040] w-[604px] mt-6 rounded-md border-[1px] border-[#8a8a8a]">
+        <div className="collapse collapse-plus bg-[#404040] w-full lg:w-[604px] mt-6 rounded-md border-[1px] border-[#8a8a8a]">
           <input type="radio" name="my-accordion-3" />
           <div className="collapse-title text-[24px] text-white font-[Poppins] font-[400]">
             what are the services of your company?
@@ -52,7 +52,7 @@ const FAQ = () => {
             </p>
           </div>
         </div>
-        <div className="collapse collapse-plus bg-[#404040] w-[604px] mt-6 rounded-md border-[1px] border-[#8a8a8a]">
+        <div className="collapse collapse-plus bg-[#404040] w-full lg:w-[604px] mt-6 rounded-md border-[1px] border-[#8a8a8a]">
           <input type="radio" name="my-accordion-3" />
           <div className="collapse-title text-[24px] text-white font-[Poppins] font-[400]">
             How long does a project take.?
@@ -68,7 +68,7 @@ const FAQ = () => {
             </p>
           </div>
         </div>
-        <div className="collapse collapse-plus bg-[#404040] w-[604px] mt-6 rounded-md border-[1px] border-[#8a8a8a]">
+        <div className="collapse collapse-plus bg-[#404040] w-full lg:w-[604px] mt-6 rounded-md border-[1px] border-[#8a8a8a]">
           <input type="radio" name="my-accordion-3" />
           <div className="collapse-title text-[24px] text-white font-[Poppins] font-[400]">
             How do you create content for your clients?
@@ -83,7 +83,7 @@ const FAQ = () => {
             </p>
           </div>
         </div>
-        <div className="collapse collapse-plus bg-[#404040] w-[604px] mt-6 rounded-md border-[1px] border-[#8a8a8a]">
+        <div className="collapse collapse-plus bg-[#404040] w-full lg:w-[604px] mt-6 rounded-md border-[1px] border-[#8a8a8a]">
           <input type="radio" name="my-accordion-3" />
           <div className="collapse-title text-[24px] text-white font-[Poppins] font-[400]">
             What are the qualities of a successful team?

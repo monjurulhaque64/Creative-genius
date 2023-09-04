@@ -10,6 +10,9 @@
       max-width: 90%;
       margin-bottom: 50px;
     }
+    .container-review-card{
+      max-width: 90%;
+    }
   
     input[type="text"],
     input[type="email"],

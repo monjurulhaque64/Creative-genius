@@ -1,8 +1,15 @@
 import React, { useState } from "react";
 import { Helmet } from "react-helmet-async";
-import { Rating } from "@smastrom/react-rating";
+import { Rating, ThinStar } from "@smastrom/react-rating";
 import "@smastrom/react-rating/style.css";
 import "./submitReview.css";
+
+
+const myStyles = {
+  itemShapes: ThinStar,
+  activeFillColor: "#ffb700",
+  inactiveFillColor: "#808080",
+};
 
 // Define your SubmitReview component
 const SubmitReview = () => {
@@ -39,12 +46,12 @@ const SubmitReview = () => {
           Share your thoughts with us!
         </p>
       </div>
-      <div className="flex justify-center mx-auto submit-review-card">
-        <form onSubmit={handleSubmit} className="w-[full">
+      <div className="flex justify-center mx-auto submit-review-card mb-8">
+        <form onSubmit={handleSubmit} className="w-[full container-review-card">
           {/* Full Name Input */}
-          <div className="flex mt-[65px] gap-[134px]">
+          <div className="flex mt-[65px] lg:gap-[134px] gap-[20px]">
             <div className="mb-4">
-            <label className="text-white block mb-2">Full Name</label>
+            <label className="text-white block mb-2 font-[500] text-[20px] font-[Poppins]">Full Name</label>
               <input
                 type="text"
                 className="w-full h-12 border rounded-lg px-4"
@@ -56,26 +63,28 @@ const SubmitReview = () => {
             </div>
             {/* Rating Input */}
             <div className="mb-4">
-              <label className="text-white block mb-2">Rating:</label>
+              <label className="text-white block mb-2 font-[500] text-[20px] font-[Poppins]">Rating:</label>
               <Rating
                 style={{ maxWidth: 150 }}
+                itemStyles={myStyles}
                 value={rating}
                 onChange={(value) => setRating(value)}
               />
             </div>
           </div>
           {/* Photo Input */}
-          <div className="mb-4">
-            <label className="text-white block mb-2">Select Your Photo</label>
+          <div className="mb-4 mt-[32px]">
+            <label className="text-white block mb-2 font-[500] text-[20px] font-[Poppins]">Select Your Photo</label>
             <input
               type="file"
+              className="file-input file-input-bordered file-input-secondary w-full " 
               accept="image/*"
               onChange={(e) => setPhoto(e.target.files[0])}
             />
           </div>
           {/* Review Textarea */}
-          <div className="mb-4">
-          <label className="text-white block mb-2">Review</label>
+          <div className="mb-4 mt-[32px]">
+          <label className="text-white block mb-2 font-[500] text-[20px] font-[Poppins]">Review</label>
             <textarea
               className="w-full h-32 border rounded-lg px-4"
               placeholder="Review"
@@ -85,12 +94,12 @@ const SubmitReview = () => {
             />
           </div>
           {/* Submit Button */}
-          <div className="text-center">
+          <div className="text-center mt-[60px]">
             <button
               type="submit"
-              className="bg-[#3C4FF8] text-white py-3 px-6 rounded-lg"
+              className="bg-[#3C4FF8] text-white py-[11px] px-[100px] rounded-lg font-[500] text-[20px] font-[Poppins]"
             >
-              Submit
+              Submit Now
             </button>
           </div>
         </form>
