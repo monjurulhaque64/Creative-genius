@@ -19,7 +19,7 @@ const Navbar = () => {
         <Link to={"/products"}>Products</Link>
       </li>
       <li>
-        <Link to={"/about"}>Pricing Table</Link>
+        <Link to={"/pricing"}>Pricing Table</Link>
       </li>
       <li>
         <Link to={"/client-says"}>Client Says</Link>

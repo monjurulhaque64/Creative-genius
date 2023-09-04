@@ -1,0 +1,51 @@
+[
+    {
+      "id": "623853b21fb149d2ee7b76c1",
+      "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0EeASRaltQ6nT87gamEbJ3zJsU4GQ5HmNAoxHuWA&s",
+      "title": "UI/UX Designer",
+      "name": "Alice Smith",
+      "location": "San Francisco, CA",
+      "veracity": "Brac University"
+    },
+    {
+      "id": "623853b21fb149d2ee7b76c2",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0EeASRaltQ6nT87gamEbJ3zJsU4GQ5HmNAoxHuWA&s",
+      "title": "UI/UX Designer",
+      "name": "Bob Johnson",
+      "location": "Los Angeles, CA",
+      "veracity": "Brac University"
+    },
+    {
+      "id": "623853b21fb149d2ee7b76c3",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0EeASRaltQ6nT87gamEbJ3zJsU4GQ5HmNAoxHuWA&s",
+      "title": "UI/UX Designer",
+      "name": "Emily Brown",
+      "location": "Chicago, IL",
+      "veracity": "Brac University"
+    },
+    {
+      "id": "623853b21fb149d2ee7b76c4",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0EeASRaltQ6nT87gamEbJ3zJsU4GQ5HmNAoxHuWA&s",
+      "title": "UI/UX Designer",
+      "name": "David Wilson",
+      "location": "Austin, TX",
+      "veracity": "Not Brac University"
+    },
+    {
+      "id": "623853b21fb149d2ee7b76c5",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0EeASRaltQ6nT87gamEbJ3zJsU4GQ5HmNAoxHuWA&s",
+      "title": "UI/UX Designer",
+      "name": "Sophia Lee",
+      "location": "Boston, MA",
+      "veracity": "Brac University"
+    },
+    {
+      "id": "623853b21fb149d2ee7b76c6",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0EeASRaltQ6nT87gamEbJ3zJsU4GQ5HmNAoxHuWA&s",
+      "title": "UI/UX Designer",
+      "name": "Michael Davis",
+      "location": "Seattle, WA",
+      "veracity": "Brac University"
+    }
+  ]
+  

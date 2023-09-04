@@ -1,0 +1,121 @@
+/* about style  */
+.about-title {
+
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.description {
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 175% */
+}
+
+/* 2nd div style */
+
+.cards {
+    height: 160px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid #0057FF;
+    background: rgba(34, 34, 34, 0.80);
+    mix-blend-mode: luminosity;
+    backdrop-filter: blur(10px);
+}
+
+
+.card-img {
+    width: 93px;
+    height: 93px;
+    flex-shrink: 0;
+    border-radius: 93px;
+
+}
+
+.card-left-body p {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    /* 137.5% */
+}
+
+.card-left-body h2 {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    /* 140% */
+}
+
+/* 3rd div  style  */
+
+.Title {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.founder {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.thought-title{
+    color: #FFF;
+font-family: Poppins;
+font-size: 36px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.thought-description{
+    color: #FFF;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; 
+}
+
+/* Define the pulsating border animation */
+@keyframes pulse {
+    0% {
+      transform: scale(1);
+      box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+    }
+    50% {
+      transform: scale(1.05);
+      box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0);
+    }
+    100% {
+      transform: scale(1);
+      box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+  }
+  
+  /* Apply the animation to an element with the 'pulse' class */
+  .pulse {
+    animation: pulse 2s infinite;
+    z-index: 20px;
+  }
+  

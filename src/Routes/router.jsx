@@ -7,6 +7,8 @@ import Products from "../Pages/Products/Products";
 import ClientSays from "../Pages/ClientSays/ClientSays";
 import ContactUs from "../Pages/ContactUs/ContactUs";
 import SubmitReview from "../Pages/SubmitReview/SubmitReview";
+import About from "../Pages/AboutUs/About";
+import Pricing from "../Pages/Pricing/Pricing";
 
   export const router = createBrowserRouter([
     {
@@ -18,8 +20,16 @@ import SubmitReview from "../Pages/SubmitReview/SubmitReview";
             element: <Home></Home>
         },
         {
+          path: '/about',
+          element: <About></About>
+        },
+        {
           path: "/products",
           element: <Products></Products>
+      },
+      {
+        path:"/pricing",
+        element:<Pricing></Pricing>
       },
       {
         path: "/client-says",
