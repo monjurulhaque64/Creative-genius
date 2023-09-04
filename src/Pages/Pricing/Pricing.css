@@ -1,21 +1,21 @@
 .price-card {
     flex-shrink: 0;
     border-radius: 10px;
-    border: 1px solid #404040;
-    background: #171717;
+    border: 1px solid #585858;
+    background: fffff;
 }
 
 .price-title {
-    color: #FFF;
+    color: black;
     font-family: Poppins;
-    font-size: 36px;
+    font-size: 26px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
     line-height: 36px;
 }
 
 .price-p {
-    color: #FFF;
+    color: black;
     font-family: Poppins;
     font-size: 16px;
     font-style: normal;
@@ -24,17 +24,17 @@
 }
 
 .price {
-    color: var(--Primary-Color, #3C4FF8);
+    color: var(--Primary-Color, #ff0000);
     font-family: Poppins;
-    font-size: 36px;
+    font-size: 26px;
     font-style: normal;
     font-weight: 600;
-    line-height: 36px;
+    line-height: 26px;
     /* 100% */
 }
 
 .price-month {
-    color: #FFF;
+    color: black;
     font-family: Poppins;
     font-size: 20px;
     font-style: normal;
@@ -42,18 +42,18 @@
     line-height: 36px;
 }
 
-.buy-btn {
+/* .buy-btn {
     display: inline-flex;
     padding: 16px 24px;
     justify-content: center;
     align-items: center;
     gap: 8px;
     border-radius: 10px;
-    background: var(--Primary-Color, #3C4FF8);
+    background: var(--Primary-Color, #ff0000);
     color: #FFF;
     font-family: Poppins;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-}
+} */

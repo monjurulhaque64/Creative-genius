@@ -30,7 +30,7 @@ const Reviews = () => {
         <ReviewCard reviews={reviews}></ReviewCard>
       </div>
       <div className="flex justify-center items-center mb-12">
-        <Link to={'/client-says'}><button className="btn btn-info bg-[#ff0000] hover:bg-[#f35454] border-[#ff0000] mt-[36px] lg:mr-[100px] text-black">
+        <Link to={'/client-says'}><button className="btn btn-info bg-[#ff0000] hover:bg-[#f35454] border-[#ff0000] mt-[36px] lg:mr-[100px] text-white">
           See More
         </button></Link>
       </div>

@@ -10,10 +10,10 @@
 }
 
 .description {
-    color: #FFF;
+    color: black;
     text-align: center;
     font-family: Poppins;
-    font-size: 16px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: 28px;
@@ -64,9 +64,9 @@
 /* 3rd div  style  */
 
 .Title {
-    color: #FFF;
+    color: black;
     font-family: Poppins;
-    font-size: 36px;
+    font-size: 48px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
