@@ -40,14 +40,14 @@ const SubmitReview = () => {
         </p>
       </div>
       <div className="flex justify-center mx-auto submit-review-card">
-        <form onSubmit={handleSubmit} className="w-[400px]">
+        <form onSubmit={handleSubmit} className="w-[full">
           {/* Full Name Input */}
           <div className="flex mt-[65px] gap-[134px]">
             <div className="mb-4">
             <label className="text-white block mb-2">Full Name</label>
               <input
                 type="text"
-                className="w-[285px] h-12 border rounded-lg px-4"
+                className="w-full h-12 border rounded-lg px-4"
                 placeholder="Full Name"
                 value={fullName}
                 onChange={(e) => setFullName(e.target.value)}
@@ -66,7 +66,7 @@ const SubmitReview = () => {
           </div>
           {/* Photo Input */}
           <div className="mb-4">
-            <label className="text-white block mb-2">Select Your Photo:</label>
+            <label className="text-white block mb-2">Select Your Photo</label>
             <input
               type="file"
               accept="image/*"
@@ -75,6 +75,7 @@ const SubmitReview = () => {
           </div>
           {/* Review Textarea */}
           <div className="mb-4">
+          <label className="text-white block mb-2">Review</label>
             <textarea
               className="w-full h-32 border rounded-lg px-4"
               placeholder="Review"
