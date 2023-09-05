@@ -8,7 +8,7 @@ const Card = ({SingleData}) => {
         <div className='cards md:w-[390px] w-[335px] text-black p-6'>
             <div className=' flex gap-10'>
                 <div>
-                    <img className='card-img items-center' src={image} alt="" />
+                <img className="client-photo" src={image} alt="" />
                 </div>
                 <div className='card-left-body'>
                     <p>{title} </p>

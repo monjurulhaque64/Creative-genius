@@ -5,7 +5,7 @@ import { Helmet } from "react-helmet-async";
 const ClientSays = () => {
   const [reviews, setReviews] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
-  const reviewsPerPage = 10; 
+  const reviewsPerPage = 12; 
 
   useEffect(() => {
     fetch("http://localhost:5000/reviews")

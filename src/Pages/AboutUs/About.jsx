@@ -7,10 +7,10 @@ import img from "../../assets/Images/ceo.png";
 const About = () => {
   const [data, setData] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
-  const memberPerPage = 10; 
+  const memberPerPage = 12; 
 
   useEffect(() => {
-    fetch("/designer.json")
+    fetch("http://localhost:5000/members")
       .then((response) => response.json())
       .then((data) => {
         setData(data);
