@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Pricing = () => {
   const packages = [
     {
-        package: "Monthly Package",
+      package: "Monthly Package",
       text: [
         "Admission Management",
         "Online Class & Exam System",
@@ -24,13 +24,13 @@ const Pricing = () => {
         "Student Attendance Tracking Analytics",
         "Attendance Management",
         "Transportation systems management",
-        "Provide Mobile Application"
+        "Provide Mobile Application",
       ],
       price: 15,
-      duration: "per month"
+      duration: "per month",
     },
     {
-        package: "Half Yearly Package",
+      package: "Half Yearly Package",
       text: [
         "Admission Management",
         "Online Class & Exam System",
@@ -49,13 +49,13 @@ const Pricing = () => {
         "Student Attendance Tracking Analytics",
         "Attendance Management",
         "Transportation systems management",
-        "Provide Mobile Application"
+        "Provide Mobile Application",
       ],
       price: 60,
-      duration: "per 6 month"
+      duration: "per 6 month",
     },
     {
-        package: "Yearly Package",
+      package: "Yearly Package",
       text: [
         "Admission Management",
         "Online Class & Exam System",
@@ -74,13 +74,13 @@ const Pricing = () => {
         "Student Attendance Tracking Analytics",
         "Attendance Management",
         "Transportation systems management",
-        "Provide Mobile Application"
+        "Provide Mobile Application",
       ],
       price: 120,
       duration: "per year",
     },
     {
-        package: "Lifetime Package",
+      package: "Lifetime Package",
       text: [
         "Admission Management",
         "Online Class & Exam System",
@@ -99,7 +99,7 @@ const Pricing = () => {
         "Student Attendance Tracking Analytics",
         "Attendance Management",
         "Transportation systems management",
-        "Provide Mobile Application"
+        "Provide Mobile Application",
       ],
       price: 200,
       duration: "Lifetime",
@@ -124,9 +124,11 @@ const Pricing = () => {
           {packages.map((product, index) => (
             <div
               key={index}
-              className="price-card mt-10 md:mt-0 w-[280px]  mx-auto md:w-[287px] h-[900px]  md:h-[900px] shadow-md transition duration-300 ease-in-out transform hover:bg-gray-200 p-4"
+              className="price-card mt-10 md:mt-0 w-[280px]  mx-auto md:w-[287px] h-[900px]  md:h-[900px] shadow-md p-4"
             >
-              <h1 className="price-title text-center my-4">{product.package}</h1>
+              <h1 className="price-title text-center my-4">
+                {product.package}
+              </h1>
               {product.text.map((line, lineIndex) => (
                 <div key={lineIndex} className="flex items-center gap-2">
                   <svg
