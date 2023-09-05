@@ -51,3 +51,10 @@
     transition: max-height 0.6s ease;
     text-align: left;
   }
+
+
+  .faq-left {
+    border: 2px solid rgb(187, 187, 235);
+    padding: 16px;
+    border-radius: 50%;
+  }

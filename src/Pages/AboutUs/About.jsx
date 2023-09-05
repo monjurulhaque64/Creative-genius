@@ -75,11 +75,11 @@ const About = () => {
           </div>
 
           <div className="flex flex-col items-center my-20 relative">
-            <img
-              className="z-10 border-[2px] w-[218px] h-[218px] bg-white border-gray-400 animate-border-animation rounded-full p-2"
-              src={img}
-              alt=""
-            />
+           <div  className="box">
+            <div className="content">
+              <img src={img} alt="" />
+            </div>
+           </div>
             <div className="lg:w-[70rem] md:w-[50rem] w-[20rem] border-[1px] border-gray-400 rotate-180 mt-[7rem] border-dashed   absolute"></div>
             <div className="lg:w-[60rem] md:w-[50rem] w-[20rem] border-[1px] border-gray-400 rotate-90 mt-[7rem] border-dashed absolute"></div>
           </div>

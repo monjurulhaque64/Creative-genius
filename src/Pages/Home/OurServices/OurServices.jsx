@@ -85,7 +85,7 @@ const OurServices = () => {
               ambitions.
             </p>
           </div>
-          <span className="card-icon"><FaBrain></FaBrain></span>
+          <span className="card-icon "><FaBrain></FaBrain></span>
         </div>
       </div>
     </div>

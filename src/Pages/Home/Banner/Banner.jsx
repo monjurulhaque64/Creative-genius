@@ -135,7 +135,7 @@ const Banner = () => {
           </div>
         </SwiperSlide>
       </Swiper>
-      <div className="absolute left-[18%] top-[837px]">
+      <div className="absolute left-[2%] md:left-[15%] top-[837px]">
         <ClientSpring></ClientSpring>
       </div>
     </div>
