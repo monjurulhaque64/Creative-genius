@@ -80,7 +80,7 @@ const About = () => {
               <img src={img} alt="" />
             </div>
            </div>
-            <div className="lg:w-[70rem] md:w-[50rem] w-[20rem] border-[1px] border-gray-400 rotate-180 mt-[7rem] border-dashed   absolute"></div>
+            <div className="lg:w-[70rem] md:w-[50rem] w-[20rem] border-[1px] border-gray-400 rotate-180 mt-[12rem] border-dashed   absolute"></div>
             <div className="lg:w-[60rem] md:w-[50rem] w-[20rem] border-[1px] border-gray-400 rotate-90 mt-[7rem] border-dashed absolute"></div>
           </div>
           <div className="md:flex md:justify-between gap-10 my-24 md:mb-56">
