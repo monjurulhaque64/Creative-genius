@@ -10,7 +10,7 @@ const About = () => {
   const memberPerPage = 12; 
 
   useEffect(() => {
-    fetch("http://localhost:5000/members")
+    fetch("https://creative-server.vercel.app/members")
       .then((response) => response.json())
       .then((data) => {
         setData(data);

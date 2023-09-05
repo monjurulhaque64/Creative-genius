@@ -45,7 +45,7 @@ const SubmitReview = () => {
           const { fullName, rating, review } = data;
           const reviewData = { name:fullName, rating, review, photo: imgURL };
 
-          fetch('http://localhost:5000/reviews', {
+          fetch('https://creative-server.vercel.app/reviews', {
             method: 'POST',
             body: JSON.stringify(reviewData),
             headers: {

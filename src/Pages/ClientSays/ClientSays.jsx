@@ -8,7 +8,7 @@ const ClientSays = () => {
   const reviewsPerPage = 12; 
 
   useEffect(() => {
-    fetch("http://localhost:5000/reviews")
+    fetch("https://creative-server.vercel.app/reviews")
       .then((response) => response.json())
       .then((data) => {
         setReviews(data);
