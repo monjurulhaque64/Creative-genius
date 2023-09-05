@@ -23,8 +23,8 @@ function Number({ n }) {
 
 const ClientSpring = () => {
   return (
-    <div className="flex client-spring-containt lg:w-[1155px] md:h-173px lg:h-[180px]  h-[110px] ">
-      <div className="md:ml-[80px] mt-4  md:mt-7">
+    <div className="flex justify-between p-6  client-spring-containt lg:w-[1220px] mx-auto md:h-173px lg:h-[180px]  h-[110px] ">
+      <div className=" mt-4  md:mt-7">
         <h1 className="flex text-[17px] md:text-[40px] font-[Poppins] font-[600] text-[#FF0000]">
           <Number n={103} />
           <animated.span>{" +"}</animated.span>
@@ -33,7 +33,7 @@ const ClientSpring = () => {
           Happy Clients
         </h3>
       </div>
-      <div className="md:ml-[80px]  mt-4 md:mt-7">
+      <div className="  mt-4 md:mt-7">
         <h1 className="flex text-[17px] md:text-[40px] font-[Poppins] font-[600] text-center text-[#FF0000]  ml-8">
           <Number n={277} />
           <animated.span>{" +"}</animated.span>
@@ -42,7 +42,7 @@ const ClientSpring = () => {
         Total Complete Projects
         </h3>
       </div>
-      <div className="md:ml-[80px]  mt-4  md:mt-7">
+      <div className="  mt-4  md:mt-7">
         <h1 className="flex text-[17px] md:text-[40px] font-[Poppins] font-[600] text-[#FF0000]  ml-8">
           <Number n={11} />
           <animated.span>{" +"}</animated.span>
@@ -51,7 +51,7 @@ const ClientSpring = () => {
         Total Running Projects
         </h3>
       </div>
-      <div className="md:ml-[110px] mt-4 md:mt-7">
+      <div className=" mt-4 md:mt-7">
         <h1 className="flex text-[17px] md:text-[40px] font-[Poppins] font-[600] text-[#FF0000]">
           <Number n={12} />
           <animated.span>{" +"}</animated.span>
