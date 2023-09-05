@@ -43,7 +43,7 @@ const Navbar = () => {
                 className="h-5 w-5"
                 fill="none"
                 viewBox="0 0 24 24"
-                stroke="currentColor"
+                stroke="black"
               >
                 <path
                   strokeLinecap="round"
@@ -55,22 +55,22 @@ const Navbar = () => {
             </label>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+              className="menu menu-sm absolute dropdown-content mt-3 z-[1] p-2 text-black bg-gray-300 shadow font-bold rounded-box w-52"
             >
               {navItems}
             </ul>
           </div>
           <img
-            className="w-[148px] md:w-[120px] sm:w-[80px] lg:ml-[100px] mt-[38px]"
+            className=" w-[100px] lg:w-[148px] md:w-[120px]  lg:ml-[100px] mt-[38px]"
             src={logo}
             alt=""
           />
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1 mt-[45px] text-black font-medium">{navItems}</ul>
+          <ul className="menu menu-horizontal px-1 mt-[45px] text-black font-bold">{navItems}</ul>
         </div>
         <div className="navbar-end">
-          <button className="btn btn-info bg-[#ff0000] hover:bg-[#f35454] border-[#ff0000] mt-[36px] lg:mr-[100px] text-white">
+          <button className="btn btn-info w-[150px] lg:w-[199px] bg-[#ff0000] hover:bg-[#f35454] border-[#ff0000] mt-[36px] lg:mr-[100px] text-white font-[16px]">
             Download App{" "}
             <span>
               <FaGooglePlay></FaGooglePlay>
