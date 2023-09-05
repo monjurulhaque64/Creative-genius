@@ -18,7 +18,7 @@ const OurServices = () => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-[1236px] mx-auto gap-3">
         <div className="card ">
-          <div className="card-content my-8">
+          <div className="card-content my-4">
             <h2 className="card-title mb-3">Web Development</h2>
             <p className="card-description">
               We work with our clients' preferences. We provide user-friendly,
@@ -29,7 +29,7 @@ const OurServices = () => {
           <span className="card-icon"> <FaReact></FaReact> </span>
         </div>
         <div className="card">
-          <div className="card-content my-8">
+          <div className="card-content my-4">
             <h2 className="card-title mb-3">Apps Development</h2>
             <p className="card-description">
               We built apps to put you ahead with the latest trends. Our app
@@ -40,7 +40,7 @@ const OurServices = () => {
           <span className="card-icon"><FaLaptopCode></FaLaptopCode></span>
         </div>
         <div className="card">
-          <div className="card-content my-8">
+          <div className="card-content my-4">
             <h2 className="card-title mb-3">Graphics Design</h2>
             <p className="card-description">
               We are here for you to help you deliver messages in the most
@@ -52,7 +52,7 @@ const OurServices = () => {
           <span className="card-icon card-icon2"><FaEdit></FaEdit></span>
         </div>
         <div className="card">
-          <div className="card-content my-8">
+          <div className="card-content my-4">
             <h2 className="card-title mb-3">Video Content Creating</h2>
             <p className="card-description">
               Our video content creation service will help you to make a
@@ -64,7 +64,7 @@ const OurServices = () => {
           <span className="card-icon"><FaVideo></FaVideo></span>
         </div>
         <div className="card">
-          <div className="card-content my-8">
+          <div className="card-content my-4">
             <h2 className="card-title mb-3">Motion Graphics</h2>
             <p className="card-description">
               We will provide you with an engaging way to simplify complex
@@ -76,7 +76,7 @@ const OurServices = () => {
           <span className="card-icon"><FaFileVideo></FaFileVideo></span>
         </div>
         <div className="card ">
-          <div className="card-content my-8">
+          <div className="card-content my-4">
             <h2 className="card-title mb-3">Digital Marketing</h2>
             <p className="card-description">
               We are here with our digital marketing services that can lead to

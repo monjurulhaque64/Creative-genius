@@ -9,9 +9,10 @@
   }
 
   @media (max-width: 360px) {
-    .client-spring-containt{
-
-      width:335px;
+    .client-spring-containt {
+      width: 90%; 
+      max-width: 335px; 
     }
+  
 
   }
