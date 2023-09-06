@@ -1,12 +1,12 @@
 import React from "react";
 import logo from "../../assets/Images/Logo.png";
+import { Link } from "react-router-dom";
 import {
   FaFacebookF,
   FaInstagram,
   FaLinkedinIn,
   FaTwitter,
 } from "react-icons/fa";
-import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -15,8 +15,8 @@ const Footer = () => {
         <div className="lg:ml-[80px] ml-[0px]">
           <img className="w-[148px] " src={logo} alt="logo" />
           <p className="mt-6 font-medium text-black">
-            Lorem ipsum dolor sit amet, consectetur <br /> adipiscing elit, sed
-            do eiusmod tempor <br /> incididunt
+            The future of digital learning technology <br /> in teaching and
+            learning.
           </p>
         </div>
         <div>
@@ -110,9 +110,9 @@ const Footer = () => {
           </p>
         </div>
         <div className="grid-flow-col gap-4 lg:mr-28 md:place-self-center  md:justify-self-end ">
-          <a className="link link-hover text-black text-lg font-medium">
+          <Link to={'/contact-us'}><a className="link link-hover text-black text-lg font-medium">
             Contact Us
-          </a>
+          </a></Link>
           <a className="link link-hover text-black text-lg font-medium">
             Terms
           </a>
