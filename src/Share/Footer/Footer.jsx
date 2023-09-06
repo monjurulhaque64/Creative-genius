@@ -58,12 +58,11 @@ const Footer = () => {
         </div>
         <div>
           <span className="text-black text-2xl font-bold mb-8 ">Privacy</span>
-          <a className="link link-hover text-black text-lg font-medium mb-2">
-            Privacy
-          </a>
-          <a className="link link-hover text-black text-lg font-medium mb-2">
-            Policy
-          </a>
+          <Link to={'/privacy'}>
+            <span className="link link-hover text-black text-lg font-medium mb-2">
+            Privacy Policy
+            </span>
+          </Link>
           <a className="link link-hover text-black text-lg font-medium mb-2">
             Payment
           </a>
@@ -110,9 +109,11 @@ const Footer = () => {
           </p>
         </div>
         <div className="grid-flow-col gap-4 lg:mr-28 md:place-self-center  md:justify-self-end ">
-          <Link to={'/contact-us'}><a className="link link-hover text-black text-lg font-medium">
-            Contact Us
-          </a></Link>
+          <Link to={"/contact-us"}>
+            <a className="link link-hover text-black text-lg font-medium">
+              Contact Us
+            </a>
+          </Link>
           <a className="link link-hover text-black text-lg font-medium">
             Terms
           </a>

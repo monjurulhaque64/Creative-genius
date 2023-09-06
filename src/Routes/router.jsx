@@ -10,6 +10,7 @@ import SubmitReview from "../Pages/SubmitReview/SubmitReview";
 import About from "../Pages/AboutUs/About";
 import Pricing from "../Pages/Pricing/Pricing";
 import NotFound from "../Pages/NotFound/NotFound";
+import Privacy from "../Pages/Privacy/Privacy";
 
   export const router = createBrowserRouter([
     {
@@ -43,6 +44,10 @@ import NotFound from "../Pages/NotFound/NotFound";
       {
         path: "/review",
         element:<SubmitReview></SubmitReview>
+      },
+      {
+        path: "/privacy",
+        element:<Privacy></Privacy>
       }
       ]
     },
