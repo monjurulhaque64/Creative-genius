@@ -1,9 +1,12 @@
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 import { Helmet } from "react-helmet-async";
 import { MdLocationOn, MdPhone, MdEmail } from "react-icons/md";
 import "./ContectUs.css";
+import emailjs from "@emailjs/browser";
+
 
 const ContactUs = () => {
+  const formRef = useRef();
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -20,7 +23,21 @@ const ContactUs = () => {
   };
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle form submission here (e.g., send data to a server)
+    emailjs
+      .sendForm(
+        "service_87yggjg",
+        "template_3jfmzwq",
+        formRef.current, // Use formRef instead of form
+        "XloRTSZt0TbtYT7Nq"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
     console.log(formData);
   };
   return (
@@ -67,7 +84,7 @@ const ContactUs = () => {
           </h3>
         </div>
         <div className="form-container contect-container">
-          <form onSubmit={handleSubmit}>
+          <form ref={formRef} onSubmit={handleSubmit}>
             <div className="form-group">
               <label htmlFor="name">Full Name</label>
               <input
@@ -77,6 +94,7 @@ const ContactUs = () => {
                 value={formData.name}
                 onChange={handleChange}
                 placeholder="Full Name"
+                className="!text-black"
               />
             </div>
             <div className="form-group">
@@ -87,6 +105,7 @@ const ContactUs = () => {
                 name="email"
                 value={formData.email}
                 onChange={handleChange}
+                className="!text-black"
                 placeholder="Enter Email Address"
               />
             </div>
@@ -99,6 +118,7 @@ const ContactUs = () => {
                 value={formData.reason}
                 onChange={handleChange}
                 placeholder="Reason"
+                className="!text-black"
               />
             </div>
             <div className="form-group">
@@ -110,6 +130,7 @@ const ContactUs = () => {
                 onChange={handleChange}
                 rows="5"
                 placeholder="Text Your Message"
+                className="!text-black"
               />
             </div>
             <button className="contect-button" type="submit">

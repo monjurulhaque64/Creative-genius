@@ -7,7 +7,7 @@ import img from "../../assets/Images/ceo.png";
 const About = () => {
   const [data, setData] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
-  const memberPerPage = 12; 
+  const memberPerPage = 12;
 
   useEffect(() => {
     fetch("https://creative-server.vercel.app/members")
@@ -40,8 +40,8 @@ const About = () => {
         <div className="mx-auto text-center ">
           <h1 className="about-title">Meet Our Team</h1>
           <p className="description">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt
+            Here are our talented individuals who drive our company's success.
+            Meet the dedicated team behind this company.
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-5 mt-[100px] w-full lg:w-[1236px] mx-auto ">
