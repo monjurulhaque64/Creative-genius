@@ -9,6 +9,7 @@ import ContactUs from "../Pages/ContactUs/ContactUs";
 import SubmitReview from "../Pages/SubmitReview/SubmitReview";
 import About from "../Pages/AboutUs/About";
 import Pricing from "../Pages/Pricing/Pricing";
+import NotFound from "../Pages/NotFound/NotFound";
 
   export const router = createBrowserRouter([
     {
@@ -45,4 +46,8 @@ import Pricing from "../Pages/Pricing/Pricing";
       }
       ]
     },
+    {
+      path: "*",
+      element: <NotFound></NotFound>
+    }
   ]);
