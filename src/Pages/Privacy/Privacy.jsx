@@ -4,11 +4,11 @@ import { Link } from "react-router-dom";
 
 const Privacy = () => {
   return (
-    <div className="container mx-auto mt-[72px]">
+    <div className="container mx-auto mt-[72px] mb-6">
       <Helmet>
         <title>Creative Campus || Privacy Policy</title>
       </Helmet>
-      <div className="my-8 m-2 p-8 lg:m-0 shadow-xl">
+      <div className="my-8 m-2 p-8 lg:m-0 shadow-xl rounded-lg">
         <div className="my-2">
           <h1 className="font-[Poppins] font-[600] text-[48px] text-[#ff0000] ">
             Privacy Policy
@@ -99,10 +99,10 @@ const Privacy = () => {
           </h3>
           <p className="font-[Poppins] font-[400] text-[18px] text-black ">
             If you have any questions or concerns about this Privacy Policy or
-            our data practices, please contact us at{" "}
+            our data practices, please contact us at 
             <Link to={"/contact-us"}>
-              <span className="link link-hover font-[Poppins] font-[600] text-[18px] text-[#ff0000]">
-                Contact Information
+              <span className="link link-hover font-[Poppins] font-[600] text-[18px] text-[#ff0000] ml-1">
+              Creative Campus
               </span>
             </Link>
             .

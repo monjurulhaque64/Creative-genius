@@ -58,17 +58,21 @@ const Footer = () => {
         </div>
         <div>
           <span className="text-black text-2xl font-bold mb-8 ">Privacy</span>
-          <Link to={'/privacy'}>
+          <Link to={"/privacy"}>
             <span className="link link-hover text-black text-lg font-medium mb-2">
-            Privacy Policy
+              Privacy Policy
             </span>
           </Link>
-          <a className="link link-hover text-black text-lg font-medium mb-2">
-            Payment
-          </a>
-          <a className="link link-hover text-black text-lg  font-medium">
-            Terms
-          </a>
+          <Link to={"/payment"}>
+            <span className="link link-hover text-black text-lg font-medium mb-2">
+              Payment
+            </span>
+          </Link>
+          <Link to={"/terms"}>
+            <span className="link link-hover text-black text-lg  font-medium">
+              Terms and conditions
+            </span>
+          </Link>
         </div>
         <div>
           <span className="text-black text-2xl font-bold mb-8 ">
@@ -114,9 +118,11 @@ const Footer = () => {
               Contact Us
             </a>
           </Link>
-          <a className="link link-hover text-black text-lg font-medium">
-            Terms
-          </a>
+          <Link to={"/terms"}>
+            <span className="link link-hover text-black text-lg  font-medium">
+              Terms and conditions
+            </span>
+          </Link>u
         </div>
       </footer>
     </div>

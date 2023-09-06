@@ -11,6 +11,8 @@ import About from "../Pages/AboutUs/About";
 import Pricing from "../Pages/Pricing/Pricing";
 import NotFound from "../Pages/NotFound/NotFound";
 import Privacy from "../Pages/Privacy/Privacy";
+import Payment from "../Pages/Payment/Payment";
+import Terms from "../Pages/Terms/Terms";
 
   export const router = createBrowserRouter([
     {
@@ -48,6 +50,14 @@ import Privacy from "../Pages/Privacy/Privacy";
       {
         path: "/privacy",
         element:<Privacy></Privacy>
+      },
+      {
+        path: "/payment",
+        element:<Payment></Payment>
+      },
+      {
+        path: "/terms",
+        element:<Terms></Terms>
       }
       ]
     },
