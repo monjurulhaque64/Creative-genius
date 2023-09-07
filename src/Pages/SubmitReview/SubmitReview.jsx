@@ -69,15 +69,15 @@ const SubmitReview = () => {
   };
 
   return (
-    <div className="mt-[72px] container mx-auto">
+    <div className="mt-[40px] md:mt-[72px] container mx-auto">
       <Helmet>
         <title>Creative Campus || Review</title>
       </Helmet>
-      <div className="mx-auto text-center h-[200px]">
-        <h1 className="font-[Poppins] font-[600] text-[48px] text-black">
+      <div className="mx-auto text-center h-[130px] m:h-[200px]">
+        <h1 className="font-[Poppins] font-[600] text-[30px] md:text-[48px] text-black">
           Submit Reviews
         </h1>
-        <p className="font-[Poppins] font-[400] text-[18px] text-black">
+        <p className="font-[Poppins] font-[400] text-[14] md:text-[18px] text-black">
           Share your thoughts with us!
         </p>
       </div>

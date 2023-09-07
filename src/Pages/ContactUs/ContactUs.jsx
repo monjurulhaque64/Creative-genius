@@ -41,15 +41,15 @@ const ContactUs = () => {
     console.log(formData);
   };
   return (
-    <div className="mt-[72px] container mx-auto">
+    <div className="mt-[40px] md:mt-[72px] container mx-auto">
       <Helmet>
         <title>Creative Campus || Contact Us</title>
       </Helmet>
-      <div className="mx-auto text-center h-[200px]">
-        <h1 className="font-[Poppins] font-[600] text-[48px] text-black">
+      <div className="mx-auto text-center h-[130px] md:h-[200px]">
+        <h1 className="font-[Poppins] font-[600] text-[28px] md:text-[48px] text-black">
           Contact Us
         </h1>
-        <p className="font-[Poppins] font-[400] text-[18px] text-black">
+        <p className="font-[Poppins] font-[400] text-[14px] md:text-[18px] text-black">
           Here's our contact details so visitors can get in touch with us on
           their first attempt.
         </p>
@@ -57,10 +57,10 @@ const ContactUs = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 ">
         <div className="lg:mt-[255px] ml-4 lg:ml-0">
           <div className="circle"></div>
-          <h1 className="font-[Poppins] font-[600] text-[30px] text-black mb-[22px]">
+          <h1 className="font-[Poppins] font-[600] text-[28px] text-black mb-[22px]">
             Get In Touch
           </h1>
-          <p className="font-[Poppins]  font-[400] text-[18px] text-black mb-[70px]">
+          <p className="font-[Poppins]  font-[400] text-[14px] md:text-[18px] text-black mb-[70px]">
             We're eager to hear from you! Feel free to reach out for inquiries,
             collaborations, or just to say hello.
           </p>

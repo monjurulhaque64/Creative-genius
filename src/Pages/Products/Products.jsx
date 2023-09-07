@@ -9,15 +9,15 @@ import { Helmet } from "react-helmet-async";
 
 const Products = () => {
   return (
-    <div className="container mx-auto mt-[72px]">
+    <div className="container mx-auto mt-[40px] md:mt-[72px]">
       <Helmet>
         <title>Creative Campus || Products</title>
       </Helmet>
-      <div className="mx-auto text-center h-[100px] ">
-        <h1 className="font-[Poppins] font-[600] text-[48px] text-black">
+      <div className="mx-auto text-center h-[80px] md:h-[100px] ">
+        <h1 className="font-[Poppins] font-[600] text-[28px] md:text-[48px] text-black">
           Our Products
         </h1>
-        <p className="font-[Poppins] font-[400] text-[18px] text-black">
+        <p className="font-[Poppins] font-[400] text-[14px] md:text-[18px] text-black">
           Here are some products of our company to make your life comfortable
           through technology.
         </p>
@@ -45,7 +45,7 @@ const Products = () => {
           </div>
         </div>
       </div>
-      <div className="mt-[200px]">
+      <div className="mt-[120px] md:mt-[200px]">
         <Reviews></Reviews>
       </div>
     </div>

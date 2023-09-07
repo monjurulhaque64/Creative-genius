@@ -13,7 +13,7 @@
     color: black;
     text-align: center;
     font-family: Poppins;
-    font-size: 20px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: 28px;
@@ -112,6 +112,48 @@ line-height: 28px;
     inset: -10px 140px;
     background: linear-gradient(315deg ,  #ff0000 , #ff0000);
     animation: animate 4s  linear infinite;
+}
+
+
+/* mobile responsive  */
+@media (max-width: 390px){
+    .Title {
+        color: black;
+        font-family: Poppins;
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+    .about-title {
+
+        color: black;
+        font-family: Poppins;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+}
+/* mobile responsive  */
+@media (max-width: 360px){
+    .Title {
+        color: black;
+        font-family: Poppins;
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+    .about-title {
+
+        color: black;
+        font-family: Poppins;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
 }
 
 

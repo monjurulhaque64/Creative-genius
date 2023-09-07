@@ -60,6 +60,15 @@
     .card   {
       max-width: 90% !important;
       margin: auto;
+      /* width: 384px; */
+    }
+  }
+
+  @media (max-width: 390px) {
+    .card   {
+      max-width: 90% !important;
+      margin: auto;
+      width: 384px;
     }
   
   }

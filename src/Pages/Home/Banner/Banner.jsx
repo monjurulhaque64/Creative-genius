@@ -36,7 +36,7 @@ const Banner = () => {
         <SwiperSlide>
           <div className="w-full h-[800px]  bannerimg1">
             <div className="lg:ml-[100px] ml-8  lg:w-[726px] w-[350px] lg:pt-[200px] pt-[50px] ">
-              <h1 className="text-[64px] font-[Saira Stencil One] font-bold text-black">
+              <h1 className="text-[32px] md:text-[64px] font-[Saira Stencil One] font-bold text-black">
                 Plan Your Day With Creative{" "}
                 <span className="text-[#ff0000]">Campus</span>
               </h1>

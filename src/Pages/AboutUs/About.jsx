@@ -32,19 +32,19 @@ const About = () => {
   const totalPageCount = Math.ceil(data.length / memberPerPage);
 
   return (
-    <div className="container mx-auto mt-[72px] ">
+    <div className="container mx-auto mt-[40px] md:mt-[72px] ">
       <Helmet>
         <title>Creative Campus || About Us</title>
       </Helmet>
       <div className="mx-5 md:mx-0">
         <div className="mx-auto text-center ">
           <h1 className="about-title">Meet Our Team</h1>
-          <p className="description">
+          <p className="description  text-[14px] md:text-[18px]">
             Here are our talented individuals who drive our company's success.
             Meet the dedicated team behind this company.
           </p>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-5 mt-[100px] w-full lg:w-[1236px] mx-auto ">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-5 mt-[50px] md:mt-[100px] w-full lg:w-[1236px] mx-auto ">
           {currentmember.map((SingleData) => (
             <Card key={SingleData.id} SingleData={SingleData}></Card>
           ))}
@@ -73,9 +73,9 @@ const About = () => {
             Next »
           </button>
         </div>
-        <div className="mt-28">
+        <div className="mt-16 md:mt-28">
           <div className="flex  flex-col items-center">
-            <h1 className="Title">Tanjim Chowdhury</h1>
+            <h1 className="Title text-center ">Tanjim Chowdhury</h1>
             <p className="founder mb-3">Founder & CEO</p>
             <p className="description md:w-[776px] ">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

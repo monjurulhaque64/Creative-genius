@@ -30,15 +30,15 @@ const ClientSays = () => {
   const totalPageCount = Math.ceil(reviews.length / reviewsPerPage);
 
   return (
-    <div className="container mx-auto mt-[72px]">
+    <div className="container mx-auto mt-[40px] md:mt-[72px]">
       <Helmet>
         <title>Creative Campus || Client Says</title>
       </Helmet>
-      <div className="mx-auto text-center h-[200px]">
-        <h1 className="font-[Poppins] font-[600] text-[48px] text-black">
+      <div className="mx-auto text-center h-[130px] md:h-[200px]">
+        <h1 className="font-[Poppins] font-[600] text-[28px] md:text-[48px] text-black">
           Client Says
         </h1>
-        <p className="font-[Poppins] font-[400] text-[18px] text-black">
+        <p className="font-[Poppins] font-[400] text-[14px] md:text-[18px] text-black">
           There are some reviews from our clients as a result of trusting our business.
         </p>
       </div>
