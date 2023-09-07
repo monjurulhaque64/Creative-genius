@@ -9,16 +9,7 @@
     line-height: normal;
 }
 
-.description {
-    color: black;
-    text-align: center;
-    font-family: Poppins;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 28px;
-    /* 175% */
-}
+
 
 /* 2nd div style */
 
@@ -87,7 +78,7 @@ line-height: normal;
 .thought-description{
     color: black;
 font-family: Poppins;
-font-size: 16px;
+font-size: 18px;
 font-style: normal;
 font-weight: 400;
 line-height: 28px; 

@@ -39,7 +39,7 @@ const About = () => {
       <div className="mx-5 md:mx-0">
         <div className="mx-auto text-center ">
           <h1 className="about-title">Meet Our Team</h1>
-          <p className="description  text-[14px] md:text-[18px]">
+          <p className="description  text-[14px] md:text-[18px] text-black">
             Here are our talented individuals who drive our company's success.
             Meet the dedicated team behind this company.
           </p>
@@ -77,12 +77,6 @@ const About = () => {
           <div className="flex  flex-col items-center">
             <h1 className="Title text-center ">Tanjim Chowdhury</h1>
             <p className="founder mb-3">Founder & CEO</p>
-            <p className="description md:w-[776px] ">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
-            </p>
           </div>
           <div className="md:flex md:justify-between gap-10 my-24 ">
             <div className="relative mb-10">

@@ -115,9 +115,11 @@ const Pricing = () => {
       <div className="md:mb-24 mx-5">
         <div className="flex flex-col  items-center">
           <h1 className="Title">Pricing Table</h1>
-          <p className="mt-3 description">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt
+          <p className="mt-3 description text-black">
+            Here is our pricing table of representation of our websites to
+            display different pricing options for products to our potential
+            customers to compare and choose the option that best suits their
+            needs and budget
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-4 md:mt-28 w-full lg:w-[1236px] mx-auto gap-3">
