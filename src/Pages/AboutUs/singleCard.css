@@ -94,9 +94,6 @@ line-height: 28px;
 }
 
 /* ---------------------------- */
-
-/* Define the pulsating border animation */
-
 .box{
 
     position: relative;
@@ -113,49 +110,6 @@ line-height: 28px;
     background: linear-gradient(315deg ,  #ff0000 , #ff0000);
     animation: animate 4s  linear infinite;
 }
-
-
-/* mobile responsive  */
-@media (max-width: 390px){
-    .Title {
-        color: black;
-        font-family: Poppins;
-        font-size: 35px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: normal;
-    }
-    .about-title {
-
-        color: black;
-        font-family: Poppins;
-        font-size: 28px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: normal;
-    }
-}
-/* mobile responsive  */
-@media (max-width: 360px){
-    .Title {
-        color: black;
-        font-family: Poppins;
-        font-size: 35px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: normal;
-    }
-    .about-title {
-
-        color: black;
-        font-family: Poppins;
-        font-size: 28px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: normal;
-    }
-}
-
 
 
 
@@ -201,3 +155,61 @@ line-height: 28px;
 
 
   
+/* mobile responsive  */
+@media (max-width: 390px){
+    .Title {
+        color: black;
+        font-family: Poppins;
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+    .about-title {
+
+        color: black;
+        font-family: Poppins;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    .box{
+
+        position: relative;
+        width: 350px;
+        height: 350px;
+        background: rgb(255, 255, 255);
+        border-radius: 50%;
+        overflow: hidden;
+    }
+}
+/* mobile responsive  */
+@media (max-width: 360px){
+    .Title {
+        color: black;
+        font-family: Poppins;
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+    .about-title {
+
+        color: black;
+        font-family: Poppins;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+    .box{
+        position: relative;
+        width: 350px;
+        height: 350px;
+        background: rgb(255, 255, 255);
+        border-radius: 50%;
+        overflow: hidden;
+    }
+}

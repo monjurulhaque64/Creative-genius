@@ -47,6 +47,16 @@
   .review-card {
     max-width: 90% !important;
     margin: auto;
+    width: 380px;
+  }
+
+
+}
+@media (max-width: 390px) {
+  .review-card {
+    max-width: 90% !important;
+    margin: auto;
+    width: 384px;
   }
 
 
