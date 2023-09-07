@@ -11,8 +11,15 @@
   @media (max-width: 360px) {
     .client-spring-containt {
       width: 90%; 
-      max-width: 335px; 
+      max-width: 330px; 
+      margin-right: 1.5rem;
     }
   
-
+  }
+  @media (max-width: 390px) {
+    .client-spring-containt {
+      width: 90%; 
+      max-width: 375px; 
+    }
+  
   }

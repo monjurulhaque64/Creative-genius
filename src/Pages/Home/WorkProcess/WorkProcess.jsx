@@ -10,7 +10,7 @@ const WorkProcess = () => {
       <div className="flex justify-end">
         <div className="circle "></div>
       </div>
-      <div className="circle "></div>
+      <div className=" left-circle "></div>
       <div className="mx-auto text-center h-[200px]">
         <h1 className="font-[Poppins] font-[600] text-[48px] text-black">
           Work Process
