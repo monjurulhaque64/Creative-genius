@@ -24,40 +24,40 @@ function Number({ n }) {
 const ClientSpring = () => {
   return (
     <div className="container mx-auto">
-      <div className="flex justify-between p-[15px]  client-spring-containt lg:w-[1220px] mx-auto md:h-173px lg:h-[180px]  h-[90px] ">
+      <div className="flex justify-between p-[15px] lg:pl-[66px] lg:pr-[66px] client-spring-containt lg:w-[1220px] mx-auto md:h-173px lg:h-[180px]  h-[90px] ">
         <div className="   md:mt-4">
-          <h1 className="flex text-[17px] md:text-[40px] font-[Poppins] font-[600] text-[#FF0000]">
+          <h1 className="flex text-[17px] md:text-[40px] font-[Poppins] font-[600] text-center text-[#3C4FF8]">
             <Number n={103} />
             <animated.span>{" +"}</animated.span>
           </h1>
-          <h3 className="font-[Poppins] text-[12px] md:text-[20px] font-[600] text-white">
+          <h3 className="font-[Poppins] text-[12px] md:text-[20px] text-center font-[600] text-white">
             Happy Clients
           </h3>
         </div>
         <div className="   md:mt-4">
-          <h1 className="flex text-[17px] md:text-[40px] font-[Poppins] font-[600] text-center text-[#FF0000]  ml-8">
+          <h1 className="flex text-[17px] md:text-[40px] font-[Poppins] font-[600] text-center text-[#3C4FF8]  ml-8">
             <Number n={277} />
             <animated.span>{" +"}</animated.span>
           </h1>
-          <h3 className="font-[Poppins] text-[12px] md:text-[20px] font-[600] text-white ">
+          <h3 className="font-[Poppins] text-[12px] md:text-[20px] font-[600] text-center text-white ">
             Total Complete Projects
           </h3>
         </div>
         <div className="   md:mt-4">
-          <h1 className="flex text-[17px] md:text-[40px] font-[Poppins] font-[600] text-[#FF0000]  ml-8">
+          <h1 className="flex text-[17px] md:text-[40px] font-[Poppins] font-[600] text-center text-[#3C4FF8]  ml-8">
             <Number n={11} />
             <animated.span>{" +"}</animated.span>
           </h1>
-          <h3 className="font-[Poppins] text-[12px] md:text-[20px] font-[600] text-white">
+          <h3 className="font-[Poppins] text-[12px] md:text-[20px] font-[600] text-center text-white">
             Total Running Projects
           </h3>
         </div>
         <div className="   md:mt-4">
-          <h1 className="flex text-[17px] md:text-[40px] font-[Poppins] font-[600] text-[#FF0000]">
+          <h1 className="flex text-[17px] md:text-[40px] font-[Poppins] text-center font-[600] text-[#3C4FF8]">
             <Number n={12} />
             <animated.span>{" +"}</animated.span>
           </h1>
-          <h3 className="font-[Poppins] text-[12px] md:text-[20px] font-[600] text-white">
+          <h3 className="font-[Poppins] text-[12px] md:text-[20px] font-[600] text-center text-white">
             Total Review
           </h3>
         </div>

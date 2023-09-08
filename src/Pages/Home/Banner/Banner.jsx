@@ -22,7 +22,7 @@ import ClientSpring from "../ClientSpring/ClientSpring";
 
 const Banner = () => {
   return (
-    <div>
+    <div className="container mx-auto">
       <Swiper
         spaceBetween={30}
         centeredSlides={true}

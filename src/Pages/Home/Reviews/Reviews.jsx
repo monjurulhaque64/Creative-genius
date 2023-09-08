@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import ReviewCard from "./ReviewCard";
 import { Link } from "react-router-dom";
+import './reviews.css'
 
 const Reviews = () => {
   const [reviews, setReviews] = useState([]);
@@ -16,12 +17,12 @@ const Reviews = () => {
   }, []);
 
   return (
-    <div className="container mx-auto mt-[72px] ">
+    <div className="container mx-auto mt-[117px] relative">
       <div className="mx-auto text-center h-[130px] md:h-[200px]">
         <h1 className="font-[Poppins] font-[600] text-[28px] md:text-[48px] text-white">
           Reviews
         </h1>
-        <p className="font-[Poppins] font-[400] text-[14px] md:text-[18px] text-white">
+        <p className="font-[Poppins] font-[400] text-[14px] md:text-[18px] mt-[17px] text-white">
           There are some reviews for customers from our clients as a result of
           trusting our business.
         </p>
@@ -29,8 +30,9 @@ const Reviews = () => {
       <div>
         <ReviewCard reviews={reviews}></ReviewCard>
       </div>
-      <div className="flex justify-center items-center mb-12">
-        <Link to={'/client-says'}><button className="btn btn-info bg-[#ff0000] hover:bg-[#f35454] border-[#ff0000] mt-[36px] lg:mr-[100px] text-white">
+      <div className="gradient-bottom inset-x-0 "></div>
+      <div className="flex justify-center items-center mb-12 absolute inset-x-0 mt-[20px]">
+        <Link to={'/client-says'}><button className="see-more-btn">
           See More
         </button></Link>
       </div>

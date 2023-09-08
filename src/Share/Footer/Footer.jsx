@@ -11,7 +11,7 @@ import {
 const Footer = () => {
   return (
     <div>
-      <footer className="footer p-10 text-base-content">
+      <footer className="footer p-10 text-base-content mt-[184px]">
         <div className="lg:ml-[80px] ml-[0px]">
           <img className="w-[148px] " src={logo} alt="logo" />
           <p className="mt-6 font-medium text-white">

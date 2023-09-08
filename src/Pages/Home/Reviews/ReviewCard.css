@@ -4,16 +4,11 @@
   height: 261px;
   position: relative;
   border-radius: 10px;
-  border: 1px solid #404040;
-  background: linear-gradient(
-      106.01deg,
-      #ffffff -9.44%,
-      #ffffff 104.61%,
-      rgba(255, 255, 255, 0) 104.61%
-    ),
-    linear-gradient(0deg, #ffffff, #ffffff);
+  background: rgba(34, 34, 34, 0.80);
+  backdrop-filter: blur(10px); 
   overflow: hidden;
-  color: black;
+  color: white;
+  text-align: justify;
   transition: background 0.3s, color 0.3s, border 0.3s; 
 }
 
@@ -23,7 +18,7 @@
 
 .review-card-title {
   font-size: 24px;
-  font-weight: bold;
+  font-weight: 500;
 }
 
 .review-card-description {
