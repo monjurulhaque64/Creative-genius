@@ -5,7 +5,7 @@ import './singleCard.css';
 const Card = ({SingleData}) => {
     const {id , name , image , title  , location , veracity} = SingleData;
     return (
-        <div className='cards md:w-[390px] w-[335px] text-black p-6'>
+        <div className='cards md:w-[390px] w-[335px] text-white p-6'>
             <div className=' flex gap-10'>
                 <div>
                 <img className="client-photo" src={image} alt="" />

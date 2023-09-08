@@ -39,7 +39,7 @@ const About = () => {
       <div className="mx-5 md:mx-0">
         <div className="mx-auto text-center ">
           <h1 className="about-title">Meet Our Team</h1>
-          <p className="description  text-[14px] md:text-[18px] text-black">
+          <p className="description  text-[14px] md:text-[18px] text-white">
             Here are our talented individuals who drive our company's success.
             Meet the dedicated team behind this company.
           </p>
@@ -52,7 +52,7 @@ const About = () => {
         {/* Pagination */}
         <div className="join mt-4 flex justify-end mr-4 lg:mr-16 md:mr-4">
           <button
-            className={`join-item btn text-black bg-white hover:bg-[#ff0000] ${
+            className={`join-item btn text-white bg-white hover:bg-[#ff0000] ${
               currentPage === 1 ? "btn-disabled" : ""
             }`}
             onClick={() => handlePageChange(currentPage - 1)}
@@ -60,11 +60,11 @@ const About = () => {
           >
             « Previous
           </button>
-          <button className="join-item btn text-black bg-white hover:bg-[#ff0000]">
+          <button className="join-item btn text-white bg-white hover:bg-[#ff0000]">
             Page {currentPage}
           </button>
           <button
-            className={`join-item btn bg-white text-black hover:bg-[#ff0000] ${
+            className={`join-item btn bg-white text-white hover:bg-[#ff0000] ${
               currentPage === totalPageCount ? "btn-disabled" : ""
             }`}
             onClick={() => handlePageChange(currentPage + 1)}

@@ -30,7 +30,7 @@ const ClientSpring = () => {
             <Number n={103} />
             <animated.span>{" +"}</animated.span>
           </h1>
-          <h3 className="font-[Poppins] text-[12px] md:text-[20px] font-[600] text-black">
+          <h3 className="font-[Poppins] text-[12px] md:text-[20px] font-[600] text-white">
             Happy Clients
           </h3>
         </div>
@@ -39,7 +39,7 @@ const ClientSpring = () => {
             <Number n={277} />
             <animated.span>{" +"}</animated.span>
           </h1>
-          <h3 className="font-[Poppins] text-[12px] md:text-[20px] font-[600] text-black ">
+          <h3 className="font-[Poppins] text-[12px] md:text-[20px] font-[600] text-white ">
             Total Complete Projects
           </h3>
         </div>
@@ -48,7 +48,7 @@ const ClientSpring = () => {
             <Number n={11} />
             <animated.span>{" +"}</animated.span>
           </h1>
-          <h3 className="font-[Poppins] text-[12px] md:text-[20px] font-[600] text-black">
+          <h3 className="font-[Poppins] text-[12px] md:text-[20px] font-[600] text-white">
             Total Running Projects
           </h3>
         </div>
@@ -57,7 +57,7 @@ const ClientSpring = () => {
             <Number n={12} />
             <animated.span>{" +"}</animated.span>
           </h1>
-          <h3 className="font-[Poppins] text-[12px] md:text-[20px] font-[600] text-black">
+          <h3 className="font-[Poppins] text-[12px] md:text-[20px] font-[600] text-white">
             Total Review
           </h3>
         </div>

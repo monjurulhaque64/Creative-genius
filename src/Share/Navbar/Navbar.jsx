@@ -2,6 +2,7 @@ import React from "react";
 import logo from "../../assets/Images/Logo.png";
 import { Link } from "react-router-dom";
 import { FaGooglePlay } from "react-icons/fa";
+import './Navbar.css'
 
 // todo: Mobile responsive logo + btn
 
@@ -34,7 +35,7 @@ const Navbar = () => {
   );
   return (
     <div>
-      <div className="navbar">
+      <div className="navbar container mx-auto">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost mt-[38px] lg:hidden">
@@ -43,7 +44,7 @@ const Navbar = () => {
                 className="h-5 w-5"
                 fill="none"
                 viewBox="0 0 24 24"
-                stroke="black"
+                stroke="white"
               >
                 <path
                   strokeLinecap="round"
@@ -55,7 +56,7 @@ const Navbar = () => {
             </label>
             <ul
               tabIndex={0}
-              className="menu menu-sm absolute dropdown-content mt-3 z-[1] p-2 text-black bg-gray-300 shadow font-bold rounded-box w-52"
+              className="menu menu-sm absolute dropdown-content mt-3 z-[1] p-2 text-white bg-gray-300 shadow font-bold rounded-box w-52 "
             >
               {navItems}
             </ul>
@@ -67,10 +68,10 @@ const Navbar = () => {
           />
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1 mt-[45px] text-black font-bold">{navItems}</ul>
+          <ul className=" menu-horizontal px-1 mt-[45px] text-white font-[400] text-[18px] gap-[25px]">{navItems}</ul>
         </div>
         <div className="navbar-end">
-          <button className="btn btn-info w-[150px] lg:w-[199px] bg-[#ff0000] hover:bg-[#f35454] border-[#ff0000] mt-[36px] lg:mr-[100px] text-white font-[16px]">
+          <button className="download-btn w-[160px] lg:w-[199px]  mt-[36px] lg:mr-[100px] text-white font-[16px]">
             Download App{" "}
             <span>
               <FaGooglePlay></FaGooglePlay>

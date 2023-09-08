@@ -74,10 +74,10 @@ const SubmitReview = () => {
         <title>Creative Campus || Review</title>
       </Helmet>
       <div className="mx-auto text-center h-[130px] m:h-[200px]">
-        <h1 className="font-[Poppins] font-[600] text-[30px] md:text-[48px] text-black">
+        <h1 className="font-[Poppins] font-[600] text-[30px] md:text-[48px] text-white">
           Submit Reviews
         </h1>
-        <p className="font-[Poppins] font-[400] text-[14] md:text-[18px] text-black">
+        <p className="font-[Poppins] font-[400] text-[14] md:text-[18px] text-white">
           Share your thoughts with us!
         </p>
       </div>
@@ -86,12 +86,12 @@ const SubmitReview = () => {
           {/* Full Name Input */}
           <div className="flex mt-[65px] lg:gap-[134px] gap-[20px]">
             <div className="mb-4">
-              <label className="text-black block mb-2 font-[500] text-[20px] font-[Poppins]">
+              <label className="text-white block mb-2 font-[500] text-[20px] font-[Poppins]">
                 Full Name
               </label>
               <input
                 type="text"
-                className="w-full !bg-white h-12 !text-black border rounded-lg px-4 "
+                className="w-full !bg-white h-12 !text-white border rounded-lg px-4 "
                 placeholder="Full Name"
                 value={fullName}
                 onChange={(e) => setFullName(e.target.value)}
@@ -100,7 +100,7 @@ const SubmitReview = () => {
             </div>
             {/* Rating Input */}
             <div className="mb-4">
-              <label className="text-black block mb-2 font-[500] text-[20px] font-[Poppins]">
+              <label className="text-white block mb-2 font-[500] text-[20px] font-[Poppins]">
                 Rating:
               </label>
               <Rating
@@ -114,12 +114,12 @@ const SubmitReview = () => {
           </div>
           {/* Photo Input */}
           <div className="mb-4 mt-[32px]">
-            <label className="text-black block mb-2 font-[500] text-[20px] font-[Poppins]">
+            <label className="text-white block mb-2 font-[500] text-[20px] font-[Poppins]">
               Select Your Photo
             </label>
             <input
               type="file"
-              className="file-input file-input-bordered text-black file-input-secondary w-full "
+              className="file-input file-input-bordered text-white file-input-secondary w-full "
               accept="image/*"
               onChange={(e) => setPhoto(e.target.files[0])}
               required
@@ -127,11 +127,11 @@ const SubmitReview = () => {
           </div>
           {/* Review Textarea */}
           <div className="mb-4 mt-[32px]">
-            <label className="text-black block mb-2 font-[500] text-[20px] font-[Poppins]">
+            <label className="text-white block mb-2 font-[500] text-[20px] font-[Poppins]">
               Review
             </label>
             <textarea
-              className="w-full h-32 border bg-white text-black rounded-lg px-4"
+              className="w-full h-32 border bg-white text-white rounded-lg px-4"
               placeholder="Review"
               value={review}
               onChange={(e) => setReview(e.target.value)}

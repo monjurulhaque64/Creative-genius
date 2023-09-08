@@ -12,12 +12,12 @@ const Payment = () => {
           <h1 className="font-[Poppins] font-[600] text-[48px] text-[#ff0000] ">
             Payment
           </h1>
-          <p className="font-[Poppins] font-[400] text-[18px] text-black ">
+          <p className="font-[Poppins] font-[400] text-[18px] text-white ">
             Updated: September 7, 2023
           </p>
         </div>
 
-        <div className="my-8 mt-8 font-[Poppins] font-[400] text-[18px] text-black text-justify">
+        <div className="my-8 mt-8 font-[Poppins] font-[400] text-[18px] text-white text-justify">
           <p>
             Welcome to Creative Campus Payment Center! We've crafted our payment
             section to provide you with a seamless and secure payment

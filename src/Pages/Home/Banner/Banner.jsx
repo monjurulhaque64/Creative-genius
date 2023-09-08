@@ -36,11 +36,11 @@ const Banner = () => {
         <SwiperSlide>
           <div className="w-full h-[800px]  bannerimg1">
             <div className="lg:ml-[100px] ml-8  lg:w-[726px] w-[350px] lg:pt-[200px] pt-[50px] ">
-              <h1 className="text-[32px] md:text-[64px] font-[Saira Stencil One] font-bold text-black">
+              <h1 className="text-[32px] md:text-[64px] font-[Saira Stencil One] font-bold text-white">
                 Plan Your Day With Creative{" "}
                 <span className="text-[#ff0000]">Campus</span>
               </h1>
-              <p className="font-[Poppins] text-[17px] text-black text-justify font-medium mt-2">
+              <p className="font-[Poppins] text-[17px] text-white text-justify font-medium mt-2">
                 Welcome to creative campus. At Creative Campus, we believe in
                 using innovative approaches to help our clients. Our experienced
                 professionals are dedicated to providing exceptional service
@@ -61,10 +61,10 @@ const Banner = () => {
           <div className="centeredDiv"></div>
             <div className="flex justify-between">
               <div className="lg:ml-[100px] ml-8  lg:w-[726px] w-[350px] lg:pt-[250px] pt-[50px] ">
-                <h1 className="lg:text-[64px] text-[34px] font-[Saira Stencil One] font-bold text-black">
+                <h1 className="lg:text-[64px] text-[34px] font-[Saira Stencil One] font-bold text-white">
                   Learning <span className="titleBg">Campus</span>
                 </h1>
-                <p className="font-[Poppins] text-[17px] text-black text-justify font-medium mt-2">
+                <p className="font-[Poppins] text-[17px] text-white text-justify font-medium mt-2">
                 The future of digital learning technology in teaching and learning.
                 </p>
                 <button className="btn btn-info bg-[#ff0000] hover:bg-[#f35454] border-[#ff0000] mt-[46px] lg:mr-[100px] text-white">
@@ -85,10 +85,10 @@ const Banner = () => {
           <div className="w-full h-[800px] bannerimg3 relative">
             <div className="flex justify-between">
               <div className="lg:ml-[100px] ml-8  lg:w-[726px] w-[350px] lg:pt-[250px] pt-[50px] ">
-                <h1 className="lg:text-[64px] text-[34px] font-[Saira Stencil One] font-[700] text-black">
+                <h1 className="lg:text-[64px] text-[34px] font-[Saira Stencil One] font-[700] text-white">
                   Learning Camp<span className="titleBgCircle text-white">us</span>
                 </h1>
-                <p className="font-[Poppins] text-[17px] text-black text-justify font-medium mt-2">
+                <p className="font-[Poppins] text-[17px] text-white text-justify font-medium mt-2">
                 The future academic platform for teaching and learning
                 </p>
                 <div className="flex">
@@ -111,10 +111,10 @@ const Banner = () => {
           <div className="w-full h-[800px] bannerimg4 relative">
             <div className="flex justify-between">
               <div className="lg:ml-[100px] ml-8  lg:w-[726px] w-[350px] lg:pt-[250px] pt-[50px] ">
-                <h1 className="lg:text-[64px] text-[34px] font-[Saira Stencil One] font-bold text-black">
+                <h1 className="lg:text-[64px] text-[34px] font-[Saira Stencil One] font-bold text-white">
                   Learning Campus
                 </h1>
-                <p className="font-[Poppins] text-[17px] text-black text-justify font-medium mt-2">
+                <p className="font-[Poppins] text-[17px] text-white text-justify font-medium mt-2">
                 The future of digital academic platforms.
                 </p>
                 <button className="btn btn-info bg-[#ff0000] hover:bg-[#f35454] border-[#ff0000] mt-[46px] lg:mr-[100px] text-white">

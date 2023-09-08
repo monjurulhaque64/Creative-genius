@@ -115,7 +115,7 @@ const Pricing = () => {
       <div className="md:mb-24 mx-5">
         <div className="flex flex-col  items-center">
           <h1 className="Title">Pricing Table</h1>
-          <p className="mt-3 description text-black">
+          <p className="mt-3 description text-white">
             Here is our pricing table of representation of our websites to
             display different pricing options for products to our potential
             customers to compare and choose the option that best suits their

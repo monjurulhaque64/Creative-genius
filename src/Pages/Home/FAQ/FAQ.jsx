@@ -6,10 +6,10 @@ const FAQ = () => {
   return (
     <div className="container mx-auto mt-[72px]">
       <div className="mx-auto text-center h-[200px]">
-        <h1 className="font-[Poppins] font-[600] text-[48px] text-black">
+        <h1 className="font-[Poppins] font-[600] text-[48px] text-white">
           Frequently Ask Question
         </h1>
-        <p className="font-[Poppins] font-[400] text-[18px] text-black">
+        <p className="font-[Poppins] font-[400] text-[18px] text-white">
           There are some collections of the most common questions and brief,
           easy-to-understand answers about a particular product, service, or
           topic.
@@ -22,11 +22,11 @@ const FAQ = () => {
             1</h3></div> */}
          <div className=" collapse collapse-plus bg-white shadow-xl w-full lg:w-[604px] mt-6 rounded-md border-[1px] border-[#8a8a8a]">
             <input type="radio" name="my-accordion-3" checked="checked" />
-            <div className="collapse-title text-[24px] text-black font-[Poppins] font-[400]">
+            <div className="collapse-title text-[24px] text-white font-[Poppins] font-[400]">
               What is your company’s goal?
             </div>
             <div className="collapse-content">
-              <p className="text-[18px] text-black font-[Poppins] font-[400]">
+              <p className="text-[18px] text-white font-[Poppins] font-[400]">
                 Our company’s goal is to fulfill client's or customer’s
                 satisfaction, financial gain, growth and employee development.
               </p>
@@ -40,11 +40,11 @@ const FAQ = () => {
             2</h3></div> */}
           <div className="collapse collapse-plus bg-white shadow-xl w-full lg:w-[604px] mt-6 rounded-md border-[1px] border-[#8a8a8a]">
             <input type="radio" name="my-accordion-3" />
-            <div className="collapse-title text-[24px] text-black font-[Poppins] font-[400]">
+            <div className="collapse-title text-[24px] text-white font-[Poppins] font-[400]">
               What is the target of digital marketing for your company?
             </div>
             <div className="collapse-content">
-              <p className="text-[18px] text-black font-[Poppins] font-[400]">
+              <p className="text-[18px] text-white font-[Poppins] font-[400]">
                 In our company digital marketing is a multifaceted strategy aimed
                 to target, reach out to, and build relationships with customers
                 online, across a broad range of channels, ultimately getting them
@@ -60,11 +60,11 @@ const FAQ = () => {
             3</h3></div> */}
           <div className="collapse collapse-plus bg-white shadow-xl w-full lg:w-[604px] mt-6 rounded-md border-[1px] border-[#8a8a8a]">
             <input type="radio" name="my-accordion-3" />
-            <div className="collapse-title text-[24px] text-black font-[Poppins] font-[400]">
+            <div className="collapse-title text-[24px] text-white font-[Poppins] font-[400]">
               what are the services of your company?
             </div>
             <div className="collapse-content">
-              <p className="text-[18px] text-black font-[Poppins] font-[400]">
+              <p className="text-[18px] text-white font-[Poppins] font-[400]">
                 Web development features, advanced mobile app application,
                 Marketing services, graphic or website designs for websites,
                 logos, advertisements and other promotional content for companies
@@ -80,11 +80,11 @@ const FAQ = () => {
             4</h3></div> */}
           <div className="collapse collapse-plus bg-white shadow-xl w-full lg:w-[604px] mt-6 rounded-md border-[1px] border-[#8a8a8a]">
             <input type="radio" name="my-accordion-3" />
-            <div className="collapse-title text-[24px] text-black font-[Poppins] font-[400]">
+            <div className="collapse-title text-[24px] text-white font-[Poppins] font-[400]">
               How long does a project take.?
             </div>
             <div className="collapse-content">
-              <p className="text-[18px] text-black font-[Poppins] font-[400]">
+              <p className="text-[18px] text-white font-[Poppins] font-[400]">
                 Typically, an average project will take in the region of three –
                 four months. Some of our projects are small, fully specified and
                 are completed in four – six weeks. Others can take six months or
@@ -102,11 +102,11 @@ const FAQ = () => {
             5</h3></div> */}
           <div className="collapse collapse-plus bg-white shadow-xl w-full lg:w-[604px] mt-6 rounded-md border-[1px] border-[#8a8a8a]">
             <input type="radio" name="my-accordion-3" />
-            <div className="collapse-title text-[24px] text-black font-[Poppins] font-[400]">
+            <div className="collapse-title text-[24px] text-white font-[Poppins] font-[400]">
               How do you create content for your clients?
             </div>
             <div className="collapse-content">
-              <p className="text-[18px] text-black font-[Poppins] font-[400]">
+              <p className="text-[18px] text-white font-[Poppins] font-[400]">
                 It's a great idea to make a content strategy framework first. Take
                 this as our blueprint—it will contain all the details of what,
                 when, where, and why that will inform and guide the content
@@ -123,11 +123,11 @@ const FAQ = () => {
             6</h3></div> */}
           <div className="collapse collapse-plus bg-white shadow-xl w-full lg:w-[604px] mt-6 rounded-md border-[1px] border-[#8a8a8a]">
             <input type="radio" name="my-accordion-3" />
-            <div className="collapse-title text-[24px] text-black font-[Poppins] font-[400]">
+            <div className="collapse-title text-[24px] text-white font-[Poppins] font-[400]">
               What are the qualities of a successful team?
             </div>
             <div className="collapse-content">
-              <p className="text-[18px] text-black font-[Poppins] font-[400]">
+              <p className="text-[18px] text-white font-[Poppins] font-[400]">
                 Always be on the lookout for leaders, even when you’re not hiring
                 for a management position. And individuals frequently have to take
                 responsibility for delivering projects, and this requires

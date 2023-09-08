@@ -16,11 +16,11 @@ const NotFound = () => {
               </div>
 
               <div className="contant_box_404">
-                <h3 className=" font-bold text-black text-5xl font-[Poppins]">
+                <h3 className=" font-bold text-white text-5xl font-[Poppins]">
                   Look like you're lost
                 </h3>
 
-                <p className=" font-[Poppins] text-black text-2xl">
+                <p className=" font-[Poppins] text-white text-2xl">
                   The page you are looking for is not available!
                 </p>
 
