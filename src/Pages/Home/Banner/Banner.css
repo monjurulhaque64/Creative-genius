@@ -1,94 +1,196 @@
 .bannerimg1 {
-    background-image: url('../../../assets/Images/Maskgroup.png'); 
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-  .bannerimg2 {
-    background-image: url('../../../assets/Images/Maskgroup-1.png'); 
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-  .bannerimg3 {
-    background-image: url('../../../assets/Images/Maskgroup-2.png'); 
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-  .bannerimg4 {
-    background-image: url('../../../assets/Images/Maskgroup-3.png'); 
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
+  background-image: url('../../../assets/Images/Maskgroup.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bannerimg2 {
+  background-image: url('../../../assets/Images/Maskgroup-1.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bannerimg3 {
+  background-image: url('../../../assets/Images/Maskgroup-2.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bannerimg4 {
+  background-image: url('../../../assets/Images/Maskgroup-3.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.iphone12DarkBackground {
+  background-image: url('../../../assets/Images/Group47.png');
+  background-repeat: no-repeat;
+  width: 535.86px;
+  height: 536px;
+}
+
+.circle {
+  border-radius: 50%;
+  width: 147px;
+  height: 147px;
+  align-items: center;
+}
+
+.titleBg {
+  background: linear-gradient(to top, #4b5bf0 0%, #5368dd 20%, transparent 40%, transparent 100%);
+  background-size: 50%;
+}
+
+.titleBgCircle {
+  background-color: #ff0000;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  margin-right: 10px;
+}
+
+.centeredDiv {
+  position: absolute;
+  left: 40%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #717ACF;
+  width: 27px;
+  height: 27px;
+  border-radius: 50%;
+}
+
+.download-app {
+  background: var(--Primary-Color, #3C4FF8);
+}
+
+/* Responsive breakpoints for mobile and tablet */
+
+/* Responsive breakpoints for mobile and tablet */
+@media (max-width: 360px) {
   .iphone12DarkBackground {
     background-image: url('../../../assets/Images/Group47.png');
-    background-repeat: no-repeat;
-    width: 535.86px; 
-    height: 536px; 
+    background-size: contain;
+    width: 346.86px;
+    height: 536px;
+    right: -1rem;
   }
-  
-  .circle {
-    border-radius: 50%;
-    width: 147px;
-    height: 147px;
-    align-items: center;
+
+  .iphone12DarkBackground-img {
+    left: 7rem;
+    top: 5rem;
   }
-  .titleBg {
-    background: linear-gradient(to top, #4b5bf0 0%, #5368dd 20%, transparent 40%, transparent 100%);
-    background-size: 50%;
+
+  .bg-logo {
+    left: -3rem;
+    top: -2rem;
   }
-  .titleBgCircle {
-    background-color: #ff0000;
-    border-radius: 50%;
-    width: 80px;
-    height: 80px;
-    margin-right: 10px;
+
+  .logo1 {
+    left: 7rem;
+    top: 1rem;
   }
-  .centeredDiv {
-    position: absolute;
-    left: 40%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    background-color: #717ACF;
-    width: 27px;
-    height: 27px;
-    border-radius: 50%;
-  }
-.download-app{
-  background: var(--Primary-Color, #3C4FF8);
-}  
-  /* Responsive breakpoints for mobile and tablet */
-  @media (max-width: 768px) {
-    .bannerimg1, .bannerimg2 {
-      background-size: contain;
-  
-    }
-  }
-  /* Responsive breakpoints for mobile and tablet */
-  @media (max-width: 360px) {
-    .svg-logo{
-      top: 3rem;
+
+  .logo2{
     left: 17rem;
-      
-    }
-    .svg{
-      height: 60px;
-      width: 60px;
-      border-radius: 50%;
-    }
-    .right-side-banner img{
-      height: 260px;
-      width: 200px;
-    }
-    .salary-img{
-      right: -1rem;
-    }
-    .lerning-img{
-      left: 8rem;
-      top: 15rem;
-    }
+    top: 11rem;
+  }
   
-    }
-  
+  .svg-logo {
+    top: 3rem;
+    left: 17rem;
+
+  }
+
+  .svg {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+  }
+
+  .right-side-banner img {
+    height: 260px;
+    width: 200px;
+  }
+
+  .salary-img {
+    right: -1rem;
+  }
+
+  .lerning-img {
+    left: 8rem;
+    top: 15rem;
+  }
+
+}
+
+@media (max-width: 390px) {
+  .iphone12DarkBackground {
+    background-image: url('../../../assets/Images/Group47.png');
+    background-size: contain;
+    width: 346.86px;
+    height: 536px;
+    right: -2rem;
+  }
+
+  .iphone12DarkBackground-img {
+    left: 7rem;
+    top: 5rem;
+  }
+
+  .bg-logo {
+    left: -3rem;
+    top: -2rem;
+  }
+
+  .svg-logo {
+    top: 3rem;
+    left: 17rem;
+
+  }
+
+  .logo1 {
+    left: 7rem;
+    top: 1rem;
+  }
+
+  .logo2{
+    left: 17rem;
+    top: 11rem;
+  }
+
+  .svg {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+  }
+
+  .right-side-banner img {
+    height: 260px;
+    width: 200px;
+  }
+
+  .salary-img {
+    right: -1rem;
+  }
+
+  .lerning-img {
+    left: 8rem;
+    top: 15rem;
+  }
+
+}
+
+
+@media (max-width: 768px) {
+
+  .bannerimg1,
+  .bannerimg2 {
+    background-size: contain;
+
+  }
+}
