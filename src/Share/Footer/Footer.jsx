@@ -105,8 +105,8 @@ const Footer = () => {
           </div>
         </div>
       </footer>
-      <hr className="bg-[#000000] lg:mr-32 lg:ml-28" />
-      <footer className="footer items-center p-4 bg-neutral text-neutral-content mb-[84px]">
+      <hr className="bg-[#000000] container mx-auto lg:w-[1340px]" />
+      <footer className="footer container mx-auto items-center p-4 bg-neutral text-neutral-content mb-[84px]">
         <div className="items-center grid-flow-col lg:ml-[90px]">
           <p className="link link-hover text-white text-[20px] font-[400] font-[Poppins]  mb-[16px]">
             © Copyright 2023 <span className="font-bold">Creative Campus</span>.

@@ -73,7 +73,7 @@ const About = () => {
             Next »
           </button>
         </div>
-        <div className="mt-16 md:mt-[172px]">
+        <div className="mt-16 md:mt-[172px] container mx-auto">
           <div className="flex  flex-col items-center">
             <h1 className="Title text-center ">Tanjim Chowdhury</h1>
             <p className="founder mb-3 mt-2">Founder & CEO</p>
@@ -83,7 +83,7 @@ const About = () => {
               <div className="md:h-60 h-24 border-2 border-blue-700 rotate-180 border-dotted  absolute"></div>
               <div className="md:ml-16 ml-5 w-[300px]">
                 <h1 className="thought-title">Thoughts </h1>
-                <p className="thought-description">
+                <p className="thought-description mt-[15px]">
                   Business is about being true to yourself, your ideas and
                   focusing on the essentials. Every time you make the hard
                   decision, you become a bit more courageous in your path. So,
@@ -96,7 +96,7 @@ const About = () => {
               <div className="md:h-60 h-24 border-blue-700 border-2 rotate-180 border-dotted  absolute"></div>
               <div className=" md:ml-16 ml-5 w-[300px]">
                 <h1 className="Title">Feelings </h1>
-                <p className="thought-description">
+                <p className="thought-description mt-[15px]">
                   {" "}
                   When you're creative and get an idea, it just flows without
                   any barriers. This makes you focus on turning that idea into
@@ -121,7 +121,7 @@ const About = () => {
               <div className="md:h-64 h-24 border-2 border-blue-700 rotate-180 border-dotted  absolute"></div>
               <div className="md:ml-16 ml-5 w-[300px]">
                 <h1 className="thought-title">Does </h1>
-                <p className="thought-description">
+                <p className="thought-description mt-[15px]">
                   closely observe the company's various functions, including
                   operations, finance, marketing, sales, human resources, legal,
                   compliance and technology, while balancing the needs of
@@ -135,7 +135,7 @@ const About = () => {
               <div className="md:h-64 h-24 border-blue-700 border-2 rotate-180 border-dotted  absolute"></div>
               <div className=" md:ml-16 ml-5 w-[300px]">
                 <h1 className="Title">Wants </h1>
-                <p className="thought-description">
+                <p className="thought-description mt-[15px]">
                   Every CEO wants “Results, Results, Results”. Not only want
                   results, but they want bigger results, and wants them faster.
                   They also want an increase in revenue, productivity, employee

@@ -41,7 +41,7 @@ const ContactUs = () => {
     console.log(formData);
   };
   return (
-    <div className="mt-[40px] md:mt-[125px] container mx-auto">
+    <div className="mt-[40px] md:mt-[125px] container mx-auto mb-[20px] lg:mb-[0px]">
       <Helmet>
         <title>Creative Campus || Contact Us</title>
       </Helmet>
