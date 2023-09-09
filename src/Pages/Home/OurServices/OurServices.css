@@ -63,6 +63,7 @@
       margin: auto;
       /* width: 384px; */
     }
+    
   }
 
   @media (max-width: 390px) {
@@ -71,5 +72,15 @@
       margin: auto;
       width: 384px;
     }
+  
+  }
+  @media (max-width: 1024px) {
+    /* .main-section{
+      display:grid;
+      grid-template-columns: repeat(2 , 1fr);
+      width: 800px;
+      gap: 25px;
+    } */
+    
   
   }
