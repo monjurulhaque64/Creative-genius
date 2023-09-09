@@ -166,13 +166,12 @@ const Banner = () => {
           </div>
         </SwiperSlide>    
       </Swiper>
-<<<<<<< HEAD
       <div className="absolute inset-x-0 mx-auto lg:top-[837px] clientSpring">
-=======
+
       <div className=" inset-x-0 mx-auto top-[837px]">
->>>>>>> 1e7fb9f50aaf5ac9a57b464e5e709847bda40979
         <ClientSpring></ClientSpring>
       </div>
+    </div>
     </div>
   );
 };
