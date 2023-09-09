@@ -79,10 +79,10 @@ const Footer = () => {
           <span className="text-white text-[30px] font-[700] font-[Poppins] mb-[51px] ">
             Contact Us
           </span>
-          <a className="link link-hover text-white text-[20px] font-[400] font-[Poppins]  mb-[16px]">
+          <a className=" text-white text-[20px] font-[400] font-[Poppins]  mb-[16px]">
             +880123456789
           </a>
-          <a className="link link-hover text-white text-[20px] font-[400] font-[Poppins]  mb-[16px]">
+          <a className=" text-white text-[20px] font-[400] font-[Poppins]  mb-[16px]">
             info@creativec-ampus.com
           </a>
           <div className=" mt-4">
