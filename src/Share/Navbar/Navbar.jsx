@@ -80,7 +80,7 @@ const Navbar = () => {
         </div>
         
       </div>
-      <hr className="bg-[#424242]" />
+      <hr className=" mx-auto mt-2" />
     </div>
   );
 };
