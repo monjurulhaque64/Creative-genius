@@ -137,7 +137,7 @@
 /* mobile responsive  */
 @media (max-width: 390px) {
   .Title {
-    color: black;
+    color: white;
     font-family: Poppins;
     font-size: 35px;
     font-style: normal;
@@ -145,7 +145,7 @@
     line-height: normal;
   }
   .about-title {
-    color: black;
+    color: white;
     font-family: Poppins;
     font-size: 28px;
     font-style: normal;
@@ -165,7 +165,7 @@
 /* mobile responsive  */
 @media (max-width: 360px) {
   .Title {
-    color: black;
+    color: white;
     font-family: Poppins;
     font-size: 35px;
     font-style: normal;
@@ -173,7 +173,7 @@
     line-height: normal;
   }
   .about-title {
-    color: black;
+    color: white;
     font-family: Poppins;
     font-size: 28px;
     font-style: normal;
