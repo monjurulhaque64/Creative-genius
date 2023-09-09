@@ -36,7 +36,7 @@
     align-items: center;
   }
   .titleBg {
-    background: linear-gradient(to top, #ff0000 0%, #f35454 20%, transparent 40%, transparent 100%);
+    background: linear-gradient(to top, #4b5bf0 0%, #5368dd 20%, transparent 40%, transparent 100%);
     background-size: 50%;
   }
   .titleBgCircle {
@@ -51,13 +51,14 @@
     left: 40%;
     top: 50%;
     transform: translate(-50%, -50%);
-    background-color: #f35454;
+    background-color: #717ACF;
     width: 27px;
     height: 27px;
     border-radius: 50%;
   }
-
-  
+.download-app{
+  background: var(--Primary-Color, #3C4FF8);
+}  
   /* Responsive breakpoints for mobile and tablet */
   @media (max-width: 768px) {
     .bannerimg1, .bannerimg2 {
@@ -65,3 +66,29 @@
   
     }
   }
+  /* Responsive breakpoints for mobile and tablet */
+  @media (max-width: 360px) {
+    .svg-logo{
+      top: 3rem;
+    left: 17rem;
+      
+    }
+    .svg{
+      height: 60px;
+      width: 60px;
+      border-radius: 50%;
+    }
+    .right-side-banner img{
+      height: 260px;
+      width: 200px;
+    }
+    .salary-img{
+      right: -1rem;
+    }
+    .lerning-img{
+      left: 8rem;
+      top: 15rem;
+    }
+  
+    }
+  
