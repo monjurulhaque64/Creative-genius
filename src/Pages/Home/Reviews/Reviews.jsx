@@ -17,7 +17,7 @@ const Reviews = () => {
   }, []);
 
   return (
-    <div className="container mx-auto mt-[117px] relative">
+    <div className="container mx-auto mt-[117px] relative mb-[40px]">
       <div className="mx-auto text-center h-[130px] md:h-[200px]">
         <h1 className="font-[Poppins] font-[600] text-[28px] md:text-[48px] text-white">
           Reviews
