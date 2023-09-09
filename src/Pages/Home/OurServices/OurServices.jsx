@@ -89,6 +89,7 @@ const OurServices = () => {
           <span className="card-icon "><FaBrain></FaBrain></span>
         </div>
       </div>
+    
     </div>
   );
 };
