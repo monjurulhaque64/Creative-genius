@@ -2,7 +2,6 @@ import React from "react";
 import "./OurServices.css";
 import { FaBrain, FaEdit, FaFileVideo, FaLaptopCode, FaReact, FaVideo } from "react-icons/fa";
 
-// Todo: icon Circle
 
 const OurServices = () => {
   return (
