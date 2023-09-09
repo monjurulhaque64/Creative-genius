@@ -24,7 +24,7 @@ function Number({ n }) {
 const ClientSpring = () => {
   return (
     <div className="container mx-auto">
-      <div className="flex justify-between p-[15px] lg:pl-[66px] lg:pr-[66px] client-spring-containt lg:w-[1220px] mx-auto md:h-173px lg:h-[180px]  h-[70px] ">
+      <div className="flex justify-between p-[15px] lg:pl-[66px] lg:pr-[66px] client-spring-containt lg:w-[1220px] mx-auto md:h-173px lg:h-[180px] h-[95px]   ">
         <div className="   md:mt-4">
           <h1 className="flex text-[17px] md:text-[40px] font-[Poppins] font-[600]  justify-center text-center text-[#3C4FF8]">
             <Number n={103} />
