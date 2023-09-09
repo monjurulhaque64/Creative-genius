@@ -39,8 +39,10 @@ const Products = () => {
               </span>
             </button>
           </div>
+          
           <div className="flex lg:mr-[250px]  mr-[100px] ml-4 lg:pt-[192px] pt-[102px] lg:gap-12 ">
             <img className="lg:w-[264px] w-[200px]" src={iphone12Dark} alt="" />
+            <div className="product-circle"></div>
             <img className="lg:w-[264px] w-[200px]" src={iphone12Lignt} alt="" />
           </div>
         </div>

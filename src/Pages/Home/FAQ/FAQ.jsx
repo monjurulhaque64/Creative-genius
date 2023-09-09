@@ -16,7 +16,7 @@ const FAQ = () => {
         </p>
       </div>
       
-        <div className="mt-4 quustion-card">
+        <div className="mt-[124px] quustion-card">
          <div className="flex gap-8 items-center">
           {/* <div className="faq-left border-2 border-blue-400   p-[25px]"><h3 >
             1</h3></div> */}
@@ -138,9 +138,12 @@ const FAQ = () => {
           </div>
           </div>
         </div>
+<<<<<<< HEAD
 
         
 
+=======
+>>>>>>> 720653c09b40861d258a5ef88c3e0008f5982cc6
       </div>
   
   );
