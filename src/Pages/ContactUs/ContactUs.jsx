@@ -41,7 +41,7 @@ const ContactUs = () => {
     console.log(formData);
   };
   return (
-    <div className="mt-[40px] md:mt-[72px] container mx-auto">
+    <div className="mt-[40px] md:mt-[125px] container mx-auto">
       <Helmet>
         <title>Creative Campus || Contact Us</title>
       </Helmet>
@@ -49,7 +49,7 @@ const ContactUs = () => {
         <h1 className="font-[Poppins] font-[600] text-[28px] md:text-[48px] text-white">
           Contact Us
         </h1>
-        <p className="font-[Poppins] font-[400] text-[14px] md:text-[18px] text-white">
+        <p className="font-[Poppins] font-[400] text-[14px] md:text-[18px] text-white mt-[20px]">
           Here's our contact details so visitors can get in touch with us on
           their first attempt.
         </p>
@@ -83,7 +83,7 @@ const ContactUs = () => {
             info@creativec-ampus.com
           </h3>
         </div>
-        <div className="form-container contect-container">
+        <div className="form-container contect-container mt-[106px]">
           <form ref={formRef} onSubmit={handleSubmit}>
             <div className="form-group">
               <label htmlFor="name">Full Name</label>

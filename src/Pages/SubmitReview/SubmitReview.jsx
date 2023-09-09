@@ -69,7 +69,7 @@ const SubmitReview = () => {
   };
 
   return (
-    <div className="mt-[40px] md:mt-[72px] container mx-auto">
+    <div className="mt-[40px] md:mt-[125px] container mx-auto">
       <Helmet>
         <title>Creative Campus || Review</title>
       </Helmet>
@@ -77,11 +77,11 @@ const SubmitReview = () => {
         <h1 className="font-[Poppins] font-[600] text-[30px] md:text-[48px] text-white">
           Submit Reviews
         </h1>
-        <p className="font-[Poppins] font-[400] text-[14] md:text-[18px] text-white">
+        <p className="font-[Poppins] font-[400] text-[14] md:text-[18px] text-white mt-[20px]">
           Share your thoughts with us!
         </p>
       </div>
-      <div className="flex justify-center mx-auto submit-review-card mb-8">
+      <div className="flex justify-center mx-auto submit-review-card mb-8 mt-[78px]">
         <form onSubmit={handleSubmit} className="w-[full container-review-card">
           {/* Full Name Input */}
           <div className="flex mt-[65px] lg:gap-[134px] gap-[20px]">
@@ -91,7 +91,7 @@ const SubmitReview = () => {
               </label>
               <input
                 type="text"
-                className="w-full !bg-white h-12 !text-white border rounded-lg px-4 "
+                className="w-full !bg-[#171717] h-12 !text-white border rounded-lg px-4 "
                 placeholder="Full Name"
                 value={fullName}
                 onChange={(e) => setFullName(e.target.value)}
@@ -131,7 +131,7 @@ const SubmitReview = () => {
               Review
             </label>
             <textarea
-              className="w-full h-32 border bg-white text-white rounded-lg px-4"
+              className="w-full h-32 border bg-[#171717] text-white rounded-lg px-4"
               placeholder="Review"
               value={review}
               onChange={(e) => setReview(e.target.value)}
@@ -142,7 +142,7 @@ const SubmitReview = () => {
           <div className="text-center mt-[60px]">
             <button
               type="submit"
-              className="bg-[#ff0000] hover:bg-[#f35454] border-[#ff0000] text-white py-[11px] px-[100px] rounded-lg font-[500] text-[20px] font-[Poppins]"
+              className="bg-[#3C4FF8] hover:bg-[#3C4FF8] border-[#3C4FF8] text-white py-[11px] px-[100px] rounded-lg font-[500] text-[20px] font-[Poppins]"
             >
               Submit Now
             </button>
