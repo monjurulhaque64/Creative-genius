@@ -156,7 +156,7 @@
 
 }
 
-/* @media (max-width: 390px) {
+@media (max-width: 390px) {
   .iphone12DarkBackground {
     background-image: url('../../../assets/Images/Group47.png');
     background-size: contain;
@@ -324,4 +324,4 @@
   .iphone12DarkBackground{
     left: 1rem;
   }
-} */
+}
