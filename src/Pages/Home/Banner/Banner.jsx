@@ -147,7 +147,7 @@ const Banner = () => {
           </div>
         </SwiperSlide> */}
       </Swiper>
-      <div className="absolute inset-x-0 mx-auto top-[837px]">
+      <div className=" inset-x-0 mx-auto top-[837px]">
         <ClientSpring></ClientSpring>
       </div>
     </div>

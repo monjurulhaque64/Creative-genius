@@ -12,7 +12,7 @@ import './footer.css'
 const Footer = () => {
   return (
     <div>
-      <footer className="footer p-10 text-base-content mt-[184px]">
+      <footer className="container mx-auto footer p-10 text-base-content mt-[184px]">
         <div className="lg:ml-[80px] ml-[0px]">
           <img className="w-[148px] " src={logo} alt="logo" />
           <p className="mt-6 text-[20px] font-[400] font-[Poppins] text-white">

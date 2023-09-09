@@ -11,6 +11,29 @@
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
   transition: background 0.3s, color 0.3s, border 0.3s;
 }
+.middle-card{
+  width: 394px;
+  height: 261px;
+  position: relative;
+  border-radius: 10px;
+  /* border: 1px solid #404040; */
+  background: linear-gradient(106deg, rgba(49, 49, 49, 0.00) -9.44%, #252525 104.61%, #252525 104.61%); overflow: hidden;
+  color: white;
+  text-align: justify;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+  transition: background 0.3s, color 0.3s, border 0.3s;
+}
+
+.background-overlay {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(32, 35, 118, 0.38);
+  filter: blur(109px);
+  border-radius: 50%; /* Match the border-radius of the container */
+}
+
 
 /* .card:hover {
   background: linear-gradient(
