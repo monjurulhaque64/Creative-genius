@@ -16,17 +16,17 @@ const NotFound = () => {
               </div>
 
               <div className="contant_box_404">
-                <h3 className=" font-bold text-white text-5xl font-[Poppins]">
+                <h3 className=" font-bold text-black text-5xl font-[Poppins]">
                   Look like you're lost
                 </h3>
 
-                <p className=" font-[Poppins] text-white text-2xl">
+                <p className=" font-[Poppins] text-black text-2xl">
                   The page you are looking for is not available!
                 </p>
 
                 <div className="flex justify-center items-center mb-12">
                   <Link to={"/"}>
-                    <button className="btn btn-info bg-[#ff0000] hover:bg-[#f35454] border-[#ff0000] mt-[36px] lg:mr-[100px] text-white">
+                    <button className="btn btn-info bg-[#3C4FF8] hover:bg-[#3C4FF8] border-[#3C4FF8] mt-[36px] lg:mr-[100px] text-white">
                     Go to Home
                     </button>
                   </Link>

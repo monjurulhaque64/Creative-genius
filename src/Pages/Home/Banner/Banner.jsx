@@ -542,7 +542,7 @@ const Banner = () => {
                 <p className="font-[Poppins] text-[17px] text-white text-justify font-medium my-4">
                   The future of digital academic platforms.
                 </p>
-                <button className="btn btn-info bg-[#ff0000] hover:bg-[#f35454] border-[#ff0000] mt-[46px] lg:mr-[100px] text-white">
+                <button className="btn btn-info bg-[#3C4FF8] hover:bg-[#3C4FF8] border-[#3C4FF8] mt-[46px] lg:mr-[100px] text-white">
                   Download App{" "}
                   <span>
                     <FaGooglePlay></FaGooglePlay>
@@ -575,16 +575,10 @@ const Banner = () => {
           </div>
         </SwiperSlide>
       </Swiper>
-<<<<<<< HEAD
-      <div className="absolute inset-x-0 mx-auto lg:top-[837px] clientSpring">
-
+      <div className="inset-x-0 mx-auto lg:top-[837px] clientSpring">
         <div className=" inset-x-0 mx-auto top-[837px]">
           <ClientSpring></ClientSpring>
         </div>
-=======
-      <div className=" inset-x-0 mx-auto top-[837px]">
-        <ClientSpring></ClientSpring>
->>>>>>> 720653c09b40861d258a5ef88c3e0008f5982cc6
       </div>
     </div>
   );

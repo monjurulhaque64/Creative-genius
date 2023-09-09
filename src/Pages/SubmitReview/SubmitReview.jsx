@@ -4,6 +4,7 @@ import { Rating, ThinStar } from "@smastrom/react-rating";
 import "@smastrom/react-rating/style.css";
 import "./submitReview.css";
 import Swal from "sweetalert2";
+import Reviews from "../Home/Reviews/Reviews";
 
 const myStyles = {
   itemShapes: ThinStar,
@@ -148,6 +149,9 @@ const SubmitReview = () => {
             </button>
           </div>
         </form>
+      </div>
+      <div className="mt-[120px] md:mt-[194px]">
+        <Reviews></Reviews>
       </div>
     </div>
   );

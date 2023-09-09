@@ -10,7 +10,7 @@ const Terms = () => {
       </Helmet>
       <div className="my-8 m-2 p-8 lg:m-0 shadow-xl rounded-lg">
         <div className="my-2">
-          <h1 className="font-[Poppins] font-[600] text-[48px] text-[#ff0000] ">
+          <h1 className="font-[Poppins] font-[600] text-[48px] text-[#3C4FF8] ">
             Terms and conditions
           </h1>
           <p className="font-[Poppins] font-[400] text-[18px] text-white ">
@@ -106,7 +106,7 @@ const Terms = () => {
             Thank you for choosing Creative Campus. If you have any questions or
             concerns about these terms, please contact us at
             <Link to={"/contact-us"}>
-              <span className="link link-hover font-[Poppins] font-[600] text-[18px] text-[#ff0000] ml-1">
+              <span className="link link-hover font-[Poppins] font-[600] text-[18px] text-[#3C4FF8] ml-1">
                 Creative Campus
               </span>
             </Link>

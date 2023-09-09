@@ -54,9 +54,10 @@ const ContactUs = () => {
           their first attempt.
         </p>
       </div>
+      <div className="contuct-circle-right"></div>
       <div className="grid grid-cols-1 md:grid-cols-2 ">
         <div className="lg:mt-[255px] ml-4 lg:ml-0">
-          <div className="circle"></div>
+        <div className="contuct-circle-left"></div>
           <h1 className="font-[Poppins] font-[600] text-[28px] text-white mb-[22px]">
             Get In Touch
           </h1>

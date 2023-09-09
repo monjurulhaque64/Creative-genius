@@ -7,7 +7,7 @@
   background: rgba(34, 34, 34, 0.80);
   overflow: hidden;
   color: white;
-  transition: background 0.3s, color 0.3s, border 0.3s; 
+  backdrop-filter: blur(10px); 
   }
   
   .client-card-content {
