@@ -15,7 +15,7 @@ const Home = () => {
       </Helmet>
       <Banner></Banner>
       <OurServices></OurServices>
-      {/* <WorkProcess></WorkProcess> */}
+      <WorkProcess></WorkProcess>
       <FAQ></FAQ>
       <OurClients></OurClients>
       <Reviews></Reviews>
