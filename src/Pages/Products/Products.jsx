@@ -9,7 +9,7 @@ import { Helmet } from "react-helmet-async";
 
 const Products = () => {
   return (
-    <div className="container mx-auto mt-[40px] md:mt-[72px]">
+    <div className="container mx-auto mt-[40px] md:mt-[98px]">
       <Helmet>
         <title>Creative Campus || Products</title>
       </Helmet>
@@ -17,35 +17,35 @@ const Products = () => {
         <h1 className="font-[Poppins] font-[600] text-[28px] md:text-[48px] text-white">
           Our Products
         </h1>
-        <p className="font-[Poppins] font-[400] text-[14px] md:text-[18px] text-white">
+        <p className="font-[Poppins] font-[400] text-[14px] md:text-[18px] text-white mt-[20px]">
           Here are some products of our company to make your life comfortable
           through technology.
         </p>
       </div>
-      <div className="w-full h-[300px] lg:h-[600px] md:h-[500px] relative]">
+      <div className="w-full h-[300px] lg:h-[600px] md:h-[500px] relative">
         <div className="flex justify-between">
           <div className="lg:ml-[100px] ml-8  lg:w-[726px] w-[250px] lg:pt-[250px] pt-[50px] ">
-            <h1 className="lg:text-[64px] text-[34px] font-[Saira Stencil One] font-bold text-white">
+            <h1 className="lg:text-[48px] text-[30px] font-[Poppins] font-[600] text-white">
               Learning Campus
             </h1>
-            <p className="font-[Poppins] text-[17px] text-white text-justify font-medium mt-2">
+            <p className="font-[Poppins] text-[16px] text-white text-justify font-[400] mt-[20px]">
               The future of digital learning technology in teaching and
               learning.
             </p>
-            <button className="btn btn-info bg-[#ff0000] hover:bg-[#f35454] border-[#ff0000] mt-[46px] lg:mr-[100px] text-white">
+            <button className="product-btn mt-[40px] lg:mr-[100px] text-white">
               Download App{" "}
               <span>
                 <FaGooglePlay></FaGooglePlay>
               </span>
             </button>
           </div>
-          <div className="flex lg:mr-[250px] mr-[100px] ml-4 lg:pt-[192px] pt-[102px] lg:gap-12 ">
-            <img src={iphone12Dark} alt="" />
-            <img src={iphone12Lignt} alt="" />
+          <div className="flex lg:mr-[250px]  mr-[100px] ml-4 lg:pt-[192px] pt-[102px] lg:gap-12 ">
+            <img className="lg:w-[264px] w-[200px]" src={iphone12Dark} alt="" />
+            <img className="lg:w-[264px] w-[200px]" src={iphone12Lignt} alt="" />
           </div>
         </div>
       </div>
-      <div className="mt-[120px] md:mt-[200px]">
+      <div className="mt-[120px] md:mt-[194px]">
         <Reviews></Reviews>
       </div>
     </div>

@@ -32,19 +32,19 @@ const About = () => {
   const totalPageCount = Math.ceil(data.length / memberPerPage);
 
   return (
-    <div className="container mx-auto mt-[40px] md:mt-[72px] ">
+    <div className="container mx-auto mt-[40px] md:mt-[75px] ">
       <Helmet>
         <title>Creative Campus || About Us</title>
       </Helmet>
       <div className="mx-5 md:mx-0">
         <div className="mx-auto text-center ">
           <h1 className="about-title">Meet Our Team</h1>
-          <p className="description  text-[14px] md:text-[18px] text-white">
+          <p className="description mt-[20px]  text-[14px] md:text-[18px] text-white">
             Here are our talented individuals who drive our company's success.
             Meet the dedicated team behind this company.
           </p>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-5 mt-[50px] md:mt-[100px] w-full lg:w-[1236px] mx-auto ">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-5 mt-[50px] md:mt-[104px] w-full lg:w-[1236px] mx-auto ">
           {currentmember.map((SingleData) => (
             <Card key={SingleData.id} SingleData={SingleData}></Card>
           ))}
@@ -52,7 +52,7 @@ const About = () => {
         {/* Pagination */}
         <div className="join mt-4 flex justify-end mr-4 lg:mr-16 md:mr-4">
           <button
-            className={`join-item btn text-white bg-white hover:bg-[#ff0000] ${
+            className={`join-item btn text-white bg-[#171717] hover:bg-[#171717]  ${
               currentPage === 1 ? "btn-disabled" : ""
             }`}
             onClick={() => handlePageChange(currentPage - 1)}
@@ -60,11 +60,11 @@ const About = () => {
           >
             « Previous
           </button>
-          <button className="join-item btn text-white bg-white hover:bg-[#ff0000]">
+          <button className="join-item btn text-white bg-[#171717] hover:bg-[#171717] ">
             Page {currentPage}
           </button>
           <button
-            className={`join-item btn bg-white text-white hover:bg-[#ff0000] ${
+            className={`join-item btn text-white bg-[#171717] hover:bg-[#171717] ${
               currentPage === totalPageCount ? "btn-disabled" : ""
             }`}
             onClick={() => handlePageChange(currentPage + 1)}
@@ -73,14 +73,14 @@ const About = () => {
             Next »
           </button>
         </div>
-        <div className="mt-16 md:mt-28">
+        <div className="mt-16 md:mt-[172px]">
           <div className="flex  flex-col items-center">
             <h1 className="Title text-center ">Tanjim Chowdhury</h1>
-            <p className="founder mb-3">Founder & CEO</p>
+            <p className="founder mb-3 mt-2">Founder & CEO</p>
           </div>
           <div className="md:flex md:justify-between gap-10 my-24 ">
             <div className="relative mb-10">
-              <div className="md:h-44 h-24 border-2 border-blue-700 rotate-180 border-dotted  absolute"></div>
+              <div className="md:h-60 h-24 border-2 border-blue-700 rotate-180 border-dotted  absolute"></div>
               <div className="md:ml-16 ml-5 w-[300px]">
                 <h1 className="thought-title">Thoughts </h1>
                 <p className="thought-description">
@@ -93,7 +93,7 @@ const About = () => {
               </div>
             </div>
             <div className="relative ">
-              <div className="md:h-44 h-24 border-blue-700 border-2 rotate-180 border-dotted  absolute"></div>
+              <div className="md:h-60 h-24 border-blue-700 border-2 rotate-180 border-dotted  absolute"></div>
               <div className=" md:ml-16 ml-5 w-[300px]">
                 <h1 className="Title">Feelings </h1>
                 <p className="thought-description">
@@ -118,7 +118,7 @@ const About = () => {
           </div>
           <div className="md:flex md:justify-between gap-10 my-24 md:mb-56">
             <div className="relative mb-10">
-              <div className="md:h-44 h-24 border-2 border-blue-700 rotate-180 border-dotted  absolute"></div>
+              <div className="md:h-64 h-24 border-2 border-blue-700 rotate-180 border-dotted  absolute"></div>
               <div className="md:ml-16 ml-5 w-[300px]">
                 <h1 className="thought-title">Does </h1>
                 <p className="thought-description">
@@ -132,7 +132,7 @@ const About = () => {
               </div>
             </div>
             <div className="relative ">
-              <div className="md:h-44 h-24 border-blue-700 border-2 rotate-180 border-dotted  absolute"></div>
+              <div className="md:h-64 h-24 border-blue-700 border-2 rotate-180 border-dotted  absolute"></div>
               <div className=" md:ml-16 ml-5 w-[300px]">
                 <h1 className="Title">Wants </h1>
                 <p className="thought-description">
