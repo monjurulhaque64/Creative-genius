@@ -3,6 +3,7 @@
     width: 394px;
   height: 261px;
   position: relative;
+  border: 1px solid #404040;
   border-radius: 10px;
   background: rgba(34, 34, 34, 0.80);
   overflow: hidden;

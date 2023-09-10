@@ -20,7 +20,7 @@ const OurServices = () => {
         <div className="card ">
           <div className="card-content my-4">
             <h2 className="card-title mb-3 heading">Web Development</h2>
-            <p className="card-description heading">
+            <p className="card-description ">
               We work with our clients' preferences. We provide user-friendly,
               responsive websites. Our responsibility is to create a website
               that is capable of fulfilling your demands.

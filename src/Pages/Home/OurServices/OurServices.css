@@ -38,13 +38,14 @@
 }
 
 .background-overlay {
-  width: 640px;
-  height: 624px;
+  width: 600px;
+  height: 584px;
   flex-shrink: 0;
   border-radius: 740px;
   background: rgba(32, 35, 118, 0.38);
   filter: blur(109px);
-  left: 35%;
+  left: 25%;
+  top: 98rem;
   position: absolute;
 }
 
@@ -71,6 +72,7 @@
 
 .card-description {
   font-size: 16px;
+  font-family: lato;
 }
 
 .card-icon {

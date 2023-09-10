@@ -75,10 +75,10 @@ const SubmitReview = () => {
         <title>Creative Campus || Review</title>
       </Helmet>
       <div className="mx-auto text-center h-[130px] m:h-[200px]">
-        <h1 className="font-[Poppins] font-[600] text-[30px] md:text-[48px] text-white">
+        <h1 className="heading font-[600] text-[30px] md:text-[48px] text-white">
           Submit Reviews
         </h1>
-        <p className="font-[Poppins] font-[400] text-[14] md:text-[18px] text-white mt-[20px]">
+        <p className="heading font-[400] text-[14] md:text-[18px] text-white mt-[20px]">
           Share your thoughts with us!
         </p>
       </div>
@@ -87,7 +87,7 @@ const SubmitReview = () => {
           {/* Full Name Input */}
           <div className="flex mt-[65px] lg:gap-[134px] gap-[20px]">
             <div className="mb-4">
-              <label className="text-white block mb-2 font-[500] text-[20px] font-[Poppins]">
+              <label className="text-white block mb-2 font-[500] text-[20px] heading">
                 Full Name
               </label>
               <input
@@ -101,7 +101,7 @@ const SubmitReview = () => {
             </div>
             {/* Rating Input */}
             <div className="mb-4">
-              <label className="text-white block mb-2 font-[500] text-[20px] font-[Poppins]">
+              <label className="text-white block mb-2 font-[500] text-[20px] heading">
                 Rating:
               </label>
               <Rating
@@ -115,7 +115,7 @@ const SubmitReview = () => {
           </div>
           {/* Photo Input */}
           <div className="mb-4 mt-[32px]">
-            <label className="text-white block mb-2 font-[500] text-[20px] font-[Poppins]">
+            <label className="text-white block mb-2 font-[500] text-[20px] heading">
               Select Your Photo
             </label>
             <input
@@ -128,7 +128,7 @@ const SubmitReview = () => {
           </div>
           {/* Review Textarea */}
           <div className="mb-4 mt-[32px]">
-            <label className="text-white block mb-2 font-[500] text-[20px] font-[Poppins]">
+            <label className="text-white block mb-2 font-[500] text-[20px] heading">
               Review
             </label>
             <textarea
@@ -143,7 +143,7 @@ const SubmitReview = () => {
           <div className="text-center mt-[60px]">
             <button
               type="submit"
-              className="bg-[#3C4FF8] hover:bg-[#3C4FF8] border-[#3C4FF8] text-white py-[11px] px-[100px] rounded-lg font-[500] text-[20px] font-[Poppins]"
+              className="bg-[#3C4FF8] hover:bg-[#3C4FF8] border-[#3C4FF8] text-white py-[11px] px-[100px] rounded-lg font-[500] text-[20px] heading"
             >
               Submit Now
             </button>

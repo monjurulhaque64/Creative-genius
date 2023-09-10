@@ -15,7 +15,7 @@ const WorkProcess = () => {
         <h1 className="heading font-[600] text-[48px] text-white">
           Work Process
         </h1>
-        <p className="heading font-[400] mt-[17px] text-[18px] text-white">
+        <p className=" w-[300px] md:w-[650px] text-center mx-auto  font-[400] mt-[17px] text-[18px] text-white">
           Work process can be a great way to learn more about how the company’s
           employees create value for their projects.
         </p>
@@ -68,7 +68,7 @@ const WorkProcess = () => {
             <h1 className="text-center heading font-[400] text-[32px] text-white">
               Research
             </h1>
-            <p className="text-center heading font-[400] text-[18px] text-white mt-10">
+            <p className="text-center  font-[400] text-[18px] text-white mt-10">
               We do research to know more about the topic, collect data from
               organizations, and analyze them for better understanding.
             </p>
@@ -107,7 +107,7 @@ const WorkProcess = () => {
             <h1 className="text-center heading font-[400] text-[32px] text-white">
               Design
             </h1>
-            <p className="text-center heading font-[400] text-[18px] text-white mt-4">
+            <p className="text-center  font-[400] text-[18px] text-white mt-4">
               We design our projects based on our research and to fulfill our
               client’s requirements.
             </p>
@@ -146,7 +146,7 @@ const WorkProcess = () => {
             <h1 className="text-center heading font-[400] text-[32px] text-white">
               Development
             </h1>
-            <p className="text-center heading font-[400] text-[18px] text-white mt-4">
+            <p className="text-center  font-[400] text-[18px] text-white mt-4">
               We start developing the project with the highest possible quality
               to ensure value for your potential customers.
             </p>
@@ -185,7 +185,7 @@ const WorkProcess = () => {
             <h1 className="text-center heading font-[400] text-[32px] text-white">
               Deliver
             </h1>
-            <p className="text-center heading font-[400] text-[18px] text-white mt-4">
+            <p className="text-center  font-[400] text-[18px] text-white mt-4">
               We deliver your desirable projects to you with more care and
               determination.
             </p>

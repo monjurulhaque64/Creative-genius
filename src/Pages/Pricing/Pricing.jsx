@@ -114,8 +114,8 @@ const Pricing = () => {
 
       <div className="md:mb-24 mx-5">
         <div className="flex flex-col  items-center">
-          <h1 className="Title heading">Pricing Table</h1>
-          <p className=" description text-white text-center mt-[20px] lg:w-[564px]">
+          <h1 className="md:text-[48ppx] text-[38px] pricing-title ">Pricing Table</h1>
+          <p className=" description  text-white text-center mt-[20px] lg:w-[564px]">
             Here is our pricing table of representation of our websites to
             display different pricing options for products to our potential
             customers to compare and choose the option that best suits their
@@ -146,7 +146,7 @@ const Pricing = () => {
                       fill="white"
                     />
                   </svg>
-                  <p className="price-p mt-1" key={lineIndex}>
+                  <p className="price-p mt-1 pragraph" key={lineIndex}>
                     {line}
                   </p>
                 </div>
@@ -157,7 +157,7 @@ const Pricing = () => {
               </p>
               <div className="flex justify-center items-center">
                 <Link to={""}>
-                  <button className="buy-btn mt-[20px]  text-white">
+                  <button className="buy-btn mt-[20px] pragraph  text-white">
                     Buy Now
                   </button>
                 </Link>

@@ -1,9 +1,18 @@
 .heading{
   font-family: Poppins;
 }
-.pragraph{
-  font-family: lato;
+h1{
+  font-family: Poppins;
 }
+.pragraph{
+  font-family: Lato;
+}
+p{
+  font-family: Lato;
+}
+
+
+
 @media (max-width: 390px) {
   .iphone12DarkBackground {
     background-image: url('../../../assets/Images/Group47.png');

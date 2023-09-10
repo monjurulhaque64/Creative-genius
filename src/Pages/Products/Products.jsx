@@ -14,10 +14,10 @@ const Products = () => {
         <title>Creative Campus || Products</title>
       </Helmet>
       <div className="mx-auto text-center h-[80px] md:h-[100px] ">
-        <h1 className="font-[Poppins] font-[600] text-[28px] md:text-[48px] text-white">
+        <h1 className="heading font-[600] text-[28px] md:text-[48px] text-white">
           Our Products
         </h1>
-        <p className="font-[Poppins] font-[400] text-[14px] md:text-[18px] text-white mt-[20px]">
+        <p className="pragraph font-[400] text-[14px] md:text-[18px] text-white mt-[20px]">
           Here are some products of our company to make your life comfortable
           through technology.
         </p>
@@ -25,10 +25,10 @@ const Products = () => {
       <div className="w-full h-[300px] lg:h-[600px] md:h-[500px] relative">
         <div className="flex justify-between">
           <div className="lg:ml-[100px] ml-8  lg:w-[726px] w-[250px] lg:pt-[250px] pt-[50px] ">
-            <h1 className="lg:text-[48px] text-[30px] font-[Poppins] font-[600] text-white">
+            <h1 className="lg:text-[48px] text-[30px] heading font-[600] text-white">
               Learning Campus
             </h1>
-            <p className="font-[Poppins] text-[16px] text-white text-justify font-[400] mt-[20px]">
+            <p className="pragrah text-[16px] text-white text-justify font-[400] mt-[20px]">
               The future of digital learning technology in teaching and
               learning.
             </p>

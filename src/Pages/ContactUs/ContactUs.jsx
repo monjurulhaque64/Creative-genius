@@ -46,10 +46,10 @@ const ContactUs = () => {
         <title>Creative Campus || Contact Us</title>
       </Helmet>
       <div className="mx-auto text-center h-[130px] md:h-[200px]">
-        <h1 className="font-[Poppins] font-[600] text-[28px] md:text-[48px] text-white">
+        <h1 className="heading font-[600] text-[28px] md:text-[48px] text-white">
           Contact Us
         </h1>
-        <p className="font-[Poppins] font-[400] text-[14px] md:text-[18px] text-white mt-[20px]">
+        <p className="heading font-[400] text-[14px] md:text-[18px] text-white mt-[20px]">
           Here's our contact details so visitors can get in touch with us on
           their first attempt.
         </p>
@@ -58,26 +58,26 @@ const ContactUs = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 ">
         <div className="lg:mt-[255px] ml-4 lg:ml-0">
         <div className="contuct-circle-left"></div>
-          <h1 className="font-[Poppins] font-[600] text-[28px] text-white mb-[22px]">
+          <h1 className="heading font-[600] text-[28px] text-white mb-[22px]">
             Get In Touch
           </h1>
-          <p className="font-[Poppins]  font-[400] text-[14px] md:text-[18px] text-white mb-[70px]">
+          <p className="heading  font-[400] text-[14px] md:text-[18px] text-white mb-[70px]">
             We're eager to hear from you! Feel free to reach out for inquiries,
             collaborations, or just to say hello.
           </p>
-          <h3 className="font-[Poppins] w-[271px] font-[500] text-[18px] text-white flex mb-[30px]">
+          <h3 className="heading w-[271px] font-[500] text-[18px] text-white flex mb-[30px]">
             <span className="mr-2">
               <MdLocationOn size={30}></MdLocationOn>
             </span>
             Mirpur, Dhaka, Bangladesh
           </h3>
-          <h3 className="font-[Poppins] w-[271px] font-[500] text-[18px] text-white flex mb-[30px]">
+          <h3 className="heading w-[271px] font-[500] text-[18px] text-white flex mb-[30px]">
             <span className="mr-2">
               <MdPhone size={30}></MdPhone>
             </span>
             +880123456789
           </h3>
-          <h3 className="font-[Poppins] w-[271px] font-[500] text-[18px] text-white flex mb-[30px]">
+          <h3 className="heading w-[271px] font-[500] text-[18px] text-white flex mb-[30px]">
             <span className="mr-2">
               <MdEmail size={30}></MdEmail>
             </span>

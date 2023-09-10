@@ -35,7 +35,7 @@ const ClientSays = () => {
         <title>Creative Campus || Client Says</title>
       </Helmet>
       <div className="mx-auto text-center h-[130px] md:h-[200px]">
-        <h1 className="font-[Poppins] font-[600] text-[28px] md:text-[48px] text-white">
+        <h1 className="heading font-[600] text-[28px] md:text-[48px] text-white">
         Reviews
         </h1>
         <p className="font-[Poppins] font-[400] text-[14px] md:text-[18px] text-white">
