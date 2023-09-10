@@ -11,10 +11,10 @@ const Card = ({SingleData}) => {
                 <img className="client-photo" src={image} alt="" />
                 </div>
                 <div className='card-left-body'>
-                    <p>{title} </p>
+                    <p >{title} </p>
                     <h2 className='mt-2'> {name} </h2>
-                    <p  className='flex gap-2 items-center my-1'> <HiLocationMarker></HiLocationMarker> {location}</p>
-                    <p className='flex gap-2 items-center'><HiAcademicCap></HiAcademicCap>{veracity}</p>
+                    <p  className='flex gap-2 items-center my-1  pragraph'> <HiLocationMarker></HiLocationMarker> {location}</p>
+                    <p className='flex gap-2 items-center pragraph'><HiAcademicCap></HiAcademicCap>{veracity}</p>
                 </div>
             </div>
             

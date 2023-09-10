@@ -38,7 +38,7 @@ const ClientSays = () => {
         <h1 className="heading font-[600] text-[28px] md:text-[48px] text-white">
         Reviews
         </h1>
-        <p className="font-[Poppins] font-[400] text-[14px] md:text-[18px] text-white">
+        <p className="pragraph font-[400] text-[14px] md:text-[18px] text-white">
           There are some reviews from our clients as a result of trusting our business.
         </p>
       </div>
