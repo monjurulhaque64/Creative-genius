@@ -6,10 +6,10 @@ const FAQ = () => {
   return (
     <div className="container mx-auto mt-[180px]">
       <div className="mx-auto text-center h-[200px]">
-        <h1 className="font-[Poppins] font-[600] text-[48px] text-white">
+        <h1 className="heading font-[600] text-[48px] text-white">
           Frequently Ask Question
         </h1>
-        <p className="font-[Poppins] font-[400] text-[18px] mt-[17px] text-white">
+        <p className="pragraph w-[650px] text-center mx-auto font-[400] text-[18px] mt-[17px] text-white">
           There are some collections of the most common questions and brief,
           easy-to-understand answers about a particular product, service, or
           topic.

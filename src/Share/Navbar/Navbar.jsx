@@ -80,7 +80,8 @@ const Navbar = () => {
         </div>
         
       </div>
-      <hr className=" mx-auto mt-2" />
+      {/* <hr className=" mx-auto mt-2" /> */}
+      <div className="hr-line"></div>
     </div>
   );
 };

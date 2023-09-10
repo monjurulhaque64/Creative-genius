@@ -36,10 +36,10 @@ const OurClients = () => {
   return (
     <div className="container mx-auto mt-[155px]">
       <div className="mx-auto text-center h-[200px]">
-        <h1 className="font-[Poppins] font-[600] text-[48px] text-white">
+        <h1 className="heading font-[600] text-[48px] text-white">
           Our Client
         </h1>
-        <p className="font-[Poppins] font-[400] text-[18px] text-white mt-[17px]">
+        <p className="pragraph w-[650px] text-center mx-auto font-[400] text-[18px] text-white mt-[17px]">
           Work process can be a great way to learn more about how the company’s
           employees create value for their projects.
         </p>

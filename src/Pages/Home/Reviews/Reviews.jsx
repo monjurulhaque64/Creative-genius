@@ -19,10 +19,10 @@ const Reviews = () => {
   return (
     <div className="container mx-auto mt-[117px] relative mb-[40px]">
       <div className="mx-auto text-center h-[130px] md:h-[200px]">
-        <h1 className="font-[Poppins] font-[600] text-[28px] md:text-[48px] text-white">
+        <h1 className="heading font-[600] text-[28px] md:text-[48px] text-white">
           Reviews
         </h1>
-        <p className="font-[Poppins] font-[400] text-[14px] md:text-[18px] mt-[17px] text-white">
+        <p className="pragraph font-[400] text-[14px] md:text-[18px] mt-[17px] text-white">
           There are some reviews for customers from our clients as a result of
           trusting our business.
         </p>

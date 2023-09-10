@@ -1,4 +1,9 @@
-
+.heading{
+  font-family: Poppins;
+}
+.pragraph{
+  font-family: lato;
+}
 @media (max-width: 390px) {
   .iphone12DarkBackground {
     background-image: url('../../../assets/Images/Group47.png');

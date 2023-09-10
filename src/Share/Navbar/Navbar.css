@@ -4,7 +4,7 @@
   justify-content: center;
   align-items: center;
   gap: 8px;
-  border-radius: 10px;
+  border-radius: 15px;
   background: var(--Primary-Color, #3c4ff8);
   color: #fff;
   font-family: Poppins;
@@ -14,9 +14,10 @@
   line-height: normal;
 }
 .hr-line {
-  width: 1440px;
   height: 0px !important;
-  background: #424242 !important;
+  color: #232323!important;
+  border-bottom: 2px solid;
+  margin-top: 2px;
 }
 
 @media (max-width: 768px) {

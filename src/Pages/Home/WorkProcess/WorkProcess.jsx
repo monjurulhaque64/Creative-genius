@@ -12,24 +12,24 @@ const WorkProcess = () => {
       </div>
       <div className=" left-circle "></div>
       <div className="mx-auto text-center h-[200px]">
-        <h1 className="font-[Poppins] font-[600] text-[48px] text-white">
+        <h1 className="heading font-[600] text-[48px] text-white">
           Work Process
         </h1>
-        <p className="font-[Poppins] font-[400] mt-[17px] text-[18px] text-white">
+        <p className="heading font-[400] mt-[17px] text-[18px] text-white">
           Work process can be a great way to learn more about how the company’s
           employees create value for their projects.
         </p>
       </div>
-      <div className="grid grid-cols-1 lg:grid-cols-5 mx-auto gap-12 justify-center items-center max-w-full mt-[95px]">
+      <div className="grid grid-cols-1 lg:grid-cols-5 mx-auto gap-12 text-center justify-center items-center max-w-full mt-[95px]">
         <div className="flex mx-auto">
           <div className="w-[250px] ">
             <h1 className=" w-[89px] h-[89px] bg-[#3C4FF8] rounded-full text-center flex justify-center items-center font-[Roboto] font-[700] text-white text-[30px] mx-auto">
               1
             </h1>
-            <h1 className="text-center font-[Poppins] font-[400] text-[32px] text-white">
+            <h1 className="text-center heading font-[400] text-[32px] text-white">
               Strategy
             </h1>
-            <p className="text-center font-[Poppins] font-[400] text-[18px] text-white mt-4">
+            <p className="text-center  heading font-[400] text-[18px] text-white mt-3">
               We make a strategy with a general set of plans to achieve your
               company’s goals.
             </p>
@@ -65,10 +65,10 @@ const WorkProcess = () => {
             <h1 className=" w-[89px] h-[89px] bg-[#3C4FF8] rounded-full text-center flex justify-center items-center font-[Roboto] font-[700] text-white text-[30px] mx-auto">
               2
             </h1>
-            <h1 className="text-center font-[Poppins] font-[400] text-[32px] text-white">
+            <h1 className="text-center heading font-[400] text-[32px] text-white">
               Research
             </h1>
-            <p className="text-center font-[Poppins] font-[400] text-[18px] text-white mt-4">
+            <p className="text-center heading font-[400] text-[18px] text-white mt-10">
               We do research to know more about the topic, collect data from
               organizations, and analyze them for better understanding.
             </p>
@@ -104,10 +104,10 @@ const WorkProcess = () => {
             <h1 className=" w-[89px] h-[89px] bg-[#3C4FF8] rounded-full text-center flex justify-center items-center font-[Roboto] font-[700] text-white text-[30px] mx-auto">
               3
             </h1>
-            <h1 className="text-center font-[Poppins] font-[400] text-[32px] text-white">
+            <h1 className="text-center heading font-[400] text-[32px] text-white">
               Design
             </h1>
-            <p className="text-center font-[Poppins] font-[400] text-[18px] text-white mt-4">
+            <p className="text-center heading font-[400] text-[18px] text-white mt-4">
               We design our projects based on our research and to fulfill our
               client’s requirements.
             </p>
@@ -143,10 +143,10 @@ const WorkProcess = () => {
             <h1 className=" w-[89px] h-[89px] bg-[#3C4FF8] rounded-full text-center flex justify-center items-center font-[Roboto] font-[700] text-white text-[30px] mx-auto">
               4
             </h1>
-            <h1 className="text-center font-[Poppins] font-[400] text-[32px] text-white">
+            <h1 className="text-center heading font-[400] text-[32px] text-white">
               Development
             </h1>
-            <p className="text-center font-[Poppins] font-[400] text-[18px] text-white mt-4">
+            <p className="text-center heading font-[400] text-[18px] text-white mt-4">
               We start developing the project with the highest possible quality
               to ensure value for your potential customers.
             </p>
@@ -182,10 +182,10 @@ const WorkProcess = () => {
             <h1 className=" w-[89px] h-[89px] bg-[#3C4FF8] rounded-full text-center flex justify-center items-center font-[Roboto] font-[700] text-white text-[30px] mx-auto">
               5
             </h1>
-            <h1 className="text-center font-[Poppins] font-[400] text-[32px] text-white">
+            <h1 className="text-center heading font-[400] text-[32px] text-white">
               Deliver
             </h1>
-            <p className="text-center font-[Poppins] font-[400] text-[18px] text-white mt-4">
+            <p className="text-center heading font-[400] text-[18px] text-white mt-4">
               We deliver your desirable projects to you with more care and
               determination.
             </p>

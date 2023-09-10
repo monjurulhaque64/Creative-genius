@@ -1,38 +1,40 @@
 .card {
-  width: 394px;
+  width: 400px;
   height: 261px;
+  padding: 10px;
   position: relative;
   border-radius: 10px;
   /* border: 1px solid #404040; */
-  background: linear-gradient(
-    106deg,
-    #171717 -9.44%,
-    #252525 104.61%,
-    rgba(37, 37, 37, 0) 104.61%
-  );
+  background: linear-gradient(106deg,
+      #171717 -9.44%,
+      #252525 104.61%,
+      rgba(37, 37, 37, 0) 104.61%);
   overflow: hidden;
   color: white;
   text-align: justify;
   mix-blend-mode: luminosity;
   backdrop-filter: blur(10px);
+  border-radius: 10px;
+  border: 1px solid #404040;
+  mix-blend-mode: luminosity;
+  backdrop-filter: blur(10px);
 }
+
 .middle-card {
   width: 394px;
   height: 261px;
   position: relative;
   border-radius: 10px;
   /* border: 1px solid #404040; */
-  background: linear-gradient(
-    106deg,
-    rgba(49, 49, 49, 0) -9.44%,
-    #252525 104.61%,
-    #252525 104.61%
-  );
+  background: linear-gradient(106deg,
+      rgba(49, 49, 49, 0) -9.44%,
+      #252525 104.61%,
+      #252525 104.61%);
   overflow: hidden;
   color: white;
   text-align: justify;
   mix-blend-mode: luminosity;
-  backdrop-filter: blur(10px); 
+  backdrop-filter: blur(10px);
 }
 
 .background-overlay {
@@ -89,7 +91,8 @@
     margin: auto;
     /* width: 384px; */
   }
-  .background-overlay{
+
+  .background-overlay {
     display: none;
   }
 }
@@ -100,7 +103,8 @@
     margin: auto;
     width: 384px;
   }
-  .background-overlay{
+
+  .background-overlay {
     display: none;
   }
 }

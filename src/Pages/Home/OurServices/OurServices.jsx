@@ -7,10 +7,10 @@ const OurServices = () => {
   return (
     <div className="mt-[190px] container mx-auto">
       <div className="mx-auto text-center h-[200px]">
-        <h1 className="font-[Poppins] font-[600] text-[48px] text-white">
+        <h1 className="heading font-[600] text-[48px] text-white">
           Our Services
         </h1>
-        <p className="font-[Poppins] font-[400] text-[18px] mt-[17px] text-white">
+        <p className="heading font-[400] text-[18px] mt-[17px] text-white">
           Here are our services to provide the best quality of work for your
           needs.
         </p>
@@ -19,8 +19,8 @@ const OurServices = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full lg:w-[1236px] mx-auto gap-3 mt-[118px] ">
         <div className="card ">
           <div className="card-content my-4">
-            <h2 className="card-title mb-3">Web Development</h2>
-            <p className="card-description">
+            <h2 className="card-title mb-3 heading">Web Development</h2>
+            <p className="card-description heading">
               We work with our clients' preferences. We provide user-friendly,
               responsive websites. Our responsibility is to create a website
               that is capable of fulfilling your demands.

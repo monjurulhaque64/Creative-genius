@@ -39,7 +39,7 @@ const About = () => {
       <div className="mx-5 md:mx-0">
         <div className="mx-auto text-center ">
           <h1 className="about-title">Meet Our Team</h1>
-          <p className="description mt-[20px]  text-[14px] md:text-[18px] text-white">
+          <p className="description mt-[20px]  w-[650px] text-center mx-auto  text-[14px] md:text-[18px] text-white">
             Here are our talented individuals who drive our company's success.
             Meet the dedicated team behind this company.
           </p>
@@ -81,7 +81,7 @@ const About = () => {
           <div className="md:flex md:justify-between gap-10 my-24 ">
             <div className="relative mb-10">
               <div className="md:h-60 h-24 border-2 border-blue-700 rotate-180 border-dotted  absolute"></div>
-              <div className="md:ml-16 ml-5 w-[300px]">
+              <div className="md:ml-16 ml-5    md:md:w-[420px] w-[300px]">
                 <h1 className="thought-title">Thoughts </h1>
                 <p className="thought-description mt-[15px]">
                   Business is about being true to yourself, your ideas and
@@ -94,7 +94,7 @@ const About = () => {
             </div>
             <div className="relative ">
               <div className="md:h-60 h-24 border-blue-700 border-2 rotate-180 border-dotted  absolute"></div>
-              <div className=" md:ml-16 ml-5 w-[300px]">
+              <div className=" md:ml-16 ml-5    md:md:w-[420px] w-[300px]">
                 <h1 className="Title">Feelings </h1>
                 <p className="thought-description mt-[15px]">
                   {" "}
@@ -119,7 +119,7 @@ const About = () => {
           <div className="md:flex md:justify-between gap-10 my-24 md:mb-56">
             <div className="relative mb-10">
               <div className="md:h-64 h-24 border-2 border-blue-700 rotate-180 border-dotted  absolute"></div>
-              <div className="md:ml-16 ml-5 w-[300px]">
+              <div className="md:ml-16 ml-5    md:md:w-[420px] w-[300px]">
                 <h1 className="thought-title">Does </h1>
                 <p className="thought-description mt-[15px]">
                   closely observe the company's various functions, including
@@ -133,7 +133,7 @@ const About = () => {
             </div>
             <div className="relative ">
               <div className="md:h-64 h-24 border-blue-700 border-2 rotate-180 border-dotted  absolute"></div>
-              <div className=" md:ml-16 ml-5 w-[300px]">
+              <div className=" md:ml-16 ml-5    md:md:w-[420px] w-[300px]">
                 <h1 className="Title">Wants </h1>
                 <p className="thought-description mt-[15px]">
                   Every CEO wants “Results, Results, Results”. Not only want
