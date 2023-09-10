@@ -11,7 +11,7 @@ import MirpurGirlsIdealLaboratoryInstitute from "../../../assets/Clients/MirpurG
 import MirpurPolytechnicInstitute from "../../../assets/Clients/MirpurPolytechnicInstitute.png";
 import OhabIdealPublicHighSchool from "../../../assets/Clients/OhabIdealPublicHighSchool.png";
 import RUD from "../../../assets/Clients/RUD.png";
-import SamsulHuqeKhanSchoolCollege from "../../../assets/Clients/SamsulHuqeKhanSchool&College.jpeg";
+import SamsulHuqeKhanSchoolCollege from "../../../assets/Clients/SamsulHuqeKhanSchool&College.png";
 import SouthestUniversity from "../../../assets/Clients/SouthestUniversity.png";
 
 

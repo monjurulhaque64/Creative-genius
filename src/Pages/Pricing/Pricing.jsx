@@ -126,7 +126,7 @@ const Pricing = () => {
           {packages.map((product, index) => (
             <div
               key={index}
-              className="price-card mt-5 md:mt-0 w-[280px]  mx-auto md:w-[287px] h-[900px]  md:h-[900px] shadow-md p-4 hover:bg-zinc-800"
+              className="price-card mt-5 md:mt-0 w-[280px]  mx-auto md:w-[287px] h-[900px]  md:h-[900px] shadow-md p-4 "
             >
               <h1 className="price-title heading text-center my-4">
                 {product.package}
