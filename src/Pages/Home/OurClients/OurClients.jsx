@@ -34,9 +34,9 @@ const images = [
 
 const OurClients = () => {
   return (
-    <div className="container mx-auto mt-[155px]">
+    <div className="container mx-auto mt-16 md:mt-[155px]">
       <div className="mx-auto text-center h-[200px]">
-        <h1 className="heading font-[600] text-[48px] text-white">
+        <h1 className="heading font-[600] text-[38px] md:text-[48px] text-white">
           Our Client
         </h1>
         <p className="pragraph w-[300px] md:w-[650px] text-center mx-auto font-[400] text-[18px] text-white mt-[17px]">
@@ -44,7 +44,7 @@ const OurClients = () => {
           employees create value for their projects.
         </p>
       </div>
-      <div className="mt-[146px]">
+      <div className="mt-10 md:mt-[146px]">
         <ClientGallery images={images} />
       </div>
     </div>

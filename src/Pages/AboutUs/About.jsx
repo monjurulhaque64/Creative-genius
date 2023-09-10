@@ -38,7 +38,7 @@ const About = () => {
       </Helmet>
       <div className="mx-5 md:mx-0">
         <div className="mx-auto text-center ">
-          <h1 className="about-title">Meet Our Team</h1>
+          <h1 className="about-title  heading">Meet Our Team</h1>
           <p className="description mt-[20px]  w-[300px] md:w-[650px] text-center mx-auto  text-[14px] md:text-[18px] text-white">
             Here are our talented individuals who drive our company's success.
             Meet the dedicated team behind this company.
@@ -95,7 +95,7 @@ const About = () => {
             <div className="relative ">
               <div className="md:h-60 h-24 border-blue-700 border-2 rotate-180 border-dotted  absolute"></div>
               <div className=" md:ml-16 ml-5    md:md:w-[420px] w-[300px]">
-                <h1 className="Title">Feelings </h1>
+                <h1 className="thought-title">Feelings </h1>
                 <p className="thought-description mt-[15px]">
                   {" "}
                   When you're creative and get an idea, it just flows without
@@ -116,25 +116,20 @@ const About = () => {
             <div className="lg:w-[70rem] md:w-[50rem] w-[20rem] border-[1px] border-gray-400 rotate-180 mt-[12rem] border-dashed   absolute"></div>
             <div className="lg:w-[70rem] md:w-[50rem] w-[20rem] border-[1px] border-gray-400 rotate-90 mt-[12rem] border-dashed   absolute"></div>
           </div>
-          <div className="md:flex md:justify-between gap-10 my-24 md:mb-56">
+          <div className="md:flex md:justify-between gap-10 md:my-24 mt-5 md:mt-0 md:mb-56">
             <div className="relative mb-10">
               <div className="md:h-64 h-24 border-2 border-blue-700 rotate-180 border-dotted  absolute"></div>
               <div className="md:ml-16 ml-5    md:md:w-[420px] w-[300px]">
                 <h1 className="thought-title">Does </h1>
                 <p className="thought-description mt-[15px]">
-                  closely observe the company's various functions, including
-                  operations, finance, marketing, sales, human resources, legal,
-                  compliance and technology, while balancing the needs of
-                  employees, customers, and investors. Also maintain the
-                  communication between the board of directors and corporate
-                  operations.
+                  closely observe the company's various functions, including operations, finance, marketing, sales, human resources, legal, compliance and technology, while balancing the needs of employees, customers, and investors. Also maintain the communication between the board of directors and corporate operations.
                 </p>
               </div>
             </div>
             <div className="relative ">
               <div className="md:h-64 h-24 border-blue-700 border-2 rotate-180 border-dotted  absolute"></div>
               <div className=" md:ml-16 ml-5    md:md:w-[420px] w-[300px]">
-                <h1 className="Title">Wants </h1>
+                <h1 className="thought-title">Wants </h1>
                 <p className="thought-description mt-[15px]">
                   Every CEO wants “Results, Results, Results”. Not only want
                   results, but they want bigger results, and wants them faster.

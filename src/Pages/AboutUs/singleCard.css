@@ -1,7 +1,6 @@
 /* about style  */
 .about-title {
   color: white;
-  font-family: Poppins;
   font-size: 48px;
   font-style: normal;
   font-weight: 600;
@@ -149,7 +148,6 @@
   .about-title {
     color: white;
     font-size: 28px;
-    font-style: normal;
     font-weight: 600;
     line-height: normal;
   }
@@ -177,6 +175,13 @@
   .about-title {
     color: white;
     font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .thought-title {
+    color: white;
+    font-size: 26px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;

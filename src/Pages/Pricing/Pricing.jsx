@@ -114,8 +114,8 @@ const Pricing = () => {
 
       <div className="md:mb-24 mx-5">
         <div className="flex flex-col  items-center">
-          <h1 className="md:text-[48ppx] text-[38px] pricing-title ">Pricing Table</h1>
-          <p className=" description  text-white text-center mt-[20px] lg:w-[564px]">
+          <h1 className="md:text-[48ppx] text-[28px] pricing-title ">Pricing Table</h1>
+          <p className=" description  text-white text-center mt-2 md:mt-[20px] lg:w-[564px]">
             Here is our pricing table of representation of our websites to
             display different pricing options for products to our potential
             customers to compare and choose the option that best suits their
@@ -126,7 +126,7 @@ const Pricing = () => {
           {packages.map((product, index) => (
             <div
               key={index}
-              className="price-card mt-10 md:mt-0 w-[280px]  mx-auto md:w-[287px] h-[900px]  md:h-[900px] shadow-md p-4 hover:bg-zinc-800"
+              className="price-card mt-5 md:mt-0 w-[280px]  mx-auto md:w-[287px] h-[900px]  md:h-[900px] shadow-md p-4 hover:bg-zinc-800"
             >
               <h1 className="price-title heading text-center my-4">
                 {product.package}

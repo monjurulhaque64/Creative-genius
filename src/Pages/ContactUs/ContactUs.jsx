@@ -41,7 +41,7 @@ const ContactUs = () => {
     console.log(formData);
   };
   return (
-    <div className="mt-[40px] md:mt-[125px] container mx-auto mb-[20px] lg:mb-[0px]">
+    <div className="mt-4 md:mt-[125px] container mx-auto mb-[20px] lg:mb-[0px]">
       <Helmet>
         <title>Creative Campus || Contact Us</title>
       </Helmet>
@@ -49,7 +49,7 @@ const ContactUs = () => {
         <h1 className="heading font-[600] text-[28px] md:text-[48px] text-white">
           Contact Us
         </h1>
-        <p className="heading font-[400] text-[14px] md:text-[18px] text-white mt-[20px]">
+        <p className="heading font-[400] w-[300px] md:w-[650px] text-center mx-auto text-[14px] md:text-[18px] text-white md:mt-[20px]">
           Here's our contact details so visitors can get in touch with us on
           their first attempt.
         </p>
@@ -58,26 +58,26 @@ const ContactUs = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 ">
         <div className="lg:mt-[255px] ml-4 lg:ml-0">
         <div className="contuct-circle-left"></div>
-          <h1 className="heading font-[600] text-[28px] text-white mb-[22px]">
+          <h1 className="heading font-[600] text-[20px] md:text-[28px] text-white mb-[22px]">
             Get In Touch
           </h1>
-          <p className="heading  font-[400] text-[14px] md:text-[18px] text-white mb-[70px]">
+          <p className="heading  font-[400] text-[14px] md:text-[18px] text-white mb-8 md:mb-[70px]">
             We're eager to hear from you! Feel free to reach out for inquiries,
             collaborations, or just to say hello.
           </p>
-          <h3 className="heading w-[271px] font-[500] text-[18px] text-white flex mb-[30px]">
+          <h3 className="heading w-[271px] font-[500]  text-white flex mb-5 md:mb-[30px]">
             <span className="mr-2">
               <MdLocationOn size={30}></MdLocationOn>
             </span>
             Mirpur, Dhaka, Bangladesh
           </h3>
-          <h3 className="heading w-[271px] font-[500] text-[18px] text-white flex mb-[30px]">
+          <h3 className="heading w-[271px] font-[500] text-[14px] md:text-[18px] text-white flex mb-5 md:mb-[30px]">
             <span className="mr-2">
               <MdPhone size={30}></MdPhone>
             </span>
             +880123456789
           </h3>
-          <h3 className="heading w-[271px] font-[500] text-[18px] text-white flex mb-[30px]">
+          <h3 className="heading w-[271px] font-[500] text-[14px] md:text-[18px] text-white flex  mb-8 md:mb-[30px]">
             <span className="mr-2">
               <MdEmail size={30}></MdEmail>
             </span>
@@ -134,7 +134,7 @@ const ContactUs = () => {
                 className="!text-white"
               />
             </div>
-            <button className="contect-button" type="submit">
+            <button className="contect-button md:text-[20px] text-[14px] " type="submit">
               Submit Now
             </button>
           </form>

@@ -70,19 +70,19 @@ const SubmitReview = () => {
   };
 
   return (
-    <div className="mt-[40px] md:mt-[125px] container mx-auto">
+    <div className="mt-4 md:mt-[40px] md:mt-[125px] container mx-auto">
       <Helmet>
         <title>Creative Campus || Review</title>
       </Helmet>
-      <div className="mx-auto text-center h-[130px] m:h-[200px]">
-        <h1 className="heading font-[600] text-[30px] md:text-[48px] text-white">
+      <div className="mx-auto text-center h-[70px] m:h-[200px]">
+        <h1 className="heading font-[600] text-[28px] md:text-[48px] text-white">
           Submit Reviews
         </h1>
-        <p className="heading font-[400] text-[14] md:text-[18px] text-white mt-[20px]">
+        <p className="heading font-[400] text-[14] md:text-[18px] text-white  md:mt-[20px]">
           Share your thoughts with us!
         </p>
       </div>
-      <div className="flex justify-center mx-auto submit-review-card mb-8 mt-[78px]">
+      <div className="flex justify-center mx-auto submit-review-card mb-8 mt-[40px] md:mt-100px] ">
         <form onSubmit={handleSubmit} className="w-[full container-review-card">
           {/* Full Name Input */}
           <div className="flex mt-[65px] lg:gap-[134px] gap-[20px]">

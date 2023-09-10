@@ -4,9 +4,9 @@ const FAQ = () => {
   
 
   return (
-    <div className="container mx-auto mt-[180px]">
-      <div className="mx-auto text-center h-[200px]">
-        <h1 className="heading font-[600] text-[30px] md:text-[48px] text-white">
+    <div className="container mx-auto mt-16 md:mt-[180px]">
+      <div className="mx-auto text-center md:h-[200px]">
+        <h1 className="heading font-[600] text-[38px] md:text-[48px] text-white">
           Frequently Ask Question
         </h1>
         <p className="pragraph w-[300px] md:w-[650px] text-center mx-auto  font-[400] text-[18px] mt-[17px] text-white">
