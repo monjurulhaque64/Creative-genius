@@ -70,7 +70,7 @@ const SubmitReview = () => {
   };
 
   return (
-    <div className="mt-4 md:mt-[40px] md:mt-[125px] container mx-auto">
+    <div className="mt-4  md:mt-[125px] container mx-auto">
       <Helmet>
         <title>Creative Campus || Review</title>
       </Helmet>
@@ -143,7 +143,7 @@ const SubmitReview = () => {
           <div className="text-center mt-[60px]">
             <button
               type="submit"
-              className="bg-[#3C4FF8] hover:bg-[#3C4FF8] border-[#3C4FF8] text-white py-[11px] px-[100px] rounded-lg font-[500] text-[20px] heading"
+              className="bg-[#3C4FF8] hover:bg-[#3C4FF8] border-[#3C4FF8] text-white py-[11px] px-[100px] rounded-lg font-[500] text-[14px] md:text-[20px] heading"
             >
               Submit Now
             </button>

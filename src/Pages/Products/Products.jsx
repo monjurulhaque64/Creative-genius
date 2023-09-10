@@ -22,16 +22,16 @@ const Products = () => {
           through technology.
         </p>
       </div>
-      <div className="w-full h-[300px] lg:h-[600px] md:h-[500px] relative">
-        <div className="flex justify-between">
-          <div className="lg:ml-[100px] ml-5 md:ml-8  lg:w-[726px] w-[250px] lg:pt-[250px] pt-[50px] ">
+      <div className="w-full h-[400px] lg:h-[600px] md:h-[500px] relative">
+        <div className="md:flex justify-between">
+          <div className="lg:ml-[100px] ml-8  lg:w-[726px] w-[250px] lg:pt-[250px] pt-[50px] ">
             <h1 className="lg:text-[48px] text-[24px] heading font-[600] text-white">
               Learning Campus
             </h1>
             <p className="pragrah text-[13px] text-white text-justify font-[400] mt-[20px]">
               The future of digital learning technology in teaching and learning.
             </p>
-            <button className="product-btn mt-[40px] lg:mr-[100px] text-white">
+            <button className="product-btn mt-[14px] lg:mr-[100px] text-white">
               Download App{" "}
               <span>
                 <FaGooglePlay></FaGooglePlay>
@@ -39,10 +39,10 @@ const Products = () => {
             </button>
           </div>
           
-          <div className="flex lg:mr-[250px]  mr-[100px] ml-4 lg:pt-[192px] pt-[102px] lg:gap-12 ">
-            <img className="lg:w-[264px] h-[200px]  md:h-full w-[200px]" src={iphone12Dark} alt="" />
+          <div className="flex lg:mr-[250px]  mr-[100px] ml-8 lg:pt-[192px] pt-[25px] lg:gap-12 gap-10">
+            <img className="lg:w-[264px] h-[180px]  md:h-full w-[200px]" src={iphone12Dark} alt="" />
             <div className="product-circle"></div>
-            <img className="lg:w-[264px]  h-[200px] md:h-full w-[200px]" src={iphone12Lignt} alt="" />
+            <img className="lg:w-[264px]  h-[180px] md:h-full w-[200px]" src={iphone12Lignt} alt="" />
           </div>
         </div>
       </div>

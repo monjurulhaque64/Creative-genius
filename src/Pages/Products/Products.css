@@ -26,7 +26,7 @@
 @media (max-width: 360px) {
     .product-btn {
         display: inline-flex;
-        padding: 11px 5px;
+        padding: 11px 12px;
         justify-content: center;
         align-items: center;
         gap: 3px;
