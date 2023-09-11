@@ -56,7 +56,7 @@ const Navbar = () => {
             </label>
             <ul
               tabIndex={0}
-              className="menu menu-sm absolute dropdown-content  mt-3 z-[1] p-2 text-white bg-gray-900 shadow font-bold rounded-box w-52 "
+              className="menu menu-sm absolute font dropdown-content  mt-3 z-[1] p-2 text-white bg-gray-900 shadow font-bold rounded-box w-52 "
             >
               {navItems}
             </ul>
@@ -68,10 +68,10 @@ const Navbar = () => {
           />
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className=" menu-horizontal px-1 mt-[45px] text-white font-[400] text-[18px] gap-[25px]">{navItems}</ul>
+          <ul className=" menu-horizontal px-1 mt-[45px] text-white font font-[400] text-[16px] gap-[25px]">{navItems}</ul>
         </div>
         <div className="navbar-end">
-          <button className="download-btn heading w-[160px] lg:w-[199px]  mt-[36px] lg:mr-[30px] text-white font-[16px]">
+          <button className="download-btn heading  font  mt-[36px] lg:mr-[30px] text-white ">
             Download App{" "}
             <span>
               <FaGooglePlay></FaGooglePlay>
@@ -81,7 +81,7 @@ const Navbar = () => {
         
       </div>
       {/* <hr className=" mx-auto mt-2" /> */}
-      <div className="hr-line"></div>
+      <div className="hr-line !mt-[23px]"></div>
     </div>
   );
 };

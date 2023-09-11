@@ -13,6 +13,12 @@
     font-weight: 500;
     line-height: normal;
 }
+.hr-line {
+    height: 0px !important;
+    color: #232323!important;
+    border-bottom: 2px solid;
+    margin-top: 2px;
+  }
 
 @media (max-width: 768px) {
     .icon-btn {

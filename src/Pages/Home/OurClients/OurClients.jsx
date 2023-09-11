@@ -1,5 +1,4 @@
 import React from "react";
-import ClientGallery from "./ClientGallery";
 import KhulnaUniversity from "../../../assets/Clients/KhulnaUniversity.png";
 import BADC from "../../../assets/Clients/BADC.png";
 import Asiyabari from "../../../assets/Clients/asiyabari.png";
@@ -13,24 +12,23 @@ import OhabIdealPublicHighSchool from "../../../assets/Clients/OhabIdealPublicHi
 import RUD from "../../../assets/Clients/RUD.png";
 import SamsulHuqeKhanSchoolCollege from "../../../assets/Clients/SamsulHuqeKhanSchool&College.png";
 import SouthestUniversity from "../../../assets/Clients/SouthestUniversity.png";
+import "./OurClient.css";
 
-
-
-const images = [
-  { url: KhulnaUniversity },
-  { url: BADC },
-  { url: Asiyabari },
-  { url: GachuaAdarshaHighSchool },
-  { url: GovtMohammadpurModelSchoolCollege },
-  { url: ItFutureInstitute },
-  { url: JatuyaKhatadiMukhi },
-  { url: MirpurGirlsIdealLaboratoryInstitute },
-  { url: MirpurPolytechnicInstitute },
-  { url: OhabIdealPublicHighSchool },
-  { url: RUD },
-  { url: SamsulHuqeKhanSchoolCollege },
-  { url: SouthestUniversity },
-];
+// const images = [
+//   { url: KhulnaUniversity },
+//   { url: BADC },
+//   { url: Asiyabari },
+//   { url: GachuaAdarshaHighSchool },
+//   { url: GovtMohammadpurModelSchoolCollege },
+//   { url: ItFutureInstitute },
+//   { url: JatuyaKhatadiMukhi },
+//   { url: MirpurGirlsIdealLaboratoryInstitute },
+//   { url: MirpurPolytechnicInstitute },
+//   { url: OhabIdealPublicHighSchool },
+//   { url: RUD },
+//   { url: SamsulHuqeKhanSchoolCollege },
+//   { url: SouthestUniversity },
+// ];
 
 const OurClients = () => {
   return (
@@ -39,13 +37,131 @@ const OurClients = () => {
         <h1 className="heading font-[600] text-[38px] md:text-[48px] text-white">
           Our Client
         </h1>
-        <p className="pragraph w-[300px] md:w-[650px] text-center mx-auto font-[400] text-[18px] text-white mt-[17px]">
+        <p className="heading w-[300px] md:w-[650px] text-center mx-auto font-[400] text-[16px] text-white mt-[17px]">
           Work process can be a great way to learn more about how the company’s
           employees create value for their projects.
         </p>
       </div>
       <div className="mt-10 md:mt-[146px]">
-        <ClientGallery images={images} />
+        <div className="hexagon-gallery">
+            <div className="hexagon">
+              <div className="hexagon-inner">
+                <img
+                  src={KhulnaUniversity}
+                  alt=''
+                  className="hexagon-image  flex justify-center align-center"
+                />
+              </div>
+            </div>
+            <div className="hexagon">
+              <div className="hexagon-inner">
+                <img
+                  src={BADC}
+                  alt=''
+                  className="hexagon-image flex justify-center align-center"
+                />
+              </div>
+            </div>
+            <div className="hexagon">
+              <div className="hexagon-inner">
+                <img
+                  src={Asiyabari}
+                  alt=''
+                  className="hexagon-image flex justify-center align-center"
+                />
+              </div>
+            </div>
+            <div className="hexagon">
+              <div className="hexagon-inner">
+                <img
+                  src={GachuaAdarshaHighSchool}
+                  alt=''
+                  className="hexagon-image flex justify-center align-center"
+                />
+              </div>
+            </div>
+            <div className="hexagon">
+              <div className="hexagon-inner">
+                <img
+                  src={GovtMohammadpurModelSchoolCollege}
+                  alt=''
+                  className="hexagon-image flex justify-center align-center"
+                />
+              </div>
+            </div>
+            <div className="hexagon">
+              <div className="hexagon-inner">
+                <img
+                  src={ItFutureInstitute}
+                  alt=''
+                  className="hexagon-image flex justify-center align-center"
+                />
+              </div>
+            </div>
+            <div className="hexagon">
+              <div className="hexagon-inner">
+                <img
+                  src={JatuyaKhatadiMukhi}
+                  alt=''
+                  className="hexagon-image flex justify-center align-center"
+                />
+              </div>
+            </div>
+            <div className="hexagon">
+              <div className="hexagon-inner">
+                <img
+                  src={MirpurGirlsIdealLaboratoryInstitute}
+                  alt=''
+                  className="hexagon-image flex justify-center align-center"
+                />
+              </div>
+            </div>
+            <div className="hexagon">
+              <div className="hexagon-inner">
+                <img
+                  src={MirpurPolytechnicInstitute}
+                  alt=''
+                  className="hexagon-image flex justify-center align-center"
+                />
+              </div>
+            </div>
+            <div className="hexagon">
+              <div className="hexagon-inner">
+                <img
+                  src={OhabIdealPublicHighSchool}
+                  alt=''
+                  className="hexagon-image flex justify-center align-center"
+                />
+              </div>
+            </div>
+            <div className="hexagon">
+              <div className="hexagon-inner">
+                <img
+                  src={RUD}
+                  alt=''
+                  className="hexagon-image flex justify-center align-center"
+                />
+              </div>
+            </div>
+            <div className="hexagon">
+              <div className="hexagon-inner">
+                <img
+                  src={SamsulHuqeKhanSchoolCollege}
+                  alt=''
+                  className="hexagon-image flex justify-center align-center"
+                />
+              </div>
+            </div>
+            <div className="hexagon">
+              <div className="hexagon-inner">
+                <img
+                  src={SouthestUniversity}
+                  alt=''
+                  className="hexagon-image flex justify-center align-center"
+                />
+              </div>
+            </div>
+        </div>
       </div>
     </div>
   );

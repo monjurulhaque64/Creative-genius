@@ -33,6 +33,5 @@
 
 /* Image styles */
 .hexagon-image {
-  width: 130px;
   object-fit: cover;
 }
