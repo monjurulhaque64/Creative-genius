@@ -58,7 +58,7 @@ const Fwq = () => {
           <AccordionItem
             className="collapse   p-3 md:text-[24px]  text-[20px] shadow-xl lg:w-[604px] mt-6 rounded-md border-[1px] border-[#8a8a8a]"
             header={
-              <div className="flex items-center justify-between md:gap-[12rem] gap-[1px]">
+              <div className="flex items-center justify-between md:gap-[14rem] gap-[1px]">
                 <h1>What is your company’s goal?</h1>
               <i
                 className={`fa ${isAccordionOpen ? 'fa-chevron-up' : 'fa-chevron-down'}`}
@@ -138,7 +138,7 @@ const Fwq = () => {
           <AccordionItem className="collapse border-2 mt-6  p-3   md:text-[24px]  text-[20px] bg-[rgba(34, 34, 34, 0.80)] shadow-xl lg:w-[604px]  mt-6 rounded-md border-[1px] border-[#8a8a8a]" 
           
              header={
-              <div className="flex items-center justify-between md:gap-[12rem] gap-[1px]">
+              <div className="flex items-center justify-between md:gap-[14rem] gap-[1px]">
                How long does a project take?
               <i
                 className={`fa ${isAccordionOpen3 ? 'fa-chevron-up' : 'fa-chevron-down'}`}
