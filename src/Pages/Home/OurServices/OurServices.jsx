@@ -10,7 +10,7 @@ const OurServices = () => {
         <h1 className="heading font-[600] text-[38px] md:text-[48px] text-white">
           Our Services
         </h1>
-        <p className="heading font-[400] text-[18px] mt-[17px] text-white">
+        <p className="heading font-[400] text-[16px] mt-[17px] text-white">
           Here are our services to provide the best quality of work for your
           needs.
         </p>
