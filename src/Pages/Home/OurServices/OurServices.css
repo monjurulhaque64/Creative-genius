@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+.font {
+  font-family: Poppins;
+}
 .card {
   width: 400px;
   height: 261px;
@@ -5,10 +9,12 @@
   position: relative;
   border-radius: 10px;
   /* border: 1px solid #404040; */
-  background: linear-gradient(106deg,
-      #171717 -9.44%,
-      #252525 104.61%,
-      rgba(37, 37, 37, 0) 104.61%);
+  background: linear-gradient(
+    106deg,
+    #171717 -9.44%,
+    #252525 104.61%,
+    rgba(37, 37, 37, 0) 104.61%
+  );
   overflow: hidden;
   color: white;
   text-align: justify;
@@ -26,10 +32,12 @@
   position: relative;
   border-radius: 10px;
   /* border: 1px solid #404040; */
-  background: linear-gradient(106deg,
-      rgba(49, 49, 49, 0) -9.44%,
-      #252525 104.61%,
-      #252525 104.61%);
+  background: linear-gradient(
+    106deg,
+    rgba(49, 49, 49, 0) -9.44%,
+    #252525 104.61%,
+    #252525 104.61%
+  );
   overflow: hidden;
   color: white;
   text-align: justify;
@@ -49,30 +57,26 @@
   position: absolute;
 }
 
-/* .card:hover {
-  background: linear-gradient(
-    106.01deg,
-    #252525 -9.44%, 
-    #171717 104.61%, 
-    rgba(37, 37, 37, 0) 104.61%
-  ),
-  linear-gradient(0deg, #404040, #404040); 
-  border: 2px solid #fafafa;
-  background-image: linear-gradient(#E5E4E2, #E5E4E2);
-} */
-
 .card-content {
   padding: 20px;
 }
 
 .card-title {
+  color: #FFF;
+  text-align: center;
+  font-family: Poppins;
   font-size: 24px;
+  font-style: normal;
   font-weight: 500;
 }
 
 .card-description {
   font-size: 16px;
-  font-family: lato;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
 }
 
 .card-icon {
@@ -86,7 +90,6 @@
   border: 0.5px solid rgb(110, 110, 124);
 }
 
-
 @media (max-width: 360px) {
   .card {
     max-width: 90% !important;
@@ -96,7 +99,6 @@
 
   .background-overlay {
     display: none;
-    
   }
 }
 
