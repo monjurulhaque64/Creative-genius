@@ -52,7 +52,7 @@ const Fwq = () => {
       </div>
       <Accordion>
         <div className='flex  items-center md:gap-6  gap-3 md:w-2/3  faq-card  md:mb-10'>
-          <div className={`border-2 mt-6  border-gray-700 rounded-[50%] p-4 ${divClass} `}>1</div>
+          <div className={`border-2 mt-6  border-gray-700 rounded-[50%] p-4 ${divClass} `}>01</div>
           {/* <div className=" line1 h-20  lg:mt-[160px] hidden lg:block border-[1px] border-blue-700 rotate-180 border-solid  absolute"></div> */}
 
           <AccordionItem
@@ -74,7 +74,7 @@ const Fwq = () => {
           </AccordionItem>
         </div>
         <div className='flex  items-center md:gap-6  gap-3 md:w-2/3  faq-card  md:mb-10'>
-          <div className={`border-2 mt-6 relative border-gray-700 rounded-[50%] p-4 ${divClass1}`}>2</div>
+          <div className={`border-2 mt-6 relative border-gray-700 rounded-[50%] p-4 ${divClass1}`}>02</div>
             {/* <div className="line1 hidden lg:block  lg:mt-[160px] h-20 border-[1px] border-blue-700 rotate-180 border-solid  absolute"></div> */}
 
           <AccordionItem
@@ -104,7 +104,7 @@ const Fwq = () => {
 
 
         <div className='flex items-center md:gap-6  gap-3 md:w-2/3  faq-card md:mb-10'>
-          <div className={`border-2 relative mt-6 border-gray-700 rounded-[50%] p-4 ${divClass2}`}>3</div>
+          <div className={`border-2 relative mt-6 border-gray-700 rounded-[50%] p-4 ${divClass2}`}>03</div>
           {/* <div className="line1 hidden lg:block  lg:mt-[150px]  h-16  border-[1px] border-blue-700 rotate-180 border-solid  absolute"></div> */}
 
           <AccordionItem className="collapse border-2 mt-6  p-3    md:text-[24px]  text-[20px] bg-[rgba(34, 34, 34, 0.80)] shadow-xl lg:w-[604px]  mt-6 rounded-md border-[1px] border-[#8a8a8a]"
@@ -132,7 +132,7 @@ const Fwq = () => {
 
 
         <div className='flex items-center md:gap-6  gap-3 md:w-2/3  faq-card md:mb-10'>
-          <div className={`border-2 relative mt-6 border-gray-700 rounded-[50%] p-4 ${divClass3}`}>4</div>
+          <div className={`border-2 relative mt-6 border-gray-700 rounded-[50%] p-4 ${divClass3}`}>04</div>
           {/* <div className="line1 hidden lg:block  lg:mt-[150px] h-16 border-[1px] border-blue-700 rotate-180 border-solid  absolute"></div> */}
 
           <AccordionItem className="collapse border-2 mt-6  p-3   md:text-[24px]  text-[20px] bg-[rgba(34, 34, 34, 0.80)] shadow-xl lg:w-[604px]  mt-6 rounded-md border-[1px] border-[#8a8a8a]" 
@@ -160,7 +160,7 @@ const Fwq = () => {
 
 
         <div className='flex items-center md:gap-6  gap-3 md:w-2/3  faq-card md:mb-10'>
-          <div className={`border-2 relative mt-6 border-gray-700 rounded-[50%] p-4 ${divClass4}`}>5</div>
+          <div className={`border-2 relative mt-6 border-gray-700 rounded-[50%] p-4 ${divClass4}`}>05</div>
           {/* <div className="line1 hidden lg:block  lg:mt-[150px] h-16 border-[1px] border-blue-700 rotate-180 border-solid  absolute"></div> */}
 
           <AccordionItem className="collapse border-2 mt-6  p-3    md:text-[24px]  text-[20px] bg-[rgba(34, 34, 34, 0.80)] shadow-xl lg:w-[604px]  mt-6 rounded-md border-[1px] border-[#8a8a8a]"
@@ -186,7 +186,7 @@ const Fwq = () => {
 
 
         <div className='flex items-center md:gap-6  gap-3 md:w-2/3  faq-card '>
-          <div className={`border-2  mt-6 border-gray-700 rounded-[50%] p-4 ${divClass5}`}>6</div>
+          <div className={`border-2  mt-6 border-gray-700 rounded-[50%] p-4 ${divClass5}`}>06</div>
 
           <AccordionItem className="collapse border-2 mt-6  p-3    md:text-[24px]  text-[20px] bg-[rgba(34, 34, 34, 0.80)] shadow-xl lg:w-[604px]  mt-6 rounded-md border-[1px] border-[#8a8a8a]"
           
