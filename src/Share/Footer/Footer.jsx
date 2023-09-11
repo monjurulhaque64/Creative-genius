@@ -105,7 +105,7 @@ const Footer = () => {
           </div>
         </div>
       </footer>
-      <hr className="bg-[#000000] container mx-auto lg:w-[1340px]" />
+      <div className="hr-line container mx-auto lg:w-[1340px]" />
       <footer className="footer container mx-auto items-center p-4 bg-neutral text-neutral-content mb-[84px]">
         <div className="items-center grid-flow-col lg:ml-[90px]">
           <p className="link link-hover text-white text-[14px]font-[400] heading  mb-[16px]">
