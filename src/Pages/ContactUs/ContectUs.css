@@ -1,4 +1,7 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+.heading{
+  font-family: Poppins;
+}
 .form-container {
     width: 100%;
     max-width: 419px;
@@ -47,6 +50,7 @@
   .contect-button {
     width: 100%;
     height: 52px;
+    font-family: 'Poppins';
     border-radius: 10px;
     background-color: #3C4FF8;
     color: #FFF;
