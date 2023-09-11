@@ -7,7 +7,6 @@
   border-radius: 15px;
   background: var(--Primary-Color, #3c4ff8);
   color: #fff;
-  font-family: Poppins;
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
@@ -20,9 +19,11 @@
   margin-top: 2px;
 }
 
-@media (max-width: 768px) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px){
   .download-btn {
     padding: 10px 16px;
-    font-size: 16px;
+    font-size: 15px;
   }
 }
+
+

@@ -71,7 +71,7 @@ const Navbar = () => {
           <ul className=" menu-horizontal px-1 mt-[45px] text-white font-[400] text-[18px] gap-[25px]">{navItems}</ul>
         </div>
         <div className="navbar-end">
-          <button className="download-btn w-[160px] lg:w-[199px]  mt-[36px] lg:mr-[80px] text-white font-[16px]">
+          <button className="download-btn heading w-[160px] lg:w-[199px]  mt-[36px] lg:mr-[80px] text-white font-[16px]">
             Download App{" "}
             <span>
               <FaGooglePlay></FaGooglePlay>
