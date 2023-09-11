@@ -143,7 +143,7 @@
 }
 
 /* mobile responsive  */
-@media (max-width: 390px) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px){
   .Title {
     color: white;
     font-size: 35px;
