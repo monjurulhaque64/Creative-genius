@@ -18,7 +18,7 @@ const Reviews = () => {
 
   return (
     <div className="container mx-auto mt-16 md:mt-[117px] relative mb-[40px]">
-      <div className="mx-auto text-center h-[130px] md:h-[200px]">
+      <div className="mx-auto text-center h-[150px] md:h-[200px]">
         <h1 className="font font-[600] text-[28px] md:text-[48px] text-white">
           Reviews
         </h1>
