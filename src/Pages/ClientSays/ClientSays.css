@@ -1,53 +1,59 @@
-
-  .client-card {
-    width: 394px;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+.heading {
+  font-family: Poppins;
+}
+.client-card {
+  width: 394px;
   height: 261px;
   position: relative;
   border: 1px solid #404040;
   border-radius: 10px;
-  background: rgba(34, 34, 34, 0.80);
+  background: rgba(34, 34, 34, 0.8);
   overflow: hidden;
   color: white;
-  backdrop-filter: blur(10px); 
+  backdrop-filter: blur(10px);
+}
+
+.client-card-content {
+  padding: 20px;
+}
+
+.client-card-title {
+  font-size: 24px;
+  font-weight: 500;
+  font-family: Poppins;
+}
+
+.client-card-description {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: Poppins;
+}
+
+.client-photo {
+  width: 66px;
+  height: 66px;
+  border-radius: 50%;
+}
+
+.client-horizontal-stars {
+  font-size: 24px;
+  color: #f1c40f;
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 360px) {
+  .client-card {
+    max-width: 90% !important;
+    margin: auto;
+    width: 384px;
   }
-  
-  .client-card-content {
-    padding: 20px;
+}
+@media (max-width: 390px) {
+  .client-card {
+    max-width: 90% !important;
+    margin: auto;
+    width: 384px;
   }
-  
-  .client-card-title {
-    font-size: 24px;
-    font-weight: bold;
-  }
-  
-  .client-card-description {
-    font-size: 15px;
-  }
-  
-  .client-photo {
-    width: 66px;
-    height: 66px;
-    border-radius: 50%;
-  }
-  
-  .client-horizontal-stars {
-    font-size: 24px;
-    color: #f1c40f;
-    display: flex;
-    align-items: center;
-  }
-  
-  @media (max-width: 360px) {
-    .client-card   {
-      max-width: 90% !important;
-      margin: auto;
-      width: 384px;
-    }
-  }
-  @media (max-width: 390px) {
-    .client-card   {
-      max-width: 90% !important;
-      margin: auto;
-      width: 384px;
-    }
-  }
+}
