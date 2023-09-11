@@ -102,7 +102,7 @@
   content: "";
   position: absolute;
   inset: -10px 140px;
-  background: linear-gradient(315deg, #6356d8, #6356d8);
+  background: linear-gradient(315deg, #3C4FF8, #3C4FF8);
   animation: animate 4s linear infinite;
 }
 
@@ -129,7 +129,7 @@
 .content {
   position: absolute;
   inset: 30px;
-  border: 6px solid #4057d8;
+  border: 6px solid #3C4FF8;
   z-index: 3;
   border-radius: 50%;
   overflow: hidden;
