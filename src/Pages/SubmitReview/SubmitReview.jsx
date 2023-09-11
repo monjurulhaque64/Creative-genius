@@ -87,12 +87,12 @@ const SubmitReview = () => {
           {/* Full Name Input */}
           <div className="flex mt-[65px] lg:gap-[134px] gap-[20px]">
             <div className="mb-4">
-              <label className="text-white block mb-2 font-[500] text-[20px] heading">
+              <label className="text-white block font-[500] text-[20px] heading mb-[9px]">
                 Full Name
               </label>
               <input
                 type="text"
-                className="w-full input-field  "
+                className="w-full input-field mb-[20px] "
                 placeholder="Full Name"
                 value={fullName}
                 onChange={(e) => setFullName(e.target.value)}
@@ -101,7 +101,7 @@ const SubmitReview = () => {
             </div>
             {/* Rating Input */}
             <div className="mb-4">
-              <label className="text-white block mb-2 font-[500] text-[20px] heading">
+              <label className="text-white block  font-[500] text-[20px] heading mb-[9px]">
                 Rating:
               </label>
               <Rating
@@ -115,12 +115,12 @@ const SubmitReview = () => {
           </div>
           {/* Photo Input */}
           <div className="mb-4 mt-[32px]">
-            <label className="text-white block mb-2 font-[500] text-[20px] heading">
+            <label className="text-white block  font-[500] text-[20px] heading mb-[9px]">
               Select Your Photo
             </label>
             <input
               type="file"
-              className="file-input input-field file-input-secondary w-full "
+              className="file-input input-field file-input-secondary w-full mb-[20px]"
               accept="image/*"
               onChange={(e) => setPhoto(e.target.files[0])}
               required
@@ -128,7 +128,7 @@ const SubmitReview = () => {
           </div>
           {/* Review Textarea */}
           <div className="mb-4 mt-[32px]">
-            <label className="text-white block mb-2 font-[500] text-[20px] heading">
+            <label className="text-white block mb-[9px] font-[500] text-[20px] heading">
               Review
             </label>
             <textarea
@@ -143,14 +143,14 @@ const SubmitReview = () => {
           <div className="text-center mt-[60px]">
             <button
               type="submit"
-              className="review-button text-white py-[11px] px-[100px] rounded-lg font-[500] text-[20px] font-[Poppins]"
+              className="review-button text-white py-[11px] px-[100px] rounded-lg font-[500] text-[20px] font-[Poppins] mb-[30px]"
             >
               Submit Now
             </button>
           </div>
         </form>
       </div>
-      <div className="mt-[120px] md:mt-[194px]">
+      <div className="mt-[120px] md:mt-[183px]">
         <Reviews></Reviews>
       </div>
     </div>

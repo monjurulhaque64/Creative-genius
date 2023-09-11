@@ -38,24 +38,24 @@ const ClientSays = () => {
         <h1 className="heading font-[600] text-[28px] md:text-[48px] text-white">
         Reviews
         </h1>
-        <p className="pragraph font-[400] w-[300px] md:w-[650px] text-center mx-auto text-[14px] md:text-[18px] text-white">
+        <p className="heading font-[400] w-[300px] md:w-[650px] text-center mx-auto text-[14px] md:text-[18px] text-white mt-[20px]">
           There are some reviews from our clients as a result of trusting our business.
         </p>
       </div>
-      <div>
+      <div className="mt-[71px] ">
         <ClientSaysCard reviews={currentReviews}></ClientSaysCard>
       </div>
-      <div className="join mt-4 flex justify-end mr-4 lg:mr-16 md:mr-4">
+      <div className="join mt-4 flex justify-end mr-4 lg:mr-16 md:mr-4 mb-[198px]">
         <button
-          className={`join-item btn text-white bg-[#171717] hover:bg-[#171717] ${currentPage === 1 ? "btn-disabled" : ""}`}
+          className={`join-item btn text-white bg-[#404040] hover:bg-[#404040] ${currentPage === 1 ? "btn-disabled" : ""}`}
           onClick={() => handlePageChange(currentPage - 1)}
           disabled={currentPage === 1}
         >
           « Previous
         </button>
-        <button className="join-item btn text-white bg-[#171717] hover:bg-[#171717]">Page {currentPage}</button>
+        <button className="join-item btn text-white bg-[#404040] hover:bg-[#404040]">Page {currentPage}</button>
         <button
-          className={`join-item btn text-white bg-[#171717] hover:bg-[#171717] ${
+          className={`join-item btn text-white bg-[#404040] hover:bg-[#404040] ${
             currentPage === totalPageCount ? "btn-disabled" : ""
           }`}
           onClick={() => handlePageChange(currentPage + 1)}
