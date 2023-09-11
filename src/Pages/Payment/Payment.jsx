@@ -1,5 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet-async";
+import './payment.css'
 
 const Payment = () => {
   return (
@@ -9,15 +10,15 @@ const Payment = () => {
       </Helmet>
       <div className="my-8 m-2 p-8 lg:m-0 shadow-xl rounded-lg">
         <div className="my-2">
-          <h1 className="font-[Poppins] font-[600] text-[48px] text-[#3C4FF8] ">
+          <h1 className="font font-[600] text-[48px] text-[#3C4FF8] ">
             Payment
           </h1>
-          <p className="font-[Poppins] font-[400] text-[18px] text-white ">
+          <p className="font font-[400] text-[16px] text-white ">
             Updated: September 7, 2023
           </p>
         </div>
 
-        <div className="my-8 mt-8 font-[Poppins] font-[400] text-[18px] text-white text-justify">
+        <div className="my-8 mt-8 font font-[400] text-[16px] text-white text-justify">
           <p>
             Welcome to Creative Campus Payment Center! We've crafted our payment
             section to provide you with a seamless and secure payment
