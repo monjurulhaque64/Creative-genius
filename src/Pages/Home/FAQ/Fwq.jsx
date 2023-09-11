@@ -56,9 +56,9 @@ const Fwq = () => {
           {/* <div className=" line1 h-20  lg:mt-[160px] hidden lg:block border-[1px] border-blue-700 rotate-180 border-solid  absolute"></div> */}
 
           <AccordionItem
-            className="collapse   p-3 md:text-[24px]  text-[20px] shadow-xl lg:w-[604px] mt-6 rounded-md border-[1px] border-[#8a8a8a]"
+            className="collapse   p-3 md:text-[24px]  text-[18px] shadow-xl lg:w-[604px] mt-6 rounded-md border-[1px] border-[#8a8a8a]"
             header={
-              <div className="flex items-center justify-between md:gap-[14rem] gap-[1px]">
+              <div className="flex items-center justify-between md:gap-[14rem] gap-[25px]">
                 <h1>What is your company’s goal?</h1>
               <i
                 className={`fa ${isAccordionOpen ? 'fa-chevron-up' : 'fa-chevron-down'}`}
@@ -68,7 +68,7 @@ const Fwq = () => {
             }
             onClick={toggleAccordion}
           >
-            <p className='text-[15px] mt-2 text-white heading font-[400] text-justify'>
+            <p className='text-[14px] md:text-[15px] mt-2 text-white heading font-[400] text-justify'>
               Our company’s goal is to fulfill client's or customer’s satisfaction, financial gain, growth, and employee development..
             </p>
           </AccordionItem>
@@ -78,7 +78,7 @@ const Fwq = () => {
             {/* <div className="line1 hidden lg:block  lg:mt-[160px] h-20 border-[1px] border-blue-700 rotate-180 border-solid  absolute"></div> */}
 
           <AccordionItem
-            className="collapse  p-3 md:text-[24px]  text-[20px] shadow-xl lg:w-[604px] mt-6 rounded-md border-[1px] border-[#8a8a8a]"
+            className="collapse  p-3 md:text-[24px]  text-[18px] shadow-xl lg:w-[604px] mt-6 rounded-md border-[1px] border-[#8a8a8a]"
             
             header={
               <div className="flex items-center justify-between md:gap-[12rem] gap-[1px]">
@@ -93,7 +93,7 @@ const Fwq = () => {
           >
             
           
-            <p className='text-[15px] mt-2 text-white heading font-[400] text-justify'>
+            <p className='text-[14px] md:text-[15px] mt-2 text-white heading font-[400] text-justify'>
             In our company digital marketing is a multifaceted strategy aimed to target, reach out to, and build relationships with customers online, across a broad range of channels, ultimately getting them to make a purchase and more purchases in the future.
 
             </p>
@@ -107,7 +107,7 @@ const Fwq = () => {
           <div className={`border-2 relative mt-6 border-gray-700 rounded-[50%] p-2 md:p-4 ${divClass2}`}>03</div>
           {/* <div className="line1 hidden lg:block  lg:mt-[150px]  h-16  border-[1px] border-blue-700 rotate-180 border-solid  absolute"></div> */}
 
-          <AccordionItem className="collapse border-2 mt-6  p-3    md:text-[24px]  text-[20px] bg-[rgba(34, 34, 34, 0.80)] shadow-xl lg:w-[604px]  mt-6 rounded-md border-[1px] border-[#8a8a8a]"
+          <AccordionItem className="collapse border-2 mt-6  p-3    md:text-[24px]  text-[18px] bg-[rgba(34, 34, 34, 0.80)] shadow-xl lg:w-[604px]  mt-6 rounded-md border-[1px] border-[#8a8a8a]"
           
               header={
               <div className="flex items-center justify-between md:gap-[12rem] gap-[1px]">
@@ -120,7 +120,7 @@ const Fwq = () => {
             }
             onClick={toggleAccordion2}
           >
-            <p className='text-[15px] mt-2 text-white heading font-[400] text-justify'>
+            <p className='text-[14px] md:text-[15px] mt-2 text-white heading font-[400] text-justify'>
               Web development features, advanced mobile app application,
               Marketing services, graphic or website designs for websites,
               logos, advertisements and other promotional content for companies
@@ -135,10 +135,10 @@ const Fwq = () => {
           <div className={`border-2 relative mt-6 border-gray-700 rounded-[50%] p-2 md:p-4 ${divClass3}`}>04</div>
           {/* <div className="line1 hidden lg:block  lg:mt-[150px] h-16 border-[1px] border-blue-700 rotate-180 border-solid  absolute"></div> */}
 
-          <AccordionItem className="collapse border-2 mt-6  p-3   md:text-[24px]  text-[20px] bg-[rgba(34, 34, 34, 0.80)] shadow-xl lg:w-[604px]  mt-6 rounded-md border-[1px] border-[#8a8a8a]" 
+          <AccordionItem className="collapse border-2 mt-6  p-3   md:text-[24px]  text-[18px] bg-[rgba(34, 34, 34, 0.80)] shadow-xl lg:w-[604px]  mt-6 rounded-md border-[1px] border-[#8a8a8a]" 
           
              header={
-              <div className="flex items-center justify-between md:gap-[14rem] gap-[1px]">
+              <div className="flex items-center justify-between md:gap-[14rem] gap-[25px]">
                How long does a project take?
               <i
                 className={`fa ${isAccordionOpen3 ? 'fa-chevron-up' : 'fa-chevron-down'}`}
@@ -149,7 +149,7 @@ const Fwq = () => {
             onClick={toggleAccordion3}
           >
 
-            <p className='text-[15px] mt-2 text-white heading font-[400] text-justify'> Typically, an average project will take in the region of three –
+            <p className='text-[14px] md:text-[15px] mt-2 text-white heading font-[400] text-justify'> Typically, an average project will take in the region of three –
               four months. Some of our projects are small, fully specified and
               are completed in four – six weeks. Others can take six months or
               much longer ‐ it all depends on the complexity and scope of the
@@ -163,7 +163,7 @@ const Fwq = () => {
           <div className={`border-2 relative mt-6 border-gray-700 rounded-[50%] p-2 md:p-4 ${divClass4}`}>05</div>
           {/* <div className="line1 hidden lg:block  lg:mt-[150px] h-16 border-[1px] border-blue-700 rotate-180 border-solid  absolute"></div> */}
 
-          <AccordionItem className="collapse border-2 mt-6  p-3    md:text-[24px]  text-[20px] bg-[rgba(34, 34, 34, 0.80)] shadow-xl lg:w-[604px]  mt-6 rounded-md border-[1px] border-[#8a8a8a]"
+          <AccordionItem className="collapse border-2 mt-6  p-3    md:text-[24px]  text-[18px] bg-[rgba(34, 34, 34, 0.80)] shadow-xl lg:w-[604px]  mt-6 rounded-md border-[1px] border-[#8a8a8a]"
           
              header={
               <div className="flex items-center justify-between md:gap-[12rem] gap-[1px]">
@@ -176,7 +176,7 @@ const Fwq = () => {
             }
             onClick={toggleAccordion4}
           >
-            <p className='text-[15px] mt-2 text-white heading font-[400] text-justify'>  It's a great idea to make a content strategy framework first. Take
+            <p className='text-[14px] md:text-[15px] mt-2 text-white heading font-[400] text-justify'>  It's a great idea to make a content strategy framework first. Take
               this as our blueprint—it will contain all the details of what,
               when, where, and why that will inform and guide the content
               creation process. As an added bonus, this can help us stay on
@@ -188,7 +188,7 @@ const Fwq = () => {
         <div className='flex items-center md:gap-6  gap-3 md:w-2/3    faq-card '>
           <div className={`border-2  mt-6 border-gray-700 rounded-[50%] p-2 md:p-4 ${divClass5}`}>06</div>
 
-          <AccordionItem className="collapse border-2 mt-6  p-3    md:text-[24px]  text-[20px] bg-[rgba(34, 34, 34, 0.80)] shadow-xl lg:w-[604px]  mt-6 rounded-md border-[1px] border-[#8a8a8a]"
+          <AccordionItem className="collapse border-2 mt-6  p-3    md:text-[24px]  text-[18px] bg-[rgba(34, 34, 34, 0.80)] shadow-xl lg:w-[604px]  mt-6 rounded-md border-[1px] border-[#8a8a8a]"
           
               header={
               <div className="flex items-center justify-between md:gap-[12rem] gap-[1px]">
@@ -201,7 +201,7 @@ const Fwq = () => {
             }
             onClick={toggleAccordion5}
           >
-            <p className='text-[15px] mt-2 text-white heading font-[400] text-justify'>  It's a great idea to make a content strategy framework Always be on the lookout for leaders, even when you’re not hiring
+            <p className='text-[14px] md:text-[15px] mt-2 text-white heading font-[400] text-justify'>  It's a great idea to make a content strategy framework Always be on the lookout for leaders, even when you’re not hiring
                 for a management position. And individuals frequently have to take
                 responsibility for delivering projects, and this requires
                 leadership skills such as organization, motivation, positive

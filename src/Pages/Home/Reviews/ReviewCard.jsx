@@ -28,7 +28,7 @@ const ReviewCard = ({ reviews }) => {
                 readOnly
                 itemStyles={myStyles}
               />
-              <p className="review-card-description mt-[16px]">
+              <p className="review-card-description mt-[12px]">
                 {review.review}
               </p>
             </div>
