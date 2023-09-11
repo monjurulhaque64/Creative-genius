@@ -23,14 +23,14 @@
     position: absolute;
   }
 
-@media (max-width: 360px) {
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
     .product-btn {
         display: inline-flex;
-        padding: 11px 12px;
+        padding: 12px 14px;
         justify-content: center;
         align-items: center;
         gap: 3px;
-        border-radius: 10px;
+        border-radius: 8px;
         background: var(--Primary-Color, #3C4FF8);
         color: #FFF;
         font-size: 10px;

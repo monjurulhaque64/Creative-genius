@@ -32,7 +32,7 @@ const Reviews = () => {
       </div>
       <div className="gradient-bottom inset-x-0 "></div>
       <div className="flex justify-center items-center mb-12 absolute inset-x-0 mt-[20px]">
-        <Link to={'/client-says'}><button className="see-more-btn">
+        <Link to={'/client-says'}><button className="see-more-btn pragraph">
           See More
         </button></Link>
       </div>

@@ -50,9 +50,9 @@ const About = () => {
           ))}
         </div>
         {/* Pagination */}
-        <div className="join mt-4 flex justify-end mr-4 lg:mr-16 md:mr-4">
+        <div className="join mt-5 flex justify-end items-center gap-3 mr-4 lg:mr-16 md:mr-4">
           <button
-            className={`join-item btn text-white bg-[#171717] hover:bg-[#171717]  ${
+            className={` p-btn btn text-white text-center bg-[#171717] hover:bg-[#171717]  ${
               currentPage === 1 ? "btn-disabled" : ""
             }`}
             onClick={() => handlePageChange(currentPage - 1)}
@@ -60,17 +60,17 @@ const About = () => {
           >
             « Previous
           </button>
-          <button className="join-item btn text-white bg-[#171717] hover:bg-[#171717] ">
-            Page {currentPage}
+          <button className="p-btn btn text-white text-center  bg-[#171717] hover:bg-[#171717] ">
+            0{currentPage}
           </button>
+          
           <button
-            className={`join-item btn text-white bg-[#171717] hover:bg-[#171717] ${
+            className={`p-btn btn pb-1 text-white bg-[#171717] hover:bg-[#171717] ${
               currentPage === totalPageCount ? "btn-disabled" : ""
             }`}
             onClick={() => handlePageChange(currentPage + 1)}
             disabled={currentPage === totalPageCount}
-          >
-            Next »
+          > Next »
           </button>
         </div>
         <div className="mt-16 md:mt-[172px] container mx-auto">

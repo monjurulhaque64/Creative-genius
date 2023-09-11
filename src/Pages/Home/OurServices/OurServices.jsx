@@ -20,7 +20,7 @@ const OurServices = () => {
         <div className="card ">
           <div className="card-content my-4">
             <h2 className="card-title mb-3 heading">Web Development</h2>
-            <p className="card-description ">
+            <p className="text-[15px] md:text-[16px] pragraph ">
               We work with our clients' preferences. We provide user-friendly,
               responsive websites. Our responsibility is to create a website
               that is capable of fulfilling your demands.
@@ -31,7 +31,7 @@ const OurServices = () => {
         <div className="card">
           <div className="card-content my-4">
             <h2 className="card-title mb-3">Apps Development</h2>
-            <p className="card-description">
+            <p className="text-[15px] md:text-[16px] pragraph">
               We built apps to put you ahead with the latest trends. Our app
               development service will give you a convenient platform to
               communicate with brands and businesses.
@@ -42,7 +42,7 @@ const OurServices = () => {
         <div className="card">
           <div className="card-content my-4">
             <h2 className="card-title mb-3">Graphics Design</h2>
-            <p className="card-description">
+            <p className="text-[15px] md:text-[16px] pragraph">
               We are here for you to help you deliver messages in the most
               impactful way with the graphic design. We will ensure you to
               attract your targeted audience and make your website more
@@ -54,7 +54,7 @@ const OurServices = () => {
         <div className="card">
           <div className="card-content my-4">
             <h2 className="card-title mb-3">Video Content Creating</h2>
-            <p className="card-description">
+            <p className="text-[15px] md:text-[16px] pragraph">
               Our video content creation service will help you to make a
               trustable environment for your website visitors. It will give you
               the ultimate level of content flexibility for your brand and your
@@ -66,7 +66,7 @@ const OurServices = () => {
         <div className="card">
           <div className="card-content my-4">
             <h2 className="card-title mb-3">Motion Graphics</h2>
-            <p className="card-description">
+            <p className="text-[15px] md:text-[16px] pragraph">
               We will provide you with an engaging way to simplify complex
               information and make that quickly understandable to your audience
               through motion graphics. It will help you to increase conversions
@@ -78,7 +78,7 @@ const OurServices = () => {
         <div className="card ">
           <div className="card-content my-4">
             <h2 className="card-title mb-3">Digital Marketing</h2>
-            <p className="card-description">
+            <p className="text-[15px] md:text-[16px] pragraph">
               We are here with our digital marketing services that can lead to
               improvements in your sales and in your business growth. We are
               determined to make sure to fulfill your company’s wider goals and

@@ -15,7 +15,7 @@ const Footer = () => {
       <footer className="container mx-auto footer p-7 text-base-content mt-[120px]">
         <div className="lg:ml-[80px] ml-[0px]">
           <img className="w-[148px] " src={logo} alt="logo" />
-          <p className="mt-6 text-[14px]font-[400] heading text-white">
+          <p className="mt-6 text-[14px] font-[400] heading text-white">
             The future of digital learning technology <br /> in teaching and
             learning.
           </p>
