@@ -17,7 +17,7 @@ const Products = () => {
         <h1 className="font font-[600] text-[28px] md:text-[48px] text-white ">
           Our Products
         </h1>
-        <p className="font font-[400] w-[300px] md:w-[650px] text-center mx-auto text-[20px] text-white mt-[20px]">
+        <p className="font font-[400] w-[300px] md:w-[650px] text-center mx-auto text-[16px] text-white mt-[20px]">
           Here are some products of our company to make your life comfortable
           through technology.
         </p>

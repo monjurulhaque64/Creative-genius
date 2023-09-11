@@ -39,7 +39,7 @@ const About = () => {
       <div className="mx-5 md:mx-0">
         <div className="mx-auto text-center ">
           <h1 className="about-title  heading">Meet Our Team</h1>
-          <p className="description mt-[20px]  w-[300px] md:w-[650px] text-center mx-auto  text-[14px] md:text-[18px] text-white">
+          <p className="description mt-[20px]  w-[300px] md:w-[650px] text-center mx-auto  text-[16px] text-white">
             Here are our talented individuals who drive our company's success.
             Meet the dedicated team behind this company.
           </p>
