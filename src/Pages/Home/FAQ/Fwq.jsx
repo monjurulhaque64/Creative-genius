@@ -52,8 +52,8 @@ const Fwq = () => {
       </div>
       <Accordion>
         <div className='flex  items-center md:gap-6  gap-3 md:w-1/2  faq-card  md:mb-10'>
-          <div className={`border-2 mt-6 relative border-gray-700 rounded-[50%] p-3 ${divClass} `}>1</div>
-          <div className="md:h-20 md:left-[68px] md:mt-[160px] h-24 border-[1px] border-blue-700 rotate-180 border-solid  absolute"></div>
+          <div className={`border-2 mt-6 relative border-gray-700 rounded-[50%] p-4 ${divClass} `}>1</div>
+          <div className="md:h-20 hidden lg:block md:left-[71px] md:mt-[160px] h-24 border-[1px] border-blue-700 rotate-180 border-solid  absolute"></div>
 
           <AccordionItem
             className="collapse  p-3 text-2xl shadow-xl lg:w-[604px] mt-6 rounded-md border-[1px] border-[#8a8a8a]"
@@ -66,8 +66,8 @@ const Fwq = () => {
           </AccordionItem>
         </div>
         <div className='flex  items-center md:gap-6  gap-3 md:w-1/2  faq-card  md:mb-10'>
-          <div className={`border-2 mt-6 relative border-gray-700 rounded-[50%] p-3 ${divClass1}`}>2</div>
-            <div className="md:h-[80px] hidden lg:block md:left-[68px] md:mt-[160px] h-24 border-[1px] border-blue-700 rotate-180 border-solid  absolute"></div>
+          <div className={`border-2 mt-6 relative border-gray-700 rounded-[50%] p-4 ${divClass1}`}>2</div>
+            <div className="md:h-[80px] hidden lg:block md:left-[71px] md:mt-[160px] h-24 border-[1px] border-blue-700 rotate-180 border-solid  absolute"></div>
 
           <AccordionItem
             className="collapse  p-3 text-2xl shadow-xl lg:w-[604px] mt-6 rounded-md border-[1px] border-[#8a8a8a]"
@@ -85,8 +85,8 @@ const Fwq = () => {
 
 
         <div className='flex items-center md:gap-6  gap-3 md:w-1/2  faq-card md:mb-10'>
-          <div className={`border-2 relative mt-6 border-gray-700 rounded-[50%] p-3 ${divClass2}`}>3</div>
-          <div className="md:h-[70px] hidden lg:block md:left-[68px] md:mt-[150px] h-24 border-[1px] border-blue-700 rotate-180 border-solid  absolute"></div>
+          <div className={`border-2 relative mt-6 border-gray-700 rounded-[50%] p-4 ${divClass2}`}>3</div>
+          <div className="md:h-[66px] hidden lg:block md:left-[72px] md:mt-[150px] h-24 border-[1px] border-blue-700 rotate-180 border-solid  absolute"></div>
 
           <AccordionItem className="collapse border-2 mt-6  p-3    text-2xl bg-[rgba(34, 34, 34, 0.80)] shadow-xl lg:w-[604px]  mt-6 rounded-md border-[1px] border-[#8a8a8a]"
             header="What are the services of your company?"
@@ -103,8 +103,8 @@ const Fwq = () => {
 
 
         <div className='flex items-center md:gap-6  gap-3 md:w-1/2  faq-card md:mb-10'>
-          <div className={`border-2 relative mt-6 border-gray-700 rounded-[50%] p-3 ${divClass3}`}>4</div>
-          <div className="md:h-[70px] hidden lg:block md:left-[68px] md:mt-[150px] h-24 border-[1px] border-blue-700 rotate-180 border-solid  absolute"></div>
+          <div className={`border-2 relative mt-6 border-gray-700 rounded-[50%] p-4 ${divClass3}`}>4</div>
+          <div className="md:h-[65px] hidden lg:block md:left-[72px] md:mt-[150px] h-24 border-[1px] border-blue-700 rotate-180 border-solid  absolute"></div>
 
           <AccordionItem className="collapse border-2 mt-6  p-3   text-2xl bg-[rgba(34, 34, 34, 0.80)] shadow-xl lg:w-[604px]  mt-6 rounded-md border-[1px] border-[#8a8a8a]" 
           header="  How long does a project take? "
@@ -122,8 +122,8 @@ const Fwq = () => {
 
 
         <div className='flex items-center md:gap-6  gap-3 md:w-1/2  faq-card md:mb-10'>
-          <div className={`border-2 relative mt-6 border-gray-700 rounded-[50%] p-3 ${divClass4}`}>5</div>
-          <div className="md:h-[70px] hidden lg:block md:left-[68px] md:mt-[150px] h-24 border-[1px] border-blue-700 rotate-180 border-solid  absolute"></div>
+          <div className={`border-2 relative mt-6 border-gray-700 rounded-[50%] p-4 ${divClass4}`}>5</div>
+          <div className="md:h-[65px] hidden lg:block md:left-[75px] md:mt-[150px] h-24 border-[1px] border-blue-700 rotate-180 border-solid  absolute"></div>
 
           <AccordionItem className="collapse border-2 mt-6  p-3    text-2xl bg-[rgba(34, 34, 34, 0.80)] shadow-xl lg:w-[604px]  mt-6 rounded-md border-[1px] border-[#8a8a8a]"
           onClick={toggleAccordion4}
@@ -138,7 +138,7 @@ const Fwq = () => {
 
 
         <div className='flex items-center md:gap-6  gap-3 md:w-1/2  faq-card '>
-          <div className={`border-2  mt-6 border-gray-700 rounded-[50%] p-3 ${divClass5}`}>6</div>
+          <div className={`border-2  mt-6 border-gray-700 rounded-[50%] p-4 ${divClass5}`}>6</div>
 
           <AccordionItem className="collapse border-2 mt-6  p-3    text-2xl bg-[rgba(34, 34, 34, 0.80)] shadow-xl lg:w-[604px]  mt-6 rounded-md border-[1px] border-[#8a8a8a]"
           header="  What are the qualities of a successful team?"
