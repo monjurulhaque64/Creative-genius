@@ -143,7 +143,7 @@ const SubmitReview = () => {
           <div className="text-center mt-[60px]">
             <button
               type="submit"
-              className="review-button text-white py-[11px] px-[100px] rounded-lg font-[500] text-[20px] font-[Poppins] mb-[30px]"
+              className="review-button text-white py-[11px] lg:px-[100px] rounded-lg font-[500] text-[20px] font-[Poppins] mb-[30px]"
             >
               Submit Now
             </button>
