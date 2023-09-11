@@ -51,15 +51,15 @@ const Fwq = () => {
         </p>
       </div>
       <Accordion>
-        <div className='flex  items-center md:gap-6  gap-3 md:w-2/3  faq-card  md:mb-10'>
-          <div className={`border-2 mt-6  border-gray-700 rounded-[50%] p-4 ${divClass} `}>01</div>
+        <div className='flex  items-center md:gap-6  gap-3 md:w-2/3    faq-card  md:mb-10'>
+          <div className={`border-2 mt-6  border-gray-700 rounded-[50%] p-2 md:p-4 ${divClass} `}>01</div>
           {/* <div className=" line1 h-20  lg:mt-[160px] hidden lg:block border-[1px] border-blue-700 rotate-180 border-solid  absolute"></div> */}
 
           <AccordionItem
-            className="collapse  p-3 md:text-[24px]  text-[20px] shadow-xl lg:w-[604px] mt-6 rounded-md border-[1px] border-[#8a8a8a]"
+            className="collapse   p-3 md:text-[24px]  text-[20px] shadow-xl lg:w-[604px] mt-6 rounded-md border-[1px] border-[#8a8a8a]"
             header={
-              <div className="flex items-center justify-between gap-[12rem]">
-                What is your company’s goal?
+              <div className="flex items-center justify-between md:gap-[12rem] gap-[1px]">
+                <h1>What is your company’s goal?</h1>
               <i
                 className={`fa ${isAccordionOpen ? 'fa-chevron-up' : 'fa-chevron-down'}`}
                 style={{ marginRight: '8px' }}
@@ -73,15 +73,15 @@ const Fwq = () => {
             </p>
           </AccordionItem>
         </div>
-        <div className='flex  items-center md:gap-6  gap-3 md:w-2/3  faq-card  md:mb-10'>
-          <div className={`border-2 mt-6 relative border-gray-700 rounded-[50%] p-4 ${divClass1}`}>02</div>
+        <div className='flex  items-center md:gap-6  gap-3 md:w-2/3    faq-card  md:mb-10'>
+          <div className={`border-2 mt-6 relative border-gray-700 rounded-[50%] p-2 md:p-4 ${divClass1}`}>02</div>
             {/* <div className="line1 hidden lg:block  lg:mt-[160px] h-20 border-[1px] border-blue-700 rotate-180 border-solid  absolute"></div> */}
 
           <AccordionItem
             className="collapse  p-3 md:text-[24px]  text-[20px] shadow-xl lg:w-[604px] mt-6 rounded-md border-[1px] border-[#8a8a8a]"
             
             header={
-              <div className="flex items-center justify-between gap-[12rem]">
+              <div className="flex items-center justify-between md:gap-[12rem] gap-[1px]">
               What is the target of digital marketing for your company?
               <i
                 className={`fa ${isAccordionOpen1 ? 'fa-chevron-up' : 'fa-chevron-down'}`}
@@ -103,14 +103,14 @@ const Fwq = () => {
 
 
 
-        <div className='flex items-center md:gap-6  gap-3 md:w-2/3  faq-card md:mb-10'>
-          <div className={`border-2 relative mt-6 border-gray-700 rounded-[50%] p-4 ${divClass2}`}>03</div>
+        <div className='flex items-center md:gap-6  gap-3 md:w-2/3    faq-card md:mb-10'>
+          <div className={`border-2 relative mt-6 border-gray-700 rounded-[50%] p-2 md:p-4 ${divClass2}`}>03</div>
           {/* <div className="line1 hidden lg:block  lg:mt-[150px]  h-16  border-[1px] border-blue-700 rotate-180 border-solid  absolute"></div> */}
 
           <AccordionItem className="collapse border-2 mt-6  p-3    md:text-[24px]  text-[20px] bg-[rgba(34, 34, 34, 0.80)] shadow-xl lg:w-[604px]  mt-6 rounded-md border-[1px] border-[#8a8a8a]"
           
               header={
-              <div className="flex items-center justify-between gap-[12rem]">
+              <div className="flex items-center justify-between md:gap-[12rem] gap-[1px]">
               What are the services of your company?
               <i
                 className={`fa ${isAccordionOpen2 ? 'fa-chevron-up' : 'fa-chevron-down'}`}
@@ -131,14 +131,14 @@ const Fwq = () => {
 
 
 
-        <div className='flex items-center md:gap-6  gap-3 md:w-2/3  faq-card md:mb-10'>
-          <div className={`border-2 relative mt-6 border-gray-700 rounded-[50%] p-4 ${divClass3}`}>04</div>
+        <div className='flex items-center md:gap-6  gap-3 md:w-2/3    faq-card md:mb-10'>
+          <div className={`border-2 relative mt-6 border-gray-700 rounded-[50%] p-2 md:p-4 ${divClass3}`}>04</div>
           {/* <div className="line1 hidden lg:block  lg:mt-[150px] h-16 border-[1px] border-blue-700 rotate-180 border-solid  absolute"></div> */}
 
           <AccordionItem className="collapse border-2 mt-6  p-3   md:text-[24px]  text-[20px] bg-[rgba(34, 34, 34, 0.80)] shadow-xl lg:w-[604px]  mt-6 rounded-md border-[1px] border-[#8a8a8a]" 
           
              header={
-              <div className="flex items-center justify-between gap-[12rem]">
+              <div className="flex items-center justify-between md:gap-[12rem] gap-[1px]">
                How long does a project take?
               <i
                 className={`fa ${isAccordionOpen3 ? 'fa-chevron-up' : 'fa-chevron-down'}`}
@@ -159,14 +159,14 @@ const Fwq = () => {
         </div>
 
 
-        <div className='flex items-center md:gap-6  gap-3 md:w-2/3  faq-card md:mb-10'>
-          <div className={`border-2 relative mt-6 border-gray-700 rounded-[50%] p-4 ${divClass4}`}>05</div>
+        <div className='flex items-center md:gap-6  gap-3 md:w-2/3    faq-card md:mb-10'>
+          <div className={`border-2 relative mt-6 border-gray-700 rounded-[50%] p-2 md:p-4 ${divClass4}`}>05</div>
           {/* <div className="line1 hidden lg:block  lg:mt-[150px] h-16 border-[1px] border-blue-700 rotate-180 border-solid  absolute"></div> */}
 
           <AccordionItem className="collapse border-2 mt-6  p-3    md:text-[24px]  text-[20px] bg-[rgba(34, 34, 34, 0.80)] shadow-xl lg:w-[604px]  mt-6 rounded-md border-[1px] border-[#8a8a8a]"
           
              header={
-              <div className="flex items-center justify-between gap-[12rem]">
+              <div className="flex items-center justify-between md:gap-[12rem] gap-[1px]">
                How do you create content for your clients?
               <i
                 className={`fa ${isAccordionOpen4 ? 'fa-chevron-up' : 'fa-chevron-down'}`}
@@ -185,13 +185,13 @@ const Fwq = () => {
         </div>
 
 
-        <div className='flex items-center md:gap-6  gap-3 md:w-2/3  faq-card '>
-          <div className={`border-2  mt-6 border-gray-700 rounded-[50%] p-4 ${divClass5}`}>06</div>
+        <div className='flex items-center md:gap-6  gap-3 md:w-2/3    faq-card '>
+          <div className={`border-2  mt-6 border-gray-700 rounded-[50%] p-2 md:p-4 ${divClass5}`}>06</div>
 
           <AccordionItem className="collapse border-2 mt-6  p-3    md:text-[24px]  text-[20px] bg-[rgba(34, 34, 34, 0.80)] shadow-xl lg:w-[604px]  mt-6 rounded-md border-[1px] border-[#8a8a8a]"
           
               header={
-              <div className="flex items-center justify-between gap-[12rem]">
+              <div className="flex items-center justify-between md:gap-[12rem] gap-[1px]">
               What are the qualities of a successful team?
               <i
                 className={`fa ${isAccordionOpen5 ? 'fa-chevron-up' : 'fa-chevron-down'}`}
