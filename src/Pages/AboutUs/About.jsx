@@ -52,7 +52,7 @@ const About = () => {
         {/* Pagination */}
         <div className="join mt-5 flex justify-end items-center gap-3 mr-4 lg:mr-16 md:mr-4">
           <button
-            className={` p-btn btn text-white text-center bg-[#171717] hover:bg-[#171717]  ${
+            className={` join-item btn text-white bg-[#404040] hover:bg-[#404040]  ${
               currentPage === 1 ? "btn-disabled" : ""
             }`}
             onClick={() => handlePageChange(currentPage - 1)}
@@ -60,12 +60,12 @@ const About = () => {
           >
             « Previous
           </button>
-          <button className="p-btn btn text-white text-center  bg-[#171717] hover:bg-[#171717] ">
-            0{currentPage}
+          <button className="join-item btn text-white bg-[#404040] hover:bg-[#404040] ">
+          Page {currentPage}
           </button>
           
           <button
-            className={`p-btn btn pb-1 text-white bg-[#171717] hover:bg-[#171717] ${
+            className={`join-item btn text-white bg-[#404040] hover:bg-[#404040] ${
               currentPage === totalPageCount ? "btn-disabled" : ""
             }`}
             onClick={() => handlePageChange(currentPage + 1)}

@@ -1,13 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+.font {
+  font-family: Poppins;
+}
+
 .product-btn {
     display: inline-flex;
     padding: 16px 24px;
     justify-content: center;
     align-items: center;
+    font-family: Poppins;
     gap: 8px;
     border-radius: 10px;
     background: var(--Primary-Color, #3C4FF8);
     color: #FFF;
-    font-size: 18px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -29,11 +35,12 @@
         padding: 12px 14px;
         justify-content: center;
         align-items: center;
+        font-family: Poppins;
         gap: 3px;
         border-radius: 8px;
         background: var(--Primary-Color, #3C4FF8);
         color: #FFF;
-        font-size: 10px;
+        font-size: 16px;
         font-style: normal;
         font-weight: 300;
         line-height: normal;
