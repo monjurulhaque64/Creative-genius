@@ -26,8 +26,8 @@ const Pricing = () => {
         "Transportation systems management",
         "Provide Mobile Application",
       ],
-      price: 15000,
-      duration: "per month",
+      price: 15,
+      duration: "per student",
     },
     {
       package: "Half Yearly Package",
@@ -52,7 +52,7 @@ const Pricing = () => {
         "Provide Mobile Application",
       ],
       price: 60000,
-      duration: "per 6 month",
+      duration: "6 month",
     },
     {
       package: "Yearly Package",
@@ -77,7 +77,7 @@ const Pricing = () => {
         "Provide Mobile Application",
       ],
       price: 120000,
-      duration: "per year",
+      duration: "year",
     },
     {
       package: "Lifetime Package",
@@ -114,21 +114,21 @@ const Pricing = () => {
 
       <div className="md:mb-24 mx-5">
         <div className="flex flex-col  items-center">
-          <h1 className="md:text-[48ppx] text-[28px] pricing-title ">Pricing Table</h1>
-          <p className=" description  text-white text-center mt-2 md:mt-[20px] lg:w-[564px]">
+          <h1 className="md:text-[48px] text-[28px] pricing-title ">Pricing Table</h1>
+          <p className="  heading text-[16px] font-[400]  text-white text-center mt-2 md:mt-[20px] lg:w-[564px]">
             Here is our pricing table of representation of our websites to
             display different pricing options for products to our potential
             customers to compare and choose the option that best suits their
             needs and budget
           </p>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-4 md:mt-28 w-full lg:w-[1236px] mx-auto gap-3">
+        <div className="grid grid-cols-1 md:grid-cols-4 md:mt-[98px] w-full lg:w-[1236px] mx-auto gap-3 mb-[240px]">
           {packages.map((product, index) => (
             <div
               key={index}
               className="price-card mt-5 md:mt-0 w-[280px]  mx-auto md:w-[287px] h-[900px]  md:h-[900px] shadow-md p-4 "
             >
-              <h1 className="price-title heading text-center my-4">
+              <h1 className="price-title heading text-center my-4 mb-[42px]">
                 {product.package}
               </h1>
               {product.text.map((line, lineIndex) => (
@@ -146,7 +146,7 @@ const Pricing = () => {
                       fill="white"
                     />
                   </svg>
-                  <p className="price-p mt-1 pragraph" key={lineIndex}>
+                  <p className="price-p mt-[10px] pragraph" key={lineIndex}>
                     {line}
                   </p>
                 </div>
@@ -158,7 +158,7 @@ const Pricing = () => {
               <div className="flex justify-center items-center">
                 <Link to={""}>
                   <button className="buy-btn mt-[20px] pragraph  text-white">
-                    Buy Now
+                  Active Package
                   </button>
                 </Link>
               </div>
