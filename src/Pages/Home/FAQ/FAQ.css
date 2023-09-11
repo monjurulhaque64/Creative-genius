@@ -14,8 +14,6 @@
   width: 370px;
 }
 }
-
-
 @media (max-width: 360px) {
   .quustion-card {
     max-width: 90% !important;
@@ -24,3 +22,7 @@
 
 
 }
+
+
+
+
