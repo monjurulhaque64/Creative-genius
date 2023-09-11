@@ -47,19 +47,23 @@ const ClientSays = () => {
       </div>
       <div className="join mt-4 flex justify-end mr-4 lg:mr-16 md:mr-4 mb-[198px]">
         <button
-          className={`join-item btn text-white bg-[#404040] hover:bg-[#404040] ${currentPage === 1 ? "btn-disabled" : ""}`}
+          className={`join-item btn text-white bg-[#222222CC] hover:bg-[#222222CC] ${currentPage === 1 ? "btn-disabled" : ""}`}
           onClick={() => handlePageChange(currentPage - 1)}
           disabled={currentPage === 1}
+          style={{ border: '1px solid #404040' }}
         >
           « Previous
         </button>
-        <button className="join-item btn text-white bg-[#404040] hover:bg-[#404040]">Page {currentPage}</button>
+        <button className="join-item btn text-white bg-[#222222CC] hover:bg-[#222222CC]"
+        style={{ border: '1px solid #404040' }}
+        >0{currentPage}</button>
         <button
-          className={`join-item btn text-white bg-[#404040] hover:bg-[#404040] ${
+          className={`join-item btn text-white bg-[#222222CC] hover:bg-[#222222CC] ${
             currentPage === totalPageCount ? "btn-disabled" : ""
           }`}
           onClick={() => handlePageChange(currentPage + 1)}
           disabled={currentPage === totalPageCount}
+          style={{ border: '1px solid #404040' }}
         >
           Next »
         </button>

@@ -56,7 +56,7 @@ const Navbar = () => {
             </label>
             <ul
               tabIndex={0}
-              className="menu menu-sm absolute font dropdown-content  mt-3 z-[1] p-2 text-white bg-gray-900 shadow font-bold rounded-box w-52 "
+              className="menu menu-sm absolute font dropdown-content  mt-3 z-[1] p-2 text-white bg-[#222222CC] shadow font-bold rounded-box w-52 "
             >
               {navItems}
             </ul>

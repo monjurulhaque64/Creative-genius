@@ -17,14 +17,14 @@ const ClientSaysCard = ({ reviews }) => {
           <div className="client-card-content flex gap-6">
             <img className="client-photo" src={review.photo} alt="" />
             <div>
-              <h2 className="client-card-title mb-3">{review.name}</h2>
+              <h2 className="client-card-title">{review.name}</h2>
               <Rating
                 style={{ maxWidth: 150 }}
                 value={review.rating}
                 readOnly
                 itemStyles={myStyles}
               />
-              <p className="client-card-description">{review.review}</p>
+              <p className="client-card-description mt-[16px]">{review.review}</p>
             </div>
           </div>
         </div>

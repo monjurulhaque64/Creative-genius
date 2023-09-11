@@ -19,10 +19,10 @@ const Reviews = () => {
   return (
     <div className="container mx-auto mt-16 md:mt-[117px] relative mb-[40px]">
       <div className="mx-auto text-center h-[130px] md:h-[200px]">
-        <h1 className="heading font-[600] text-[28px] md:text-[48px] text-white">
+        <h1 className="font font-[600] text-[28px] md:text-[48px] text-white">
           Reviews
         </h1>
-        <p className="pragraph font-[400] w-[300px] md:w-[650px] text-center mx-auto text-[14px] md:text-[18px] mt-[17px] text-white">
+        <p className="font font-[400] w-[300px] md:w-[650px] text-center mx-auto text-[16px] mt-[17px] text-white">
           There are some reviews for customers from our clients as a result of
           trusting our business.
         </p>
@@ -31,8 +31,8 @@ const Reviews = () => {
         <ReviewCard reviews={reviews}></ReviewCard>
       </div>
       <div className="gradient-bottom inset-x-0 "></div>
-      <div className="flex justify-center items-center mb-12 absolute inset-x-0 mt-[20px]">
-        <Link to={'/client-says'}><button className="see-more-btn pragraph">
+      <div className="flex justify-center items-center  mb-24 absolute inset-x-0 mt-[20px]">
+        <Link to={'/client-says'}><button className="see-more-btn">
           See More
         </button></Link>
       </div>
