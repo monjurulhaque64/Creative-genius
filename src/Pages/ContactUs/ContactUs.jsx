@@ -60,23 +60,23 @@ const ContactUs = () => {
           <h1 className="heading font-[600] heading text-[20px] md:text-[30px] text-white mb-[22px]">
             Get In Touch
           </h1>
-          <p className="heading  font-[400] heading text-[14px] md:text-[20px] text-white mb-8 md:mb-[70px]">
+          <p className="heading  font-[400] text-[14px] md:text-[20px] text-white mb-8 md:mb-[70px]">
             We're eager to hear from you! Feel free to reach out for inquiries,
             collaborations, or just to say hello.
           </p>
-          <h3 className="heading w-[350px] font-[500] heading text-[14px] md:text-[20px] text-white flex mb-5 md:mb-[31px]">
+          <h3 className="heading  font-[500] heading text-[14px] md:text-[20px] text-white flex mb-5 md:mb-[31px]">
             <span className="mr-2">
               <MdLocationOn size={30}></MdLocationOn>
             </span>
             Mirpur, Dhaka, Bangladesh
           </h3>
-          <h3 className="heading w-[350px] font-[500] heading text-[14px] md:text-[20px] text-white flex mb-5 md:mb-[30px]">
+          <h3 className="heading  font-[500] heading text-[14px] md:text-[20px] text-white flex mb-5 md:mb-[30px]">
             <span className="mr-2">
               <MdPhone size={30}></MdPhone>
             </span>
             +880123456789
           </h3>
-          <h3 className="heading w-[350px] font-[500] heading text-[14px] md:text-[20px] text-white flex  mb-8 md:mb-[30px]">
+          <h3 className="heading  font-[500] heading text-[14px] md:text-[20px] text-white flex  mb-8 md:mb-[30px]">
             <span className="mr-2">
               <MdEmail size={30}></MdEmail>
             </span>
