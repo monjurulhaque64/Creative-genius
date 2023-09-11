@@ -30,7 +30,7 @@ const ClientSpring = () => {
             <Number n={103} />
             <animated.span>{" +"}</animated.span>
           </h1>
-          <h3 className="heading text-[15px] md:text-[20px] text-center font-[600] text-white lg:mt-[7px]">
+          <h3 className="heading text-[12px] md:text-[20px] text-center font-[600] text-white lg:mt-[7px]">
             Happy Clients
           </h3>
         </div>
@@ -39,7 +39,7 @@ const ClientSpring = () => {
             <Number n={277} />
             <animated.span>{" +"}</animated.span>
           </h1>
-          <h3 className="heading text-[15px] md:text-[20px] font-[600] text-center text-white lg:mt-[7px]">
+          <h3 className="heading text-[12px] md:text-[20px] font-[600] text-center text-white lg:mt-[7px]">
             Total Complete Projects
           </h3>
         </div>
@@ -48,7 +48,7 @@ const ClientSpring = () => {
             <Number n={11} />
             <animated.span>{" +"}</animated.span>
           </h1>
-          <h3 className="heading text-[15px] md:text-[20px] font-[600] text-center text-white lg:mt-[7px]">
+          <h3 className="heading text-[12px] md:text-[20px] font-[600] text-center text-white lg:mt-[7px]">
             Total Running Projects
           </h3>
         </div>
@@ -57,7 +57,7 @@ const ClientSpring = () => {
             <Number n={12} />
             <animated.span>{" +"}</animated.span>
           </h1>
-          <h3 className="heading text-[15px] md:text-[20px] font-[600] text-center text-white lg:mt-[7px]">
+          <h3 className="heading text-[12px] md:text-[20px] font-[600] text-center text-white lg:mt-[7px]">
             Total Review
           </h3>
          
