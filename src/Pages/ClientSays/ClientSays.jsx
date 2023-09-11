@@ -38,7 +38,7 @@ const ClientSays = () => {
         <h1 className="heading font-[600] text-[28px] md:text-[48px] text-white">
         Reviews
         </h1>
-        <p className="heading font-[400] w-[300px] md:w-[650px] text-center mx-auto text-[14px] md:text-[18px] text-white mt-[20px]">
+        <p className="heading font-[400] w-[300px] md:w-[650px] text-center mx-auto text-[14px] md:text-[16px] text-white mt-[20px]">
           There are some reviews from our clients as a result of trusting our business.
         </p>
       </div>

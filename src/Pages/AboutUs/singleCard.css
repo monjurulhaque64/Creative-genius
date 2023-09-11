@@ -1,8 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+.heading {
+  font-family: Poppins;
+}
+
 /* about style  */
 .about-title {
   color: white;
   font-size: 48px;
   font-style: normal;
+  font-family: Poppins;
   font-weight: 600;
   line-height: normal;
 }
@@ -13,9 +19,7 @@
   height: 160px;
   flex-shrink: 0;
   border-radius: 10px;
-  border: 1px solid #0057FF;
   background: rgba(34, 34, 34, 0.80);
-  mix-blend-mode: luminosity;
   backdrop-filter: blur(10px);
 }
 
@@ -45,11 +49,6 @@
 }
 
 
-.p-btn {
-  border-radius: 5px;
-  padding: 24px;
-  border: 1px solid #b7c2bf;
-}
 
 /* 3rd div  style  */
 
@@ -59,6 +58,7 @@
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+  font-family: Poppins;
 }
 
 .founder {
@@ -66,6 +66,7 @@
   font-size: 20px;
   font-weight: 300;
   line-height: normal;
+  font-family: Poppins;
 }
 
 .thought-title {
@@ -74,6 +75,7 @@
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+  font-family: Poppins;
 }
 
 .thought-description {
@@ -83,6 +85,7 @@
   font-weight: 400;
   line-height: 28px;
   text-align: justify;
+  font-family: Poppins;
 }
 
 /* ---------------------------- */
