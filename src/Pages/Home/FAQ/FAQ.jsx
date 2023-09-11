@@ -1,4 +1,5 @@
-import "./FAQ.css"
+
+import Fwq from './Fwq'
 
 const FAQ = () => {
   
@@ -17,10 +18,11 @@ const FAQ = () => {
       </div>
       
         <div className="mt-[124px] quustion-card">
+          
          <div className="flex gap-8 items-center">
           {/* <div className="faq-left border-2 border-blue-400   p-[25px]"><h3 >
             1</h3></div> */}
-         <div className=" collapse collapse-plus bg-[rgba(34, 34, 34, 0.80)] shadow-xl w-full lg:w-[604px] mt-6 rounded-md border-[1px] border-[#8a8a8a]">
+         <div className=" collapse collapse-plus ">
             <input type="radio" name="my-accordion-3" />
             <div className="collapse-title text-[24px] text-white heading font-[400]">
               What is your company’s goal?
@@ -138,6 +140,9 @@ const FAQ = () => {
           </div>
           </div>
         </div>
+      <div>
+        <Fwq></Fwq>
+      </div>
       </div>
   
   );
