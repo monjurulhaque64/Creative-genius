@@ -50,27 +50,34 @@ const About = () => {
           ))}
         </div>
         {/* Pagination */}
-        <div className="join mt-5 flex justify-end items-center gap-3 mr-4 lg:mr-16 md:mr-4">
+        <div className="join mt-4 flex justify-end mr-4 lg:mr-16 md:mr-4 mb-[198px]">
           <button
-            className={` join-item btn text-white bg-[#404040] hover:bg-[#404040]  ${
+            className={`join-item btn text-white bg-[#222222CC] hover:bg-[#222222CC] ${
               currentPage === 1 ? "btn-disabled" : ""
             }`}
             onClick={() => handlePageChange(currentPage - 1)}
             disabled={currentPage === 1}
+            style={{ border: "1px solid #404040" }} // Add this inline style
           >
             « Previous
           </button>
-          <button className="join-item btn text-white bg-[#404040] hover:bg-[#404040] ">
-          Page {currentPage}
+
+          <button className="join-item btn text-white bg-[#222222CC] hover:bg-[#222222CC] "
+          style={{ border: "1px solid #404040" }}
+          >
+            0{currentPage}
           </button>
-          
+
           <button
-            className={`join-item btn text-white bg-[#404040] hover:bg-[#404040] ${
+            className={`join-item btn text-white bg-[#222222CC] hover:bg-[#222222CC] ${
               currentPage === totalPageCount ? "btn-disabled" : ""
             }`}
             onClick={() => handlePageChange(currentPage + 1)}
             disabled={currentPage === totalPageCount}
-          > Next »
+            style={{ border: "1px solid #404040" }}
+          >
+            {" "}
+            Next »
           </button>
         </div>
         <div className="mt-16 md:mt-[172px] container mx-auto">
@@ -122,7 +129,12 @@ const About = () => {
               <div className="md:ml-16 ml-5    md:md:w-[420px] w-[300px]">
                 <h1 className="thought-title">Does </h1>
                 <p className="thought-description mt-[15px]">
-                  closely observe the company's various functions, including operations, finance, marketing, sales, human resources, legal, compliance and technology, while balancing the needs of employees, customers, and investors. Also maintain the communication between the board of directors and corporate operations.
+                  closely observe the company's various functions, including
+                  operations, finance, marketing, sales, human resources, legal,
+                  compliance and technology, while balancing the needs of
+                  employees, customers, and investors. Also maintain the
+                  communication between the board of directors and corporate
+                  operations.
                 </p>
               </div>
             </div>

@@ -1,4 +1,7 @@
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+.font {
+  font-family: Poppins;
+}
 .review-card {
   width: 394px;
   height: 261px;
@@ -19,10 +22,12 @@
 .review-card-title {
   font-size: 24px;
   font-weight: 500;
+  font-family: Poppins;
 }
 
 .review-card-description {
   font-size: 16px;
+  font-family: Poppins;
 }
 
 .review-photo {

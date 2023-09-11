@@ -22,7 +22,7 @@
     border-radius: 10px;
     background: var(--Primary-Color, #3C4FF8);
     color: #FFF;
-    font-size: 18px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -30,7 +30,6 @@
 
 @media (max-width: 768px) {
     .see-more-btn {
-        padding: 10px 16px; 
-        font-size: 16px;   
+        padding: 10px 16px;   
     }
 }
