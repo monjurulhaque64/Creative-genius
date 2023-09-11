@@ -1,60 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+.heading {
+  font-family: Poppins;
+}
+
 .price-card {
-    flex-shrink: 0;
-    border-radius: 10px;
-    background: #171717;
+  width: 300px;
+  height: 938px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #171717;
 }
 
 .pricing-title {
-    color: #FFF;
-    font-weight: 600;
+  color: #fff;
+  font-weight: 600;
+  font-family: Poppins;
 }
 
 .price-title {
-    color: white;
-    font-size: 26px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 36px;
+  color: white;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  font-family: Poppins;
 }
 
 .price-p {
-    color: white;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 28px;
+  color: white;
+  font-size: 16px;
+  font-style: normal;
+  font-family: Poppins; 
+  font-weight: 400;
+  line-height: 28px;
 }
 
 .price {
-    color: var(--Primary-Color, #3C4FF8);
-    font-family: Poppins;
-    font-size: 26px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 26px;
-    /* 100% */
+  color: var(--Primary-Color, #3c4ff8);
+  font-family: Poppins;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px;
+  /* 100% */
 }
 
 .price-month {
-    color: white;
-    font-family: Poppins;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 36px;
+  color: white;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px;
 }
 
 .buy-btn {
-    display: inline-flex;
-    padding: 16px 24px;
-    justify-content: center;
-    align-items: center;
-    gap: 8px;
-    border-radius: 10px;
-    background: var(--Primary-Color, #3C4FF8);
-    color: #FFF;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
+  display: inline-flex;
+  padding: 16px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  font-family: Poppins;
+  border-radius: 10px;
+  background: var(--Primary-Color, #3c4ff8);
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
