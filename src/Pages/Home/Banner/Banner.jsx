@@ -33,9 +33,9 @@ const Banner = () => {
         modules={[Autoplay]}
         className="mySwiper" >
         <SwiperSlide>
-          <div className="w-full h-[800px]  bannerimg1">
+          <div className="w-full h-[600px]    md:h-[800px]  bannerimg1">
             
-            <div className="lg:ml-[50px] ml-8  lg:w-[726px] w-[350px] md:w-[70%]  lg:pt-[200px] pt-[50px] ">
+            <div className="lg:ml-[50px] ml-8  lg:w-[726px] w-[350px] md:w-[70%]  lg:pt-[200px] pt-[50px] container1">
               <h1 className="text-[32px] md:text-[64px] heading font-bold text-white ">
                 Plan Your Day With Creative{" "}
                 <span className="text-[#3C4FF8]">Campus</span>
@@ -55,9 +55,9 @@ const Banner = () => {
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide>
+         <SwiperSlide>
           <div className="circle bg-[#FF9324] left-[calc(-80px)] top-[calc(280px)] transform absolute ml-[1150px] overflow-hidden"></div>
-          <div className="w-full  h-[650px] md:h-[800px] bannerimg2 relative">
+          <div className="w-full  h-[600px] md:h-[800px]  bannerimg2 relative">
             <div className="centeredDiv hidden md:block"></div>
 
             <div className="flex justify-between container2">
@@ -77,7 +77,7 @@ const Banner = () => {
               </div>
               <div className=" lg:mr-[150px] mr-[55px] lg:pt-[192px] pt-[12px]  relative">
                 <div className="flex  lg:gap-2 right-section">
-                  <div className="absolute md:top-[18rem] md:-ml-[4.5rem] logo-learning   "><svg xmlns="http://www.w3.org/2000/svg" width="147" height="147" viewBox="0 0 147 147" fill="none">
+                  <div className="absolute md:top-[18rem] md:-ml-[4.5rem] logo-learning   "><svg xmlns="http://www.w3.org/2000/svg" width="130" height="130" viewBox="0 0 147 147" fill="none">
                     <circle cx="73.5" cy="73.5" r="73.5" fill="#FF9324" />
                   </svg></div>
                   <img className="z-10 campus-img" src={iphone12Dark} alt="" />
@@ -88,17 +88,17 @@ const Banner = () => {
 
           </div>
         </SwiperSlide>
-        <SwiperSlide>
-          <div className="w-[100%] h-[800px] bannerimg3 relative overflow-hidden">
+         <SwiperSlide>
+          <div className="w-[100%] h-[550px] md:h-[800px] bannerimg3 relative overflow-hidden">
             <div className="flex md:justify-between container3">
-              <div className="lg:ml-[50px] ml-8  lg:w-[726px] w-[350px] lg:pt-[250px] pt-[50px]">
+              <div className="lg:ml-[50px] ml-8  lg:w-[726px]  md:w-[800px] w-[350px] lg:pt-[250px] pt-[50px]">
                 <div className="absolute svg-logo top-[17rem] right-[41rem] -z-[10] "><svg className="svg" xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80" fill="none">
                   <circle cx="40" cy="40" r="40" fill="#4756DC" />
                 </svg></div>
                 <h1 className="lg:text-[64px] title text-[34px] heading font-[700] text-white z-10 ">
                   Learning Campus
                 </h1>
-                <p className="pragraph text-[17px] w-[290px] md:w-[600px] text-white text-justify font-medium my-4">
+                <p className="pragraph text-[17px] w-[290px] md:w-[800px] text-white text-justify font-medium my-4">
                   The future academic platform for teaching and learning
                 </p>
                 <div className="flex  ">
@@ -120,8 +120,8 @@ const Banner = () => {
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide>
-          <div className="w-full md:h-[800px] bannerimg4 relative overflow-hidden">
+      <SwiperSlide>
+          <div className="w-full h-[600px] md:h-[800px] bannerimg4 relative overflow-hidden">
          
             <div className="flex justify-between container4">
               <div className="absolute lg:left-[15rem] lg:top-[12rem] logo1">
@@ -167,7 +167,7 @@ const Banner = () => {
               </div>
             </div>
           </div>
-        </SwiperSlide>
+        </SwiperSlide>   
       </Swiper>
       <div className="inset-x-0 mx-auto lg:top-[837px] clientSpring">
         <div className=" inset-x-0 mx-auto top-[837px]">

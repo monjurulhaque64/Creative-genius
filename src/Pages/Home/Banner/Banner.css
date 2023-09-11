@@ -11,19 +11,6 @@
   background-position: center;
   background-repeat: no-repeat;
 }
-.wave{
-  animation: wave linear 5s infinite;
-  width: 200%;
-}
-@keyframes wave{
-  0%{
-    transform: translateX(-1%);
-  }
- 
-  100%{
-    transform: translateX(-40%);
-  }
-}
 
 .bannerimg3 {
   background-image: url('../../../assets/Images/Maskgroup-2.png');
@@ -84,7 +71,34 @@
 /* Responsive breakpoints for mobile and tablet */
 
 /* Responsive breakpoints for mobile and tablet */
-@media (max-width: 360px) {
+@media screen and (max-width:668px) {
+  .bannerimg1 {
+    background-image: url('../../../assets/Images/Maskgroup.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .bannerimg2 {
+    background-image: url('../../../assets/Images/Maskgroup-1.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .bannerimg3 {
+    background-image: url('../../../assets/Images/Maskgroup-2.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .bannerimg4 {
+    background-image: url('../../../assets/Images/Maskgroup-3.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
   .iphone12DarkBackground {
     background-image: url('../../../assets/Images/Group47.png');
     background-size: contain;
@@ -128,22 +142,22 @@
   /* 2nd slider */
   .right-section{
     left: 6rem;
-    padding-top: 6rem;
+    padding-top: 3rem;
   }
   .right-section img{
-    margin-left: 3rem;
+    margin-left: 2.5rem;
   }
 
   .campus-img{
-    height: 200px;
+    height: 220px;
     width: 150px;
   }
   .jackjon-img{
-    height: 200px;
+    height: 220px;
     width: 150px;
   }
   .logo-learning{
-    top: 8rem;    
+    top: 6rem;    
   }
 
   .right-side-banner img {
@@ -168,3 +182,5 @@
  
 
 }
+
+
