@@ -40,7 +40,7 @@ const Banner = () => {
                 Plan Your Day With Creative{" "}
                 <span className="text-[#3C4FF8]">Campus</span>
               </h1>
-              <p className="pragraph  w-[290px] md:w-[600px] text-[17px] text-white text-justify font-medium mt-2">
+              <p className="pragraph  w-[290px] md:w-[600px] text-[15px] text-white text-justify font-medium mt-2">
                 Welcome to creative campus. At Creative Campus, we believe in
                 using innovative approaches to help our clients. Our experienced
                 professionals are dedicated to providing exceptional service
@@ -65,7 +65,7 @@ const Banner = () => {
                 <h1 className="lg:text-[64px] title text-[34px] heading font-bold text-white">
                   Learning <span className="titleBg">Campus</span>
                 </h1>
-                <p className="pragraph text-[17px]  w-[290px] md:w-[600px] text-white text-justify font-medium mt-2">
+                <p className="pragraph text-[15px]  w-[290px] md:w-[600px] text-white text-justify font-medium mt-2">
                   The future of digital learning technology in teaching and learning.
                 </p>
                 <button className="btn download-app mt-[46px] lg:mr-[100px] text-white">
@@ -98,7 +98,7 @@ const Banner = () => {
                 <h1 className="lg:text-[64px] title text-[34px] heading font-[700] text-white z-10 ">
                   Learning Campus
                 </h1>
-                <p className="pragraph text-[17px] w-[290px] md:w-[800px] text-white text-justify font-medium my-4">
+                <p className="pragraph text-[15px] w-[290px] md:w-[800px] text-white text-justify font-medium my-4">
                   The future academic platform for teaching and learning
                 </p>
                 <div className="flex  ">
@@ -133,7 +133,7 @@ const Banner = () => {
                 <h1 className="lg:text-[64px] text-[34px]  heading font-bold text-white">
                   Learning Campus
                 </h1>
-                <p className="pragraph text-[17px] text-white text-justify font-medium my-4">
+                <p className="pragraph text-[15px] text-white text-justify font-medium my-4">
                   The future of digital academic platforms.
                 </p>
                 <button className="btn btn-info bg-[#3C4FF8] hover:bg-[#3C4FF8] border-[#3C4FF8] mt-[46px] lg:mr-[100px] text-white">

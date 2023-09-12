@@ -27,7 +27,7 @@ const WorkProcess = () => {
             <h1 className="text-center heading font-[400] text-[32px] text-white mt-[60px]">
               Strategy
             </h1>
-            <p className="text-center  heading font-[400] text-[16px] text-white mt-[28px] ">
+            <p className="text-center  font-[400] pragraph text-[15px]  text-white mt-[28px] ">
               We make a strategy with a general set of plans to achieve your
               company’s goals.
             </p>
@@ -66,7 +66,7 @@ const WorkProcess = () => {
             <h1 className="text-center heading font-[400] text-[32px] text-white mt-[60px]">
               Research
             </h1>
-            <p className="text-center heading font-[400] text-[16px] text-white  mt-[28px]">
+            <p className="text-center font-[400] pragraph text-[15px]  text-white  mt-[28px]">
               We do research to know more about the topic, collect data from
               organizations, and analyze them for better understanding.
             </p>
@@ -105,7 +105,7 @@ const WorkProcess = () => {
             <h1 className="text-center heading font-[400] text-[32px] text-white mt-[60px]">
               Design
             </h1>
-            <p className="text-center heading font-[400] text-[16px] text-white  mt-[28px]">
+            <p className="text-center  font-[400] pragraph text-[15px]  text-white  mt-[28px]">
               We design our projects based on our research and to fulfill our
               client’s requirements.
             </p>
@@ -144,7 +144,7 @@ const WorkProcess = () => {
             <h1 className="text-center heading font-[400] text-[32px] text-white mt-[60px]">
               Development
             </h1>
-            <p className="text-center heading font-[400] text-[16px] text-white  mt-[17px]">
+            <p className="text-center font-[400] pragraph text-[15px]  text-white  mt-[17px]">
               We start developing the project with the highest possible quality
               to ensure value for your potential customers.
             </p>
@@ -183,7 +183,7 @@ const WorkProcess = () => {
             <h1 className="text-center heading font-[400] text-[32px] text-white mt-[60px]">
               Delivered
             </h1>
-            <p className="text-center heading font-[400] text-[16px] text-white  mt-[28px]">
+            <p className="text-center  font-[400] pragraph text-[15px]  text-white  mt-[28px]">
               We deliver your desirable projects to you with more care and
               determination.
             </p>

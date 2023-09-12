@@ -83,7 +83,7 @@ const About = () => {
         <div className="mt-16 md:mt-[172px] container mx-auto">
           <div className="flex  flex-col items-center">
             <h1 className="Title text-center ">Tanjim Chowdhury</h1>
-            <p className="founder mb-3 mt-2">Founder & CEO</p>
+            <p className="founder pragraph mb-3 mt-2">Founder & CEO</p>
           </div>
           <div className="md:flex md:justify-between gap-10 my-24 ">
             <div className="relative mb-10">

@@ -49,19 +49,19 @@ const Fwq = () => {
         </p>
       </div>
       <Accordion>
-        <div className="flex  items-center md:gap-6  gap-3 md:w-2/3    faq-card  md:mb-10">
+        <div className="flex  items-center md:gap-6  gap-3 lg:w-[680px]    faq-card  md:mb-10">
           <div
-            className={`border-2 mt-6 font border-gray-700 rounded-[50%] p-2 md:p-4  ${divClass} `}
+            className={`border-[1px] mt-6 font border-[#9F9F9F] rounded-[50%] p-2 md:p-4  ${divClass} `}
           >
             01
           </div>
           {/* <div className=" line1 h-[88px] !ml-[25px]  lg:mt-[167px] hidden lg:block border-[1px] border-[#747474] rotate-180 border-solid  absolute"></div> */}
 
           <AccordionItem
-            className="collapse   p-3 md:text-[24px]  text-[20px] shadow-xl lg:w-[604px] mt-6 rounded-md border-[1px] border-[#8a8a8a]"
+            className="collapse   p-3 md:text-[24px]  text-[20px] shadow-xl lg:w-[700px] mt-6 rounded-md border-[1px] border-[#8a8a8a]"
             header={
-              <div className="flex items-center justify-between md:gap-[180px] gap-[1px]">
-                <h1 className='justify-start font text-[18px] md:text-[24px]  font-[400]'>What is your company’s goal?</h1>
+              <div className="flex items-center justify-between lg:gap-[230px] gap-[1px]">
+                <h1 className='justify-start font text-[18px] md:text-[21px]  font-[400]'>What is your company’s goal?</h1>
               <i
                 className={`fa ${isAccordionOpen ? 'fa-chevron-up' : 'fa-chevron-down'}`}
                 style={{ marginRight: '8px' }}
@@ -70,16 +70,16 @@ const Fwq = () => {
             }
             onClick={toggleAccordion}
           >
-            <p className="  text-[16px]     mt-2 text-white heading font-[400] text-justify">
+            <p className="  text-[16px]     mt-2 text-white pragraph font-[400] text-justify">
               Our company’s goal is to fulfill client's or customer’s
               satisfaction, financial gain, growth, and employee development..
             </p>
           </AccordionItem>
         </div>
-        <div className="flex  items-center md:gap-6  gap-3 md:w-2/3    faq-card  md:mb-10">
+        <div className="flex  items-center md:gap-6  gap-3 lg:w-[700px]    faq-card  md:mb-10">
           {/* <div className=" line1 h-[188px] !ml-[25px]  lg:mt-[167px] hidden lg:block border-[1px] border-[#747474] rotate-180 border-solid  absolute"></div> */}
           <div
-            className={`border-2 mt-6 relative border-gray-700  rounded-[50%] p-2 md:p-4 ${divClass1}`}
+            className={`border-[1px] mt-6 relative border-[#9F9F9F]  rounded-[50%] p-2 md:p-4 ${divClass1}`}
           >
             02
           </div>
@@ -88,7 +88,7 @@ const Fwq = () => {
             className="collapse  p-3 md:text-[24px]  text-[20px] shadow-xl lg:w-[604px] mt-6 rounded-md border-[1px] border-[#8a8a8a]"
             header={
               <div className="flex items-center justify-between md:gap-[25px] gap-[1px]">
-                <h1 className="justify-start text-justify font text-[18px] md:text-[24px]  font-[400]">
+                <h1 className="justify-start text-justify font text-[18px] md:text-[21px]  font-[400]">
                   What is the target of digital marketing for your company?
                 </h1>
 
@@ -102,7 +102,7 @@ const Fwq = () => {
             }
             onClick={toggleAccordion1}
           >
-            <p className="  text-[16px]     mt-2 text-white heading font-[400] text-justify">
+            <p className="  text-[16px]     mt-2 text-white pragraph font-[400] text-justify">
               In our company digital marketing is a multifaceted strategy aimed
               to target, reach out to, and build relationships with customers
               online, across a broad range of channels, ultimately getting them
@@ -114,15 +114,15 @@ const Fwq = () => {
 
 
 
-        <div className='flex items-center md:gap-6  gap-3 md:w-2/3    faq-card md:mb-10'>
-          <div className={`border-2 relative mt-6 border-gray-700 rounded-[50%] p-2 md:p-4 ${divClass2}`}>03</div>
+        <div className='flex items-center md:gap-6  gap-3 md:w-[700px]    faq-card md:mb-10'>
+          <div className={`border-[1px] relative mt-6 border-[#9F9F9F] rounded-[50%] p-2 md:p-4 ${divClass2}`}>03</div>
           {/* <div className=" line1 h-[72px] !ml-[25px]  lg:mt-[152px] hidden lg:block border-[1px] border-[#747474] rotate-180 border-solid  absolute"></div> */}
 
-          <AccordionItem className="collapse border-2 mt-6  p-3    md:text-[24px]  text-[20px] bg-[rgba(34, 34, 34, 0.80)] shadow-xl lg:w-[604px]  mt-6 rounded-md border-[1px] border-[#8a8a8a]"
+          <AccordionItem className="collapse border-1 mt-6  p-3    md:text-[24px]  text-[20px] bg-[rgba(34, 34, 34, 0.80)] shadow-xl lg:w-[604px]  mt-6 rounded-md border-[1px] border-[#8a8a8a]"
           
               header={
-              <div className="flex items-center justify-between md:gap-[60px] gap-[1px]">
-                <h1 className='justify-start font text-[18px] md:text-[24px]  font-[400]'>What are the services of your company?</h1>
+              <div className="flex items-center justify-between lg:gap-[120px] gap-[1px]">
+                <h1 className='justify-start font text-[18px] md:text-[21px]  font-[400]'>What are the services of your company?</h1>
               <i
                 className={`fa ${isAccordionOpen2 ? 'fa-chevron-up' : 'fa-chevron-down'}`}
                 style={{ marginRight: '8px', }}
@@ -131,7 +131,7 @@ const Fwq = () => {
             }
             onClick={toggleAccordion2}
           >
-            <p className="  text-[15px] md:text-[16px]     mt-2 text-white heading font-[400] text-justify">
+            <p className="  text-[15px] md:text-[16px]     mt-2 text-white pragraph font-[400] text-justify">
               Web development features, advanced mobile app application,
               Marketing services, graphic or website designs for websites,
               logos, advertisements and other promotional content for companies
@@ -140,19 +140,19 @@ const Fwq = () => {
           </AccordionItem>
         </div>
 
-        <div className="flex items-center md:gap-6  gap-3 md:w-2/3    faq-card md:mb-10">
+        <div className="flex items-center md:gap-6  gap-3 md:w-[700px]    faq-card md:mb-10">
           <div
-            className={`border-2 relative mt-6 border-gray-700 rounded-[50%] p-2 md:p-4 ${divClass3}`}
+            className={`border-[1px] relative mt-6 border-[#9F9F9F] rounded-[50%] p-2 md:p-4 ${divClass3}`}
           >
             04
           </div>
           {/* <div className=" line1 h-[72px] !ml-[25px]  lg:mt-[152px] hidden lg:block border-[1px] border-[#747474] rotate-180 border-solid  absolute"></div> */}
 
-          <AccordionItem className="collapse border-2 mt-6  p-3   md:text-[24px]  text-[20px] bg-[rgba(34, 34, 34, 0.80)] shadow-xl lg:w-[604px]  mt-6 rounded-md border-[1px] border-[#8a8a8a]" 
+          <AccordionItem className="collapse border-1 mt-6  p-3   md:text-[24px]  text-[20px] bg-[rgba(34, 34, 34, 0.80)] shadow-xl lg:w-[604px]  mt-6 rounded-md border-[1px] border-[#8a8a8a]" 
           
              header={
-              <div className="flex items-center justify-between md:gap-[180px] gap-3">
-                <h1 className='justify-start font text-[18px] md:text-[24px]  font-[400]'>How long does a project take?</h1>
+              <div className="flex items-center justify-between lg:gap-[225px] gap-3">
+                <h1 className='justify-start font text-[18px] md:text-[21px]  font-[400]'>How long does a project take?</h1>
                
               <i
                 className={`fa ${isAccordionOpen3 ? 'fa-chevron-up' : 'fa-chevron-down'}`}
@@ -162,7 +162,7 @@ const Fwq = () => {
             }
             onClick={toggleAccordion3}
           >
-            <p className="  text-[15px] md:text-[16px]     mt-2 text-white heading font-[400] text-justify">
+            <p className="  text-[15px] md:text-[16px]     mt-2 text-white pragraph font-[400] text-justify">
               {" "}
               Typically, an average project will take in the region of three –
               four months. Some of our projects are small, fully specified and
@@ -174,19 +174,19 @@ const Fwq = () => {
           </AccordionItem>
         </div>
 
-        <div className="flex items-center md:gap-6  gap-3 md:w-2/3    faq-card md:mb-10">
+        <div className="flex items-center md:gap-6  gap-3 md:w-[700px]    faq-card md:mb-10">
           <div
-            className={`border-2 relative mt-6 border-gray-700 rounded-[50%] p-2 md:p-4 ${divClass4}`}
+            className={`border-[1px] relative mt-6 border-[#9F9F9F] rounded-[50%] p-2 md:p-4 ${divClass4}`}
           >
             05
           </div>
           {/* <div className=" line1 h-[88px] !ml-[25px]  lg:mt-[167px] hidden lg:block border-[1px] border-[#747474] rotate-180 border-solid  absolute"></div> */}
 
-          <AccordionItem className="collapse border-2 mt-6  p-3    md:text-[24px]  text-[20px] bg-[rgba(34, 34, 34, 0.80)] shadow-xl lg:w-[604px]  mt-6 rounded-md border-[1px] border-[#8a8a8a]"
+          <AccordionItem className="collapse border-1 mt-6  p-3    md:text-[24px]  text-[20px] bg-[rgba(34, 34, 34, 0.80)] shadow-xl lg:w-[604px]  mt-6 rounded-md border-[1px] border-[#8a8a8a]"
           
              header={
-              <div className="flex items-center justify-between md:gap-6 gap-3">
-                <h1 className='justify-start font text-[18px] md:text-[24px]  font-[400]'>How do you create content for your clients?</h1>
+              <div className="flex items-center justify-between lg:gap-20 gap-3">
+                <h1 className='justify-start font text-[18px] md:text-[21px]  font-[400]'>How do you create content for your clients?</h1>
                
               <i
                 className={`fa ${isAccordionOpen4 ? 'fa-chevron-up' : 'fa-chevron-down'}`}
@@ -196,7 +196,7 @@ const Fwq = () => {
             }
             onClick={toggleAccordion4}
           >
-            <p className="  text-[15px] md:text-[16px]     mt-2 text-white heading font-[400] text-justify">
+            <p className="  text-[15px] md:text-[16px]     mt-2 text-white pragraph font-[400] text-justify">
               {" "}
               It's a great idea to make a content strategy framework first. Take
               this as our blueprint—it will contain all the details of what,
@@ -207,18 +207,18 @@ const Fwq = () => {
           </AccordionItem>
         </div>
 
-        <div className="flex items-center md:gap-6  gap-3 md:w-2/3    faq-card ">
+        <div className="flex items-center md:gap-6  gap-3 md:w-[700px]    faq-card ">
           <div
-            className={`border-2  mt-6 border-gray-700 rounded-[50%] p-2 md:p-4 ${divClass5}`}
+            className={`border-[1px]  mt-6 border-[#9F9F9F] rounded-[55%] p-2 md:p-4 ${divClass5}`}
           >
             06
           </div>
 
           <AccordionItem
-            className="collapse border-2 mt-6  p-3    md:text-[24px]  text-[20px] bg-[rgba(34, 34, 34, 0.80)] shadow-xl lg:w-[604px]  mt-6 rounded-md border-[1px] border-[#8a8a8a]"
+            className="collapse border-1 mt-6  p-3    md:text-[24px]  text-[20px] bg-[rgba(34, 34, 34, 0.80)] shadow-xl lg:w-[604px]  mt-6 rounded-md border-[1px] border-[#8a8a8a]"
             header={
-              <div className="flex items-center justify-between  gap-3">
-                <h1 className="justify-start text-justify font text-[18px] md:text-[24px]  font-[400]">
+              <div className="flex items-center justify-between lg:gap-16 gap-3">
+                <h1 className="justify-start text-justify font text-[18px] md:text-[21px]  font-[400]">
                   What are the qualities of a successful team?
                 </h1>
 
@@ -232,7 +232,7 @@ const Fwq = () => {
             }
             onClick={toggleAccordion5}
           >
-            <p className="text-[15px] mt-2 text-white heading font-[400] text-justify">
+            <p className="text-[15px] mt-2 text-white pragraph font-[400] text-justify">
               {" "}
               It's a great idea to make a content strategy framework Always be
               on the lookout for leaders, even when you’re not hiring for a

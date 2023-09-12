@@ -67,6 +67,12 @@
 .download-app {
   background: var(--Primary-Color, #3C4FF8);
 }
+.pragraph{
+  font-family: Lato;
+}
+p{
+  font-family: Lato;
+}
 
 /* Responsive breakpoints for mobile and tablet */
 

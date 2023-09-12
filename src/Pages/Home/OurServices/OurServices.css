@@ -2,6 +2,14 @@
 .font {
   font-family: Poppins;
 }
+.pragraph{
+  font-family: Lato;
+}
+p{
+  font-family: Lato;
+}
+
+
 .card {
   width: 400px;
   height: 263px;
@@ -70,10 +78,8 @@
 }
 
 .card-description {
-  font-size: 16px;
   color: #fff;
-  font-family: Poppins;
-  font-size: 16px;
+  font-size: 15px;
   font-style: normal;
   font-weight: 400;
 }
