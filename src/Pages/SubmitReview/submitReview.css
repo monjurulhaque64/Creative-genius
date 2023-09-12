@@ -23,6 +23,7 @@
   line-height: normal;
 }
 
+
 .review-button {
   height: 52px;
   font-family: 'Poppins';
@@ -31,6 +32,8 @@
   color: #FFF;
   cursor: pointer;
 }
+
+
 
 @media (max-width: 768px) {
   .submit-review-card {

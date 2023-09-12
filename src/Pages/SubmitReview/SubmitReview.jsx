@@ -120,7 +120,7 @@ const SubmitReview = () => {
             </label>
             <input
               type="file"
-              className="file-input input-field file-input-secondary w-full mb-[20px]"
+              className="file-input input-field file-input-secondary !bg-[#171717] w-full mb-[20px]"
               accept="image/*"
               onChange={(e) => setPhoto(e.target.files[0])}
               required
@@ -132,7 +132,7 @@ const SubmitReview = () => {
               Review
             </label>
             <textarea
-              className="w-full h-32 input-field border bg-[#171717] text-white rounded-lg px-4"
+              className="w-full h-32 input-field border !bg-[#171717] text-white rounded-lg px-4"
               placeholder="Review"
               value={review}
               onChange={(e) => setReview(e.target.value)}
