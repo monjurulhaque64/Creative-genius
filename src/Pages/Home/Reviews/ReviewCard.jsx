@@ -23,7 +23,7 @@ const ReviewCard = ({ reviews }) => {
             <div>
               <h2 className="review-card-title">{review.name}</h2>
               <Rating
-                style={{ maxWidth: 150 }}
+                style={{ maxWidth: 100 }}
                 value={review.rating}
                 readOnly
                 itemStyles={myStyles}
