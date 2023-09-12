@@ -1,14 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
-.heading {
-  font-family: Poppins;
-}
+
 
 /* about style  */
 .about-title {
   color: white;
   font-size: 48px;
   font-style: normal;
-  font-family: Poppins;
+  
   font-weight: 600;
   line-height: normal;
 }
@@ -58,7 +56,7 @@
   font-style: normal;
   font-weight: 600;
   line-height: normal;
-  font-family: Poppins;
+  
 }
 
 .founder {
@@ -75,7 +73,7 @@
   font-style: normal;
   font-weight: 600;
   line-height: normal;
-  font-family: Poppins;
+  
 }
 
 .thought-description {
@@ -85,7 +83,7 @@
   font-weight: 400;
   line-height: 28px;
   text-align: justify;
-  font-family: Poppins;
+  
 }
 
 /* ---------------------------- */

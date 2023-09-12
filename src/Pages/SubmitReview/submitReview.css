@@ -11,12 +11,10 @@
   border: 1px solid #6c6c6c;
 }
 .input-field {
-  border-radius: 10px;
+  border-radius: 5px;
   border: 1px solid #404040;
   background: rgba(34, 34, 34, 0.8);
   mix-blend-mode: luminosity;
-  backdrop-filter: blur(10px);
-
   color: #a0a0a0;
   font-family: Poppins;
   font-size: 16px;

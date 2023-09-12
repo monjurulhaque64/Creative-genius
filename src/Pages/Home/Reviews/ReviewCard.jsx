@@ -21,17 +21,20 @@ const ReviewCard = ({ reviews }) => {
               alt=""
             />
             <div>
-              <h2 className="review-card-title">{review.name}</h2>
+              <h2 className="review-card-title heading">{review.name}</h2>
               <Rating
                 style={{ maxWidth: 100 }}
                 value={review.rating}
                 readOnly
                 itemStyles={myStyles}
               />
-              <p className="review-card-description mt-[12px]">
+              
+            </div>
+          </div>
+          <div>
+          <p className="review-card-description text-justify pragraph px-5">
                 {review.review}
               </p>
-            </div>
           </div>
         </div>
       ))}

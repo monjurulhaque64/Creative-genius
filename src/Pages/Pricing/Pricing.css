@@ -5,10 +5,10 @@
 
 .price-card {
   width: 300px;
-  height: 1000px;
+  height: 65rem;
   flex-shrink: 0;
   border-radius: 10px;
-  background: #171717;
+  background: #212121;
 }
 
 .pricing-title {
@@ -29,14 +29,13 @@
   color: white;
   font-size: 16px;
   font-style: normal;
-  font-family: Poppins; 
   font-weight: 400;
   line-height: 28px;
 }
 
 .price {
   color: var(--Primary-Color, #3c4ff8);
-  font-family: Poppins;
+
   font-size: 26px;
   font-style: normal;
   font-weight: 600;
@@ -46,7 +45,7 @@
 
 .price-month {
   color: white;
-  font-family: Poppins;
+  
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -59,7 +58,7 @@
   justify-content: center;
   align-items: center;
   gap: 8px;
-  font-family: Poppins;
+ 
   border-radius: 10px;
   background: var(--Primary-Color, #3c4ff8);
   color: #fff;
@@ -67,4 +66,15 @@
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px){
+
+  .price-card {
+    width: 300px;
+    height: 1000px;
+    border-radius: 10px;
+    flex-shrink: 0;
+    background: #212121;
+  }
 }

@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 .heading {
-  font-family: Poppins;
+  
 }
 .client-card {
   width: 394px;
@@ -21,13 +21,13 @@
 .client-card-title {
   font-size: 24px;
   font-weight: 500;
-  font-family: Poppins;
+  
 }
 
 .client-card-description {
-  font-size: 16px;
-  font-weight: 400;
-  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 500;
+  
 }
 
 .client-photo {

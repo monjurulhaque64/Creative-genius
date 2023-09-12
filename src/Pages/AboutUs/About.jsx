@@ -50,31 +50,31 @@ const About = () => {
           ))}
         </div>
         {/* Pagination */}
-        <div className="join mt-4 flex justify-end mr-4 lg:mr-16 md:mr-4 mb-[198px]">
+        <div className="join mt-8 flex justify-end gap-2 mr-4 lg:mr-10  md:mr-4 mb-[198px]">
           <button
-            className={`join-item btn text-white bg-[#222222CC] hover:bg-[#222222CC] ${
+            className={` p-2 text-white bg-[#333030cc]  ${
               currentPage === 1 ? "btn-disabled" : ""
             }`}
             onClick={() => handlePageChange(currentPage - 1)}
             disabled={currentPage === 1}
-            style={{ border: "1px solid #404040" }} // Add this inline style
+             // Add this inline style
           >
             « Previous
           </button>
 
-          <button className="join-item btn text-white bg-[#222222CC] hover:bg-[#222222CC] "
-          style={{ border: "1px solid #404040" }}
+          <button className="  p-3 text-white bg-[#333030cc]  "
+          
           >
             0{currentPage}
           </button>
 
           <button
-            className={`join-item btn text-white bg-[#222222CC] hover:bg-[#222222CC] ${
+            className={`px-5 text-white bg-[#333030cc]  ${
               currentPage === totalPageCount ? "btn-disabled" : ""
             }`}
             onClick={() => handlePageChange(currentPage + 1)}
             disabled={currentPage === totalPageCount}
-            style={{ border: "1px solid #404040" }}
+            
           >
             {" "}
             Next »
