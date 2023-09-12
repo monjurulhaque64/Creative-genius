@@ -94,7 +94,7 @@ const ContactUs = () => {
                 value={formData.name}
                 onChange={handleChange}
                 placeholder="Full Name"
-                className="!text-[#A0A0A0] !font-[500] !heading !text-[14px] !md:text-[16px] !hover:border-[#A0A0A0] mb-[20px]"
+                className="!text-[#A0A0A0] !font-[500] !heading !text-[14px] !md:text-[16px] mb-[20px]"
               />
             </div>
             <div className="form-group">
