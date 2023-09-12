@@ -76,7 +76,7 @@ const OurClients = () => {
                 <img
                   src={GachuaAdarshaHighSchool}
                   alt=''
-                  className="hexagon-image h-[130px] flex justify-center align-center"
+                  className="hexagon-image h-[150px] flex justify-center align-center"
                 />
               </div>
             </div>
@@ -103,7 +103,7 @@ const OurClients = () => {
                 <img
                   src={JatuyaKhatadiMukhi}
                   alt=''
-                  className="hexagon-image h-[130px] flex justify-center align-center"
+                  className="hexagon-image h-[150px] w-[150px] flex justify-center align-center"
                 />
               </div>
             </div>
