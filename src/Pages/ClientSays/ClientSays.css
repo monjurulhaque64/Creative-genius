@@ -1,13 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
-.heading {
-  
-}
+
 .client-card {
   width: 394px;
-  height: 261px;
   position: relative;
-  border: 1px solid #404040;
-  border-radius: 10px;
+  border-radius: 5px;
   background: rgba(34, 34, 34, 0.8);
   overflow: hidden;
   color: white;
@@ -19,13 +15,13 @@
 }
 
 .client-card-title {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 500;
   
 }
 
 .client-card-description {
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 500;
   
 }
@@ -41,6 +37,10 @@
   color: #f1c40f;
   display: flex;
   align-items: center;
+}
+
+.pagination{
+  border-radius: 5px !important;
 }
 
 @media (max-width: 360px) {

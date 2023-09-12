@@ -4,7 +4,6 @@ import { MdLocationOn, MdPhone, MdEmail } from "react-icons/md";
 import "./ContectUs.css";
 import emailjs from "@emailjs/browser";
 
-
 const ContactUs = () => {
   const formRef = useRef();
   const [formData, setFormData] = useState({
@@ -27,12 +26,12 @@ const ContactUs = () => {
       .sendForm(
         "service_87yggjg",
         "template_3jfmzwq",
-        formRef.current, 
+        formRef.current,
         "XloRTSZt0TbtYT7Nq"
       )
       .then(
         (result) => {
-      formRef.current.reset();
+          formRef.current.reset();
         },
         (error) => {
           console.log(error.text);
@@ -56,7 +55,7 @@ const ContactUs = () => {
       <div className="contuct-circle-right"></div>
       <div className="grid grid-cols-1 md:grid-cols-2 ">
         <div className="lg:mt-[130px] ml-4 lg:ml-0">
-        <div className="contuct-circle-left"></div>
+          <div className="contuct-circle-left"></div>
           <h1 className="heading font-[600] heading text-[20px] md:text-[30px] text-white mb-[22px]">
             Get In Touch
           </h1>
@@ -64,65 +63,69 @@ const ContactUs = () => {
             We're eager to hear from you! Feel free to reach out for inquiries,
             collaborations, or just to say hello.
           </p>
-          
+
           <div className="mx-2 md:mx-0">
-          <h3 className="heading  font-[500] heading text-[14px] md:text-[20px] text-white flex mb-3 md:mb-[15px]">
-            {/* <span className="mr-2">
+            <h3 className="heading  font-[500] heading text-[14px] md:text-[20px] text-white flex mb-3 md:mb-[15px]">
+              {/* <span className="mr-2">
               <MdLocationOn size={30}></MdLocationOn>
             </span> */}
-            Head Office Details
-          </h3>
-          <h3 className= " pragraph  font-[200]  text-[14px] md:text-[16px] text-white flex mb-1 md:mb-[10px]">
-            {/* <span className="mr-2">
+              Head Office Details
+            </h3>
+            <h3 className=" pragraph  font-[200]  text-[14px] md:text-[16px] text-white flex mb-1 md:mb-[10px]">
+              {/* <span className="mr-2">
               <MdPhone size={30}></MdPhone>
             </span> */}
-            Contact No : +88 01332393009 (Head Office)
-          </h3>
-          <h3 className="  font-[200] pragraph text-[14px] md:text-[16px] text-white flex  mb-3 md:mb-[15px]">
-          Address : Uttarkhan, Gazipara, Hashemgazi Road, Uttara Dhaka - 1230.
-          </h3>
+              Contact No : +88 01332393009 (Head Office)
+            </h3>
+            <h3 className="  font-[200] pragraph text-[14px] md:text-[16px] text-white flex  mb-3 md:mb-[15px]">
+              Address : Uttarkhan, Gazipara, Hashemgazi Road, Uttara Dhaka -
+              1230.
+            </h3>
           </div>
           <div className="my-7 md:my-10  mx-2 md:mx-0">
-          <h3 className="heading  font-[500] heading text-[14px] md:text-[20px] text-white flex mb-3 md:mb-[15px]">
-            {/* <span className="mr-2">
+            <h3 className="heading  font-[500] heading text-[14px] md:text-[20px] text-white flex mb-3 md:mb-[15px]">
+              {/* <span className="mr-2">
               <MdLocationOn size={30}></MdLocationOn>
             </span> */}
-            Rangpur Branch
-          </h3>
-          <h3 className= " pragraph  font-[200]  text-[14px] md:text-[16px] text-white flex mb-1 md:mb-[10px]">
-            {/* <span className="mr-2">
+              Rangpur Branch
+            </h3>
+            <h3 className=" pragraph  font-[200]  text-[14px] md:text-[16px] text-white flex mb-1 md:mb-[10px]">
+              {/* <span className="mr-2">
               <MdPhone size={30}></MdPhone>
             </span> */}
-            ContactNo : +88 01632677577 (Rangpur Branch)
-          </h3>
-          <h3 className="  font-[200] pragraph text-[14px] md:text-[16px] text-white flex  mb-1 md:mb-[15px]">
-          Address : Mahiganj, Rangpur - 5400.
-          </h3>
+              ContactNo : +88 01632677577 (Rangpur Branch)
+            </h3>
+            <h3 className="  font-[200] pragraph text-[14px] md:text-[16px] text-white flex  mb-1 md:mb-[15px]">
+              Address : Mahiganj, Rangpur - 5400.
+            </h3>
           </div>
           <div className="mx-2 md:mx-0">
-          <h3 className="heading  font-[500] heading text-[14px] md:text-[20px] text-white flex mb-3 md:mb-[15px]">
-            {/* <span className="mr-2">
+            <h3 className="heading  font-[500] heading text-[14px] md:text-[20px] text-white flex mb-3 md:mb-[15px]">
+              {/* <span className="mr-2">
               <MdLocationOn size={30}></MdLocationOn>
             </span> */}
-            Dinajpur Branch
-          </h3>
-          <h3 className= " pragraph  font-[200]  text-[14px] md:text-[16px] text-white flex mb-1 md:mb-[10px]">
-            {/* <span className="mr-2">
+              Dinajpur Branch
+            </h3>
+            <h3 className=" pragraph  font-[200]  text-[14px] md:text-[16px] text-white flex mb-1 md:mb-[10px]">
+              {/* <span className="mr-2">
               <MdPhone size={30}></MdPhone>
             </span> */}
-            Contact No : +88 01885352802 (Dinajpur Branch)
-            
-          </h3>
-          <h3 className="  font-[200] pragraph text-[14px] md:text-[16px] text-white flex  mb-3 md:mb-[15px]">
-            Address : M Abdur Rahim Medical Road, Dinajpur - 5200.
-          
-          </h3>
+              Contact No : +88 01885352802 (Dinajpur Branch)
+            </h3>
+            <h3 className="  font-[200] pragraph text-[14px] md:text-[16px] text-white flex  mb-3 md:mb-[15px]">
+              Address : M Abdur Rahim Medical Road, Dinajpur - 5200.
+            </h3>
           </div>
         </div>
         <div className="form-container contect-container mt-[106px]">
           <form ref={formRef} onSubmit={handleSubmit}>
             <div className="form-group">
-              <label htmlFor="name" className="font-[500] heading text-[14px] md:text-[20px] text-white mb-[9px]">Full Name</label>
+              <label
+                htmlFor="name"
+                className="font-[500] heading  text-[16px] text-white mb-[9px]"
+              >
+                Full Name
+              </label>
               <input
                 type="text"
                 id="name"
@@ -130,23 +133,33 @@ const ContactUs = () => {
                 value={formData.name}
                 onChange={handleChange}
                 placeholder="Full Name"
-                className="!text-[#A0A0A0] !font-[500] !heading !text-[14px] !md:text-[16px] mb-[20px]"
+                className="!text-[#A0A0A0] !font-[500] input border-opacity-0 bg-[#171717] input-info !heading !text-[14px]  mb-[20px]"
               />
             </div>
             <div className="form-group">
-              <label htmlFor="email" className="font-[500] heading text-[14px] md:text-[20px] text-white mb-[9px]">Email</label>
+              <label
+                htmlFor="email"
+                className="font-[500] heading text-[16px] text-white mb-[9px]"
+              >
+                Email
+              </label>
               <input
                 type="email"
                 id="email"
                 name="email"
                 value={formData.email}
                 onChange={handleChange}
-                className="!text-[#A0A0A0] !font-[500] !heading !text-[14px] !md:text-[16px] mb-[20px]"
+                className="!text-[#A0A0A0] !font-[500] input border-opacity-0 bg-[#171717] input-info !heading !text-[14px]  mb-[20px]"
                 placeholder="Enter Email Address"
               />
             </div>
             <div className="form-group">
-              <label htmlFor="reason" className="font-[500] heading text-[14px] md:text-[20px] text-white mb-[9px]">Reason</label>
+              <label
+                htmlFor="reason"
+                className="font-[500] heading text-[16px] text-white mb-[9px]"
+              >
+                Reason
+              </label>
               <input
                 type="text"
                 id="reason"
@@ -154,24 +167,34 @@ const ContactUs = () => {
                 value={formData.reason}
                 onChange={handleChange}
                 placeholder="Reason"
-                className="!text-[#A0A0A0] !font-[500] !heading !text-[14px] !md:text-[16px] mb-[20px]"
+                className="!text-[#A0A0A0] !font-[500] input border-opacity-0 bg-[#171717] input-info !heading !text-[14px]  mb-[20px]"
               />
             </div>
             <div className="form-group">
-              <label htmlFor="message" className="font-[500] heading text-[14px] md:text-[20px] text-white mb-[9px]">Message</label>
+              <label
+                htmlFor="message"
+                className="font-[500] heading text-[16px] text-white mb-[9px]"
+              >
+                Message
+              </label>
               <textarea
                 id="message"
                 name="message"
                 value={formData.message}
                 onChange={handleChange}
                 rows="5"
-                placeholder="Text Your Message"
-                className="!text-[#A0A0A0] !font-[500] !heading !text-[16px] mb-[30px]"
+                placeholder="Write Your Message"
+                className="!text-[#A0A0A0] h-32 !font-[500] input border-opacity-0 bg-[#171717] input-info !heading !text-[14px] mb-[30px]"
               />
             </div>
-            <button className="contect-button font-[500] heading text-[20px] text-white mb-[30px]" type="submit">
-              Submit Now
-            </button>
+            <div className=" text-center ">
+              <button
+                className="contect-button font-[600] heading lg:px-[50px] text-[15px] text-white mb-[30px]"
+                type="submit"
+              >
+                Submit Now
+              </button>
+            </div>
           </form>
         </div>
       </div>

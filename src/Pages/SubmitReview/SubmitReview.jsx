@@ -85,14 +85,14 @@ const SubmitReview = () => {
       <div className="flex justify-center mx-auto submit-review-card mb-8 mt-[40px] md:mt-[78px] ">
         <form onSubmit={handleSubmit} className="w-[full container-review-card">
           {/* Full Name Input */}
-          <div className="flex mt-[65px] lg:gap-[134px] gap-[20px]">
-            <div className="mb-4">
-              <label className="text-white block font-[500] text-[20px] heading mb-[9px]">
+          <div className="flex mt-[65px] lg:gap-[30px] gap-[20px]">
+            <div className="mb-4 lg:w-[300px]">
+              <label className="text-white block font-[500] text-[16px] heading mb-[9px]">
                 Full Name
               </label>
               <input
                 type="text"
-                className="w-full input-field mb-[20px] "
+                className="w-full input input-info text-[14px] input-field border-castom mb-[20px] "
                 placeholder="Full Name"
                 value={fullName}
                 onChange={(e) => setFullName(e.target.value)}
@@ -101,8 +101,8 @@ const SubmitReview = () => {
             </div>
             {/* Rating Input */}
             <div className="mb-4">
-              <label className="text-white block  font-[500] text-[20px] heading mb-[9px]">
-                Rating:
+              <label className="text-white block  font-[500] text-[16px] heading mb-[9px]">
+                Rating
               </label>
               <Rating
                 style={{ maxWidth: 150 }}
@@ -115,12 +115,12 @@ const SubmitReview = () => {
           </div>
           {/* Photo Input */}
           <div className="mb-4 mt-[32px]">
-            <label className="text-white block  font-[500] text-[20px] heading mb-[9px]">
+            <label className="text-white block  font-[500] text-[16px] heading mb-[9px]">
               Select Your Photo
             </label>
             <input
               type="file"
-              className="file-input input-field file-input-secondary !bg-[#171717] w-full mb-[20px]"
+              className="file-input file-input-bordered file-input-info  border-castom text-[14px]  w-full mb-[20px]"
               accept="image/*"
               onChange={(e) => setPhoto(e.target.files[0])}
               required
@@ -128,12 +128,12 @@ const SubmitReview = () => {
           </div>
           {/* Review Textarea */}
           <div className="mb-4 mt-[32px]">
-            <label className="text-white block mb-[9px] font-[500] text-[20px] heading">
+            <label className="text-white block mb-[9px] font-[500] text-[16px] heading">
               Review
             </label>
             <textarea
-              className="w-full h-32 input-field border !bg-[#171717] text-white rounded-lg px-4"
-              placeholder="Review"
+              className="w-full h-32 input-field input input-info border-castom text-white text-[14px] px-4"
+              placeholder="Write about our Service"
               value={review}
               onChange={(e) => setReview(e.target.value)}
               required
@@ -143,7 +143,7 @@ const SubmitReview = () => {
           <div className="text-center mt-[60px]">
             <button
               type="submit"
-              className="review-button text-white py-[11px] lg:px-[100px] rounded-lg font-[500] text-[16px] md:text-[20px] font-[Poppins] mb-[30px]"
+              className="review-button text-white py-[11px] lg:px-[60px] font-[600] text-[15px]  font-[Poppins] mb-[30px]"
             >
               Submit Now
             </button>

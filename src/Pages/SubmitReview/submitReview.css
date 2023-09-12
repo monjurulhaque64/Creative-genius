@@ -5,29 +5,31 @@
 
 /* Review card container */
 .submit-review-card {
-  width: 711px;
+  width: 650px;
   height: 700px;
-  border-radius: 10px;
-  border: 1px solid #6c6c6c;
+  border-radius: 5px;
+  border: 1px solid #2b2b2b;
 }
 .input-field {
-  border-radius: 5px;
-  border: 1px solid #404040;
-  background: rgba(34, 34, 34, 0.8);
+  border-radius: 5px !important;
   mix-blend-mode: luminosity;
   color: #a0a0a0;
-  font-family: Poppins;
-  font-size: 16px;
+  font-size: 14px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+}
+
+.border-castom{
+  border-radius: 5px !important;
+  border: 1px solid #2b2b2b;
 }
 
 
 .review-button {
   height: 52px;
   font-family: 'Poppins';
-  border-radius: 10px;
+  border-radius: 5px !important;
   background-color: #3C4FF8;
   color: #FFF;
   cursor: pointer;
@@ -50,6 +52,6 @@
     width: 100%;
   }
   .review-button {
-    width: 90%;
+    width: 60%;
   }
 }

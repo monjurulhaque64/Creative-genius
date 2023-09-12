@@ -17,13 +17,14 @@
     padding: 16px 24px;
     justify-content: center;
     align-items: center;
+    font-family: Poppins;
     gap: 8px;
-    border-radius: 10px;
+    border-radius: 5px;
     background: var(--Primary-Color, #3C4FF8);
     color: #FFF;
-    font-size: 16px;
+    font-size: 15px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     line-height: normal;
 }
 

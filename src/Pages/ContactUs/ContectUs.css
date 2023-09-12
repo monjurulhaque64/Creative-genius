@@ -5,8 +5,8 @@
 .form-container {
   width: 100%;
   max-width: 419px;
-  border-radius: 10px;
-  border: 1px solid #6c6c6c;
+  border-radius: 5px;
+  border: 1px solid #2b2b2b;
   background-color: #171717;
   padding: 20px;
   margin: 0 auto;
@@ -38,7 +38,7 @@ textarea {
   width: 100%;
   height: 52px;
   padding: 10px;
-  border-radius: 10px;
+  border-radius: 5px;
   background: #171717;
   mix-blend-mode: luminosity;
   backdrop-filter: blur(10px);
@@ -51,10 +51,9 @@ textarea {
 
 
 .contect-button {
-  width: 100%;
   height: 52px;
   font-family: "Poppins";
-  border-radius: 10px;
+  border-radius: 5px;
   background-color: #3c4ff8;
   color: #fff;
   cursor: pointer;
@@ -97,5 +96,8 @@ textarea {
   .contuct-circle-right {
     width: 0%;
     height: 50%;
+  }
+  .contect-button {
+    width: 60%;
   }
 }

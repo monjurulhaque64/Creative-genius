@@ -51,8 +51,8 @@ const Pricing = () => {
         "Transportation systems management",
         "Provide Mobile Application",
       ],
-      price: 60000,
-      duration: "6 month",
+      price: '60k',
+      duration: "for 6 months",
     },
     {
       package: "Yearly Package",
@@ -76,8 +76,8 @@ const Pricing = () => {
         "Transportation systems management",
         "Provide Mobile Application",
       ],
-      price: 120000,
-      duration: "year",
+      price: '120k',
+      duration: "for year",
     },
     {
       package: "Lifetime Package",
@@ -101,7 +101,7 @@ const Pricing = () => {
         "Transportation systems management",
         "Provide Mobile Application",
       ],
-      price: 200000,
+      price: '200k',
       duration: "Lifetime",
     },
   ];
