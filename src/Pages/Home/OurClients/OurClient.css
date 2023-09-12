@@ -13,19 +13,19 @@
   margin: 10px;
   position: relative;
   background: linear-gradient(0deg, #171717, #171717),
-    linear-gradient(180deg, #3c4ff8 0%, rgba(60, 79, 248, 0) 100%);
-  border: 8px solid #3c4ff8;
-  border-image-source: linear-gradient(
+    linear-gradient(180deg, #3c4ff8 100%, rgba(60, 79, 248, 0) 100%);
+  border: 1px solid #3c4ff8;
+  /* border-image-source: linear-gradient(
     180deg,
     #3c4ff8 0%,
     rgba(109, 1, 1, 0) 100%
-  );
+  ); */
   clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 }
 
 /* Hexagon inner content (for image positioning) */
 .hexagon-inner {
-  margin: 35px;
+  margin: 55px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -34,4 +34,5 @@
 /* Image styles */
 .hexagon-image {
   object-fit: cover;
+  margin-top: auto;
 }
