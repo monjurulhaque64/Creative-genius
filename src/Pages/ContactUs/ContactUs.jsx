@@ -40,7 +40,7 @@ const ContactUs = () => {
       );
   };
   return (
-    <div className="mt-4 md:mt-[125px] container mx-auto mb-[20px] lg:mb-[0px]">
+    <div className="mt-4 md:mt-[125px] container mx-auto overflow-hidden mb-[20px] lg:mb-[0px]">
       <Helmet>
         <title>Creative Campus || Contact Us</title>
       </Helmet>

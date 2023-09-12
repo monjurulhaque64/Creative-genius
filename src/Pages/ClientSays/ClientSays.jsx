@@ -45,7 +45,7 @@ const ClientSays = () => {
       <div className="mt-[71px] ">
         <ClientSaysCard reviews={currentReviews}></ClientSaysCard>
       </div>
-      <div className="join mt-4 flex justify-end mr-4 lg:mr-16 md:mr-4 mb-[198px]">
+      <div className="join mt-10 flex gap-2 justify-center mr-4  md:mr-10  mb-[198px]">
         <button
           className={`join-item btn text-white bg-[#222222CC] hover:bg-[#222222CC] ${currentPage === 1 ? "btn-disabled" : ""}`}
           onClick={() => handlePageChange(currentPage - 1)}
@@ -54,7 +54,7 @@ const ClientSays = () => {
         >
           « Previous
         </button>
-        <button className="join-item btn text-white bg-[#222222CC] hover:bg-[#222222CC]"
+        <button className="join-item btn rounded-md text-white bg-[#222222CC] hover:bg-[#222222CC]"
         style={{ border: '1px solid #404040' }}
         >0{currentPage}</button>
         <button

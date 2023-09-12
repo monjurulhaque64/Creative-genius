@@ -68,12 +68,12 @@
     position: absolute;
   }
   .contuct-circle-right {
-    width: 355px; 
-    height: 355px; 
+    width: 345px; 
+    height: 345px; 
     flex-shrink: 0;
     border-radius: 355px; 
     background: #7074FF; 
-    right: -5%;
+    right: 0%;
     filter: blur(250px); 
     position: absolute;
   }
