@@ -59,7 +59,7 @@ const Fwq = () => {
           <AccordionItem
             className="collapse   p-3 md:text-[24px]  text-[20px] shadow-xl lg:w-[604px] mt-6 rounded-md border-[1px] border-[#8a8a8a]"
             header={
-              <div className="flex items-center justify-between md:gap-[11rem] gap-[1px]">
+              <div className="flex items-center justify-between md:gap-[182px] gap-[1px]">
                 <h1 className='justify-start font text-[18px] md:text-[24px]  font-[400]'>What is your company’s goal?</h1>
               <i
                 className={`fa ${isAccordionOpen ? 'fa-chevron-up' : 'fa-chevron-down'}`}
@@ -103,9 +103,6 @@ const Fwq = () => {
           </AccordionItem>
         </div>
 
-
-
-
         <div className='flex items-center md:gap-6  gap-3 md:w-2/3    faq-card md:mb-10'>
           <div className={`border-2 relative mt-6 border-gray-700 rounded-[50%] p-2 md:p-4 ${divClass2}`}>03</div>
           {/* <div className=" line1 h-[72px] !ml-[25px]  lg:mt-[152px] hidden lg:block border-[1px] border-[#747474] rotate-180 border-solid  absolute"></div> */}
@@ -113,7 +110,7 @@ const Fwq = () => {
           <AccordionItem className="collapse border-2 mt-6  p-3    md:text-[24px]  text-[20px] bg-[rgba(34, 34, 34, 0.80)] shadow-xl lg:w-[604px]  mt-6 rounded-md border-[1px] border-[#8a8a8a]"
           
               header={
-              <div className="flex items-center justify-between md:gap-[3rem] gap-[1px]">
+              <div className="flex items-center justify-between md:gap-[60px] gap-[1px]">
                 <h1 className='justify-start font text-[18px] md:text-[24px]  font-[400]'>What are the services of your company?</h1>
               <i
                 className={`fa ${isAccordionOpen2 ? 'fa-chevron-up' : 'fa-chevron-down'}`}
@@ -141,7 +138,7 @@ const Fwq = () => {
           <AccordionItem className="collapse border-2 mt-6  p-3   md:text-[24px]  text-[20px] bg-[rgba(34, 34, 34, 0.80)] shadow-xl lg:w-[604px]  mt-6 rounded-md border-[1px] border-[#8a8a8a]" 
           
              header={
-              <div className="flex items-center justify-between md:gap-[10.5rem] gap-3">
+              <div className="flex items-center justify-between md:gap-[180px] gap-3">
                 <h1 className='justify-start font text-[18px] md:text-[24px]  font-[400]'>How long does a project take?</h1>
                
               <i
@@ -171,7 +168,7 @@ const Fwq = () => {
           
              header={
               <div className="flex items-center justify-between  gap-3">
-                <h1 className='justify-start font text-[18px] md:text-[24px]  font-[400]'>How do you create content for your clients?</h1>
+                <h1 className='justify-start font text-[18px] md:text-[25px]  font-[400]'>How do you create content for your clients?</h1>
                
               <i
                 className={`fa ${isAccordionOpen4 ? 'fa-chevron-up' : 'fa-chevron-down'}`}
