@@ -130,7 +130,7 @@ const OurClients = () => {
                 <img
                   src={OhabIdealPublicHighSchool}
                   alt=''
-                  className="hexagon-image h-[130px] flex justify-center align-center"
+                  className="hexagon-image flex justify-center align-center"
                 />
               </div>
             </div>

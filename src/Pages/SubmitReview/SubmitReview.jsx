@@ -4,6 +4,7 @@ import { Rating, ThinStar } from "@smastrom/react-rating";
 import "@smastrom/react-rating/style.css";
 import "./submitReview.css";
 import Swal from "sweetalert2";
+import './swal.css'
 import Reviews from "../Home/Reviews/Reviews";
 
 const myStyles = {

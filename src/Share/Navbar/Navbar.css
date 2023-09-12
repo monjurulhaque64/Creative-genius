@@ -8,12 +8,12 @@
   justify-content: center;
   align-items: center;
   gap: 8px;
-  border-radius: 15px;
+  border-radius: 5px;
   background: var(--Primary-Color, #3c4ff8);
   color: #fff;
-  font-size: 16px;
+  font-size: 15px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
   line-height: normal;
 }
 .hr-line {
@@ -26,8 +26,6 @@
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px){
   .download-btn {
     padding: 10px 13px;
-    font-size: 16px;
-    border-radius: 7px;
   }
 }
 

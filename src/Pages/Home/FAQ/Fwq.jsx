@@ -51,7 +51,7 @@ const Fwq = () => {
       <Accordion>
         <div className="flex  items-center md:gap-6  gap-3 lg:w-[680px]    faq-card  md:mb-10">
           <div
-            className={`border-[1px] mt-6 font border-[#9F9F9F] rounded-[50%] p-2 md:p-4  ${divClass} `}
+            className={`border-[1px] mt-6 relative border-[#9F9F9F] text-[14px] font-[600] flex w-[75px] h-[65px] rounded-[50%] justify-center text-center items-center ${divClass} `}
           >
             01
           </div>
@@ -61,7 +61,7 @@ const Fwq = () => {
             className="collapse   p-3 md:text-[24px]  text-[20px] shadow-xl lg:w-[700px] mt-6 rounded-md border-[1px] border-[#8a8a8a]"
             header={
               <div className="flex items-center justify-between lg:gap-[42px] gap-[1px]">
-                <h1 className='justify-start font text-[18px] md:text-[21px] text-justify lg:w-[500px] font-[400]'>What is your company’s goal?</h1>
+                <h1 className='justify-start font text-[18px]  text-justify lg:w-[500px] font-[500]'>What is your company’s goal?</h1>
               <i
                 className={`fa ${isAccordionOpen ? 'fa-chevron-up' : 'fa-chevron-down'}`}
                 style={{ marginRight: '8px' }}
@@ -79,7 +79,7 @@ const Fwq = () => {
         <div className="flex  items-center md:gap-6  gap-3 lg:w-[700px]    faq-card  md:mb-10">
           {/* <div className=" line1 h-[188px] !ml-[25px]  lg:mt-[167px] hidden lg:block border-[1px] border-[#747474] rotate-180 border-solid  absolute"></div> */}
           <div
-            className={`border-[1px] mt-6 relative border-[#9F9F9F]  rounded-[50%] p-2 md:p-4 ${divClass1}`}
+            className={`border-[1px] mt-6 relative border-[#9F9F9F] text-[14px] font-[600] flex w-[65px] h-[65px] rounded-[50%] justify-center text-center items-center ${divClass1}`}
           >
             02
           </div>
@@ -88,7 +88,7 @@ const Fwq = () => {
             className="collapse  p-3 md:text-[24px]  text-[20px] shadow-xl lg:w-[604px] mt-6 rounded-md border-[1px] border-[#8a8a8a]"
             header={
               <div className="flex items-center justify-between md:gap-[42px] gap-[1px]">
-                <h1 className="justify-start text-justify font  text-[18px] md:text-[21px] lg:w-[500px] font-[400]">
+                <h1 className="justify-start text-justify font text-[18px] lg:w-[500px] font-[500]">
                   What is the target of digital marketing for your company?
                 </h1>
 
@@ -115,14 +115,14 @@ const Fwq = () => {
 
 
         <div className='flex items-center md:gap-6  gap-3 md:w-[700px]    faq-card md:mb-10'>
-          <div className={`border-[1px] relative mt-6 border-[#9F9F9F] rounded-[50%] p-2 md:p-4 ${divClass2}`}>03</div>
+          <div className={`border-[1px] relative mt-6 border-[#9F9F9F] text-[14px] font-[600] flex w-[65px] h-[65px] rounded-[50%] justify-center text-center items-center ${divClass2}`}>03</div>
           {/* <div className=" line1 h-[72px] !ml-[25px]  lg:mt-[152px] hidden lg:block border-[1px] border-[#747474] rotate-180 border-solid  absolute"></div> */}
 
           <AccordionItem className="collapse border-1 mt-6  p-3    md:text-[24px]  text-[20px] bg-[rgba(34, 34, 34, 0.80)] shadow-xl lg:w-[604px]  mt-6 rounded-md border-[1px] border-[#8a8a8a]"
           
               header={
               <div className="flex items-center justify-between lg:gap-[42px] gap-[1px]">
-                <h1 className='justify-start font text-[18px] md:text-[21px] text-justify lg:w-[500px] font-[400]'>What are the services of your company?</h1>
+                <h1 className='justify-start font text-[18px] text-justify lg:w-[500px] font-[500]'>What are the services of your company?</h1>
               <i
                 className={`fa ${isAccordionOpen2 ? 'fa-chevron-up' : 'fa-chevron-down'}`}
                 style={{ marginRight: '8px', }}
@@ -142,7 +142,7 @@ const Fwq = () => {
 
         <div className="flex items-center md:gap-6  gap-3 md:w-[700px]    faq-card md:mb-10">
           <div
-            className={`border-[1px] relative mt-6 border-[#9F9F9F] rounded-[50%] p-2 md:p-4 ${divClass3}`}
+            className={`border-[1px] relative mt-6 border-[#9F9F9F] text-[14px] font-[600] flex w-[65px] h-[65px] rounded-[50%] justify-center text-center items-center ${divClass3}`}
           >
             04
           </div>
@@ -152,7 +152,7 @@ const Fwq = () => {
           
              header={
               <div className="flex items-center justify-between lg:gap-[42px] gap-3">
-                <h1 className='justify-start font text-[18px] md:text-[21px] lg:w-[500px] text-justify font-[400]'>How long does a project take?</h1>
+                <h1 className='justify-start font text-[18px] lg:w-[500px] text-justify font-[500]'>How long does a project take?</h1>
                
               <i
                 className={`fa ${isAccordionOpen3 ? 'fa-chevron-up' : 'fa-chevron-down'}`}
@@ -176,7 +176,7 @@ const Fwq = () => {
 
         <div className="flex items-center md:gap-6  gap-3 md:w-[700px]    faq-card md:mb-10">
           <div
-            className={`border-[1px] relative mt-6 border-[#9F9F9F] rounded-[50%] p-2 md:p-4 ${divClass4}`}
+            className={`border-[1px] relative mt-6 border-[#9F9F9F] text-[14px] font-[600] flex w-[65px] h-[65px] rounded-[50%] justify-center text-center items-center ${divClass4}`}
           >
             05
           </div>
@@ -186,7 +186,7 @@ const Fwq = () => {
           
              header={
               <div className="flex items-center justify-between lg:gap-[42px] gap-3">
-                <h1 className='justify-start font text-[18px] md:text-[21px] text-justify lg:w-[500px] font-[400]'>How do you create content for your clients?</h1>
+                <h1 className='justify-start font text-[18px] text-justify lg:w-[500px] font-[500]'>How do you create content for your clients?</h1>
                
               <i
                 className={`fa ${isAccordionOpen4 ? 'fa-chevron-up' : 'fa-chevron-down'}`}
@@ -209,7 +209,7 @@ const Fwq = () => {
 
         <div className="flex items-center md:gap-6  gap-3 md:w-[700px]    faq-card ">
           <div
-            className={`border-[1px]  mt-6 border-[#9F9F9F] rounded-[55%] p-2 md:p-4 ${divClass5}`}
+            className={`border-[1px] mt-6 relative  border-[#9F9F9F] text-[14px] font-[600] flex w-[65px] h-[65px] rounded-[50%] justify-center text-center items-center  ${divClass5}`}
           >
             06
           </div>
@@ -218,7 +218,7 @@ const Fwq = () => {
             className="collapse border-1 mt-6  p-3    md:text-[24px]  text-[20px] bg-[rgba(34, 34, 34, 0.80)] shadow-xl lg:w-[604px]  mt-6 rounded-md border-[1px] border-[#8a8a8a]"
             header={
               <div className="flex items-center justify-between text-justify lg:gap-[42px] gap-3">
-                <h1 className="justify-start text-justify font text-[18px] md:text-[21px] lg:w-[500px] font-[400]">
+                <h1 className="justify-start text-justify font text-[18px] lg:w-[500px] font-[500]">
                   What are the qualities of a successful team?
                 </h1>
 

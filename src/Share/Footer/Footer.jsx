@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "../../assets/Images/Logo.png";
 import { Link } from "react-router-dom";
+import {  MdPhone, MdEmail } from "react-icons/md";
 import {
   FaFacebookF,
   FaInstagram,
@@ -11,9 +12,9 @@ import './footer.css'
 
 const Footer = () => {
   return (
-    <div>
-      <footer className="container mx-auto footer p-7 text-base-content mt-[160px]">
-        <div className="lg:ml-[80px] ml-[0px]">
+    <div className="">
+      <footer className="container mx-auto p-4 lg:p-0 footer lg:w-[1236px] lg:mb-6 text-base-content mt-[160px]">
+        <div className="">
           <img className="w-[148px] " src={logo} alt="logo" />
           <p className="mt-6 text-[14px] font-[400] heading text-white">
             The future of digital learning technology <br /> in teaching and
@@ -23,36 +24,36 @@ const Footer = () => {
         <div>
           <span className=" text-white text-[30px] font-[700] heading mb-[51px] ">About</span>
           <Link to={"/"}>
-            <span className="link link-hover text-white text-[14px]font-[400] heading  mb-[16px]">
+            <span className=" text-white text-[14px] font-[400] heading  mb-[5px]">
               Home
             </span>
           </Link>
           <Link to={"/about"}>
             {" "}
-            <span className="link link-hover text-white text-[14px]font-[400] heading  mb-[16px]">
+            <span className=" text-white text-[14px] font-[400] heading  mb-[5px]">
               About Us
             </span>
           </Link>
           <Link to={"/products"}>
             {" "}
-            <span className="link link-hover text-white text-[14px]font-[400] heading  mb-[16px]">
+            <span className=" text-white text-[14px] font-[400] heading  mb-[5px]">
               Products
             </span>
           </Link>
           <Link to={"/pricing"}>
             {" "}
-            <span className="link link-hover text-white text-[14px]font-[400] heading  mb-[16px]">
+            <span className=" text-white text-[14px] font-[400] heading  mb-[5px]">
               Pricing Table
             </span>
           </Link>
           <Link to={"/client-says"}>
-            <span className="link link-hover text-white text-[14px]font-[400] heading  mb-[16px]">
+            <span className=" text-white text-[14px] font-[400] heading  mb-[5px]">
               Client Says
             </span>
           </Link>
           <Link to={"/contact-us"}>
             {" "}
-            <span className="link link-hover text-white text-[14px]font-[400] heading  mb-[16px]">
+            <span className=" text-white text-[14px] font-[400] heading  mb-[5px]">
               Contact Us
             </span>
           </Link>
@@ -60,17 +61,17 @@ const Footer = () => {
         <div>
           <span className="text-white text-[30px] font-[700] heading mb-[51px] ">Privacy</span>
           <Link to={"/privacy"}>
-            <span className="link link-hover text-white text-[14px]font-[400] heading  mb-[16px]">
+            <span className=" text-white text-[14px]font-[400] heading  mb-[5px]">
               Privacy Policy
             </span>
           </Link>
           <Link to={"/payment"}>
-            <span className="link link-hover text-white text-[14px]font-[400] heading  mb-[16px]">
+            <span className=" text-white text-[14px]font-[400] heading  mb-[5px]">
               Payment
             </span>
           </Link>
           <Link to={"/terms"}>
-            <span className="link link-hover text-white text-[14px]font-[400] heading  mb-[16px]">
+            <span className=" text-white text-[14px]font-[400] heading  mb-[5px]">
               Terms and conditions
             </span>
           </Link>
@@ -79,12 +80,30 @@ const Footer = () => {
           <span className="text-white text-[30px] font-[700] heading mb-[51px] ">
             Contact Us
           </span>
-          <a className=" text-white text-[14px]font-[400] heading  mb-[16px]">
-            +880123456789
-          </a>
-          <a className=" text-white text-[14px]font-[400] heading  mb-[16px]">
+          <div className=" text-white flex text-[14px] font-[400] heading  mb-[5px]">
+          <span className="mr-2">
+              <MdPhone size={20}></MdPhone>
+            </span>
+            +88 01332-393009 (Head Office)
+          </div>
+          <div className=" text-white flex text-[14px] font-[400] heading  mb-[5px]">
+          <span className="mr-2">
+              <MdPhone size={20}></MdPhone>
+            </span>
+            +88 01632-677577 (Rangpur Branch)
+          </div>
+          <div className=" text-white flex text-[14px] font-[400] heading  mb-[5px]">
+          <span className="mr-2">
+              <MdPhone size={20}></MdPhone>
+            </span>
+            +88 01885-352802 (Dinajpur Branch)
+          </div>
+          <div className=" text-white flex text-[14px] font-[400] heading  mb-[5px]">
+          <span className="mr-2">
+              <MdEmail size={20}></MdEmail>
+            </span>
             info@creativec-ampus.com
-          </a>
+          </div>
           <div className=" mt-4">
             <button className="icon-btn mr-2">
               {" "}
@@ -105,22 +124,22 @@ const Footer = () => {
           </div>
         </div>
       </footer>
-      <div className="hr-line container mx-auto lg:w-[1340px]" />
-      <footer className="footer container mx-auto items-center p-4 bg-neutral text-neutral-content mb-[84px]">
-        <div className="items-center grid-flow-col lg:ml-[90px]">
-          <p className="link link-hover text-white text-[14px]font-[400] heading  mb-[16px]">
+      <div className="hr-line container mx-auto w-full lg:w-[1245px]" />
+      <footer className="footer container mx-auto items-center lg:w-[1236px] p-4 lg:p-0 bg-neutral text-neutral-content mb-[84px] mt-2">
+        <div className="items-center grid-flow-col ">
+          <p className=" text-white text-[14px] font-[400] heading  mb-[16px]">
             © Copyright 2023 <span className="font-bold">Creative Campus</span>.
             All rights reserved.
           </p>
         </div>
-        <div className="grid-flow-col gap-4 lg:mr-28 md:place-self-center  md:justify-self-end ">
+        <div className="grid-flow-col gap-4  md:place-self-center  md:justify-self-end ">
           <Link to={"/contact-us"}>
-            <a className="link link-hover text-white text-[14px]font-[400] heading  mb-[16px]">
+            <p className=" text-white text-[14px] font-[400] heading  mb-[16px]">
               Contact Us
-            </a>
+            </p>
           </Link>
           <Link to={"/terms"}>
-            <span className="link link-hover text-white text-[14px]font-[400] heading  mb-[16px]">
+            <span className=" text-white text-[14px] font-[400] heading  mb-[16px]">
               Terms and conditions
             </span>
           </Link>

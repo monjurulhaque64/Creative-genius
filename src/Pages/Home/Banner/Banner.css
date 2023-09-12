@@ -66,6 +66,7 @@
 
 .download-app {
   background: var(--Primary-Color, #3C4FF8);
+  border-radius: 5px !important;
 }
 .pragraph{
   font-family: Lato;

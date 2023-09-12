@@ -65,55 +65,55 @@ const ContactUs = () => {
           </p>
 
           <div className="mx-2 md:mx-0">
-            <h3 className="heading  font-[500] heading text-[14px] md:text-[20px] text-white flex mb-3 md:mb-[15px]">
-              {/* <span className="mr-2">
-              <MdLocationOn size={30}></MdLocationOn>
-            </span> */}
-              Head Office Details
+            <h3 className="heading  font-[600] heading text-[20px] text-white flex mb-[10px]">
+              Head Office 
             </h3>
-            <h3 className=" pragraph  font-[200]  text-[14px] md:text-[16px] text-white flex mb-1 md:mb-[10px]">
-              {/* <span className="mr-2">
-              <MdPhone size={30}></MdPhone>
-            </span> */}
-              Contact No : +88 01332393009 (Head Office)
+            <h3 className=" pragraph  font-[200]  text-[16px] text-white flex mb-[5px]">
+              <span className="mr-2">
+              <MdPhone size={20}></MdPhone>
+            </span>
+               +88 01332-393009
             </h3>
-            <h3 className="  font-[200] pragraph text-[14px] md:text-[16px] text-white flex  mb-3 md:mb-[15px]">
-              Address : Uttarkhan, Gazipara, Hashemgazi Road, Uttara Dhaka -
+            <h3 className="  font-[200] pragraph text-[16px] text-white flex mb-[5px]">
+              <span className="mr-2">
+              <MdLocationOn size={20}></MdLocationOn>
+            </span>
+               Uttarkhan, Gazipara, Hashemgazi Road, Uttara Dhaka -
               1230.
             </h3>
           </div>
-          <div className="my-7 md:my-10  mx-2 md:mx-0">
-            <h3 className="heading  font-[500] heading text-[14px] md:text-[20px] text-white flex mb-3 md:mb-[15px]">
-              {/* <span className="mr-2">
-              <MdLocationOn size={30}></MdLocationOn>
-            </span> */}
+          <div className="my-6   mx-2 md:mx-0">
+            <h3 className="heading  font-[600]  text-[20px] text-white flex mb-[10px]">
               Rangpur Branch
             </h3>
-            <h3 className=" pragraph  font-[200]  text-[14px] md:text-[16px] text-white flex mb-1 md:mb-[10px]">
-              {/* <span className="mr-2">
-              <MdPhone size={30}></MdPhone>
-            </span> */}
-              ContactNo : +88 01632677577 (Rangpur Branch)
+            <h3 className=" pragraph  font-[200]  text-[16px]  text-white flex mb-[5px]">
+              <span className="mr-2">
+              <MdPhone size={20}></MdPhone>
+            </span>
+               +88 01632-677577
             </h3>
-            <h3 className="  font-[200] pragraph text-[14px] md:text-[16px] text-white flex  mb-1 md:mb-[15px]">
-              Address : Mahiganj, Rangpur - 5400.
+            <h3 className="  font-[200] pragraph text-[16px]  text-white flex mb-[5px]">
+              <span className="mr-2">
+              <MdLocationOn size={20}></MdLocationOn>
+            </span>
+               Mahiganj, Rangpur - 5400.
             </h3>
           </div>
           <div className="mx-2 md:mx-0">
-            <h3 className="heading  font-[500] heading text-[14px] md:text-[20px] text-white flex mb-3 md:mb-[15px]">
-              {/* <span className="mr-2">
-              <MdLocationOn size={30}></MdLocationOn>
-            </span> */}
+            <h3 className="heading  font-[600] heading text-[20px]  text-white flex mb-[10px]">
               Dinajpur Branch
             </h3>
-            <h3 className=" pragraph  font-[200]  text-[14px] md:text-[16px] text-white flex mb-1 md:mb-[10px]">
-              {/* <span className="mr-2">
-              <MdPhone size={30}></MdPhone>
-            </span> */}
-              Contact No : +88 01885352802 (Dinajpur Branch)
+            <h3 className=" pragraph  font-[200]  text-[16px] md:text-[16px] text-white flex mb-[5px]">
+              <span className="mr-2">
+              <MdPhone size={20}></MdPhone>
+            </span>
+               +88 01885-352802
             </h3>
-            <h3 className="  font-[200] pragraph text-[14px] md:text-[16px] text-white flex  mb-3 md:mb-[15px]">
-              Address : M Abdur Rahim Medical Road, Dinajpur - 5200.
+            <h3 className="  font-[200] pragraph text-[16px] md:text-[16px] text-white flex  mb-[5px]">
+              <span className="mr-2">
+              <MdLocationOn size={20}></MdLocationOn>
+            </span>
+             M Abdur Rahim Medical Road, Dinajpur - 5200.
             </h3>
           </div>
         </div>
