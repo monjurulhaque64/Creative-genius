@@ -60,8 +60,8 @@ const Fwq = () => {
           <AccordionItem
             className="collapse   p-3 md:text-[24px]  text-[20px] shadow-xl lg:w-[700px] mt-6 rounded-md border-[1px] border-[#8a8a8a]"
             header={
-              <div className="flex items-center justify-between lg:gap-[230px] gap-[1px]">
-                <h1 className='justify-start font text-[18px] md:text-[21px] text-justify  font-[400]'>What is your company’s goal?</h1>
+              <div className="flex items-center justify-between lg:gap-[42px] gap-[1px]">
+                <h1 className='justify-start font text-[18px] md:text-[21px] text-justify lg:w-[500px] font-[400]'>What is your company’s goal?</h1>
               <i
                 className={`fa ${isAccordionOpen ? 'fa-chevron-up' : 'fa-chevron-down'}`}
                 style={{ marginRight: '8px' }}
@@ -87,8 +87,8 @@ const Fwq = () => {
           <AccordionItem
             className="collapse  p-3 md:text-[24px]  text-[20px] shadow-xl lg:w-[604px] mt-6 rounded-md border-[1px] border-[#8a8a8a]"
             header={
-              <div className="flex items-center justify-between md:gap-[25px] gap-[1px]">
-                <h1 className="justify-start text-justify font  text-[18px] md:text-[21px]  font-[400]">
+              <div className="flex items-center justify-between md:gap-[42px] gap-[1px]">
+                <h1 className="justify-start text-justify font  text-[18px] md:text-[21px] lg:w-[500px] font-[400]">
                   What is the target of digital marketing for your company?
                 </h1>
 
@@ -121,8 +121,8 @@ const Fwq = () => {
           <AccordionItem className="collapse border-1 mt-6  p-3    md:text-[24px]  text-[20px] bg-[rgba(34, 34, 34, 0.80)] shadow-xl lg:w-[604px]  mt-6 rounded-md border-[1px] border-[#8a8a8a]"
           
               header={
-              <div className="flex items-center justify-between lg:gap-[120px] gap-[1px]">
-                <h1 className='justify-start font text-[18px] md:text-[21px] text-justify font-[400]'>What are the services of your company?</h1>
+              <div className="flex items-center justify-between lg:gap-[42px] gap-[1px]">
+                <h1 className='justify-start font text-[18px] md:text-[21px] text-justify lg:w-[500px] font-[400]'>What are the services of your company?</h1>
               <i
                 className={`fa ${isAccordionOpen2 ? 'fa-chevron-up' : 'fa-chevron-down'}`}
                 style={{ marginRight: '8px', }}
@@ -151,8 +151,8 @@ const Fwq = () => {
           <AccordionItem className="collapse border-1 mt-6  p-3   md:text-[24px]  text-[20px] bg-[rgba(34, 34, 34, 0.80)] shadow-xl lg:w-[604px]  mt-6 rounded-md border-[1px] border-[#8a8a8a]" 
           
              header={
-              <div className="flex items-center justify-between lg:gap-[225px] gap-3">
-                <h1 className='justify-start font text-[18px] md:text-[21px] text-justify font-[400]'>How long does a project take?</h1>
+              <div className="flex items-center justify-between lg:gap-[42px] gap-3">
+                <h1 className='justify-start font text-[18px] md:text-[21px] lg:w-[500px] text-justify font-[400]'>How long does a project take?</h1>
                
               <i
                 className={`fa ${isAccordionOpen3 ? 'fa-chevron-up' : 'fa-chevron-down'}`}
@@ -185,8 +185,8 @@ const Fwq = () => {
           <AccordionItem className="collapse border-1 mt-6  p-3    md:text-[24px]  text-[20px] bg-[rgba(34, 34, 34, 0.80)] shadow-xl lg:w-[604px]  mt-6 rounded-md border-[1px] border-[#8a8a8a]"
           
              header={
-              <div className="flex items-center justify-between lg:gap-20 gap-3">
-                <h1 className='justify-start font text-[18px] md:text-[21px] text-justify  font-[400]'>How do you create content for your clients?</h1>
+              <div className="flex items-center justify-between lg:gap-[42px] gap-3">
+                <h1 className='justify-start font text-[18px] md:text-[21px] text-justify lg:w-[500px] font-[400]'>How do you create content for your clients?</h1>
                
               <i
                 className={`fa ${isAccordionOpen4 ? 'fa-chevron-up' : 'fa-chevron-down'}`}
@@ -217,8 +217,8 @@ const Fwq = () => {
           <AccordionItem
             className="collapse border-1 mt-6  p-3    md:text-[24px]  text-[20px] bg-[rgba(34, 34, 34, 0.80)] shadow-xl lg:w-[604px]  mt-6 rounded-md border-[1px] border-[#8a8a8a]"
             header={
-              <div className="flex items-center justify-between text-justify lg:gap-16 gap-3">
-                <h1 className="justify-start text-justify font text-[18px] md:text-[21px]  font-[400]">
+              <div className="flex items-center justify-between text-justify lg:gap-[42px] gap-3">
+                <h1 className="justify-start text-justify font text-[18px] md:text-[21px] lg:w-[500px] font-[400]">
                   What are the qualities of a successful team?
                 </h1>
 
