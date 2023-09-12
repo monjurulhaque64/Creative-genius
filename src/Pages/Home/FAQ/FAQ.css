@@ -19,7 +19,7 @@
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px){
 
 .faq-card{
-  width: 370px;
+  width: 350px;
 }
 }
 @media (max-width: 360px) {
