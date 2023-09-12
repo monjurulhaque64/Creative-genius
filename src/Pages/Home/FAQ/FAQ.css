@@ -14,6 +14,7 @@
 }
 
 
+
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px){
 
 .faq-card{
@@ -22,7 +23,7 @@
 }
 @media (max-width: 360px) {
   .quustion-card {
-    max-width: 90% !important;
+    max-width: 85% !important;
     margin: auto;
   }
 
