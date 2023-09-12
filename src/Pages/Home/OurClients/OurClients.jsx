@@ -49,7 +49,7 @@ const OurClients = () => {
                 <img
                   src={KhulnaUniversity}
                   alt=''
-                  className="hexagon-image h-[130px] flex justify-center align-center"
+                  className="hexagon-image h-[120px] flex justify-center align-center"
                 />
               </div>
             </div>
@@ -67,7 +67,7 @@ const OurClients = () => {
                 <img
                   src={Asiyabari}
                   alt=''
-                  className="hexagon-image flex justify-center align-center"
+                  className="hexagon-image h-[130px] flex justify-center align-center"
                 />
               </div>
             </div>
@@ -76,7 +76,7 @@ const OurClients = () => {
                 <img
                   src={GachuaAdarshaHighSchool}
                   alt=''
-                  className="hexagon-image flex justify-center align-center"
+                  className="hexagon-image h-[150px] flex justify-center align-center"
                 />
               </div>
             </div>
@@ -85,7 +85,7 @@ const OurClients = () => {
                 <img
                   src={GovtMohammadpurModelSchoolCollege}
                   alt=''
-                  className="hexagon-image flex justify-center align-center"
+                  className="hexagon-image h-[130px] flex justify-center align-center"
                 />
               </div>
             </div>
@@ -94,7 +94,7 @@ const OurClients = () => {
                 <img
                   src={ItFutureInstitute}
                   alt=''
-                  className="hexagon-image flex justify-center align-center"
+                  className="hexagon-image h-[130px] flex justify-center align-center"
                 />
               </div>
             </div>
@@ -103,7 +103,7 @@ const OurClients = () => {
                 <img
                   src={JatuyaKhatadiMukhi}
                   alt=''
-                  className="hexagon-image flex justify-center align-center"
+                  className="hexagon-image h-[150px] w-[150px] flex justify-center align-center"
                 />
               </div>
             </div>
@@ -112,7 +112,7 @@ const OurClients = () => {
                 <img
                   src={MirpurGirlsIdealLaboratoryInstitute}
                   alt=''
-                  className="hexagon-image flex justify-center align-center"
+                  className="hexagon-image h-[130px] flex justify-center align-center"
                 />
               </div>
             </div>
@@ -121,7 +121,7 @@ const OurClients = () => {
                 <img
                   src={MirpurPolytechnicInstitute}
                   alt=''
-                  className="hexagon-image flex justify-center align-center"
+                  className="hexagon-image h-[130px] flex justify-center align-center"
                 />
               </div>
             </div>
@@ -130,7 +130,7 @@ const OurClients = () => {
                 <img
                   src={OhabIdealPublicHighSchool}
                   alt=''
-                  className="hexagon-image flex justify-center align-center"
+                  className="hexagon-image h-[130px] flex justify-center align-center"
                 />
               </div>
             </div>
@@ -139,7 +139,7 @@ const OurClients = () => {
                 <img
                   src={RUD}
                   alt=''
-                  className="hexagon-image flex justify-center align-center"
+                  className="hexagon-image h-[130px] flex justify-center align-center"
                 />
               </div>
             </div>
@@ -148,7 +148,7 @@ const OurClients = () => {
                 <img
                   src={SamsulHuqeKhanSchoolCollege}
                   alt=''
-                  className="hexagon-image  flex justify-center align-center"
+                  className="hexagon-image h-[120px] flex justify-center align-center"
                 />
               </div>
             </div>
@@ -157,7 +157,7 @@ const OurClients = () => {
                 <img
                   src={SouthestUniversity}
                   alt=''
-                  className="hexagon-image flex justify-center align-center"
+                  className="hexagon-image h-[130px] flex justify-center align-center"
                 />
               </div>
             </div>
