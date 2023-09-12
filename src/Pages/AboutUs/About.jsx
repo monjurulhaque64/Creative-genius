@@ -50,7 +50,7 @@ const About = () => {
           ))}
         </div>
         {/* Pagination */}
-        <div className="join mt-8 flex justify-end gap-2 mr-4 lg:mr-10  md:mr-4 mb-[198px]">
+        <div className="join mt-8 flex justify-center gap-2 mr-4 lg:mr-10  md:mr-4 mb-[198px]">
           <button
             className={` p-2 text-white bg-[#333030cc]  ${
               currentPage === 1 ? "btn-disabled" : ""
