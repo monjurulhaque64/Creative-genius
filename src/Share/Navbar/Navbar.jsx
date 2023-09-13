@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import logo from "../../assets/Images/Logo1.png";
 import { Link } from "react-router-dom";
-import { FaGooglePlay } from "react-icons/fa";
+import { FaBars, FaGooglePlay, FaTimes } from "react-icons/fa";
 import './Navbar.css'
 
 // todo: Mobile responsive logo + btn
@@ -84,6 +84,10 @@ const Navbar = () => {
       {/* <hr className=" mx-auto mt-2" /> */}
       <div className="hr-line !mt-[23px]"></div>
     </div>
+
+  
+   
+
   );
 };
 

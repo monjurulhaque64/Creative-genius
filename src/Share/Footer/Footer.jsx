@@ -143,7 +143,7 @@ const Footer = () => {
             </p>
           </Link>
           <Link to={"/terms"}>
-            <span className=" text-white text-[14px] font-[400] heading  mb-[16px]">
+            <span className=" text-white text-[14px] font-[400] heading mb-2 md:mb-[16px]">
               Terms and conditions
             </span>
           </Link>
