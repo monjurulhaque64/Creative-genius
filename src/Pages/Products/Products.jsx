@@ -28,7 +28,7 @@ const Products = () => {
             <h1 className="lg:text-[48px] text-[24px] font font-[600] text-white">
               Learning Campus
             </h1>
-            <p className="font text-[16px] md:text-[18px] text-white text-justify font-[400] mt-[20px]">
+            <p className="font text-[16px] text-white text-justify font-[400] mt-[20px]">
               The future of digital learning technology in teaching and learning.
             </p>
             <button className="product-btn mt-[40px] lg:mr-[100px] text-white ">

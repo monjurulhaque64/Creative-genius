@@ -26,7 +26,7 @@ const Pricing = () => {
         "Transportation systems management",
         "Provide Mobile Application",
       ],
-      price: 15,
+      price: "15 tk",
       duration: "per student",
     },
     {

@@ -40,7 +40,7 @@ const OurClients = () => {
               <path
                 d="M2.94298 60.6547L104 2.3094L205.057 60.6547V177.345L104 235.691L2.94298 177.345V60.6547Z"
                 fill="#171717"
-                stroke="#FF1200"
+                stroke="#7e7e7e42"
                 stroke-width="2"
               />
             </svg>
@@ -60,7 +60,7 @@ const OurClients = () => {
               <path
                 d="M2.94298 60.6547L104 2.3094L205.057 60.6547V177.345L104 235.691L2.94298 177.345V60.6547Z"
                 fill="#171717"
-                stroke="#FF1200"
+                stroke="#7e7e7e42"
                 strokeWidth="2"
               />
             </svg>
@@ -80,7 +80,7 @@ const OurClients = () => {
               <path
                 d="M2.94298 60.6547L104 2.3094L205.057 60.6547V177.345L104 235.691L2.94298 177.345V60.6547Z"
                 fill="#171717"
-                stroke="#FF1200"
+                stroke="#7e7e7e42"
                 strokeWidth="2"
               />
             </svg>
@@ -100,7 +100,7 @@ const OurClients = () => {
               <path
                 d="M2.94298 60.6547L104 2.3094L205.057 60.6547V177.345L104 235.691L2.94298 177.345V60.6547Z"
                 fill="#171717"
-                stroke="#FF1200"
+                stroke="#7e7e7e42"
                 strokeWidth="2"
               />
             </svg>
@@ -124,7 +124,7 @@ const OurClients = () => {
               <path
                 d="M2.94298 60.6547L104 2.3094L205.057 60.6547V177.345L104 235.691L2.94298 177.345V60.6547Z"
                 fill="#171717"
-                stroke="#FF1200"
+                stroke="#7e7e7e42"
                 strokeWidth="2"
               />
             </svg>
@@ -148,7 +148,7 @@ const OurClients = () => {
               <path
                 d="M2.94298 60.6547L104 2.3094L205.057 60.6547V177.345L104 235.691L2.94298 177.345V60.6547Z"
                 fill="#171717"
-                stroke="#FF1200"
+                stroke="#7e7e7e42"
                 strokeWidth="2"
               />
             </svg>
@@ -172,7 +172,7 @@ const OurClients = () => {
               <path
                 d="M2.94298 60.6547L104 2.3094L205.057 60.6547V177.345L104 235.691L2.94298 177.345V60.6547Z"
                 fill="#171717"
-                stroke="#FF1200"
+                stroke="#7e7e7e42"
                 strokeWidth="2"
               />
             </svg>
@@ -196,7 +196,7 @@ const OurClients = () => {
               <path
                 d="M2.94298 60.6547L104 2.3094L205.057 60.6547V177.345L104 235.691L2.94298 177.345V60.6547Z"
                 fill="#171717"
-                stroke="#FF1200"
+                stroke="#7e7e7e42"
                 strokeWidth="2"
               />
             </svg>
@@ -220,7 +220,7 @@ const OurClients = () => {
               <path
                 d="M2.94298 60.6547L104 2.3094L205.057 60.6547V177.345L104 235.691L2.94298 177.345V60.6547Z"
                 fill="#171717"
-                stroke="#FF1200"
+                stroke="#7e7e7e42"
                 strokeWidth="2"
               />
             </svg>
@@ -244,7 +244,7 @@ const OurClients = () => {
               <path
                 d="M2.94298 60.6547L104 2.3094L205.057 60.6547V177.345L104 235.691L2.94298 177.345V60.6547Z"
                 fill="#171717"
-                stroke="#FF1200"
+                stroke="#7e7e7e42"
                 strokeWidth="2"
               />
             </svg>
@@ -268,7 +268,7 @@ const OurClients = () => {
               <path
                 d="M2.94298 60.6547L104 2.3094L205.057 60.6547V177.345L104 235.691L2.94298 177.345V60.6547Z"
                 fill="#171717"
-                stroke="#FF1200"
+                stroke="#7e7e7e42"
                 strokeWidth="2"
               />
             </svg>
@@ -288,7 +288,7 @@ const OurClients = () => {
               <path
                 d="M2.94298 60.6547L104 2.3094L205.057 60.6547V177.345L104 235.691L2.94298 177.345V60.6547Z"
                 fill="#171717"
-                stroke="#FF1200"
+                stroke="#7e7e7e42"
                 strokeWidth="2"
               />
             </svg>
@@ -312,7 +312,7 @@ const OurClients = () => {
               <path
                 d="M2.94298 60.6547L104 2.3094L205.057 60.6547V177.345L104 235.691L2.94298 177.345V60.6547Z"
                 fill="#171717"
-                stroke="#FF1200"
+                stroke="#7e7e7e42"
                 strokeWidth="2"
               />
             </svg>

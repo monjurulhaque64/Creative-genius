@@ -87,7 +87,7 @@ const About = () => {
           </div>
           <div className="md:flex md:justify-between gap-10 my-24 ">
             <div className="relative mb-10">
-              <div className="md:h-60 h-24 border-2 border-[#FF1200] rotate-180 border-dotted  absolute"></div>
+              <div className="md:h-60 h-24 border-2 border-[#FFF] rotate-180 border-dotted  absolute"></div>
               <div className="md:ml-16 ml-5    md:md:w-[420px] w-[300px]">
                 <h1 className="thought-title">Thoughts </h1>
                 <p className="thought-description mt-[15px]">
@@ -100,7 +100,7 @@ const About = () => {
               </div>
             </div>
             <div className="relative ">
-              <div className="md:h-60 h-24 border-[#FF1200] border-2 rotate-180 border-dotted  absolute"></div>
+              <div className="md:h-60 h-24 border-[#FFF] border-2 rotate-180 border-dotted  absolute"></div>
               <div className=" md:ml-16 ml-5    md:md:w-[420px] w-[300px]">
                 <h1 className="thought-title">Feelings </h1>
                 <p className="thought-description mt-[15px]">
@@ -125,7 +125,7 @@ const About = () => {
           </div>
           <div className="md:flex md:justify-between gap-10 md:my-24 mt-5 md:mt-0 md:mb-56">
             <div className="relative mb-10">
-              <div className="md:h-64 h-24 border-2 border-[#FF1200] rotate-180 border-dotted  absolute"></div>
+              <div className="md:h-64 h-24 border-2 border-[#FFF] rotate-180 border-dotted  absolute"></div>
               <div className="md:ml-16 ml-5    md:md:w-[420px] w-[300px]">
                 <h1 className="thought-title">Does </h1>
                 <p className="thought-description mt-[15px]">
@@ -139,7 +139,7 @@ const About = () => {
               </div>
             </div>
             <div className="relative ">
-              <div className="md:h-64 h-24 border-[#FF1200] border-2 rotate-180 border-dotted  absolute"></div>
+              <div className="md:h-64 h-24 border-[#FFF] border-2 rotate-180 border-dotted  absolute"></div>
               <div className=" md:ml-16 ml-5    md:md:w-[420px] w-[300px]">
                 <h1 className="thought-title">Wants </h1>
                 <p className="thought-description mt-[15px]">

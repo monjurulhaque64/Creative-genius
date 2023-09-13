@@ -59,7 +59,7 @@ const ContactUs = () => {
           <h1 className="heading font-[600] heading text-[20px] md:text-[30px] text-white mb-[22px]">
             Get In Touch
           </h1>
-          <p className="heading  font-[400] text-[14px] md:text-[20px] text-white mb-8 md:mb-[70px]">
+          <p className="heading  font-[600] !text-[16px] text-white mb-8 md:mb-[70px]">
             We're eager to hear from you! Feel free to reach out for inquiries,
             collaborations, or just to say hello.
           </p>
@@ -184,7 +184,7 @@ const ContactUs = () => {
                 onChange={handleChange}
                 rows="5"
                 placeholder="Write Your Message"
-                className="!text-[#A0A0A0] h-32 !font-[500] input border-opacity-0 bg-[#171717] input-info !heading !text-[14px] mb-[30px]"
+                className="!text-[#A0A0A0] border-castom h-32 !font-[500] input border-opacity-0 bg-[#171717] input-info !heading !text-[14px] mb-[30px]"
               />
             </div>
             <div className=" text-center ">

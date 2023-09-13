@@ -94,16 +94,16 @@
   position: relative;
   width: 400px;
   height: 400px;
-  background: rgb(255, 255, 255);
   border-radius: 50%;
   overflow: hidden;
+  background-color: #282828;
 }
 
 .box::before {
   content: "";
   position: absolute;
   inset: -10px 140px;
-  background: linear-gradient(315deg, #FF1200, #FF1200);
+  background: linear-gradient(315deg, #383838, #383838);
   animation: animate 4s linear infinite;
 }
 
@@ -122,7 +122,7 @@
   content: "";
   position: absolute;
   inset: 6px;
-  background: #e6e8f1;
+  background: #282828;
   border-radius: 50%;
   z-index: 1;
 }
@@ -130,7 +130,7 @@
 .content {
   position: absolute;
   inset: 30px;
-  border: 6px solid #FF1200;
+  border: 6px solid #383838;
   z-index: 3;
   border-radius: 50%;
   overflow: hidden;
@@ -167,7 +167,7 @@
     position: relative;
     width: 350px;
     height: 350px;
-    background: rgb(255, 255, 255);
+    background: #282828;
     border-radius: 50%;
     overflow: hidden;
   }
@@ -203,7 +203,7 @@
     position: relative;
     width: 350px;
     height: 350px;
-    background: rgb(255, 255, 255);
+    background: #282828;
     border-radius: 50%;
     overflow: hidden;
   }

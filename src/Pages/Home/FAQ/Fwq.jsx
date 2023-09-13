@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import {Collapse} from 'react-collapse';
 import { Accordion, AccordionItem } from "@szhsin/react-accordion";
 import "./FAQ.css";
 const Fwq = () => {
@@ -57,7 +58,7 @@ const Fwq = () => {
           </div>
           {/* <div className=" line1 h-[88px] !ml-[25px]  lg:mt-[167px] hidden lg:block border-[1px] border-[#747474] rotate-180 border-solid  absolute"></div> */}
 
-          <AccordionItem
+          <AccordionItem isOpened={isAccordionOpen}
             className="collapse   p-3 md:text-[24px]  text-[20px] shadow-xl lg:w-[700px] mt-6 rounded-md border-[1px] border-[#8a8a8a]"
             header={
               <div className="flex items-center justify-between lg:gap-[42px] gap-[1px]">
