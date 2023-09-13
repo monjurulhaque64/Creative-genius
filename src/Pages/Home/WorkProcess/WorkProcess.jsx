@@ -5,10 +5,8 @@ const WorkProcess = () => {
   const isMobile = window.innerWidth < 768;
   return (
     <div className="container overflow-hidden mx-auto  mt-16 md:mt-[127px]">
-      <div className="flex justify-end">
-        <div className="circle "></div>
-      </div>
-      <div className=" left-circle "></div>
+        {/* <div className="circle "></div> */}
+        {/* <div className=" left-circle "></div> */}
       <div className="mx-auto text-center h-[200px]">
         <h1 className="heading font-[600] text-[38px] md:text-[48px] text-white">
           Work Process
