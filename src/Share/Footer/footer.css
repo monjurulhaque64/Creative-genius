@@ -4,7 +4,7 @@
     justify-content: center;
     align-items: center;
     gap: 45px;
-    border-radius: 5px;
+    border-radius: 3px;
     background: var(--Primary-Color, #3C4FF8);
     color: #FFF;
     font-size: 16px;
