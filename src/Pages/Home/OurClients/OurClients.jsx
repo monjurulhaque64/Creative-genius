@@ -14,22 +14,6 @@ import SamsulHuqeKhanSchoolCollege from "../../../assets/Clients/SamsulHuqeKhanS
 import SouthestUniversity from "../../../assets/Clients/SouthestUniversity.png";
 import "./OurClient.css";
 
-// const images = [
-//   { url: KhulnaUniversity },
-//   { url: BADC },
-//   { url: Asiyabari },
-//   { url: GachuaAdarshaHighSchool },
-//   { url: GovtMohammadpurModelSchoolCollege },
-//   { url: ItFutureInstitute },
-//   { url: JatuyaKhatadiMukhi },
-//   { url: MirpurGirlsIdealLaboratoryInstitute },
-//   { url: MirpurPolytechnicInstitute },
-//   { url: OhabIdealPublicHighSchool },
-//   { url: RUD },
-//   { url: SamsulHuqeKhanSchoolCollege },
-//   { url: SouthestUniversity },
-// ];
-
 const OurClients = () => {
   return (
     <div className="container mx-auto mt-16 md:mt-[155px]">
@@ -44,123 +28,302 @@ const OurClients = () => {
       </div>
       <div className="mt-10 md:mt-[146px]">
         <div className="hexagon-gallery">
-            <div className="hexagon">
-              <div className="hexagon-inner">
-                <img
-                  src={KhulnaUniversity}
-                  alt=''
-                  className="hexagon-image h-[120px] flex justify-center align-center"
-                />
-              </div>
+          <div className="hexagon">
+            <svg
+              className="hexagon-svg"
+              width="238"
+              height="238"
+              viewBox="0 0 208 238"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M2.94298 60.6547L104 2.3094L205.057 60.6547V177.345L104 235.691L2.94298 177.345V60.6547Z"
+                fill="#171717"
+                stroke="#3C4FF8"
+                stroke-width="2"
+              />
+            </svg>
+            <div className="hexagon-inner">
+              <img src={KhulnaUniversity} alt="" className="w-[110px] h-[120px]" />
             </div>
-            <div className="hexagon">
-              <div className="hexagon-inner">
-                <img
-                  src={BADC}
-                  alt=''
-                  className="hexagon-image flex justify-center align-center"
-                />
-              </div>
+          </div>
+          <div className="hexagon">
+            <svg
+              className="hexagon-svg"
+              width="238"
+              height="238"
+              viewBox="0 0 208 238"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M2.94298 60.6547L104 2.3094L205.057 60.6547V177.345L104 235.691L2.94298 177.345V60.6547Z"
+                fill="#171717"
+                stroke="var(--Primary-Color, #3C4FF8)"
+                strokeWidth="2"
+              />
+            </svg>
+            <div className="hexagon-inner">
+              <img src={Asiyabari} alt="" className="w-[110px] h-[110px]" />
             </div>
-            <div className="hexagon">
-              <div className="hexagon-inner">
-                <img
-                  src={Asiyabari}
-                  alt=''
-                  className="hexagon-image h-[130px] flex justify-center align-center"
-                />
-              </div>
+          </div>
+          <div className="hexagon">
+            <svg
+              className="hexagon-svg"
+              width="238"
+              height="238"
+              viewBox="0 0 208 238"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M2.94298 60.6547L104 2.3094L205.057 60.6547V177.345L104 235.691L2.94298 177.345V60.6547Z"
+                fill="#171717"
+                stroke="var(--Primary-Color, #3C4FF8)"
+                strokeWidth="2"
+              />
+            </svg>
+            <div className="hexagon-inner">
+              <img src={BADC} alt="" className="w-[130px] h-[130px]" />
             </div>
-            <div className="hexagon">
-              <div className="hexagon-inner">
-                <img
-                  src={GachuaAdarshaHighSchool}
-                  alt=''
-                  className="hexagon-image h-[150px] flex justify-center align-center"
-                />
-              </div>
+          </div>
+          <div className="hexagon">
+            <svg
+              className="hexagon-svg"
+              width="238"
+              height="238"
+              viewBox="0 0 208 238"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M2.94298 60.6547L104 2.3094L205.057 60.6547V177.345L104 235.691L2.94298 177.345V60.6547Z"
+                fill="#171717"
+                stroke="var(--Primary-Color, #3C4FF8)"
+                strokeWidth="2"
+              />
+            </svg>
+            <div className="hexagon-inner">
+              <img
+                src={GachuaAdarshaHighSchool}
+                alt=""
+                className="w-[130px] h-[130px]"
+              />
             </div>
-            <div className="hexagon">
-              <div className="hexagon-inner">
-                <img
-                  src={GovtMohammadpurModelSchoolCollege}
-                  alt=''
-                  className="hexagon-image h-[130px] flex justify-center align-center"
-                />
-              </div>
+          </div>
+          <div className="hexagon">
+            <svg
+              className="hexagon-svg"
+              width="238"
+              height="238"
+              viewBox="0 0 208 238"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M2.94298 60.6547L104 2.3094L205.057 60.6547V177.345L104 235.691L2.94298 177.345V60.6547Z"
+                fill="#171717"
+                stroke="var(--Primary-Color, #3C4FF8)"
+                strokeWidth="2"
+              />
+            </svg>
+            <div className="hexagon-inner">
+              <img
+                src={GovtMohammadpurModelSchoolCollege}
+                alt=""
+                className="w-[110px] h-[110px]"
+              />
             </div>
-            <div className="hexagon">
-              <div className="hexagon-inner">
-                <img
-                  src={ItFutureInstitute}
-                  alt=''
-                  className="hexagon-image h-[130px] flex justify-center align-center"
-                />
-              </div>
+          </div>
+          <div className="hexagon">
+            <svg
+              className="hexagon-svg"
+              width="238"
+              height="238"
+              viewBox="0 0 208 238"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M2.94298 60.6547L104 2.3094L205.057 60.6547V177.345L104 235.691L2.94298 177.345V60.6547Z"
+                fill="#171717"
+                stroke="var(--Primary-Color, #3C4FF8)"
+                strokeWidth="2"
+              />
+            </svg>
+            <div className="hexagon-inner">
+              <img
+                src={ItFutureInstitute}
+                alt=""
+                className="w-[110px] h-[110px]"
+              />
             </div>
-            <div className="hexagon">
-              <div className="hexagon-inner">
-                <img
-                  src={JatuyaKhatadiMukhi}
-                  alt=''
-                  className="hexagon-image h-[150px] w-[150px] flex justify-center align-center"
-                />
-              </div>
+          </div>
+          <div className="hexagon">
+            <svg
+              className="hexagon-svg"
+              width="238"
+              height="238"
+              viewBox="0 0 208 238"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M2.94298 60.6547L104 2.3094L205.057 60.6547V177.345L104 235.691L2.94298 177.345V60.6547Z"
+                fill="#171717"
+                stroke="var(--Primary-Color, #3C4FF8)"
+                strokeWidth="2"
+              />
+            </svg>
+            <div className="hexagon-inner">
+              <img
+                src={JatuyaKhatadiMukhi}
+                alt=""
+                className="w-[130px] h-[130px]"
+              />
             </div>
-            <div className="hexagon">
-              <div className="hexagon-inner">
-                <img
-                  src={MirpurGirlsIdealLaboratoryInstitute}
-                  alt=''
-                  className="hexagon-image h-[130px] flex justify-center align-center"
-                />
-              </div>
+          </div>
+          <div className="hexagon">
+            <svg
+              className="hexagon-svg"
+              width="238"
+              height="238"
+              viewBox="0 0 208 238"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M2.94298 60.6547L104 2.3094L205.057 60.6547V177.345L104 235.691L2.94298 177.345V60.6547Z"
+                fill="#171717"
+                stroke="var(--Primary-Color, #3C4FF8)"
+                strokeWidth="2"
+              />
+            </svg>
+            <div className="hexagon-inner">
+              <img
+                src={MirpurGirlsIdealLaboratoryInstitute}
+                alt=""
+                className="w-[120px] h-[120px]"
+              />
             </div>
-            <div className="hexagon">
-              <div className="hexagon-inner">
-                <img
-                  src={MirpurPolytechnicInstitute}
-                  alt=''
-                  className="hexagon-image h-[130px] flex justify-center align-center"
-                />
-              </div>
+          </div>
+          <div className="hexagon">
+            <svg
+              className="hexagon-svg"
+              width="238"
+              height="238"
+              viewBox="0 0 208 238"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M2.94298 60.6547L104 2.3094L205.057 60.6547V177.345L104 235.691L2.94298 177.345V60.6547Z"
+                fill="#171717"
+                stroke="var(--Primary-Color, #3C4FF8)"
+                strokeWidth="2"
+              />
+            </svg>
+            <div className="hexagon-inner">
+              <img
+                src={MirpurPolytechnicInstitute}
+                alt=""
+                className="w-[110px] h-[110px]"
+              />
             </div>
-            <div className="hexagon">
-              <div className="hexagon-inner">
-                <img
-                  src={OhabIdealPublicHighSchool}
-                  alt=''
-                  className="hexagon-image flex justify-center align-center"
-                />
-              </div>
+          </div>
+          <div className="hexagon">
+            <svg
+              className="hexagon-svg"
+              width="238"
+              height="238"
+              viewBox="0 0 208 238"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M2.94298 60.6547L104 2.3094L205.057 60.6547V177.345L104 235.691L2.94298 177.345V60.6547Z"
+                fill="#171717"
+                stroke="var(--Primary-Color, #3C4FF8)"
+                strokeWidth="2"
+              />
+            </svg>
+            <div className="hexagon-inner">
+              <img
+                src={OhabIdealPublicHighSchool}
+                alt=""
+                className="w-[115px] h-[115px]"
+              />
             </div>
-            <div className="hexagon">
-              <div className="hexagon-inner">
-                <img
-                  src={RUD}
-                  alt=''
-                  className="hexagon-image h-[130px] flex justify-center align-center"
-                />
-              </div>
+          </div>
+          <div className="hexagon">
+            <svg
+              className="hexagon-svg"
+              width="238"
+              height="238"
+              viewBox="0 0 208 238"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M2.94298 60.6547L104 2.3094L205.057 60.6547V177.345L104 235.691L2.94298 177.345V60.6547Z"
+                fill="#171717"
+                stroke="var(--Primary-Color, #3C4FF8)"
+                strokeWidth="2"
+              />
+            </svg>
+            <div className="hexagon-inner">
+              <img src={RUD} alt="" className="w-[115px] h-[115px]" />
             </div>
-            <div className="hexagon">
-              <div className="hexagon-inner">
-                <img
-                  src={SamsulHuqeKhanSchoolCollege}
-                  alt=''
-                  className="hexagon-image h-[120px] flex justify-center align-center"
-                />
-              </div>
+          </div>
+          <div className="hexagon">
+            <svg
+              className="hexagon-svg"
+              width="238"
+              height="238"
+              viewBox="0 0 208 238"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M2.94298 60.6547L104 2.3094L205.057 60.6547V177.345L104 235.691L2.94298 177.345V60.6547Z"
+                fill="#171717"
+                stroke="var(--Primary-Color, #3C4FF8)"
+                strokeWidth="2"
+              />
+            </svg>
+            <div className="hexagon-inner">
+              <img
+                src={SamsulHuqeKhanSchoolCollege}
+                alt=""
+                className="w-[110px] h-[110px]"
+              />
             </div>
-            <div className="hexagon">
-              <div className="hexagon-inner">
-                <img
-                  src={SouthestUniversity}
-                  alt=''
-                  className="hexagon-image h-[130px] flex justify-center align-center"
-                />
-              </div>
+          </div>
+          <div className="hexagon">
+            <svg
+              className="hexagon-svg"
+              width="238"
+              height="238"
+              viewBox="0 0 208 238"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M2.94298 60.6547L104 2.3094L205.057 60.6547V177.345L104 235.691L2.94298 177.345V60.6547Z"
+                fill="#171717"
+                stroke="var(--Primary-Color, #3C4FF8)"
+                strokeWidth="2"
+              />
+            </svg>
+            <div className="hexagon-inner">
+              <img
+                src={SouthestUniversity}
+                alt=""
+                className="w-[120px] h-[120px]"
+              />
             </div>
+          </div>
         </div>
       </div>
     </div>

@@ -8,33 +8,31 @@
 
 /* Hexagon styles */
 .hexagon {
-  width: 238px;
-  height: 238px;
-  margin: 10px;
+  width: 210px;
+  height: 210px;
+  flex-shrink: 0;
+  margin: 5px;
   position: relative;
-  background: 
-  linear-gradient(100deg, #171717, #171717), /* Background gradient with a highlight */
-  linear-gradient(180deg, #3c4ff8 200%, #3c4ff8 200%); /* Border gradient */
+}
 
-  border: 1px solid #3c4ff8;
-  /* border-image-source: linear-gradient(
-    180deg,
-    #3c4ff8 0%,
-    rgba(109, 1, 1, 0) 100%
-  ); */
-  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+/* Hexagon SVG styles */
+.hexagon-svg {
+  width: 100%;
+  height: 100%;
 }
 
 /* Hexagon inner content (for image positioning) */
 .hexagon-inner {
-  margin: 55px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 80%; /* Adjust the width to control image size inside the hexagon */
+  height: 80%; /* Adjust the height to control image size inside the hexagon */
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-/* Image styles */
-.hexagon-image {
-  object-fit: cover;
-  margin-top: auto;
-}
