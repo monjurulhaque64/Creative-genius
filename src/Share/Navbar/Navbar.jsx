@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../assets/Images/Logo.png";
+import logo from "../../assets/Images/Logo1.png";
 import { Link } from "react-router-dom";
 import { FaGooglePlay } from "react-icons/fa";
 import './Navbar.css'

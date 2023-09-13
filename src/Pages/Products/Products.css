@@ -11,7 +11,7 @@
     font-family: Poppins;
     gap: 8px;
     border-radius: 5px;
-    background: var(--Primary-Color, #3C4FF8);
+    background: #FF1200;
     color: #FFF;
     font-size: 15px;
     font-style: normal;
@@ -24,7 +24,7 @@
     height: 267px; 
     flex-shrink: 0;
     border-radius: 267px; 
-    background: #5F6FFB; 
+    background: #f77e7e; 
     filter: blur(250px); 
     position: absolute;
   }

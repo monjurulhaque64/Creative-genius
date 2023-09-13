@@ -26,7 +26,7 @@ const ClientSpring = () => {
     <div className="container mx-auto">
       <div className="flex justify-between p-[15px] lg:pl-[66px] lg:pr-[66px] client-spring-containt lg:w-[1220px] mx-auto md:h-173px lg:h-[180px] h-[95px]   ">
         <div className="   md:mt-4">
-          <h1 className="flex text-[20px] md:text-[40px] heading font-[600]  justify-center text-center text-[#FF0000]">
+          <h1 className="flex text-[20px] md:text-[40px] heading font-[600]  justify-center text-center text-[#FF1200]">
             <Number n={103} />
             <animated.span>{" +"}</animated.span>
           </h1>
@@ -35,7 +35,7 @@ const ClientSpring = () => {
           </h3>
         </div>
         <div className="   md:mt-4">
-          <h1 className="flex text-[20px] md:text-[40px] heading font-[600] justify-center text-center text-[#FF0000]  ">
+          <h1 className="flex text-[20px] md:text-[40px] heading font-[600] justify-center text-center text-[#FF1200]  ">
             <Number n={277} />
             <animated.span>{" +"}</animated.span>
           </h1>
@@ -44,7 +44,7 @@ const ClientSpring = () => {
           </h3>
         </div>
         <div className="   md:mt-4">
-          <h1 className="flex text-[20px] md:text-[40px] heading font-[600] justify-center text-center text-[#FF0000] ">
+          <h1 className="flex text-[20px] md:text-[40px] heading font-[600] justify-center text-center text-[#FF1200] ">
             <Number n={11} />
             <animated.span>{" +"}</animated.span>
           </h1>
@@ -53,7 +53,7 @@ const ClientSpring = () => {
           </h3>
         </div>
         <div className="   md:mt-4">
-          <h1 className="flex text-[20px] md:text-[40px] heading font-[600] text-center justify-center text-[#FF0000]">
+          <h1 className="flex text-[20px] md:text-[40px] heading font-[600] text-center justify-center text-[#FF1200]">
             <Number n={12} />
             <animated.span>{" +"}</animated.span>
           </h1>

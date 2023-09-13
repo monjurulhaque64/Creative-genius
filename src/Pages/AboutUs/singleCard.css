@@ -103,7 +103,7 @@
   content: "";
   position: absolute;
   inset: -10px 140px;
-  background: linear-gradient(315deg, #3C4FF8, #3C4FF8);
+  background: linear-gradient(315deg, #FF1200, #FF1200);
   animation: animate 4s linear infinite;
 }
 
@@ -130,7 +130,7 @@
 .content {
   position: absolute;
   inset: 30px;
-  border: 6px solid #3C4FF8;
+  border: 6px solid #FF1200;
   z-index: 3;
   border-radius: 50%;
   overflow: hidden;

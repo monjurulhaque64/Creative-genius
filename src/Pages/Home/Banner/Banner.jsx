@@ -38,7 +38,7 @@ const Banner = () => {
             <div className="lg:ml-[50px] ml-8  lg:w-[726px] w-[350px] md:w-[70%]  lg:pt-[200px] pt-[50px] container1">
               <h1 className="text-[32px] md:text-[64px] heading font-bold text-white ">
                 Plan Your Day With Creative{" "}
-                <span className="text-[#FF0000]">Campus</span>
+                <span className="text-[#FF1200]">Campus</span>
               </h1>
               <p className="pragraph  w-[290px] md:w-[600px] text-[15px] text-white text-justify font-medium mt-2">
                 Welcome to creative campus. At Creative Campus, we believe in
@@ -46,7 +46,7 @@ const Banner = () => {
                 professionals are dedicated to providing exceptional service
                 according to your needs.
               </p>
-              <button className="btn download-app bg-[#FF0000] hover:bg-[#FF0000] border-[#FF0000] mt-[46px] lg:mr-[100px] text-white">
+              <button className="btn download-app bg-[#FF1200] hover:bg-[#FF1200] border-[#FF1200] mt-[46px] lg:mr-[100px] text-white">
                 Download App{" "}
                 <span>
                   <FaGooglePlay></FaGooglePlay>
@@ -69,7 +69,7 @@ const Banner = () => {
                   The future of digital learning technology in teaching and
                   learning.
                 </p>
-                <button className="btn bg-[#FF0000] hover:bg-[#FF0000] border-[#FF0000] download-app mt-[46px] lg:mr-[100px] text-white">
+                <button className="btn bg-[#FF1200] hover:bg-[#FF1200] border-[#FF1200] download-app mt-[46px] lg:mr-[100px] text-white">
                   Download App{" "}
                   <span>
                     <FaGooglePlay></FaGooglePlay>
@@ -109,7 +109,7 @@ const Banner = () => {
                     viewBox="0 0 80 80"
                     fill="none"
                   >
-                    <circle cx="40" cy="40" r="40" fill="#4756DC" />
+                    <circle cx="40" cy="40" r="40" fill="#FF1200" />
                   </svg>
                 </div>
                 <h1 className="lg:text-[64px] title text-[34px] heading font-[700] text-white z-10 ">
@@ -171,7 +171,7 @@ const Banner = () => {
                 <p className="pragraph text-[15px] text-white text-justify font-medium my-4">
                   The future of digital academic platforms.
                 </p>
-                <button className="btn btn-info bg-[#FF0000] hover:bg-[#FF0000] border-[#FF0000] mt-[46px] lg:mr-[100px] text-white">
+                <button className="btn btn-info bg-[#FF1200] hover:bg-[#FF1200] border-[#FF1200] mt-[46px] lg:mr-[100px] text-white">
                   Download App{" "}
                   <span>
                     <FaGooglePlay></FaGooglePlay>
