@@ -1,27 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
-.font{
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+.font {
   font-family: Poppins;
 }
-
-.collapse{
+.collapse {
   border-radius: 5px;
   border: 1px solid #171717;
-  background: rgba(34, 34, 34, 0.80);
+  background: rgba(34, 34, 34, 0.8);
 }
-.szh-accordion__item-heading{
+.szh-accordion__item-heading {
   margin-left: -6px;
 }
 
-.ReactCollapse--collapse {
-  transition: height 5000ms;
-}
 
-
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px){
-
-.faq-card{
-  width: 350px;
-}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .faq-card {
+    width: 350px;
+  }
 }
 @media (max-width: 360px) {
   .quustion-card {
