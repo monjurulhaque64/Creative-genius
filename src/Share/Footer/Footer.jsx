@@ -13,7 +13,7 @@ import './footer.css'
 const Footer = () => {
   return (
     <div className="">
-      <footer className="container  mx-auto p-4 lg:p-0 lg:mb-6 text-base-content mt-[160px]">
+      <footer className="container lg:w-[1245px]  mx-auto p-4 lg:p-0 lg:mb-6 text-base-content mt-[160px]">
         <div className="lg:flex">
         <div className="flex flex-col lg:w-[500px]">
           <img className="w-[148px] " src={logo} alt="logo" />
