@@ -5,23 +5,23 @@ p{
   font-family: Lato;
 }
 .circle {
-  width: 267px;
-  height: 267px; 
+  width: 247px;
+  height: 247px; 
   flex-shrink: 0;
   border-radius: 267px; 
   background: #8894FF;
-  right: -46px;
+  right: -56px;
   bottom: -1820px;
   filter: blur(250px); 
   position: absolute;
 }
 .left-circle {
-  width: 267px;
-  height: 267px; 
+  width: 247px;
+  height: 247px; 
   flex-shrink: 0;
   border-radius: 267px; 
   background: #8894FF;
-  left: -59px;
+  left: -69px;
   bottom: -1620px;
   filter: blur(250px); 
   position: absolute;

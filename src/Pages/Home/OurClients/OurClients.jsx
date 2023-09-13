@@ -65,7 +65,7 @@ const OurClients = () => {
               />
             </svg>
             <div className="hexagon-inner">
-              <img src={Asiyabari} alt="" className="w-[110px] h-[110px]" />
+              <img src={Asiyabari} alt="" className="w-[110px] h-[120px]" />
             </div>
           </div>
           <div className="hexagon">
@@ -108,7 +108,7 @@ const OurClients = () => {
               <img
                 src={GachuaAdarshaHighSchool}
                 alt=""
-                className="w-[130px] h-[130px]"
+                className="w-[135px] h-[150px]"
               />
             </div>
           </div>
@@ -132,7 +132,7 @@ const OurClients = () => {
               <img
                 src={GovtMohammadpurModelSchoolCollege}
                 alt=""
-                className="w-[110px] h-[110px]"
+                className="w-[130px] h-[130px]"
               />
             </div>
           </div>

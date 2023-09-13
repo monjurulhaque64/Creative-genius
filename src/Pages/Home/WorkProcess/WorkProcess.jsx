@@ -4,7 +4,7 @@ import "./WorkProcess.css";
 const WorkProcess = () => {
   const isMobile = window.innerWidth < 768;
   return (
-    <div className="container mx-auto mt-16 md:mt-[127px]">
+    <div className="container overflow-hidden mx-auto  mt-16 md:mt-[127px]">
       <div className="flex justify-end">
         <div className="circle "></div>
       </div>

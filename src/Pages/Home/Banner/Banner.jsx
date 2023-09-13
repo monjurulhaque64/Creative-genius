@@ -38,7 +38,7 @@ const Banner = () => {
             <div className="lg:ml-[50px] ml-8  lg:w-[726px] w-[350px] md:w-[70%]  lg:pt-[200px] pt-[50px] container1">
               <h1 className="text-[32px] md:text-[64px] heading font-bold text-white ">
                 Plan Your Day With Creative{" "}
-                <span className="text-[#3C4FF8]">Campus</span>
+                <span className="text-[#FF0000]">Campus</span>
               </h1>
               <p className="pragraph  w-[290px] md:w-[600px] text-[15px] text-white text-justify font-medium mt-2">
                 Welcome to creative campus. At Creative Campus, we believe in

@@ -15,7 +15,7 @@ const OurServices = () => {
           needs.
         </p>
       </div>
-      <div className="background-overlay"></div>
+      <div className=""></div>
       <div className="grid grid-cols-1  md:grid-cols-2 lg:grid-cols-3 w-full lg:w-[1236px] mx-auto gap-3 mt-[118px] ">
         <div className="card ">
           <div className="card-content my-2">

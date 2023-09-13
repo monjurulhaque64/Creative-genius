@@ -32,7 +32,7 @@ p{
   backdrop-filter: blur(10px);
 }
 
-.middle-card {
+/* .middle-cards {
   width: 394px;
   height: 261px;
   position: relative;
@@ -48,7 +48,7 @@ p{
   text-align: justify;
   mix-blend-mode: luminosity;
   backdrop-filter: blur(10px);
-}
+} */
 
 .background-overlay {
   width: 600px;
