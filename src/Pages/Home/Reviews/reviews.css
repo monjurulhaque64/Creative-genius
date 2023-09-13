@@ -22,9 +22,9 @@
     border-radius: 5px;
     background: var(--Primary-Color, #3C4FF8);
     color: #FFF;
-    font-size: 15px;
+    font-size: 14px;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 400;
     line-height: normal;
 }
 

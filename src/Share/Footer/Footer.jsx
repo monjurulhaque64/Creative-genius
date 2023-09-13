@@ -13,16 +13,16 @@ import './footer.css'
 const Footer = () => {
   return (
     <div className="">
-      <footer className="container mx-auto p-4 lg:p-0 footer lg:w-[1236px] lg:mb-6 text-base-content mt-[160px]">
-        <div className="">
+      <footer className="container grid lg:grid-cols-4 mx-auto p-4 lg:p-0 lg:mb-6 text-base-content mt-[160px]">
+        <div className="flex flex-col">
           <img className="w-[148px] " src={logo} alt="logo" />
           <p className="mt-6 text-[14px] font-[400] heading text-white">
             The future of digital learning technology <br /> in teaching and
             learning.
           </p>
         </div>
-        <div>
-          <span className=" text-white text-[30px] font-[700] heading mb-[51px] ">About</span>
+        <div className="flex flex-col">
+          <span className=" text-white text-[30px] font-[700] heading mb-[30px] ">About</span>
           <Link to={"/"}>
             <span className=" text-white text-[14px] font-[400] heading  mb-[5px]">
               Home
@@ -58,8 +58,8 @@ const Footer = () => {
             </span>
           </Link>
         </div>
-        <div>
-          <span className="text-white text-[30px] font-[700] heading mb-[51px] ">Privacy</span>
+        <div className="flex flex-col">
+          <span className="text-white text-[30px] font-[700] heading mb-[30px] ">Privacy</span>
           <Link to={"/privacy"}>
             <span className=" text-white text-[14px]font-[400] heading  mb-[5px]">
               Privacy Policy
@@ -76,8 +76,8 @@ const Footer = () => {
             </span>
           </Link>
         </div>
-        <div>
-          <span className="text-white text-[30px] font-[700] heading mb-[51px] ">
+        <div className="flex flex-col">
+          <span className="text-white text-[30px] font-[700] heading mb-[30px] ">
             Contact Us
           </span>
           <div className=" text-white flex text-[14px] font-[400] heading  mb-[5px]">

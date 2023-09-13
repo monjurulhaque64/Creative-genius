@@ -236,7 +236,7 @@ const Banner = () => {
                   </svg>
                 </div>
                 <img
-                  className="absolute iphone12DarkBackground-img left-[160px] top-[110px] md:w-[180px] w-[100px] h-[200px] md:h-[360.81px] z-10"
+                  className="absolute  iphone12DarkBackground-img left-[160px] top-[110px] md:w-[180px] w-[100px] h-[200px] md:h-[360.81px] z-10"
                   src={iphone12Dark}
                   alt=""
                 />
@@ -245,7 +245,7 @@ const Banner = () => {
           </div>
         </SwiperSlide>
       </Swiper>
-      <div className="absolute inset-x-0 mx-auto lg:top-[850px] top-[680px] clientSpring">
+      <div className="absolute z-50 inset-x-0 mx-auto lg:top-[850px] top-[680px] clientSpring">
         <ClientSpring></ClientSpring>
       </div>
     </div>

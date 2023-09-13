@@ -29,12 +29,12 @@ const Fwq = () => {
     setIsAccordionOpen5(!isAccordionOpen5);
   };
 
-  const divClass = isAccordionOpen && "bg-[#3C4FF8]";
-  const divClass1 = isAccordionOpen1 && "bg-[#3C4FF8]";
-  const divClass2 = isAccordionOpen2 && "bg-[#3C4FF8]";
-  const divClass3 = isAccordionOpen3 && "bg-[#3C4FF8]";
-  const divClass4 = isAccordionOpen4 && "bg-[#3C4FF8]";
-  const divClass5 = isAccordionOpen5 && "bg-[#3C4FF8]";
+  const divClass = isAccordionOpen && "bg-[#3C4FF8] border-0";
+  const divClass1 = isAccordionOpen1 && "bg-[#3C4FF8] border-0";
+  const divClass2 = isAccordionOpen2 && "bg-[#3C4FF8] border-0";
+  const divClass3 = isAccordionOpen3 && "bg-[#3C4FF8] border-0";
+  const divClass4 = isAccordionOpen4 && "bg-[#3C4FF8] border-0";
+  const divClass5 = isAccordionOpen5 && "bg-[#3C4FF8] border-0";
 
   return (
     <div className="container mx-auto mt-16 md:mt-[180px]">

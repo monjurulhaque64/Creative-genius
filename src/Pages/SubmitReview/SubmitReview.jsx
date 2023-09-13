@@ -144,7 +144,7 @@ const SubmitReview = () => {
           <div className="text-center mt-[60px]">
             <button
               type="submit"
-              className="review-button text-white py-[11px] lg:px-[60px] font-[600] text-[15px]  font-[Poppins] mb-[30px]"
+              className="review-button text-white py-[11px] lg:px-[60px] font-[400] text-[14px]  font-[Poppins] mb-[30px]"
             >
               Submit Now
             </button>
