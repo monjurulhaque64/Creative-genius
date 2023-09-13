@@ -13,16 +13,16 @@ import './footer.css'
 const Footer = () => {
   return (
     <div className="">
-      <footer className="container    mx-auto p-4 lg:p-0 lg:mb-6 text-base-content mt-[160px]">
+      <footer className="container  mx-auto p-4 lg:p-0 lg:mb-6 text-base-content mt-[160px]">
         <div className="lg:flex">
-        <div className="flex flex-col w-[500px]">
+        <div className="flex flex-col lg:w-[500px]">
           <img className="w-[148px] " src={logo} alt="logo" />
           <p className="mt-6 text-[14px] font-[400] heading text-white">
             The future of digital learning technology <br /> in teaching and
             learning.
           </p>
         </div>
-        <div className="lg:flex  justify-between  gap-6 w-[700px]">
+        <div className="lg:flex  justify-between  gap-6 lg:w-[700px]">
         <div className="flex flex-col lg:mb-0 mb-2">
           <span className=" text-white text-[30px] font-[700] heading mb-[12px] md:mb-[30px] ">About</span>
           <Link to={"/"}>
