@@ -41,12 +41,12 @@
 }
 
 .titleBg {
-  background: linear-gradient(to top, #e67676 0%, #FF0000 20%, transparent 40%, transparent 100%);
+  background: linear-gradient(to top, #e67676 0%, #FF1200 20%, transparent 40%, transparent 100%);
   background-size: 50%;
 }
 
 .titleBgCircle {
-  background-color: #FF0000;
+  background-color: #FF1200;
   border-radius: 50%;
   width: 80px;
   height: 80px;
@@ -58,14 +58,14 @@
   left: 40%;
   top: 50%;
   transform: translate(-50%, -50%);
-  background-color: #FF0000;
+  background-color: #FF1200;
   width: 27px;
   height: 27px;
   border-radius: 50%;
 }
 
 .download-app {
-  background: #FF0000;
+  background: #FF1200;
   border-radius: 5px !important;
 }
 .pragraph{

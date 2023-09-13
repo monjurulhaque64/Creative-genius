@@ -19,7 +19,7 @@ const WorkProcess = () => {
       <div className="grid grid-cols-1 lg:grid-cols-5 mx-auto gap-12 text-center justify-center max-w-full mt-[95px]">
         <div className="flex mx-auto">
           <div className="w-[250px] ">
-            <h1 className=" w-[89px] h-[89px] bg-[#FF0000] rounded-full text-center items-center  flex justify-center font-[Roboto] font-[700] text-white text-[30px] mx-auto">
+            <h1 className=" w-[89px] h-[89px] bg-[#FF1200] rounded-full text-center items-center  flex justify-center font-[Roboto] font-[700] text-white text-[30px] mx-auto">
               1
             </h1>
             <h1 className="text-center heading font-[400] text-[32px] text-white mt-[60px]">
@@ -58,7 +58,7 @@ const WorkProcess = () => {
         </div>
         <div className="flex mx-auto">
           <div className="w-[250px] ">
-            <h1 className=" w-[89px] h-[89px] bg-[#FF0000] rounded-full text-center items-center  flex justify-center font-[Roboto] font-[700] text-white text-[30px] mx-auto">
+            <h1 className=" w-[89px] h-[89px] bg-[#FF1200] rounded-full text-center items-center  flex justify-center font-[Roboto] font-[700] text-white text-[30px] mx-auto">
               2
             </h1>
             <h1 className="text-center heading font-[400] text-[32px] text-white mt-[60px]">
@@ -97,7 +97,7 @@ const WorkProcess = () => {
         </div>
         <div className="flex mx-auto">
           <div className="w-[250px] ">
-            <h1 className=" w-[89px] h-[89px] bg-[#FF0000] rounded-full text-center items-center  flex justify-center  font-[Roboto] font-[700] text-white text-[30px] mx-auto">
+            <h1 className=" w-[89px] h-[89px] bg-[#FF1200] rounded-full text-center items-center  flex justify-center  font-[Roboto] font-[700] text-white text-[30px] mx-auto">
               3
             </h1>
             <h1 className="text-center heading font-[400] text-[32px] text-white mt-[60px]">
@@ -136,7 +136,7 @@ const WorkProcess = () => {
         </div>
         <div className="flex mx-auto">
           <div className="w-[250px] ">
-            <h1 className=" w-[89px] h-[89px] bg-[#FF0000] rounded-full text-center items-center  flex justify-center font-[Roboto] font-[700] text-white text-[30px] mx-auto">
+            <h1 className=" w-[89px] h-[89px] bg-[#FF1200] rounded-full text-center items-center  flex justify-center font-[Roboto] font-[700] text-white text-[30px] mx-auto">
               4
             </h1>
             <h1 className="text-center heading font-[400] text-[32px] text-white mt-[60px]">
@@ -175,7 +175,7 @@ const WorkProcess = () => {
         </div>
         <div className="flex mx-auto ">
           <div className="w-[250px] ">
-            <h1 className=" w-[89px] h-[89px] bg-[#FF0000] rounded-full text-center items-center  flex justify-center font-[Roboto] font-[700] text-white text-[30px] mx-auto">
+            <h1 className=" w-[89px] h-[89px] bg-[#FF1200] rounded-full text-center items-center  flex justify-center font-[Roboto] font-[700] text-white text-[30px] mx-auto">
               5
             </h1>
             <h1 className="text-center heading font-[400] text-[32px] text-white mt-[60px]">

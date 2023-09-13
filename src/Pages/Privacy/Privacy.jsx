@@ -11,7 +11,7 @@ const Privacy = () => {
       </Helmet>
       <div className="my-8 m-2 p-8 lg:m-0 shadow-xl rounded-lg text-justify">
         <div className="my-2">
-          <h1 className="font font-[600] text-[30px] text-[#3C4FF8] ">
+          <h1 className="font font-[600] text-[30px] text-[#FF1200] ">
             Privacy Policy
           </h1>
           <p className=" font-[400] text-[14px] text-white ">
@@ -102,7 +102,7 @@ const Privacy = () => {
             If you have any questions or concerns about this Privacy Policy or
             our data practices, please contact us at 
             <Link to={"/contact-us"}>
-              <span className=" font font-[600] text-[14px] text-[#3C4FF8] ml-1">
+              <span className=" font font-[600] text-[14px] text-[#FF1200] ml-1">
               Creative Campus
               </span>
             </Link>

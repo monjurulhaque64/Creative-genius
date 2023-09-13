@@ -54,7 +54,7 @@ textarea {
   height: 52px;
   font-family: "Poppins";
   border-radius: 5px;
-  background-color: #3c4ff8;
+  background-color: #FF1200;
   color: #fff;
   cursor: pointer;
 }
@@ -64,7 +64,7 @@ textarea {
   height: 355px;
   flex-shrink: 0;
   border-radius: 355px;
-  background: #7074ff;
+  background: #f04747;
   left: -5%;
   filter: blur(250px);
   position: absolute;
@@ -74,7 +74,7 @@ textarea {
   height: 345px;
   flex-shrink: 0;
   border-radius: 355px;
-  background: #7074ff;
+  background: #f04747;
   right: 0%;
   filter: blur(250px);
   position: absolute;

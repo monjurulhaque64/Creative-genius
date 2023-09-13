@@ -10,7 +10,7 @@ const Payment = () => {
       </Helmet>
       <div className="my-8 m-2 p-8 lg:m-0 shadow-xl rounded-lg">
         <div className="my-2">
-          <h1 className="font font-[600] text-[30px] text-[#3C4FF8] ">
+          <h1 className="font font-[600] text-[30px] text-[#FF1200] ">
             Payment
           </h1>
           <p className=" font-[400] text-[14px] text-white ">

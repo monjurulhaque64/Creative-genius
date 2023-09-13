@@ -5,9 +5,9 @@
     align-items: center;
     gap: 45px;
     border-radius: 3px;
-    background: var(--Primary-Color, #FF0000);
+    background: var(--Primary-Color, #FF1200);
 
-    background: #FF0000;
+    background: #FF1200;
     color: #FFF;
     font-size: 16px;
     font-style: normal;
