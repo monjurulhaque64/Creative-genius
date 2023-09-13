@@ -46,7 +46,7 @@ const Banner = () => {
                 professionals are dedicated to providing exceptional service
                 according to your needs.
               </p>
-              <button className="btn download-app bg-[#3C4FF8] hover:bg-[#3C4FF8] border-[#3C4FF8] mt-[46px] lg:mr-[100px] text-white">
+              <button className="btn download-app bg-[#FF0000] hover:bg-[#FF0000] border-[#FF0000] mt-[46px] lg:mr-[100px] text-white">
                 Download App{" "}
                 <span>
                   <FaGooglePlay></FaGooglePlay>
@@ -69,7 +69,7 @@ const Banner = () => {
                   The future of digital learning technology in teaching and
                   learning.
                 </p>
-                <button className="btn bg-[#3C4FF8] hover:bg-[#3C4FF8] border-[#3C4FF8] download-app mt-[46px] lg:mr-[100px] text-white">
+                <button className="btn bg-[#FF0000] hover:bg-[#FF0000] border-[#FF0000] download-app mt-[46px] lg:mr-[100px] text-white">
                   Download App{" "}
                   <span>
                     <FaGooglePlay></FaGooglePlay>
@@ -171,7 +171,7 @@ const Banner = () => {
                 <p className="pragraph text-[15px] text-white text-justify font-medium my-4">
                   The future of digital academic platforms.
                 </p>
-                <button className="btn btn-info bg-[#3C4FF8] hover:bg-[#3C4FF8] border-[#3C4FF8] mt-[46px] lg:mr-[100px] text-white">
+                <button className="btn btn-info bg-[#FF0000] hover:bg-[#FF0000] border-[#FF0000] mt-[46px] lg:mr-[100px] text-white">
                   Download App{" "}
                   <span>
                     <FaGooglePlay></FaGooglePlay>
