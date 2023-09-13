@@ -64,7 +64,7 @@ textarea {
   height: 355px;
   flex-shrink: 0;
   border-radius: 355px;
-  background: #f04747;
+  background: #fab6b6;
   left: -5%;
   filter: blur(250px);
   position: absolute;
@@ -74,7 +74,7 @@ textarea {
   height: 345px;
   flex-shrink: 0;
   border-radius: 355px;
-  background: #f04747;
+  background: #fab6b6;
   right: 0%;
   filter: blur(250px);
   position: absolute;
