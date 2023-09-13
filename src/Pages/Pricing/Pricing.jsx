@@ -152,7 +152,7 @@ const Pricing = () => {
                 </div>
               ))}
               <p className="text-center md:mt-5">
-                <span className="price">{product.price} Taka</span>{" "}
+                <span className="price">{product.price} </span>{" "}
                 <span className="price-month">/{product.duration}</span>
               </p>
               <div className="flex justify-center items-center">

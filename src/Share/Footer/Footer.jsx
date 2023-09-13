@@ -23,8 +23,8 @@ const Footer = () => {
           </p>
         </div>
         <div className="lg:flex  justify-between  gap-6 w-[700px]">
-        <div className="flex flex-col">
-          <span className=" text-white text-[30px] font-[700] heading mb-[30px] ">About</span>
+        <div className="flex flex-col lg:mb-0 mb-2">
+          <span className=" text-white text-[30px] font-[700] heading mb-[12px] md:mb-[30px] ">About</span>
           <Link to={"/"}>
             <span className=" text-white text-[14px] font-[400] heading  mb-[5px]">
               Home
@@ -60,8 +60,8 @@ const Footer = () => {
             </span>
           </Link>
         </div>
-        <div className="flex flex-col">
-          <span className="text-white text-[30px] font-[700] heading mb-[30px] ">Privacy</span>
+        <div className="flex flex-col lg:mb-0 mb-2">
+          <span className="text-white text-[30px] font-[700] heading mb-[10px] md:mb-[30px] ">Privacy</span>
           <Link to={"/privacy"}>
             <span className=" text-white text-[14px]font-[400] heading  mb-[5px]">
               Privacy Policy
@@ -78,8 +78,8 @@ const Footer = () => {
             </span>
           </Link>
         </div>
-        <div className="flex flex-col">
-          <span className="text-white text-[30px] font-[700] heading mb-[30px] ">
+        <div className="flex flex-col lg:mb-0 mb-2">
+          <span className="text-white text-[30px] font-[700] heading mb-[10px] md:mb-[30px] ">
             Contact Us
           </span>
           <div className=" text-white flex text-[14px] font-[400] heading  mb-[5px]">

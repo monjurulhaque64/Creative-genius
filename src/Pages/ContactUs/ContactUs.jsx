@@ -133,7 +133,7 @@ const ContactUs = () => {
                 value={formData.name}
                 onChange={handleChange}
                 placeholder="Full Name"
-                className="!text-[#A0A0A0] !font-[500] input border-opacity-0 bg-[#171717] input-info !heading !text-[14px]  mb-[20px]"
+                className="!text-[#A0A0A0] !font-[500]  input border-opacity-0 bg-[#171717] input-info !heading !text-[14px]  mb-[20px]"
               />
             </div>
             <div className="form-group">

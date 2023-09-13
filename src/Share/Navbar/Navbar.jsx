@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import logo from "../../assets/Images/Logo1.png";
 import { Link } from "react-router-dom";
 import { FaGooglePlay } from "react-icons/fa";
@@ -7,6 +7,7 @@ import './Navbar.css'
 // todo: Mobile responsive logo + btn
 
 const Navbar = () => {
+ 
   // Nav links
   const navItems = (
     <>
@@ -37,7 +38,7 @@ const Navbar = () => {
     <div>
       <div className="navbar container mx-auto">
         <div className="navbar-start">
-          <div className="dropdown  z-10">
+          <div  className="dropdown   z-20">
             <label tabIndex={0} className="btn btn-ghost mt-[38px] lg:hidden">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
