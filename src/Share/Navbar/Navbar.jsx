@@ -1,44 +1,54 @@
-import React, { useState } from "react";
+import React from "react";
 import logo from "../../assets/Images/Logo1.png";
 import { Link } from "react-router-dom";
-import { FaBars, FaGooglePlay, FaTimes } from "react-icons/fa";
+import { FaGooglePlay } from "react-icons/fa";
 import './Navbar.css'
 
 // todo: Mobile responsive logo + btn
 
 const Navbar = () => {
- 
+
+    const handleClick = () => {
+      const elem = document.activeElement;
+      if(elem){
+        elem?.blur();
+      }
+    };
+
+
   // Nav links
   const navItems = (
     <>
-      <li>
+      <li onClick={handleClick}>
         <Link to={"/"}>Home</Link>
       </li>
-      <li>
+      <li onClick={handleClick}>
         <Link to={"/about"}>About Us</Link>
       </li>
-      <li>
+      <li onClick={handleClick}>
         <Link to={"/products"}>Products</Link>
       </li>
-      <li>
+      <li onClick={handleClick}>
         <Link to={"/pricing"}>Pricing Table</Link>
       </li>
-      <li>
+      <li onClick={handleClick}>
         <Link to={"/client-says"}>Client Says</Link>
       </li>
-      <li>
+      <li onClick={handleClick}>
         <Link to={"/review"}>Review</Link>
       </li>
-      <li>
+      <li onClick={handleClick}>
         <Link to={"/contact-us"}>Contact Us</Link>
       </li>
     </>
   );
+
+
   return (
     <div>
       <div className="navbar container mx-auto">
         <div className="navbar-start">
-          <div  className="dropdown   z-20">
+          <div className="dropdown  z-10">
             <label tabIndex={0} className="btn btn-ghost mt-[38px] lg:hidden">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -84,10 +94,6 @@ const Navbar = () => {
       {/* <hr className=" mx-auto mt-2" /> */}
       <div className="hr-line !mt-[23px]"></div>
     </div>
-
-  
-   
-
   );
 };
 
