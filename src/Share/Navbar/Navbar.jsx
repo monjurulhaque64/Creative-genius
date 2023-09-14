@@ -92,7 +92,7 @@ const Navbar = () => {
         
       </div>
       {/* <hr className=" mx-auto mt-2" /> */}
-      <div className="hr-line !mt-[23px]"></div>
+      <div className="line !mt-[23px]"></div>
     </div>
   );
 };

@@ -17,7 +17,7 @@
   font-weight: 600;
   line-height: normal;
 }
-.hr-line {
+.line {
   height: 0px !important;
   /* color:  !important; */
   border-bottom: 1px solid #505b6826;
