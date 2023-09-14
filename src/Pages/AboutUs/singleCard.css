@@ -94,7 +94,7 @@
   height: 400px;
   border-radius: 50%;
   overflow: hidden;
-  background-color: #28303a;
+  background-color: #525d6bd4;
   
 }
 
@@ -121,7 +121,7 @@
   content: "";
   position: absolute;
   inset: 6px;
-  background: #28303a;
+  background-color: #2c3746;
   border-radius: 50%;
   z-index: 1;
 }
@@ -167,7 +167,7 @@
     position: relative;
     width: 350px;
     height: 350px;
-    background: #282828;
+    background-color: #525d6bd4;
     border-radius: 50%;
     overflow: hidden;
   }
@@ -203,7 +203,7 @@
     position: relative;
     width: 350px;
     height: 350px;
-    background: #282828;
+    background-color: #515861d4;
     border-radius: 50%;
     overflow: hidden;
   }
