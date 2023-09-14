@@ -5,7 +5,7 @@ import './Privacy.css'
 
 const Privacy = () => {
   return (
-    <div className="container mx-auto mt-[72px] mb-6 pl-[15%] pr-[20%]  ">
+    <div className="container mx-auto mt-[72px] mb-6 lg:pl-[15%] lg:pr-[20%]  ">
       <Helmet>
         <title>Creative Campus || Privacy Policy</title>
       </Helmet>
