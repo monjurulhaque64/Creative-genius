@@ -2,12 +2,15 @@
 .heading {
   font-family: Poppins;
 }
+.pragraph{
+  font-family: Lato;
+}
 .form-container {
   width: 100%;
   max-width: 419px;
   border-radius: 5px;
-  border: 1px solid #2b2b2b;
-  background-color: #171717;
+  border: 1px solid #647182;
+  background: #222A33;
   padding: 20px;
   margin: 0 auto;
   font-family: "Poppins";
@@ -60,7 +63,8 @@ textarea {
   height: 52px;
   font-family: "Poppins";
   border-radius: 5px;
-  background-color: #FF1200;
+  background: #3d4854d4;
+  border:  #647182;
   color: #fff;
   cursor: pointer;
 }

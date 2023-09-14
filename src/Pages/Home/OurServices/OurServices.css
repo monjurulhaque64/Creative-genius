@@ -16,12 +16,7 @@ p{
   padding: 10px;
   position: relative;
   border-radius: 5px;
-  background: linear-gradient(
-    106deg,
-    #171717 -9.44%,
-    #252525 104.61%,
-    rgba(37, 37, 37, 0) 104.61%
-  );
+  background: #28303ad4;
   overflow: hidden;
   color: white;
   text-align: justify;

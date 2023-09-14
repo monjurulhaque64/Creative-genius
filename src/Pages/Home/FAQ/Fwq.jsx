@@ -30,12 +30,12 @@ const Fwq = () => {
     setIsAccordionOpen5(!isAccordionOpen5);
   };
 
-  const divClass = isAccordionOpen && "bg-[#FF1200] border-none";
-  const divClass1 = isAccordionOpen1 && "bg-[#FF1200] border-none";
-  const divClass2 = isAccordionOpen2 && "bg-[#FF1200] border-none";
-  const divClass3 = isAccordionOpen3 && "bg-[#FF1200] border-none";
-  const divClass4 = isAccordionOpen4 && "bg-[#FF1200] border-none";
-  const divClass5 = isAccordionOpen5 && "bg-[#FF1200] border-none";
+  const divClass = isAccordionOpen && "bg-[#28303ad4] border-none";
+  const divClass1 = isAccordionOpen1 && "bg-[#28303ad4] border-none";
+  const divClass2 = isAccordionOpen2 && "bg-[#28303ad4] border-none";
+  const divClass3 = isAccordionOpen3 && "bg-[#28303ad4] border-none";
+  const divClass4 = isAccordionOpen4 && "bg-[#28303ad4] border-none";
+  const divClass5 = isAccordionOpen5 && "bg-[#28303ad4] border-none";
 
   return (
     <div className="container mx-auto mt-16 md:mt-[180px]">
@@ -43,7 +43,7 @@ const Fwq = () => {
         <h1 className="heading font-[600] text-[38px] md:text-[48px] text-white">
           Frequently Ask Question
         </h1>
-        <p className="font w-[300px] md:w-[650px] text-center mx-auto  font-[400] text-[16px] mt-[17px] text-white">
+        <p className="font w-[300px] md:w-[650px] text-center mx-auto  font-[400] text-[14px] mt-[17px] text-white">
           There are some collections of the most common questions and brief,
           easy-to-understand answers about a particular product, service, or
           topic.
@@ -61,7 +61,7 @@ const Fwq = () => {
             className="collapse   p-3 md:text-[24px]  text-[20px] shadow-xl lg:w-[700px] mt-6 rounded-md border-[1px] border-[#8a8a8a] collapse-content"
             header={
               <div className="flex items-center justify-between lg:gap-[22px] gap-[10px] ">
-                <h1 className="justify-start pragraph text-white text-[18px] ml-[20px] text-justify lg:w-[500px] font-[500]">
+                <h1 className="justify-start heading text-white text-[17px] ml-[20px] text-justify lg:w-[500px] font-[500]">
                   What is your company’s goal?
                 </h1>
                 <i
@@ -75,7 +75,7 @@ const Fwq = () => {
             onClick={toggleAccordion}
           >
             <Collapse isOpened={true}>
-              <p className="  text-[16px] pl-[20px] pr-[50px] pb-[20px] pt-[10px]  mt-2 text-white pragraph font-[400] text-justify ">
+              <p className="  text-[14px] pl-[20px] pr-[50px] pb-[20px] pt-[10px]  mt-2 text-white pragraph font-[400] text-justify ">
                 Our company’s goal is to fulfill client's or customer’s
                 satisfaction, financial gain, growth, and employee development..
               </p>
@@ -93,7 +93,7 @@ const Fwq = () => {
             className="collapse  p-3 md:text-[24px]  text-[20px] shadow-xl lg:w-[604px] mt-6 rounded-md border-[1px] border-[#8a8a8a]"
             header={
               <div className="flex items-center justify-between md:gap-[22px] gap-[10px]">
-                <h1 className="justify-start pragraph ml-[20px] text-white text-justify text-[18px] lg:w-[500px] font-[500]">
+                <h1 className="justify-start heading ml-[20px] text-white text-justify text-[17px] lg:w-[500px] font-[500]">
                   What is the target of digital marketing for your company?
                 </h1>
 
@@ -108,7 +108,7 @@ const Fwq = () => {
             onClick={toggleAccordion1}
           >
             <Collapse isOpened={true}>
-              <p className="  text-[16px] mt-2 pl-[20px] pr-[50px] pb-[20px] pt-[10px] text-white pragraph font-[400] text-justify">
+              <p className="  text-[14px] mt-2 pl-[20px] pr-[50px] pb-[20px] pt-[10px] text-white pragraph font-[400] text-justify">
                 In our company digital marketing is a multifaceted strategy
                 aimed to target, reach out to, and build relationships with
                 customers online, across a broad range of channels, ultimately
@@ -130,7 +130,7 @@ const Fwq = () => {
             className="collapse border-1 mt-6  p-3    md:text-[24px]  text-[20px] bg-[rgba(34, 34, 34, 0.80)] shadow-xl lg:w-[604px]  mt-6 rounded-md border-[1px] border-[#8a8a8a]"
             header={
               <div className="flex items-center justify-between lg:gap-[22px] gap-[10px]">
-                <h1 className="justify-start pragraph ml-[20px] text-white text-[18px] text-justify lg:w-[500px] font-[500]">
+                <h1 className="justify-start heading ml-[20px] text-white text-[17px] text-justify lg:w-[500px] font-[500]">
                   What are the services of your company?
                 </h1>
                 <i
@@ -144,7 +144,7 @@ const Fwq = () => {
             onClick={toggleAccordion2}
           >
             <Collapse isOpened={true}>
-              <p className="  text-[15px] pl-[20px] pr-[50px] pb-[20px] pt-[10px] md:text-[16px]  mt-2 text-white pragraph font-[400] text-justify">
+              <p className="  text-[14px] pl-[20px] pr-[50px] pb-[20px] pt-[10px] md:text-[14px]  mt-2 text-white pragraph font-[400] text-justify">
                 Web development features, advanced mobile app application,
                 Marketing services, graphic or website designs for websites,
                 logos, advertisements and other promotional content for
@@ -165,7 +165,7 @@ const Fwq = () => {
             className="collapse border-1 mt-6  p-3   md:text-[24px]  text-[20px] bg-[rgba(34, 34, 34, 0.80)] shadow-xl lg:w-[604px]  mt-6 rounded-md border-[1px] border-[#8a8a8a]"
             header={
               <div className="flex items-center justify-between lg:gap-[22px] gap-[10px]">
-                <h1 className="justify-start pragraph ml-[20px] text-white text-[18px] lg:w-[500px] text-justify font-[500]">
+                <h1 className="justify-start heading ml-[20px] text-white text-[17px] lg:w-[500px] text-justify font-[500]">
                   How long does a project take?
                 </h1>
 
@@ -180,7 +180,7 @@ const Fwq = () => {
             onClick={toggleAccordion3}
           >
             <Collapse isOpened={true}>
-              <p className="  text-[15px] md:text-[16px]  pl-[20px] pr-[50px] pb-[20px] pt-[10px]   mt-2 text-white pragraph font-[400] text-justify">
+              <p className="  text-[15px] md:text-[14px]  pl-[20px] pr-[50px] pb-[20px] pt-[10px]   mt-2 text-white pragraph font-[400] text-justify">
                 {" "}
                 Typically, an average project will take in the region of three –
                 four months. Some of our projects are small, fully specified and
@@ -204,7 +204,7 @@ const Fwq = () => {
             className="collapse border-1 mt-6  p-3    md:text-[24px]  text-[20px] bg-[rgba(34, 34, 34, 0.80)] shadow-xl lg:w-[604px]  mt-6 rounded-md border-[1px] border-[#8a8a8a]"
             header={
               <div className="flex items-center justify-between lg:gap-[22px] gap-[10px]">
-                <h1 className="justify-start pragraph ml-[20px] text-white text-[18px] text-justify lg:w-[500px] font-[500]">
+                <h1 className="justify-start heading ml-[20px] text-white text-[17px] text-justify lg:w-[500px] font-[500]">
                   How do you create content for your clients?
                 </h1>
 
@@ -219,7 +219,7 @@ const Fwq = () => {
             onClick={toggleAccordion4}
           >
             <Collapse isOpened={true}>
-              <p className="  text-[15px] md:text-[16px]  pl-[20px] pr-[50px] pb-[20px] pt-[10px]   mt-2 text-white pragraph font-[400] text-justify">
+              <p className="  text-[15px] md:text-[14px]  pl-[20px] pr-[50px] pb-[20px] pt-[10px]   mt-2 text-white pragraph font-[400] text-justify">
                 {" "}
                 It's a great idea to make a content strategy framework first.
                 Take this as our blueprint—it will contain all the details of
@@ -242,7 +242,7 @@ const Fwq = () => {
             className="collapse border-1 mt-6  p-3  md:text-[24px]  text-[20px] bg-[rgba(34, 34, 34, 0.80)] shadow-xl lg:w-[604px]  mt-6 rounded-md border-[1px] border-[#8a8a8a]"
             header={
               <div className="flex items-center justify-between text-justify lg:gap-[22px] gap-[10px]">
-                <h1 className="justify-start pragraph ml-[20px] text-white text-justify text-[18px] lg:w-[500px] font-[500]">
+                <h1 className="justify-start heading ml-[20px] text-white text-justify text-[17px] lg:w-[500px] font-[500]">
                   What are the qualities of a successful team?
                 </h1>
 

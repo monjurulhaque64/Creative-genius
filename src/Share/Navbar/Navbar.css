@@ -9,7 +9,8 @@
   align-items: center;
   gap: 8px;
   border-radius: 5px;
-  background: var(--Primary-Color, #FF1200);
+  background: #3d4854d4;
+  border:  #647182;
   color: #fff;
   font-size: 15px;
   font-style: normal;

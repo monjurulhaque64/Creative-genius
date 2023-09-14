@@ -4,8 +4,9 @@
 }
 .collapse {
   border-radius: 5px;
-  border: 1px solid #171717;
-  background: rgba(34, 34, 34, 0.8);
+  border: 1px solid #525d6bd4;
+  background: #28303ad4;
+
 }
 .szh-accordion__item-heading {
   margin-left: -6px;

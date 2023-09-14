@@ -47,19 +47,19 @@ const ContactUs = () => {
         <h1 className="heading  font-[600] text-[28px] md:text-[48px] text-white">
           Contact Us
         </h1>
-        <p className="heading font-[400]  w-[300px] md:w-[650px] text-center mx-auto text-[16px] text-white md:mt-[20px]">
+        <p className=" heading font-[400]  w-[300px] md:w-[500px] text-center mx-auto text-[15px] text-white md:mt-[20px]">
           Here's our contact details so visitors can get in touch with us on
           their first attempt.
         </p>
       </div>
-      <div className="contuct-circle-right"></div>
+      {/* <div className="contuct-circle-right"></div> */}
       <div className="grid grid-cols-1 md:grid-cols-2 ">
         <div className="lg:mt-[130px] ml-4 lg:ml-0">
-          <div className="contuct-circle-left"></div>
+          {/* <div className="contuct-circle-left"></div> */}
           <h1 className="heading font-[600] heading text-[20px] md:text-[30px] text-white mb-[22px]">
             Get In Touch
           </h1>
-          <p className="heading  font-[600] !text-[16px] text-white mb-8 md:mb-[70px]">
+          <p className="pragraph  font-[400] lg:w-[500px] !text-[16px] text-white mb-8 md:mb-[70px]">
             We're eager to hear from you! Feel free to reach out for inquiries,
             collaborations, or just to say hello.
           </p>
@@ -133,7 +133,7 @@ const ContactUs = () => {
                 value={formData.name}
                 onChange={handleChange}
                 placeholder="Full Name"
-                className="!text-[#A0A0A0] !font-[500]  input border-opacity-0 bg-[#171717] input-info !heading !text-[14px]  mb-[20px]"
+                className="!text-[#A0A0A0] !font-[500]  input border-opacity-0 bg-[#171717]  !heading !text-[14px]  mb-[20px]"
               />
             </div>
             <div className="form-group">
@@ -149,7 +149,7 @@ const ContactUs = () => {
                 name="email"
                 value={formData.email}
                 onChange={handleChange}
-                className="!text-[#A0A0A0] !font-[500] input border-opacity-0 bg-[#171717] input-info !heading !text-[14px]  mb-[20px]"
+                className="!text-[#A0A0A0] !font-[500] input border-opacity-0 bg-[#171717]  !heading !text-[14px]  mb-[20px]"
                 placeholder="Enter Email Address"
               />
             </div>
@@ -167,7 +167,7 @@ const ContactUs = () => {
                 value={formData.reason}
                 onChange={handleChange}
                 placeholder="Reason"
-                className="!text-[#A0A0A0] !font-[500] input border-opacity-0 bg-[#171717] input-info !heading !text-[14px]  mb-[20px]"
+                className="!text-[#A0A0A0] !font-[500] input border-opacity-0 bg-[#171717]  !heading !text-[14px]  mb-[20px]"
               />
             </div>
             <div className="form-group">
@@ -184,7 +184,7 @@ const ContactUs = () => {
                 onChange={handleChange}
                 rows="5"
                 placeholder="Write Your Message"
-                className="!text-[#A0A0A0] border-castom h-32 !font-[500] input border-opacity-0 bg-[#171717] input-info !heading !text-[14px] mb-[30px]"
+                className="!text-[#A0A0A0] border-castom h-32 !font-[500] input border-opacity-0 bg-[#171717]  !heading !text-[14px] mb-[30px]"
               />
             </div>
             <div className=" text-center ">

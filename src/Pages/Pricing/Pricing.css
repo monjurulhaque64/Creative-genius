@@ -8,7 +8,7 @@
   height: 65rem;
   flex-shrink: 0;
   border-radius: 5px;
-  background: #212121;
+  background: #28303ad4;
 }
 
 .pricing-title {
@@ -34,7 +34,7 @@
 }
 
 .price {
-  color:#FF1200;
+  color:white;
 
   font-size: 26px;
   font-style: normal;
@@ -60,7 +60,8 @@
   gap: 8px;
  
   border-radius: 5px;
-  background: #FF1200;
+  background: #3d4854d4;
+  border:  #647182;
   color: #fff;
   font-size: 15px;
   font-style: normal;

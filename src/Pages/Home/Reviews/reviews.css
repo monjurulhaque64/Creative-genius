@@ -8,7 +8,7 @@
     left: 0;
     width: 100%;
     height: 200px; 
-    background: linear-gradient(180deg, rgba(23, 23, 23, 0.00) 9.91%, #171717 55.09%);
+    background: linear-gradient(180deg, rgba(23, 23, 23, 0.00) 9.91%,  #222a33f5 55.09%);
     flex-shrink: 0;
   }
 
@@ -20,7 +20,8 @@
     font-family: Poppins;
     gap: 8px;
     border-radius: 5px;
-    background: #FF1200;
+     background: #3d4854d4;
+  border:  #647182;
     color: #FFF;
     font-size: 14px;
     font-style: normal;

@@ -4,7 +4,7 @@
   width: 394px;
   position: relative;
   border-radius: 5px;
-  background: rgba(34, 34, 34, 0.80);
+  background: #28303ad4;
   backdrop-filter: blur(10px); 
   overflow: hidden;
   color: white;

@@ -92,8 +92,8 @@ const SubmitReview = () => {
                 Full Name
               </label>
               <input
-                type="text"
-                className="w-full input input-info text-[14px] input-field border-castom mb-[20px] "
+                type="tex"
+                className="w-full input  text-[14px] input-field   border-castom mb-[20px] "
                 placeholder="Full Name"
                 value={fullName}
                 onChange={(e) => setFullName(e.target.value)}
@@ -121,7 +121,7 @@ const SubmitReview = () => {
             </label>
             <input
               type="file"
-              className="file-input file-input-bordered file-input-info  border-castom text-[14px]  w-full mb-[20px]"
+              className="file-input file-input-bordered   border-castom text-[14px]  w-full mb-[20px]"
               accept="image/*"
               onChange={(e) => setPhoto(e.target.files[0])}
               required
@@ -133,7 +133,7 @@ const SubmitReview = () => {
               Review
             </label>
             <textarea
-              className="w-full h-32 input-field input input-info border-castom text-white text-[14px] px-4"
+              className="w-full h-32 input-field input  border-castom text-white text-[14px] px-4"
               placeholder="Write about our Service"
               value={review}
               onChange={(e) => setReview(e.target.value)}

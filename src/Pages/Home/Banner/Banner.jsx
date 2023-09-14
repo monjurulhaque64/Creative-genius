@@ -33,12 +33,12 @@ const Banner = () => {
         modules={[Autoplay]}
         className="mySwiper"
       >
-        <SwiperSlide>
+        {/* <SwiperSlide>
           <div className="w-full h-[600px]    md:h-[800px]  bannerimg1">
             <div className="lg:ml-[50px] ml-8  lg:w-[726px] w-[350px] md:w-[70%]  lg:pt-[200px] pt-[50px] container1">
               <h1 className="text-[32px] md:text-[64px] heading font-bold text-white ">
                 Plan Your Day With Creative{" "}
-                <span className="text-[#FF1200]">Campus</span>
+                <span className="text-[#3d4854d4]">Campus</span>
               </h1>
               <p className="pragraph  w-[290px] md:w-[600px] text-[15px] text-white text-justify font-medium mt-2">
                 Welcome to creative campus. At Creative Campus, we believe in
@@ -46,7 +46,7 @@ const Banner = () => {
                 professionals are dedicated to providing exceptional service
                 according to your needs.
               </p>
-              <button className="btn download-app bg-[#FF1200] hover:bg-[#FF1200] border-[#FF1200] mt-[46px] lg:mr-[100px] text-white">
+              <button className="btn download-app bg-[#3d4854d4] hover:bg-[#3d4854d4] border-[#647182] mt-[46px] lg:mr-[100px] text-white">
                 Download App{" "}
                 <span>
                   <FaGooglePlay></FaGooglePlay>
@@ -54,7 +54,7 @@ const Banner = () => {
               </button>
             </div>
           </div>
-        </SwiperSlide>
+        </SwiperSlide> */}
         <SwiperSlide>
           <div className="circle bg-[#FF9324] left-[calc(-80px)] top-[calc(280px)] transform absolute ml-[1150px] overflow-hidden"></div>
           <div className="w-full  h-[600px] md:h-[800px]  bannerimg2 relative">
@@ -69,7 +69,7 @@ const Banner = () => {
                   The future of digital learning technology in teaching and
                   learning.
                 </p>
-                <button className="btn bg-[#FF1200] hover:bg-[#FF1200] border-[#FF1200] download-app mt-[46px] lg:mr-[100px] text-white">
+                <button className="btn bg-[#3d4854d4] hover:bg-[#3d4854d4] border-[#647182] download-app mt-[46px] lg:mr-[100px] text-white">
                   Download App{" "}
                   <span>
                     <FaGooglePlay></FaGooglePlay>
@@ -96,7 +96,7 @@ const Banner = () => {
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide>
+        {/* <SwiperSlide>
           <div className="w-[100%] h-[550px] md:h-[800px] bannerimg3 relative overflow-hidden">
             <div className="flex md:justify-between container3">
               <div className="lg:ml-[50px] ml-8  lg:w-[726px]  md:w-[800px] w-[350px] lg:pt-[250px] pt-[50px]">
@@ -109,7 +109,7 @@ const Banner = () => {
                     viewBox="0 0 80 80"
                     fill="none"
                   >
-                    <circle cx="40" cy="40" r="40" fill="#FF1200" />
+                    <circle cx="40" cy="40" r="40" fill="#3d4854d4" />
                   </svg>
                 </div>
                 <h1 className="lg:text-[64px] title text-[34px] heading font-[700] text-white z-10 ">
@@ -171,7 +171,7 @@ const Banner = () => {
                 <p className="pragraph text-[15px] text-white text-justify font-medium my-4">
                   The future of digital academic platforms.
                 </p>
-                <button className="btn btn-info bg-[#FF1200] hover:bg-[#FF1200] border-[#FF1200] mt-[46px] lg:mr-[100px] text-white">
+                <button className="btn  bg-[#3d4854d4] hover:bg-[#3d4854d4] border-[#647182] mt-[46px] lg:mr-[100px] text-white">
                   Download App{" "}
                   <span>
                     <FaGooglePlay></FaGooglePlay>
@@ -243,7 +243,7 @@ const Banner = () => {
               </div>
             </div>
           </div>
-        </SwiperSlide>
+        </SwiperSlide> */}
       </Swiper>
       <div className="absolute z-50 inset-x-0 mx-auto lg:top-[850px] top-[680px] clientSpring">
         <ClientSpring></ClientSpring>

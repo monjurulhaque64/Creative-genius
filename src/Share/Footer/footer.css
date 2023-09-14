@@ -5,9 +5,9 @@
     align-items: center;
     gap: 45px;
     border-radius: 3px;
-    background: var(--Primary-Color, #FF1200);
+    background: var(--Primary-Color, #28303ad4);
 
-    background: #FF1200;
+    background: #28303ad4;
     color: #FFF;
     font-size: 16px;
     font-style: normal;
@@ -24,5 +24,12 @@
     border-bottom: 2px solid;
     margin-top: 2px;
   }
-
+.spans{
+    text-transform: uppercase;
+    font-family: system-ui;
+    font-weight: 700;
+    letter-spacing: 4px;
+    margin-left: 7px;
+    margin-right: 7px;
+}
 
