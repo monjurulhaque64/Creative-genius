@@ -95,13 +95,14 @@
   border-radius: 50%;
   overflow: hidden;
   background-color: #28303a;
+  
 }
 
 .box::before {
   content: "";
   position: absolute;
   inset: -10px 140px;
-  background: linear-gradient(315deg, #505257d4,  #505257d4);
+  background: linear-gradient(315deg, #7b8191d4,  #7b8191d4);
   animation: animate 4s linear infinite;
 }
 

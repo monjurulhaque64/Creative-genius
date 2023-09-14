@@ -184,12 +184,12 @@ const ContactUs = () => {
                 onChange={handleChange}
                 rows="5"
                 placeholder="Write Your Message"
-                className="!text-[#A0A0A0] border-castom h-32 !font-[500] input border-opacity-0 bg-[#171717]  !heading !text-[14px] mb-[30px]"
+                className="!text-[#A0A0A0] border-castom h-32 !font-[500] input border-opacity-0 bg-[#302e2e]  !heading !text-[14px] mb-[30px]"
               />
             </div>
             <div className=" text-center ">
               <button
-                className="contect-button font-[400] heading lg:px-[50px] text-[14px] text-white mb-[30px]"
+                className="contect-button border-[#647182] border-[1px] font-[400] heading lg:px-[50px] text-[14px] text-white mb-[30px]"
                 type="submit"
               >
                 Submit Now
@@ -204,14 +204,4 @@ const ContactUs = () => {
 
 export default ContactUs;
 
-// Head Office Details
-// Contact No : +88 01332393009 (Head Office)
-// Address : Uttarkhan, Gazipara, Hashemgazi Road, Uttara Dhaka - 1230.
 
-// Rangpur Branch
-// Contact No : +88 01632677577 (Rangpur Branch)
-// Address : Mahiganj, Rangpur - 5400.
-
-// Dinajpur Branch
-// Contact No : +88 01885352802 (Dinajpur Branch)
-// Address : M Abdur Rahim Medical Road, Dinajpur - 5200.

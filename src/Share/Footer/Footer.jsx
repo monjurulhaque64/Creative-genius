@@ -143,7 +143,7 @@ const Footer = () => {
       <footer className="footer container mx-auto items-center lg:w-[1236px] p-4 lg:p-0 bg-neutral text-neutral-content mb-[84px] mt-2 lg:mt-[30px]">
       <div className="items-center grid-flow-col ">
         <p className="text-white text-[14px] font-[400] pragraph mb-[16px]">
-          &copy; Copyright {getCurrentYear()} <span className="font-bold spans">Creative Campus</span>. All rights reserved.
+          &copy;  {getCurrentYear()} All rights reserved By<span className="font-bold spans">Creative Campus</span>. .
         </p>
       </div>
       <div className="grid-flow-col gap-4  md:place-self-center  md:justify-self-end">
