@@ -68,6 +68,13 @@
   border: 1px solid #5e6b7a;
 }
 
+/* Review card container */
+.modal-card {
+  border-radius: 5px;
+  border: 1px solid #374352;
+  background: #28303ad4;
+}
+
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px){
 
   .price-card {

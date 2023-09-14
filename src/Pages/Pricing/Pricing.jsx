@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { Helmet } from "react-helmet-async";
 import "./Pricing.css";
 import { Link } from "react-router-dom";
@@ -51,7 +51,7 @@ const Pricing = () => {
         "Transportation systems management",
         "Provide Mobile Application",
       ],
-      price: '60k',
+      price: "60k",
       duration: "for 6 months",
     },
     {
@@ -76,7 +76,7 @@ const Pricing = () => {
         "Transportation systems management",
         "Provide Mobile Application",
       ],
-      price: '120k',
+      price: "120k",
       duration: "for year",
     },
     {
@@ -101,10 +101,28 @@ const Pricing = () => {
         "Transportation systems management",
         "Provide Mobile Application",
       ],
-      price: '200k',
+      price: "200k",
       duration: "Lifetime",
     },
   ];
+
+  const [fullName, setFullName] = useState("");
+  const [rating, setRating] = useState(1);
+  const [photo, setPhoto] = useState(null);
+  const [review, setReview] = useState("");
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const formData = new FormData();
+    formData.append("image", photo);
+
+    const data = {
+      fullName,
+      rating,
+      photo,
+      review,
+    };
+  };
 
   return (
     <div className="container mx-auto mt-10 md:mt-[125px] ">
@@ -114,7 +132,9 @@ const Pricing = () => {
 
       <div className="md:mb-24 mx-5">
         <div className="flex flex-col  items-center">
-          <h1 className="md:text-[48px] text-[28px] pricing-title ">Pricing Table</h1>
+          <h1 className="md:text-[48px] text-[28px] pricing-title ">
+            Pricing Table
+          </h1>
           <p className="  heading text-[16px] font-[400]  text-white text-center mt-2 md:mt-[20px] lg:w-[564px]">
             Here is our pricing table of representation of our websites to
             display different pricing options for products to our potential
@@ -157,8 +177,13 @@ const Pricing = () => {
               </p>
               <div className="flex justify-center items-center">
                 <Link to={""}>
-                  <button className="buy-btn mt-[20px] pragraph  text-white">
-                  Active Package
+                  <button
+                    className="buy-btn mt-[20px] pragraph  text-white"
+                    onClick={() =>
+                      document.getElementById("my_modal_4").showModal()
+                    }
+                  >
+                    Active Package
                   </button>
                 </Link>
               </div>
@@ -166,6 +191,202 @@ const Pricing = () => {
           ))}
         </div>
       </div>
+      <dialog id="my_modal_4" className="modal modal-bottom sm:modal-middle">
+        <div className="modal-box  !max-w-[850px] overflow-y-auto  shadow-none scale-x-0 -scale-y-0 -scale-0">
+          <div className="flex justify-center mx-auto modal-card mb-8 mt-[40px] md:mt-[78px] ">
+            <form
+              onSubmit={handleSubmit}
+              className="w-[full] container-review-card"
+            >
+              <form method="dialog">
+                {/* if there is a button in form, it will close the modal */}
+                <button className=" absolute right-[2.35rem] mt-2 text-lg">
+                  ✕
+                </button>
+              </form>
+              <div className="mt-[65px] lg:w-full">
+                <label className="text-white block font-[500] text-[16px] heading mb-[9px]">
+                  Organization Name*
+                </label>
+                <input
+                  type="tex"
+                  className="w-full input  text-[14px] input-field   border-castom mb-[20px] "
+                  placeholder="Organization Name"
+                  // value={''}
+                  onChange={(e) => setFullName(e.target.value)}
+                  required
+                />
+              </div>
+
+              <div className="grid grid-cols-1 lg:grid-cols-2 mt-[65px] lg:gap-[30px] gap-[20px]">
+                <div className="mb-4 lg:w-[300px]">
+                  <label className="text-white block font-[500] text-[16px] heading mb-[9px]">
+                    Contact Person Name*
+                  </label>
+                  <input
+                    type="tex"
+                    className="w-full input  text-[14px] input-field   border-castom mb-[20px] "
+                    placeholder="Contact Person Name"
+                    // value={''}
+                    onChange={(e) => setFullName(e.target.value)}
+                    required
+                  />
+                </div>
+                <div className="mb-4 lg:w-[300px]">
+                  <label className="text-white block font-[500] text-[16px] heading mb-[9px]">
+                    Designation*
+                  </label>
+                  <input
+                    type="tex"
+                    className="w-full input  text-[14px] input-field   border-castom mb-[20px] "
+                    placeholder="Designation"
+                    // value={''}
+                    onChange={(e) => setFullName(e.target.value)}
+                    required
+                  />
+                </div>
+              </div>
+
+              <div className="grid grid-cols-1 lg:grid-cols-2 mt-[65px] lg:gap-[30px] gap-[20px]">
+                <div className="mb-4 lg:w-[300px]">
+                  <label className="text-white block font-[500] text-[16px] heading mb-[9px]">
+                    Contact No*
+                  </label>
+                  <input
+                    type="tex"
+                    className="w-full input  text-[14px] input-field   border-castom mb-[20px] "
+                    placeholder="Contact No"
+                    // value={fullName}
+                    onChange={(e) => setFullName(e.target.value)}
+                    required
+                  />
+                </div>
+                <div className="mb-4 lg:w-[300px]">
+                  <label className="text-white block font-[500] text-[16px] heading mb-[9px]">
+                    WhatsApp
+                  </label>
+                  <input
+                    type="tex"
+                    className="w-full input  text-[14px] input-field   border-castom mb-[20px] "
+                    placeholder="WhatsApp"
+                    // value={fullName}
+                    onChange={(e) => setFullName(e.target.value)}
+                  />
+                </div>
+              </div>
+
+              <div className="mt-[65px] lg:w-full">
+                <label className="text-white block font-[500] text-[16px] heading mb-[9px]">
+                  Email
+                </label>
+                <input
+                  type="email"
+                  className="w-full input  text-[14px] input-field   border-castom mb-[20px] "
+                  placeholder="Email"
+                  // value={''}
+                  onChange={(e) => setFullName(e.target.value)}
+                />
+              </div>
+
+              <div className="grid grid-cols-1 lg:grid-cols-2 mt-[65px] lg:gap-[30px] gap-[20px]">
+                <div className="mb-4 lg:w-[300px]">
+                  <label className="text-white block font-[500] text-[16px] heading mb-[9px]">
+                    Country*
+                  </label>
+                  <input
+                    type="tex"
+                    className="w-full input  text-[14px] input-field   border-castom mb-[20px] "
+                    placeholder="Country"
+                    // value={''}
+                    onChange={(e) => setFullName(e.target.value)}
+                    required
+                  />
+                </div>
+                <div className="mb-4 lg:w-[300px]">
+                  <label className="text-white block font-[500] text-[16px] heading mb-[9px]">
+                    City*
+                  </label>
+                  <input
+                    type="tex"
+                    className="w-full input  text-[14px] input-field   border-castom mb-[20px] "
+                    placeholder="City"
+                    // value={''}
+                    onChange={(e) => setFullName(e.target.value)}
+                    required
+                  />
+                </div>
+              </div>
+
+              <div className="mt-[65px] lg:w-full">
+                <label className="text-white block font-[500] text-[16px] heading mb-[9px]">
+                  Organization Address*
+                </label>
+                <input
+                  type="Organization Address"
+                  className="w-full input  text-[14px] input-field   border-castom mb-[20px] "
+                  placeholder="Email"
+                  // value={''}
+                  onChange={(e) => setFullName(e.target.value)}
+                  required
+                />
+              </div>
+
+              <div className="grid grid-cols-1 lg:grid-cols-2 mt-[65px] lg:gap-[30px] gap-[20px]">
+                <div className="mb-4 lg:w-[300px]">
+                  <label className="text-white block font-[500] text-[16px] heading mb-[9px]">
+                    Student Quantity*
+                  </label>
+                  <input
+                    type="tex"
+                    className="w-full input  text-[14px] input-field   border-castom mb-[20px] "
+                    placeholder="Student Quantity"
+                    // value={''}
+                    onChange={(e) => setFullName(e.target.value)}
+                    required
+                  />
+                </div>
+                <div className="form-control w-full max-w-xs">
+                  <label className="text-white block font-[500] text-[16px] heading mb-[9px]">
+                  Choose Plan
+                  </label>
+                  <select className="select select-bordered border-castom !bg-[#302e2e] mix-blend-luminosity" required>
+                    <option disabled selected>
+                      Pick one
+                    </option>
+                    <option>Monthly Package</option>
+                    <option>Half Yearly Package</option>
+                    <option>Yearly Package</option>
+                    <option>Lifetime Package</option>
+                  </select>
+                </div>
+              </div>
+
+
+              <div className="mb-4 mt-[32px]">
+                <label className="text-white block mb-[9px] font-[500] text-[16px] heading">
+                Descriptions
+                </label>
+                <textarea
+                  className="w-full h-32 input-field input review-field border-castom text-white text-[14px] px-4"
+                  placeholder="Descriptions"
+                  // value={''}
+                  onChange={(e) => setReview(e.target.value)}
+                  required
+                />
+              </div>
+              {/* Submit Button */}
+              <div className="text-center mt-[60px]">
+                <button
+                  type="submit"
+                  className="review-button text-white py-[11px] lg:px-[60px] font-[400] text-[14px]  font-[Poppins] mb-[60px]"
+                >
+                  Submit Now
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </dialog>
     </div>
   );
 };
