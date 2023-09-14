@@ -43,7 +43,7 @@ const Fwq = () => {
         <h1 className="heading font-[600] text-[38px] md:text-[48px] text-white">
           Frequently Ask Question
         </h1>
-        <p className="font w-[300px] md:w-[650px] text-center mx-auto  font-[400] text-[14px] mt-[17px] text-white">
+        <p className="font w-[300px] md:w-[650px] text-center mx-auto  font-[400] text-[16px] mt-[17px] text-white">
           There are some collections of the most common questions and brief,
           easy-to-understand answers about a particular product, service, or
           topic.
@@ -52,20 +52,20 @@ const Fwq = () => {
       <Accordion>
         <div className="flex  items-center md:gap-6  gap-3 lg:w-[700px] faq-card  md:mb-0">
           <div
-            className={`border-[1px] text-white mt-6 relative border-[#9F9F9F] text-[14px] font-[600] flex w-[75px] h-[65px] rounded-[50%] justify-center text-center items-center ${divClass} `}
+            className={`border-[1px] text-white mt-6 relative border-[#9F9F9F] text-[16px] font-[600] flex w-[78px] h-[70px] rounded-[49%] justify-center text-center items-center ${divClass} `}
           >
             01
           </div>
           <AccordionItem
             isOpened={isAccordionOpen}
-            className="collapse   p-3 md:text-[24px]  text-[20px] shadow-xl lg:w-[700px] mt-6 rounded-md border-[1px] border-[#8a8a8a] collapse-content"
+            className="collapse   p-3 md:text-[24px]  text-[20px] lg:w-[700px] mt-6 rounded-md border-[1px] border-[#8a8a8a] collapse-content"
             header={
               <div className="flex items-center justify-between lg:gap-[22px] gap-[10px] ">
                 <h1 className="justify-start heading text-white text-[17px] ml-[20px] text-justify lg:w-[500px] font-[500]">
                   What is your company’s goal?
                 </h1>
                 <i
-                  className={`fa text-[17px] ${
+                  className={`fa text-[17px] text-white ${
                     isAccordionOpen ? "fa-chevron-up" : "fa-chevron-down"
                   }`}
                   style={{ marginRight: "8px" }}
@@ -75,7 +75,7 @@ const Fwq = () => {
             onClick={toggleAccordion}
           >
             <Collapse isOpened={true}>
-              <p className="  text-[14px] pl-[20px] pr-[50px] pb-[20px] pt-[10px]  mt-2 text-white pragraph font-[400] text-justify ">
+              <p className="  text-[16px] pl-[20px] pr-[50px] pb-[20px] pt-[10px]  mt-2 text-white pragraph font-[400] text-justify ">
                 Our company’s goal is to fulfill client's or customer’s
                 satisfaction, financial gain, growth, and employee development..
               </p>
@@ -84,13 +84,13 @@ const Fwq = () => {
         </div>
         <div className="flex  items-center md:gap-6 gap-3 lg:w-[700px] faq-card  md:mb-0">
           <div
-            className={`border-[1px] mt-6 relative text-white border-[#9F9F9F] text-[14px] font-[600] flex w-[65px] h-[65px] rounded-[50%] justify-center text-center items-center ${divClass1}`}
+            className={`border-[1px] mt-6 relative text-white border-[#9F9F9F] text-[16px] font-[600] flex w-[65px] h-[65px] rounded-[50%] justify-center text-center items-center ${divClass1}`}
           >
             02
           </div>
 
           <AccordionItem
-            className="collapse  p-3 md:text-[24px]  text-[20px] shadow-xl lg:w-[604px] mt-6 rounded-md border-[1px] border-[#8a8a8a]"
+            className="collapse  p-3 md:text-[24px]  text-[20px] lg:w-[604px] mt-6 rounded-md border-[1px] border-[#8a8a8a]"
             header={
               <div className="flex items-center justify-between md:gap-[22px] gap-[10px]">
                 <h1 className="justify-start heading ml-[20px] text-white text-justify text-[17px] lg:w-[500px] font-[500]">
@@ -98,7 +98,7 @@ const Fwq = () => {
                 </h1>
 
                 <i
-                  className={`fa text-[17px] ${
+                  className={`fa text-[17px] text-white  ${
                     isAccordionOpen1 ? "fa-chevron-up" : "fa-chevron-down"
                   }`}
                   style={{ marginRight: "8px" }}
@@ -108,7 +108,7 @@ const Fwq = () => {
             onClick={toggleAccordion1}
           >
             <Collapse isOpened={true}>
-              <p className="  text-[14px] mt-2 pl-[20px] pr-[50px] pb-[20px] pt-[10px] text-white pragraph font-[400] text-justify">
+              <p className="  text-[16px] mt-2 pl-[20px] pr-[50px] pb-[20px] pt-[10px] text-white pragraph font-[400] text-justify">
                 In our company digital marketing is a multifaceted strategy
                 aimed to target, reach out to, and build relationships with
                 customers online, across a broad range of channels, ultimately
@@ -121,20 +121,20 @@ const Fwq = () => {
 
         <div className="flex items-center md:gap-6  gap-3 md:w-[700px]    faq-card md:mb-0">
           <div
-            className={`border-[1px] relative mt-6 text-white border-[#9F9F9F] text-[14px] font-[600] flex w-[65px] h-[65px] rounded-[50%] justify-center text-center items-center ${divClass2}`}
+            className={`border-[1px] relative mt-6 text-white border-[#9F9F9F] text-[16px] font-[600] flex w-[65px] h-[65px] rounded-[50%] justify-center text-center items-center ${divClass2}`}
           >
             03
           </div>
 
           <AccordionItem
-            className="collapse border-1 mt-6  p-3    md:text-[24px]  text-[20px] bg-[rgba(34, 34, 34, 0.80)] shadow-xl lg:w-[604px]  mt-6 rounded-md border-[1px] border-[#8a8a8a]"
+            className="collapse border-1 mt-6  p-3    md:text-[24px]  text-[20px] bg-[rgba(34, 34, 34, 0.80)] lg:w-[604px]  mt-6 rounded-md border-[1px] border-[#8a8a8a]"
             header={
               <div className="flex items-center justify-between lg:gap-[22px] gap-[10px]">
                 <h1 className="justify-start heading ml-[20px] text-white text-[17px] text-justify lg:w-[500px] font-[500]">
                   What are the services of your company?
                 </h1>
                 <i
-                  className={`fa text-[17px] ${
+                  className={`fa text-[17px] text-white  ${
                     isAccordionOpen2 ? "fa-chevron-up" : "fa-chevron-down"
                   }`}
                   style={{ marginRight: "8px" }}
@@ -144,7 +144,7 @@ const Fwq = () => {
             onClick={toggleAccordion2}
           >
             <Collapse isOpened={true}>
-              <p className="  text-[14px] pl-[20px] pr-[50px] pb-[20px] pt-[10px] md:text-[14px]  mt-2 text-white pragraph font-[400] text-justify">
+              <p className="  text-[16px] pl-[20px] pr-[50px] pb-[20px] pt-[10px] md:text-[16px]  mt-2 text-white pragraph font-[400] text-justify">
                 Web development features, advanced mobile app application,
                 Marketing services, graphic or website designs for websites,
                 logos, advertisements and other promotional content for
@@ -156,13 +156,13 @@ const Fwq = () => {
 
         <div className="flex items-center md:gap-6  gap-3 md:w-[700px]  faq-card md:mb-0">
           <div
-            className={`border-[1px] relative mt-6 text-white border-[#9F9F9F] text-[14px] font-[600] flex w-[65px] h-[65px] rounded-[50%] justify-center text-center items-center ${divClass3}`}
+            className={`border-[1px] relative mt-6 text-white border-[#9F9F9F] text-[16px] font-[600] flex w-[65px] h-[65px] rounded-[50%] justify-center text-center items-center ${divClass3}`}
           >
             04
           </div>
 
           <AccordionItem
-            className="collapse border-1 mt-6  p-3   md:text-[24px]  text-[20px] bg-[rgba(34, 34, 34, 0.80)] shadow-xl lg:w-[604px]  mt-6 rounded-md border-[1px] border-[#8a8a8a]"
+            className="collapse border-1 mt-6  p-3   md:text-[24px]  text-[20px] bg-[rgba(34, 34, 34, 0.80)] lg:w-[604px]  mt-6 rounded-md border-[1px] border-[#8a8a8a]"
             header={
               <div className="flex items-center justify-between lg:gap-[22px] gap-[10px]">
                 <h1 className="justify-start heading ml-[20px] text-white text-[17px] lg:w-[500px] text-justify font-[500]">
@@ -170,7 +170,7 @@ const Fwq = () => {
                 </h1>
 
                 <i
-                  className={`fa text-[17px] ${
+                  className={`fa text-[17px] text-white  ${
                     isAccordionOpen3 ? "fa-chevron-up" : "fa-chevron-down"
                   }`}
                   style={{ marginRight: "8px" }}
@@ -180,7 +180,7 @@ const Fwq = () => {
             onClick={toggleAccordion3}
           >
             <Collapse isOpened={true}>
-              <p className="  text-[15px] md:text-[14px]  pl-[20px] pr-[50px] pb-[20px] pt-[10px]   mt-2 text-white pragraph font-[400] text-justify">
+              <p className="  text-[15px] md:text-[16px]  pl-[20px] pr-[50px] pb-[20px] pt-[10px]   mt-2 text-white pragraph font-[400] text-justify">
                 {" "}
                 Typically, an average project will take in the region of three –
                 four months. Some of our projects are small, fully specified and
@@ -195,13 +195,13 @@ const Fwq = () => {
 
         <div className="flex items-center md:gap-6  gap-3 md:w-[700px]    faq-card md:mb-0">
           <div
-            className={`border-[1px] relative mt-6 text-white border-[#9F9F9F] text-[14px] font-[600] flex w-[65px] h-[65px] rounded-[50%] justify-center text-center items-center ${divClass4}`}
+            className={`border-[1px] relative mt-6 text-white border-[#9F9F9F] text-[16px] font-[600] flex w-[65px] h-[65px] rounded-[50%] justify-center text-center items-center ${divClass4}`}
           >
             05
           </div>
 
           <AccordionItem
-            className="collapse border-1 mt-6  p-3    md:text-[24px]  text-[20px] bg-[rgba(34, 34, 34, 0.80)] shadow-xl lg:w-[604px]  mt-6 rounded-md border-[1px] border-[#8a8a8a]"
+            className="collapse border-1 mt-6  p-3    md:text-[24px]  text-[20px] bg-[rgba(34, 34, 34, 0.80)] lg:w-[604px]  mt-6 rounded-md border-[1px] border-[#8a8a8a]"
             header={
               <div className="flex items-center justify-between lg:gap-[22px] gap-[10px]">
                 <h1 className="justify-start heading ml-[20px] text-white text-[17px] text-justify lg:w-[500px] font-[500]">
@@ -209,7 +209,7 @@ const Fwq = () => {
                 </h1>
 
                 <i
-                  className={`fa text-[17px] ${
+                  className={`fa text-[17px] text-white  ${
                     isAccordionOpen4 ? "fa-chevron-up" : "fa-chevron-down"
                   }`}
                   style={{ marginRight: "8px" }}
@@ -219,7 +219,7 @@ const Fwq = () => {
             onClick={toggleAccordion4}
           >
             <Collapse isOpened={true}>
-              <p className="  text-[15px] md:text-[14px]  pl-[20px] pr-[50px] pb-[20px] pt-[10px]   mt-2 text-white pragraph font-[400] text-justify">
+              <p className="  text-[15px] md:text-[16px]  pl-[20px] pr-[50px] pb-[20px] pt-[10px]   mt-2 text-white pragraph font-[400] text-justify">
                 {" "}
                 It's a great idea to make a content strategy framework first.
                 Take this as our blueprint—it will contain all the details of
@@ -233,13 +233,13 @@ const Fwq = () => {
 
         <div className="flex items-center md:gap-6  gap-3 md:w-[700px]    faq-card ">
           <div
-            className={`border-[1px] mt-6 relative text-white  border-[#9F9F9F] text-[14px] font-[600] flex w-[65px] h-[65px] rounded-[50%] justify-center text-center items-center  ${divClass5}`}
+            className={`border-[1px] mt-6 relative text-white  border-[#9F9F9F] text-[16px] font-[600] flex w-[65px] h-[65px] rounded-[50%] justify-center text-center items-center  ${divClass5}`}
           >
             06
           </div>
 
           <AccordionItem
-            className="collapse border-1 mt-6  p-3  md:text-[24px]  text-[20px] bg-[rgba(34, 34, 34, 0.80)] shadow-xl lg:w-[604px]  mt-6 rounded-md border-[1px] border-[#8a8a8a]"
+            className="collapse border-1 mt-6  p-3  md:text-[24px]  text-[20px] bg-[rgba(34, 34, 34, 0.80)] lg:w-[604px]  mt-6 rounded-md border-[1px] border-[#8a8a8a]"
             header={
               <div className="flex items-center justify-between text-justify lg:gap-[22px] gap-[10px]">
                 <h1 className="justify-start heading ml-[20px] text-white text-justify text-[17px] lg:w-[500px] font-[500]">
@@ -247,7 +247,7 @@ const Fwq = () => {
                 </h1>
 
                 <i
-                  className={`fa text-[17px] ${
+                  className={`fa text-[17px] text-white  ${
                     isAccordionOpen5 ? "fa-chevron-up" : "fa-chevron-down"
                   }`}
                   style={{ marginRight: "8px" }}

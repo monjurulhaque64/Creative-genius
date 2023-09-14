@@ -4,40 +4,40 @@ import './payment.css'
 
 const Payment = () => {
   return (
-    <div className="container mx-auto mt-[72px] mb-6">
+    <div className="container mx-auto mt-[72px] mb-6 pl-[15%] pr-[20%] ">
       <Helmet>
         <title>Creative Campus || Payment</title>
       </Helmet>
-      <div className="my-8 m-2 p-8 lg:m-0 shadow-xl rounded-lg">
+      <div className="my-8 m-2 p-8 lg:m-0  rounded-lg">
         <div className="my-2">
-          <h1 className="font font-[600] text-[30px] text-[#FF1200] ">
+          <h1 className="font font-[600] text-[35px] text-[#fff] mb-[20px] ">
             Payment
           </h1>
-          <p className=" font-[400] text-[14px] text-white ">
+          <p className=" font-[400] text-[14px]  text-white ">
             Updated: September 7, 2023
           </p>
         </div>
 
         <div className="my-8 mt-8  font-[400] text-[14px] text-white text-justify">
-          <p>
+          <p className="">
             Welcome to Creative Campus Payment Center! We've crafted our payment
             section to provide you with a seamless and secure payment
             experience. Whether you're purchasing our products, settling bills,
             or subscribing to our services, you can trust that your transactions
             are in safe hands.
           </p>
-          <p className=" mt-4">
+          <p className=" mt-4 ">
             Our user-friendly interface ensures swift and hassle-free payments,
             saving your time and effort. At Creative Campus, your financial
             security is our top priority, and we utilize the latest encryption
             technology to protect your data.
           </p>
-          <p className=" mt-4">
+          <p className=" mt-4 ">
             Join the countless satisfied customers who have entrusted us with
             their financial transactions and experience the peace of mind that
             comes with knowing your money is handled with care.
           </p>
-          <p className=" mt-4">
+          <p className=" mt-4 ">
             Choose Creative Campus for your payments and discover a world of
             convenience, reliability, and security. Thank you for making us your
             trusted partner for all your financial needs.

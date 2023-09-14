@@ -52,7 +52,7 @@ const About = () => {
         {/* Pagination */}
         <div className="join mt-8 flex justify-center gap-2 mr-4 lg:mr-10  md:mr-4 mb-[198px]">
           <button
-            className={` p-2 text-white pagination bg-[#3d4854d4]  ${
+            className={` p-2 text-white pagination bg-[#28303ad4]  ${
               currentPage === 1 ? "btn-disabled" : ""
             }`}
             onClick={() => handlePageChange(currentPage - 1)}
@@ -62,14 +62,14 @@ const About = () => {
             « Previous
           </button>
 
-          <button className="pagination  p-3 text-white bg-[#3d4854d4]  "
+          <button className="pagination  p-3 text-white bg-[#28303ad4]  "
           
           >
             0{currentPage}
           </button>
 
           <button
-            className={`pagination px-5 text-white bg-[#3d4854d4]  ${
+            className={`pagination px-5 text-white bg-[#28303ad4]  ${
               currentPage === totalPageCount ? "btn-disabled" : ""
             }`}
             onClick={() => handlePageChange(currentPage + 1)}

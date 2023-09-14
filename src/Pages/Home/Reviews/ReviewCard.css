@@ -10,6 +10,8 @@
   color: white;
   text-align: justify;
   transition: background 0.3s, color 0.3s, border 0.3s; 
+  border: 1px solid #374352;
+
 }
 
 .review-card-content {
@@ -53,6 +55,8 @@
     max-width: 90% !important;
     margin: auto;
     width: 384px;
+    border: 1px solid #374352;
+
   }
 
 

@@ -5,19 +5,19 @@ import './tearms.css'
 
 const Terms = () => {
   return (
-    <div className="container mx-auto mt-[72px] mb-6">
+    <div className="container mx-auto mt-[72px] mb-6 pl-[15%]  pr-[20%] ">
       <Helmet>
         <title>Creative Campus || Terms and conditions</title>
       </Helmet>
-      <div className="my-8 m-2 p-8 lg:m-0 shadow-xl rounded-lg">
+      <div className="my-8 m-2 p-8 lg:m-0  rounded-lg">
         <div className="my-2">
-          <h1 className="font font-[600] text-[30px] text-[#fff] ">
+          <h1 className="font font-[600] text-[35px] mb-[20px] text-[#fff] ">
             Terms and conditions
           </h1>
-          <p className="font-[400] text-[14px] text-white ">
+          <p className="font-[400] text-[14px] mb-[20px] text-white ">
             Updated: September 7, 2023
           </p>
-          <p className=" font-[400] text-[14px] text-white text-justify">
+          <p className=" font-[400] text-[14px] mb-[20px] text-white text-justify">
             Welcome to Creative Campus. Before you use our products and
             services, please take a moment to review the following Terms and
             Conditions carefully. By accessing or using any of our offerings,
@@ -30,7 +30,7 @@ const Terms = () => {
           <h2 className="font font-[600] text-[16px] text-white">
             Acceptance of Terms
           </h2>
-          <p className=" font-[400] text-[14px] text-white text-justify">
+          <p className=" font-[400]  mb-[20px] text-[14px] text-white text-justify">
             By accessing and using our services, you acknowledge that you have
             read, understood, and agreed to these Terms and Conditions. These
             terms may be updated from time to time, and your continued use
@@ -41,7 +41,7 @@ const Terms = () => {
           <h2 className=" font-[600] text-[16px] text-white">
             Use of Services
           </h2>
-          <p className=" font-[400] text-[14px] text-white text-justify">
+          <p className=" font-[400]  mb-[20px] text-[14px] text-white text-justify">
             You may use our services for personal or business purposes, provided
             you adhere to all applicable laws and regulations. You are
             responsible for maintaining the security of your account credentials
@@ -53,7 +53,7 @@ const Terms = () => {
           <h2 className="font font-[600] text-[16px] text-white">
             Privacy
           </h2>
-          <p className="font-[400] text-[14px] text-white text-justify">
+          <p className="font-[400]  mb-[20px] text-[14px] text-white text-justify">
             We are committed to protecting your privacy. Our Privacy Policy
             outlines how we collect, use, and disclose your personal
             information. By using our services, you consent to our data
@@ -75,7 +75,7 @@ const Terms = () => {
           <h2 className="font font-[600] text-[16px] text-white">
             Liability
           </h2>
-          <p className="font-[400] text-[14px] text-white text-justify">
+          <p className="font-[400]  mb-[20px] text-[14px] text-white text-justify">
             We strive to provide accurate and reliable services, but we are not
             liable for any loss, damage, or inconvenience resulting from the use
             of our services. You use our services at your own risk.
@@ -95,7 +95,7 @@ const Terms = () => {
           <h2 className="font font-[600] text-[16px] text-white">
             Governing Law
           </h2>
-          <p className="font-[400] text-[14px] text-white text-justify">
+          <p className="font-[400]  mb-[20px] text-[14px] text-white text-justify">
             These Terms and Conditions are governed by and construed in
             accordance with the laws of [Your Jurisdiction]. Any disputes
             arising from these terms will be subject to the exclusive
@@ -103,7 +103,7 @@ const Terms = () => {
           </p>
         </div>
         <div className="mt-2">
-          <p className="font-[400] text-[14px] text-white ">
+          <p className="font-[400]  mb-[20px] text-[14px] text-white ">
             Thank you for choosing Creative Campus. If you have any questions or
             concerns about these terms, please contact us at
             <Link to={"/contact-us"}>

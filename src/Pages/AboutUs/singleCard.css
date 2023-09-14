@@ -19,6 +19,7 @@
   border-radius: 5px;
   background: #28303ad4;
   backdrop-filter: blur(10px);
+  border: 1px solid #374352;
 }
 
 .card-img {
@@ -45,6 +46,7 @@
 }
 .pagination{
   border-radius: 5px !important;
+  border: 1px solid #374352;
 }
 
 

@@ -8,6 +8,8 @@
   overflow: hidden;
   color: white;
   backdrop-filter: blur(10px);
+ border: 1px solid #374352; 
+
 }
 
 .client-card-content {
@@ -41,6 +43,7 @@
 
 .pagination{
   border-radius: 5px !important;
+  border: 1px solid #374352;
 }
 
 @media (max-width: 360px) {

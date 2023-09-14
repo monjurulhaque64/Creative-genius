@@ -189,7 +189,7 @@ const ContactUs = () => {
             </div>
             <div className=" text-center ">
               <button
-                className=" border-[#647182] border-[1px] font-[400] heading lg:px-[50px] text-[14px] text-white mb-[30px]"
+                className="contect-button border-[#374352] bg-[#2e3742]  font-[400] heading lg:px-[50px] text-[14px] text-white mb-[30px]"
                 type="submit"
               >
                 Submit Now

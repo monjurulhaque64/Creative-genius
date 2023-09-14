@@ -8,7 +8,8 @@
   width: 650px;
   height: 700px;
   border-radius: 5px;
-  border: 1px solid #2b2b2b;
+  border: 1px solid #374352;
+  background: #28303ad4;
 }
 .input-field {
   border-radius: 5px !important;
@@ -18,12 +19,16 @@
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  fill: #3d48544f;
 }
 
 .border-castom{
   border-radius: 5px !important;
-  border: 1px solid #a0a0a0;
+  border: 1px solid #374352;
+  background: #302e2e;
+}
+.boder-chose{
+  border: 1px solid #374352;
+
 }
 
 
@@ -31,10 +36,10 @@
   height: 52px;
   font-family: 'Poppins';
   border-radius: 5px !important;
-  background: #3d4854d4;
-  border:  #647182;
+  background: #2e3742;
   color: #FFF;
   cursor: pointer;
+  border: 1px solid #48576a;
 }
 
 

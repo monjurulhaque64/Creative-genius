@@ -53,7 +53,7 @@ const OurServices = () => {
         </div>
         <div className="card">
           <div className="card-content my-2">
-            <h2 className="card-title mb-3 pragraph">Video Content Creating</h2>
+            <h2 className="card-title mb-3 heading">Video Content Creating</h2>
             <p className="card-description   pragraph ">
               Our video content creation service will help you to make a
               trustable environment for your website visitors. It will give you

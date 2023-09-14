@@ -138,7 +138,7 @@ const Footer = () => {
         </div>
         </div>
       </footer>
-      <div className="hr-line container mx-auto w-full lg:w-[1245px]" />
+      <div className="hr-line line container mx-auto w-full lg:w-[1245px]" />
       
       <footer className="footer container mx-auto items-center lg:w-[1236px] p-4 lg:p-0 bg-neutral text-neutral-content mb-[84px] mt-2 lg:mt-[30px]">
       <div className="items-center grid-flow-col ">

@@ -11,7 +11,7 @@ const WorkProcess = () => {
         <h1 className="heading font-[600] text-[38px] md:text-[48px] text-white">
           Work Process
         </h1>
-        <p className=" w-[300px] md:w-[650px] text-center mx-auto  font-[400] mt-[17px] text-[18px] text-white">
+        <p className=" w-[300px] md:w-[650px] text-center mx-auto pragraph font-[400] mt-[17px] text-[18px] text-white">
           Work process can be a great way to learn more about how the company’s
           employees create value for their projects.
         </p>

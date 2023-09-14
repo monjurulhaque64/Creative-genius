@@ -5,7 +5,7 @@
 
 .price-card {
   width: 300px;
-  height: 65rem;
+  height: 64rem;
   flex-shrink: 0;
   border-radius: 5px;
   background: #28303ad4;
@@ -58,15 +58,14 @@
   justify-content: center;
   align-items: center;
   gap: 8px;
- 
   border-radius: 5px;
   background: #3d4854d4;
-  border:  #647182;
   color: #fff;
   font-size: 15px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+  border: 1px solid #5e6b7a;
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px){

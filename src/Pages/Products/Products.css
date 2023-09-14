@@ -25,7 +25,7 @@
     height: 267px; 
     flex-shrink: 0;
     border-radius: 267px; 
-    background: #f77e7e; 
+    background: #fff; 
     filter: blur(250px); 
     position: absolute;
   }

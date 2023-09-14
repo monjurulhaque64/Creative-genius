@@ -11,7 +11,9 @@ import MirpurPolytechnicInstitute from "../../../assets/Clients/MirpurPolytechni
 import OhabIdealPublicHighSchool from "../../../assets/Clients/OhabIdealPublicHighSchool.png";
 import RUD from "../../../assets/Clients/RUD.png";
 import SamsulHuqeKhanSchoolCollege from "../../../assets/Clients/SamsulHuqeKhanSchool&College.png";
-import SouthestUniversity from "../../../assets/Clients/SouthestUniversity.png";
+import Academi from "../../../assets/Clients/Academic Logo.png";
+
+
 import "./OurClient.css";
 
 const OurClients = () => {
@@ -40,7 +42,7 @@ const OurClients = () => {
               <path
                 d="M2.94298 60.6547L104 2.3094L205.057 60.6547V177.345L104 235.691L2.94298 177.345V60.6547Z"
                 fill="#"
-                stroke="#7e7e7e42"
+                stroke="#374352"
                 stroke-width="2"
               />
             </svg>
@@ -60,7 +62,7 @@ const OurClients = () => {
               <path
                 d="M2.94298 60.6547L104 2.3094L205.057 60.6547V177.345L104 235.691L2.94298 177.345V60.6547Z"
                 fill="#222A33"
-                stroke="#7e7e7e42"
+                stroke="#374352"
                 strokeWidth="2"
               />
             </svg>
@@ -80,7 +82,7 @@ const OurClients = () => {
               <path
                 d="M2.94298 60.6547L104 2.3094L205.057 60.6547V177.345L104 235.691L2.94298 177.345V60.6547Z"
                 fill="#222A33"
-                stroke="#7e7e7e42"
+                stroke="#374352"
                 strokeWidth="2"
               />
             </svg>
@@ -100,7 +102,7 @@ const OurClients = () => {
               <path
                 d="M2.94298 60.6547L104 2.3094L205.057 60.6547V177.345L104 235.691L2.94298 177.345V60.6547Z"
                 fill="#222A33"
-                stroke="#7e7e7e42"
+                stroke="#374352"
                 strokeWidth="2"
               />
             </svg>
@@ -124,7 +126,7 @@ const OurClients = () => {
               <path
                 d="M2.94298 60.6547L104 2.3094L205.057 60.6547V177.345L104 235.691L2.94298 177.345V60.6547Z"
                 fill="#222A33"
-                stroke="#7e7e7e42"
+                stroke="#374352"
                 strokeWidth="2"
               />
             </svg>
@@ -148,7 +150,7 @@ const OurClients = () => {
               <path
                 d="M2.94298 60.6547L104 2.3094L205.057 60.6547V177.345L104 235.691L2.94298 177.345V60.6547Z"
                 fill="#222A33"
-                stroke="#7e7e7e42"
+                stroke="#374352"
                 strokeWidth="2"
               />
             </svg>
@@ -172,7 +174,7 @@ const OurClients = () => {
               <path
                 d="M2.94298 60.6547L104 2.3094L205.057 60.6547V177.345L104 235.691L2.94298 177.345V60.6547Z"
                 fill="#222A33"
-                stroke="#7e7e7e42"
+                stroke="#374352"
                 strokeWidth="2"
               />
             </svg>
@@ -196,7 +198,7 @@ const OurClients = () => {
               <path
                 d="M2.94298 60.6547L104 2.3094L205.057 60.6547V177.345L104 235.691L2.94298 177.345V60.6547Z"
                 fill="#222A33"
-                stroke="#7e7e7e42"
+                stroke="#374352"
                 strokeWidth="2"
               />
             </svg>
@@ -220,7 +222,7 @@ const OurClients = () => {
               <path
                 d="M2.94298 60.6547L104 2.3094L205.057 60.6547V177.345L104 235.691L2.94298 177.345V60.6547Z"
                 fill="#222A33"
-                stroke="#7e7e7e42"
+                stroke="#374352"
                 strokeWidth="2"
               />
             </svg>
@@ -244,7 +246,7 @@ const OurClients = () => {
               <path
                 d="M2.94298 60.6547L104 2.3094L205.057 60.6547V177.345L104 235.691L2.94298 177.345V60.6547Z"
                 fill="#222A33"
-                stroke="#7e7e7e42"
+                stroke="#374352"
                 strokeWidth="2"
               />
             </svg>
@@ -268,7 +270,7 @@ const OurClients = () => {
               <path
                 d="M2.94298 60.6547L104 2.3094L205.057 60.6547V177.345L104 235.691L2.94298 177.345V60.6547Z"
                 fill="#222A33"
-                stroke="#7e7e7e42"
+                stroke="#374352"
                 strokeWidth="2"
               />
             </svg>
@@ -288,7 +290,7 @@ const OurClients = () => {
               <path
                 d="M2.94298 60.6547L104 2.3094L205.057 60.6547V177.345L104 235.691L2.94298 177.345V60.6547Z"
                 fill="#222A33"
-                stroke="#7e7e7e42"
+                stroke="#374352"
                 strokeWidth="2"
               />
             </svg>
@@ -312,18 +314,19 @@ const OurClients = () => {
               <path
                 d="M2.94298 60.6547L104 2.3094L205.057 60.6547V177.345L104 235.691L2.94298 177.345V60.6547Z"
                 fill="#222A33"
-                stroke="#7e7e7e42"
+                stroke="#374352"
                 strokeWidth="2"
               />
             </svg>
             <div className="hexagon-inner">
               <img
-                src={SouthestUniversity}
+                src={Academi}
                 alt=""
-                className="w-[120px] h-[120px]"
+                className="w-[110px] h-[110px]"
               />
             </div>
           </div>
+          
         </div>
       </div>
     </div>
