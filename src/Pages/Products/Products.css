@@ -11,7 +11,7 @@
     font-family: Poppins;
     gap: 8px;
     border-radius: 5px;
-    background: #FF1200;
+    background: #3d4854d4;
     color: #FFF;
     font-size: 15px;
     font-style: normal;
@@ -38,7 +38,7 @@
         font-family: Poppins;
         gap: 3px;
         border-radius: 5px;
-        background: var(--Primary-Color, #FF1200);
+        background: var(--Primary-Color, #3d4854d4);
         color: #FFF;
         font-size: 15px;
         font-style: normal;
