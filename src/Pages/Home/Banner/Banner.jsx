@@ -33,7 +33,7 @@ const Banner = () => {
         modules={[Autoplay]}
         className="mySwiper"
       >
-        {/* <SwiperSlide>
+         <SwiperSlide>
           <div className="w-full h-[600px]    md:h-[800px]  bannerimg1">
             <div className="lg:ml-[50px] ml-8  lg:w-[726px] w-[350px] md:w-[70%]  lg:pt-[200px] pt-[50px] container1">
               <h1 className="text-[32px] md:text-[64px] heading font-bold text-white ">
@@ -54,7 +54,7 @@ const Banner = () => {
               </button>
             </div>
           </div>
-        </SwiperSlide> */}
+        </SwiperSlide>
         <SwiperSlide>
           <div className="circle bg-[#FF9324] left-[calc(-80px)] top-[calc(280px)] transform absolute ml-[1150px] overflow-hidden"></div>
           <div className="w-full  h-[600px] md:h-[800px]  bannerimg2 relative">
@@ -96,7 +96,7 @@ const Banner = () => {
             </div>
           </div>
         </SwiperSlide>
-        {/* <SwiperSlide>
+        <SwiperSlide>
           <div className="w-[100%] h-[550px] md:h-[800px] bannerimg3 relative overflow-hidden">
             <div className="flex md:justify-between container3">
               <div className="lg:ml-[50px] ml-8  lg:w-[726px]  md:w-[800px] w-[350px] lg:pt-[250px] pt-[50px]">
@@ -243,7 +243,7 @@ const Banner = () => {
               </div>
             </div>
           </div>
-        </SwiperSlide> */}
+        </SwiperSlide> 
       </Swiper>
       <div className="absolute z-50 inset-x-0 mx-auto lg:top-[850px] top-[680px] clientSpring">
         <ClientSpring></ClientSpring>
