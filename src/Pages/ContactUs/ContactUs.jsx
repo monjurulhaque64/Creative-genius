@@ -3,6 +3,7 @@ import { Helmet } from "react-helmet-async";
 import { MdLocationOn, MdPhone, MdEmail } from "react-icons/md";
 import "./ContectUs.css";
 import emailjs from "@emailjs/browser";
+import Swal from "sweetalert2";
 
 const ContactUs = () => {
   const formRef = useRef();
@@ -24,14 +25,21 @@ const ContactUs = () => {
     e.preventDefault();
     emailjs
       .sendForm(
-        "service_87yggjg",
-        "template_3jfmzwq",
+        "service_q0cwxq6",
+        "template_ex1924u",
         formRef.current,
-        "XloRTSZt0TbtYT7Nq"
+        "1J9PfIjlNDdL1bmif"
       )
       .then(
         (result) => {
           formRef.current.reset();
+          Swal.fire({
+            position: "top-end",
+            icon: "success",
+            title: "Your Massage Sent Successfully!",
+            showConfirmButton: false,
+            timer: 1500,
+          });
         },
         (error) => {
           console.log(error.text);

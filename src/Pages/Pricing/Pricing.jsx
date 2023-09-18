@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 import { Helmet } from "react-helmet-async";
 import "./Pricing.css";
 import { Link } from "react-router-dom";
@@ -106,22 +106,69 @@ const Pricing = () => {
     },
   ];
 
-  const [fullName, setFullName] = useState("");
-  const [rating, setRating] = useState(1);
-  const [photo, setPhoto] = useState(null);
-  const [review, setReview] = useState("");
+  const formRef = useRef();
+  const [formData, setFormData] = useState({
+    organizationName: "",
+    personName: "",
+    designation: "",
+    contact: "",
+    whatsApp: "",
+    email: "",
+    country: "",
+    city: "",
+    organizationAddress: "",
+    studentQuantity: "",
+    choosePlan: "",
+    descriptions: "",
+  });
 
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({
+      ...formData,
+      [name]: value,
+    });
+  };
   const handleSubmit = (e) => {
     e.preventDefault();
-    const formData = new FormData();
-    formData.append("image", photo);
+    emailjs
+      .sendForm(
+        "service_q0cwxq6",
+        "template_19aqlca",
+        formRef.current,
+        "1J9PfIjlNDdL1bmif"
+      )
+      .then(
+        (result) => {
+          formRef.current.reset();
 
-    const data = {
-      fullName,
-      rating,
-      photo,
-      review,
-    };
+          setFormData({ 
+            organizationName: "",
+            personName: "",
+            designation: "",
+            contact: "",
+            whatsApp: "",
+            email: "",
+            country: "",
+            city: "",
+            organizationAddress: "",
+            studentQuantity: "",
+            choosePlan: "",
+            descriptions: "",
+          });
+
+          Swal.fire({
+            position: "top-end",
+            icon: "success",
+            title: "Your Order Received Successfully !",
+            showConfirmButton: false,
+            timer: 1500,
+          });
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
   };
 
   return (
@@ -195,6 +242,7 @@ const Pricing = () => {
         <div className="modal-box  !max-w-[850px] overflow-y-auto  shadow-none scale-x-0 -scale-y-0 -scale-0">
           <div className="flex justify-center mx-auto modal-card mb-8 mt-[40px] md:mt-[78px] ">
             <form
+              ref={formRef}
               onSubmit={handleSubmit}
               className="w-[full] container-review-card"
             >
@@ -209,11 +257,12 @@ const Pricing = () => {
                   Organization Name*
                 </label>
                 <input
-                  type="tex"
+                  type="text"
                   className="w-full input  text-[14px] input-field   border-castom mb-[20px] "
                   placeholder="Organization Name"
-                  // value={''}
-                  onChange={(e) => setFullName(e.target.value)}
+                  name="organizationName"
+                  value={formData.organizationName}
+                  onChange={handleChange}
                   required
                 />
               </div>
@@ -224,11 +273,12 @@ const Pricing = () => {
                     Contact Person Name*
                   </label>
                   <input
-                    type="tex"
+                    type="text"
                     className="w-full input  text-[14px] input-field   border-castom mb-[20px] "
                     placeholder="Contact Person Name"
-                    // value={''}
-                    onChange={(e) => setFullName(e.target.value)}
+                    name="personName"
+                    value={formData.personName}
+                    onChange={handleChange}
                     required
                   />
                 </div>
@@ -237,11 +287,12 @@ const Pricing = () => {
                     Designation*
                   </label>
                   <input
-                    type="tex"
+                    type="text"
                     className="w-full input  text-[14px] input-field   border-castom mb-[20px] "
                     placeholder="Designation"
-                    // value={''}
-                    onChange={(e) => setFullName(e.target.value)}
+                    name="designation"
+                    value={formData.designation}
+                    onChange={handleChange}
                     required
                   />
                 </div>
@@ -253,11 +304,12 @@ const Pricing = () => {
                     Contact No*
                   </label>
                   <input
-                    type="tex"
+                    type="text"
                     className="w-full input  text-[14px] input-field   border-castom mb-[20px] "
                     placeholder="Contact No"
-                    // value={fullName}
-                    onChange={(e) => setFullName(e.target.value)}
+                    name="contact"
+                    value={formData.contact}
+                    onChange={handleChange}
                     required
                   />
                 </div>
@@ -266,11 +318,12 @@ const Pricing = () => {
                     WhatsApp
                   </label>
                   <input
-                    type="tex"
+                    type="text"
                     className="w-full input  text-[14px] input-field   border-castom mb-[20px] "
                     placeholder="WhatsApp"
-                    // value={fullName}
-                    onChange={(e) => setFullName(e.target.value)}
+                    name="whatsApp"
+                    value={formData.whatsApp}
+                    onChange={handleChange}
                   />
                 </div>
               </div>
@@ -283,8 +336,9 @@ const Pricing = () => {
                   type="email"
                   className="w-full input  text-[14px] input-field   border-castom mb-[20px] "
                   placeholder="Email"
-                  // value={''}
-                  onChange={(e) => setFullName(e.target.value)}
+                  name="email"
+                  value={formData.email}
+                  onChange={handleChange}
                 />
               </div>
 
@@ -294,11 +348,12 @@ const Pricing = () => {
                     Country*
                   </label>
                   <input
-                    type="tex"
+                    type="text"
                     className="w-full input  text-[14px] input-field   border-castom mb-[20px] "
                     placeholder="Country"
-                    // value={''}
-                    onChange={(e) => setFullName(e.target.value)}
+                    name="country"
+                    value={formData.country}
+                    onChange={handleChange}
                     required
                   />
                 </div>
@@ -307,11 +362,12 @@ const Pricing = () => {
                     City*
                   </label>
                   <input
-                    type="tex"
+                    type="text"
                     className="w-full input  text-[14px] input-field   border-castom mb-[20px] "
                     placeholder="City"
-                    // value={''}
-                    onChange={(e) => setFullName(e.target.value)}
+                    name="city"
+                    value={formData.city}
+                    onChange={handleChange}
                     required
                   />
                 </div>
@@ -322,11 +378,12 @@ const Pricing = () => {
                   Organization Address*
                 </label>
                 <input
-                  type="Organization Address"
+                  type="text"
                   className="w-full input  text-[14px] input-field   border-castom mb-[20px] "
-                  placeholder="Email"
-                  // value={''}
-                  onChange={(e) => setFullName(e.target.value)}
+                  placeholder="Organization Address"
+                  name="organizationAddress"
+                  value={formData.organizationAddress}
+                  onChange={handleChange}
                   required
                 />
               </div>
@@ -337,19 +394,26 @@ const Pricing = () => {
                     Student Quantity*
                   </label>
                   <input
-                    type="tex"
+                    type="text"
                     className="w-full input  text-[14px] input-field   border-castom mb-[20px] "
                     placeholder="Student Quantity"
-                    // value={''}
-                    onChange={(e) => setFullName(e.target.value)}
+                    name="studentQuantity"
+                    value={formData.studentQuantity}
+                    onChange={handleChange}
                     required
                   />
                 </div>
                 <div className="form-control w-full max-w-xs">
                   <label className="text-white block font-[500] text-[16px] heading mb-[9px]">
-                  Choose Plan
+                    Choose Plan*
                   </label>
-                  <select className="select select-bordered border-castom !bg-[#302e2e] mix-blend-luminosity" required>
+                  <select
+                    className="select select-bordered border-castom !bg-[#302e2e] mix-blend-luminosity"
+                    required
+                    name="choosePlan"
+                    value={formData.choosePlan}
+                    onChange={handleChange}
+                  >
                     <option disabled selected>
                       Pick one
                     </option>
@@ -361,17 +425,18 @@ const Pricing = () => {
                 </div>
               </div>
 
-
               <div className="mb-4 mt-[32px]">
                 <label className="text-white block mb-[9px] font-[500] text-[16px] heading">
-                Descriptions
+                  Descriptions
                 </label>
                 <textarea
+                type="text"
                   className="w-full h-32 input-field input review-field border-castom text-white text-[14px] px-4"
                   placeholder="Descriptions"
-                  // value={''}
-                  onChange={(e) => setReview(e.target.value)}
-                  required
+                  name="descriptions"
+                  value={formData.descriptions}
+                  onChange={handleChange}
+                  
                 />
               </div>
               {/* Submit Button */}

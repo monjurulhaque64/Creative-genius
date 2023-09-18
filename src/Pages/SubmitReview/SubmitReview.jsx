@@ -4,7 +4,7 @@ import { Rating, ThinStar } from "@smastrom/react-rating";
 import "@smastrom/react-rating/style.css";
 import "./submitReview.css";
 import Swal from "sweetalert2";
-import './swal.css'
+import "./swal.css";
 import Reviews from "../Home/Reviews/Reviews";
 
 const myStyles = {
@@ -45,27 +45,34 @@ const SubmitReview = () => {
         if (imgResponse.success) {
           const imgURL = imgResponse.data.display_url;
           const { fullName, rating, review } = data;
-          const reviewData = { name:fullName, rating, review, photo: imgURL };
+          const reviewData = { name: fullName, rating, review, photo: imgURL };
 
-          fetch('https://creative-server.vercel.app/reviews', {
-            method: 'POST',
+          fetch("https://creative-server.vercel.app/reviews", {
+            method: "POST",
             body: JSON.stringify(reviewData),
             headers: {
-              'Content-Type': 'application/json',
+              "Content-Type": "application/json",
             },
           })
-          .then((response) => response.json())
-          .then((reviewData) => {
-            if (reviewData.insertedId) {
-              Swal.fire({
-                position: 'top-end',
-                icon: 'success',
-                title: 'Thank You For Your Feedback!',
-                showConfirmButton: false,
-                timer: 1500,
-              });
-            }
-          });
+            .then((response) => response.json())
+            .then((reviewData) => {
+              if (reviewData.insertedId) {
+
+                // Reset the form fields and state variables here
+                setFullName(""); 
+                setRating(1); 
+                setPhoto(null); 
+                setReview(""); 
+
+                Swal.fire({
+                  position: "top-end",
+                  icon: "success",
+                  title: "Thank You For Your Feedback!",
+                  showConfirmButton: false,
+                  timer: 1500,
+                });
+              }
+            });
         }
       });
   };
